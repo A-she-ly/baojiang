@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #FFF8E1 0%, #FFECB3 100%);
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #3E2723;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 3D card flip */
+.perspective {
+  perspective: 1600px;
+}
+.card-3d {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  will-change: transform;
+}
+.card-3d.is-flipped {
+  transform: rotateY(180deg);
+}
+.card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 20px 45px -15px rgba(93, 64, 55, 0.35);
+}
+.card-face.back {
+  transform: rotateY(180deg);
+}
+
+/* Subtle paper texture */
+.paper-texture {
+  background-color: #FFF8E1;
+  background-image:
+    radial-gradient(rgba(141, 110, 99, 0.05) 1px, transparent 1px),
+    radial-gradient(rgba(141, 110, 99, 0.04) 1px, transparent 1px);
+  background-size: 20px 20px, 30px 30px;
+  background-position: 0 0, 10px 10px;
+}
+
+/* Cloze blank underline */
+.cloze-blank {
+  display: inline-block;
+  min-width: 5em;
+  border-bottom: 3px solid #5D4037;
+  margin: 0 0.2em;
+  color: transparent;
+  user-select: none;
+}

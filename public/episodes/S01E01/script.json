@@ -1,0 +1,3183 @@
+[
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 0,
+    "type": "note",
+    "text": "Chandler, Joey, Phoebe, and Monica are there.]"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 1,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "There's nothing to tell! He's just some guy I work with!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 2,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "C'mon,* you're going out with the guy! There's gotta*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 3,
+    "type": "note",
+    "text": "be something wrong with him!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 4,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "All right Joey, be nice.  So does he have a hump?* A hump and a hairpiece?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 5,
+    "type": "note",
+    "text": "*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 6,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "Wait, does he eat chalk?*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 7,
+    "type": "note",
+    "text": "(They all stare, bemused.)*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 8,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "Just, 'cause, I don't want her to go* through what I went through with Carl- oh!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 9,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Okay, everybody relax. This is not even a date.* It's just two people going out to dinner and- not having sex."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 10,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Sounds* like a date to me."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 11,
+    "type": "note",
+    "text": "[Time Lapse]"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 12,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Alright, so I'm back in high school, I'm standing in the middle of the cafeteria,*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 13,
+    "type": "note",
+    "text": "and I realize I am totally naked."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 14,
+    "type": "dialogue",
+    "character": "All",
+    "direction": null,
+    "text": "Oh, yeah. Had that dream."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 15,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Then I look down, and I realize there's a phone... there."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 16,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Instead of...?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 17,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "That's right."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 18,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Never had that dream."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 19,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "No."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 20,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "All of a sudden, the phone starts to ring. Now I don't know what to do, everybody starts looking at me."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 21,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "And they weren't looking at you before?!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 22,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Finally, I figure* I'd better answer it, and it turns out it's my mother, which is very-very weird,"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 23,
+    "type": "note",
+    "text": "* because- she never calls me!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 24,
+    "type": "note",
+    "text": "[Time Lapse,* Ross has entered.]"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 25,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "(mortified) Hi."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 26,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "This guy says hello, I wanna* kill myself."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 27,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Are you okay, sweetie?*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 28,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "I just feel like someone reached down my throat, grabbed* my small intestine,"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 29,
+    "type": "note",
+    "text": "* pulled it out of my mouth and tied it around my neck..."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 30,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Cookie?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 31,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(explaining to the others) Carol moved* her stuff out today."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 32,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Ohh."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 33,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(to Ross) Let me get you some coffee."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 34,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Thanks."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 35,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "Ooh! Oh! (She starts to pluck* at the air just in front of Ross.)"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 36,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "No, no don't! Stop cleansing my aura! No, just leave my aura alone, okay?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 37,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "Fine!  Be murky!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 38,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "I'll be fine, alright? Really, everyone. I hope she'll be very happy."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 39,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "No you don't."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 40,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "No I don't, to hell with her, she left me!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 41,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "And you never knew she was a lesbian..."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 42,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "No!! Okay?! Why does everyone keep fixating* on that? She didn't know, how should I know?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 43,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Sometimes I wish I was a lesbian... (They all stare at him.) Did I say that out loud?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 44,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "I told mom and dad last night, they seemed to take* it pretty well."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 45,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Oh really, so that hysterical phone call I got from a woman at sobbing 3:00 A.M., \"I'll never have grandchildren, I'll never have grandchildren.\" What"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 46,
+    "type": "note",
+    "text": "was what?  A wrong number?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 47,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Sorry."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 48,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Alright Ross, look. You're feeling a lot of pain right now. You're angry. You're hurting*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 49,
+    "type": "note",
+    "text": ". Can I tell you what the answer is?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 50,
+    "type": "action",
+    "text": "Ross gestures his consent."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 51,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Strip joint! C'mon, you're single! Have some hormones!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 52,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "I don't want to be single, okay? I just... I just- I just wanna be married again!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 53,
+    "type": "action",
+    "text": "Rachel enters in a wet wedding dress and starts to search the room."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 54,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "And I just want a million dollars! (He extends his hand hopefully.)"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 55,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Rachel?!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 56,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Oh God Monica hi! Thank God! I just went to your building and you weren't there and then this guy with a big hammer said you might be here and you are, you are!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 57,
+    "type": "dialogue",
+    "character": "Waitress",
+    "direction": null,
+    "text": "Can I get you some coffee?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 58,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(pointing at Rachel) De-caff. (to All) Okay, everybody, this is Rachel, another Lincoln High*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 59,
+    "type": "note",
+    "text": "survivor. (to Rachel) This is everybody, this is Chandler, and Phoebe, and Joey, and- you remember my brother Ross?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 60,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Hi, sure!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 61,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Hi."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 62,
+    "type": "action",
+    "text": "They go to hug but Ross's umbrella opens.  He sits back down defeated again.  A moment of silence follows as Rachel sits and the others expect her to explain."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 63,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "So you wanna tell us now, or are we waiting for four wet bridesmaids?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 64,
+    "type": "note",
+    "text": "“Le quattro damigelle donore infradiciate\": una battuta sul fatto che la sposa è arrivata"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 65,
+    "type": "note",
+    "text": "completamente bagnata dalla pioggia."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 66,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Oh God... well, it started about a half hour before the wedding. I was in the room where we were keeping all the presents, and I was looking at this gravy boat. This really gorgeous Lamauge gravy boat"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 67,
+    "type": "note",
+    "text": "*. When all of a sudden- (to the waitress that brought her coffee)Sweet 'n' Lo"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 68,
+    "type": "note",
+    "text": "w?*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 69,
+    "type": "note",
+    "text": "- I realized that I was more turned on by this gravy boat than by Barry! And then I got really freaked out, and that's when it hit me: how much Barry looks like Mr. Potato Head"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 70,
+    "type": "note",
+    "text": "Personaggio dei fumetti dalla testa a patata. Y'know, I mean"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 71,
+    "type": "note",
+    "text": ", I always knew looked familiar, but... Anyway, I just had to get out of there, and I started wondering 'Why am I doing this, and who am I doing this for?'. (to Monica) So anyway I just didn't know where to go, and I know that you and I have kinda drifted"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 72,
+    "type": "note",
+    "text": "apart*, but you're the only person I knew who lived here in the city."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 73,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Who wasn't invited to the wedding."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 74,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Ooh, I was kinda hoping that wouldn't be an issue... [Scene: Monica's Apartment, everyone is there and watching a Spanish Soap on TV and are trying to figure out what is going on.]"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 75,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Now I'm guessing that he bought her the big pipe organ, and she's really not happy about it."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 76,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "(imitating the characters) Tuna or egg salad?  Decide!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 77,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "(in a deep voice) I'll have whatever Christine is having."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 78,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "(on phone) Daddy, I just... I can't marry him! I'm sorry. I just don't love him. Well, it matters to me!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 79,
+    "type": "action",
+    "text": "The scene on TV has changed to show two women, one is holding her hair."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 80,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "If I let go of my hair, my head will fall off."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 81,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "(re TV) Ooh, she should not be wearing those pants.*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 82,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "I say push her down the stairs."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 83,
+    "type": "note",
+    "text": "Phoebe, Ross, Chandler, and Joey:  Push her down the stairs! Push her down the stairs! Push her down the stairs!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 84,
+    "type": "action",
+    "text": "She is pushed down the stairs and everyone cheers."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 85,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "C'mon Daddy, listen to me! It's like, it's like, all of my life, everyone has always told me, 'You're a shoe! You're a shoe, you're a shoe, you're a shoe!'. And today I just stopped and I said, 'What if I don't wanna be a sho"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 86,
+    "type": "note",
+    "text": "e? What if I wanna be a- a purse, y'know?*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 87,
+    "type": "note",
+    "text": "Or a- or a hat! No, I'm not saying I want you to buy me a hat, I'm saying I am a ha- It's a metaphor, Daddy!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 88,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "You can see where he'd have trouble."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 89,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Look Daddy, it's my life. Well maybe I'll just stay here with Monica."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 90,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Well, I guess we've established who's staying here with Monica..."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 91,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Well, maybe that's my decision. Well, maybe I don't need your money. Wait!! Wait, I said maybe!!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 92,
+    "type": "note",
+    "text": "[Time Lapse, Rachel is breathing into a paper bag.]"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 93,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Just breathe, breathe.. that's it. Just try to think of nice calm things..."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 94,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "(sings) Raindrops on roses and rabbits and kittens, (Rachel and Monica turn to look at her.) bluebells*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 95,
+    "type": "note",
+    "text": "and sleighbells* and- something with mittens*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 96,
+    "type": "note",
+    "text": "... La la la la...something and noodles* with string."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 97,
+    "type": "note",
+    "text": "Una famosa canzone storpiata da Phoebe  These are a few..."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 98,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "I'm all better now."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 99,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "(grins and walks to the kitchen and says to Chandler and Joey.) I helped!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 100,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Okay, look, this is probably for the best, y'know? Independence. Taking control of your life.  The whole, 'hat' thing.*"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 101,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "(comforting her) And hey, you need anything, you can always come to Joey. Me and Chandler live across the hall. And he's away a lot."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 102,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Joey, stop hitting* on her! It's her wedding day!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 103,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "What, like* there's a rule or something?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 104,
+    "type": "action",
+    "text": "The door buzzer* sounds and Chandler gets it."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 105,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Please don't do that again, it's a horrible sound."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 106,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "(over the intercom) It's, uh, it's Paul."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 107,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Oh God, is it 6:30?  Buzz* him in!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 108,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Who's Paul?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 109,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Paul the  , Paul?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 110,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Maybe. Joey: Wait. Your 'not a real date' tonight is with Paul the Wine* Guy?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 111,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "He finally asked you out?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 112,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Yes!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 113,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Ooh, this is a Dear Diary moment."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 114,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Rach, wait, I can cancel..."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 115,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Please, no, go, that'd be fine!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 116,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(to Ross) Are, are you okay? I mean, do you want me to stay?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 117,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "(choked voice) That'd be good..."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 118,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(horrified) Really?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 119,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "(normal voice) No, go on! It's Paul the Wine Guy!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 120,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "What does that mean?   Does he sell it, drink it, or just complain a lot?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 121,
+    "type": "note",
+    "text": "Phoebe"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 122,
+    "type": "note",
+    "text": "fa riferimento a “wine” = “vino” e “whine” = “lamentarsi”, “piagnucolare”, pronunciato uguale (Ross: “E Paul il tipo del vino”; Phoebe: “Che vuol dire? Lo vende, lo beve, o è"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 123,
+    "type": "note",
+    "text": "solo che si lamenta parecchio?”) (Chandler doesn't know.)"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 124,
+    "type": "action",
+    "text": "There's a knock on the door and it's Paul."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 125,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Hi, come in! Paul, this is.. (They are all lined up next to the door.)... everybody, everybody, this is Paul."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 126,
+    "type": "dialogue",
+    "character": "All",
+    "direction": null,
+    "text": "Hey! Paul! Hi! The Wine Guy! Hey!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 127,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "I'm sorry, I didn't catch your name. Paul, was it?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 128,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Okay, umm-umm, I'll just--I'll be right back, I just gotta go ah, go ah..."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 129,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "A wandering?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 130,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Change!  Okay, sit down. (Shows Paul in) Two seconds."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 131,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "Ooh, I just pulled out four eyelashes. That can't be good."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 132,
+    "type": "action",
+    "text": "Monica goes to change."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 133,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Hey, Paul!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 134,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "Yeah?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 135,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Here's a little tip, she really likes it when you rub her neck in the same spot over and over and over again until it starts to get a little red."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 136,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(yelling from the bedroom) Shut up, Joey!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 137,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "So Rachel, what're you, uh... what're you up to tonight?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 138,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Well, I was kinda supposed to be headed for Aruba on my honeymoon, so nothing!"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 139,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Right, you're not even getting your honeymoon, God.. No, no, although, Aruba, this time of"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 140,
+    "type": "note",
+    "text": "year... talk about your- (thinks) -big lizards... Anyway, if you don't feel like being alone tonight, Joey and Chandler are coming over to help me put together my new furniture."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 141,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "(deadpan) Yes, and we're very excited about it."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 142,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Well actually thanks, but I think I'm just gonna hang out here tonight.  It's been kinda a long day."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 143,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Okay, sure."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 144,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Hey Pheebs, you wanna help?"
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 145,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "Oh, I wish I could, but I don't want to."
+  },
+  {
+    "scene_id": "scene_001_central_perk",
+    "scene_name": "Central Perk,*",
+    "line_index": 146,
+    "type": "note",
+    "text": "Commercial Break"
+  },
+  {
+    "scene_id": "scene_002_the_subway_phoebe_is_singing_for_change",
+    "scene_name": "The Subway, Phoebe is singing for change",
+    "line_index": 147,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "(singing) Love is sweet as summer showers, love is a wondrous work of art, but your love oh your love, your love...is like a giant pigeon...crapping on my heart.  La-la-la-la-la- (some guy gives her some change and to that guy) Thank you. (sings"
+  },
+  {
+    "scene_id": "scene_002_the_subway_phoebe_is_singing_for_change",
+    "scene_name": "The Subway, Phoebe is singing for change",
+    "line_index": 148,
+    "type": "note",
+    "text": ") La-la-la-la...ohhh!"
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 149,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "(squatting and reading the instructions) I'm supposed to attach a brackety thing to the side things, using a bunch of these little worm guys. I have no brackety thing, I see no whim guys whatsoever and- I cannot feel my legs."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 150,
+    "type": "action",
+    "text": "Joey and Chandler are finishing assembling the bookcase."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 151,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "I'm thinking we've got a bookcase here."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 152,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "It's a beautiful thing."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 153,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "(picking up a leftover part) What's this?"
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 154,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "I would have to say that is an 'L'-shaped bracket."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 155,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Which goes where?"
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 156,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "I have no idea."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 157,
+    "type": "action",
+    "text": "Joey checks that Ross is not looking and dumps it in a plant."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 158,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Done with the bookcase!"
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 159,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "All finished!"
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 160,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "(clutching* a beer can and sniffing*"
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 161,
+    "type": "note",
+    "text": ") This was Carol's favorite beer. She always drank it out of the can,*"
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 162,
+    "type": "note",
+    "text": "I should have known."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 163,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Hey-hey-hey-hey, if you're gonna start with that stuff* we're outta"
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 164,
+    "type": "note",
+    "text": "* here."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 165,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Yes, please don't spoil all this fun."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 166,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Ross, let me ask you a question. She got the furniture, the stereo, the good TV- what did you get?"
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 167,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "You guys."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 168,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Oh, God."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 169,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "You got screwed."
+  },
+  {
+    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+    "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+    "line_index": 170,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Oh my God!"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 171,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Oh my God!"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 172,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "I know, I know, I'm such an idiot. I guess I should have caught on when she started going to the dentist four and five times a week. I mean, how clean can teeth get?"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 173,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "My brother's going through that right now, he's such a mess. How did you get through it?"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 174,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "Well, you might try accidentally breaking something valuable of hers, say her-"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 175,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "-leg?"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 176,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "(laughing) That's one way! Me, I- I went for the watch."
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 177,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "You actually broke her watch?  Wow!  The worst thing I ever did was, I-I shredded m"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 178,
+    "type": "note",
+    "text": "y boyfriend's favorite bath towel."
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 179,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "Ooh, steer clear of you."
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 180,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "That's right. [Scene: Monica's Apartment, Rachel is talking on the phone and pacing.]"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 181,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Barry, I'm sorry... I am so sorry... I know you probably think that this is all about what I said the other day about you making love with your socks on, but it isn't... it isn't, it's about me, and I ju- (She stops talking and dials the phone.) H"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 182,
+    "type": "note",
+    "text": "i"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 183,
+    "type": "note",
+    "text": ", machine cut me off again... anyway...look, look, I know that some girl is going to be incredibly lucky to become Mrs. Barry Finkel, but it isn't me, it's not me.  And not that I have any idea who me is right now, but you just have to give me a chance to"
+  },
+  {
+    "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+    "scene_name": "A Restaurant, Monica and Paul are eating",
+    "line_index": 184,
+    "type": "note",
+    "text": "o... (The maching cuts her off again and she redials.)"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 185,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "I'm divorced!  I'm only 26 and I'm divorced!"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 186,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Shut up!"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 187,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "You must stop! (Chandler hits what he is working on with a hammer and it collapses.)"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 188,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "That only took me an hour."
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 189,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Look, Ross, you gotta understand, between us we haven't had a relationship that has lasted longer than a Mento.   You, however have had the love of a wo"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 190,
+    "type": "note",
+    "text": "man for four years.   Four years of closeness and sharing at the end of which she ripped your heart out, and that is why we don't do it!  I don't think that was my point!"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 191,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "You know what the scariest part is? What if there's only one woman for everybody, y'know? I mean what if you get one woman- and that's it? Unfortunately in my case, there was only one woman- for her..."
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 192,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "What are you talking about? 'One woman'? That's like saying there's only one flavor of ice cream for you. Lemme tell you someth"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 193,
+    "type": "note",
+    "text": "ing, Ross. There's lots of flavors out there. There's Rocky Road, and Cookie Dough, and Bing! Cherry Vanilla. You could get 'em with Jimmies, or nuts, or whipped cream! This is the best thing that ever happened to you! You got married, you were, like, wha"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 194,
+    "type": "note",
+    "text": "t, eight? Welcome back to the world! Grab a spoon!*"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 195,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "I honestly don't know if I'm hungry or horny."
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 196,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Stay out of my freezer! [Scene: A Restaurant, Monica and Paul are still eating.]"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 197,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "Ever since she walked out on me, I, uh..."
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 198,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "What?..... What, you wanna spell it out with noodles?"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 199,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "No, it's, it's more of a fifth date kinda revelation."
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 200,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Oh, so there is gonna be a fifth date?"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 201,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "Isn't there?"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 202,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Yeah... yeah, I think there is. -What were you gonna say?"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 203,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "Well, ever-ev-... ever since she left me, um, I haven't been able to, uh, perform. (Monica takes a sip of her drink.) ...Sexually."
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 204,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(spitting out her drink in shock) Oh God, oh God, I am sorry... I am so sorry..."
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 205,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "It's okay..."
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 206,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "I know being spit on is probably not what you need right now. Um... how long?"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 207,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "Two years."
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 208,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Wow! I'm-I'm-I'm glad you smashed her watch!"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 209,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "So you still think you, um... might want that fifth date?"
+  },
+  {
+    "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+    "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+    "line_index": 210,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(pause)...Yeah. Yeah, I do."
+  },
+  {
+    "scene_id": "scene_006_monica_s_apartment_rachel_is_watching_joanne_loves_chaci",
+    "scene_name": "Monica's Apartment, Rachel is watching Joanne Loves Chaci",
+    "line_index": 211,
+    "type": "dialogue",
+    "character": "Priest on TV",
+    "direction": null,
+    "text": "We are gathered here today to join Joanne Louise Cunningham and Charles, Chachi-Chachi-Chachi, Arcola in the bound of holy matrimony."
+  },
+  {
+    "scene_id": "scene_006_monica_s_apartment_rachel_is_watching_joanne_loves_chaci",
+    "scene_name": "Monica's Apartment, Rachel is watching Joanne Loves Chaci",
+    "line_index": 212,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Oh...see... but Joanne loved Chachi! That's the difference!"
+  },
+  {
+    "scene_id": "scene_007_ross_s_apartment_they_re_all_sitting_around_and_talking",
+    "scene_name": "Ross's Apartment, they're all sitting around and talking",
+    "line_index": 213,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "(scornful) Grab a spoon. Do you know how long it's been since I've grabbed a spoon? Do the words 'Billy, don't be a hero' mean anything to you?"
+  },
+  {
+    "scene_id": "scene_007_ross_s_apartment_they_re_all_sitting_around_and_talking",
+    "scene_name": "Ross's Apartment, they're all sitting around and talking",
+    "line_index": 214,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Great story!  But, I uh, I gotta go, I got a date with Andrea--Angela--Andrea...  Oh man, (looks to Chandler)"
+  },
+  {
+    "scene_id": "scene_007_ross_s_apartment_they_re_all_sitting_around_and_talking",
+    "scene_name": "Ross's Apartment, they're all sitting around and talking",
+    "line_index": 215,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Angela's the screamer, Andrea has cats."
+  },
+  {
+    "scene_id": "scene_007_ross_s_apartment_they_re_all_sitting_around_and_talking",
+    "scene_name": "Ross's Apartment, they're all sitting around and talking",
+    "line_index": 216,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Right.  Thanks.  It's June.  I'm outta here. (Exits.)"
+  },
+  {
+    "scene_id": "scene_007_ross_s_apartment_they_re_all_sitting_around_and_talking",
+    "scene_name": "Ross's Apartment, they're all sitting around and talking",
+    "line_index": 217,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Y'know, here's the thing. Even if I could get it together enough to- to ask a woman out,... who am I gonna ask? (He gazes out of the window.)"
+  },
+  {
+    "scene_id": "scene_007_ross_s_apartment_they_re_all_sitting_around_and_talking",
+    "scene_name": "Ross's Apartment, they're all sitting around and talking",
+    "line_index": 218,
+    "type": "note",
+    "text": "[Cut to Rachel staring out of her window.]"
+  },
+  {
+    "scene_id": "scene_007_ross_s_apartment_they_re_all_sitting_around_and_talking",
+    "scene_name": "Ross's Apartment, they're all sitting around and talking",
+    "line_index": 219,
+    "type": "note",
+    "text": "Commercial Break"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 220,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Isn't this amazing? I mean, I have never made coffee before in my entire life."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 221,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "That is amazing."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 222,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Congratulations."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 223,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Y'know, I figure if I can make coffee, there isn't anything I can't do."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 224,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "If can invade Poland, there isn't anything I can't do."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 225,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Listen, while you're on a roll, if you feel like you gotta make like a Western omelet or something... (Joey and Chandler taste the coffee, grimace, and pour it into a plant pot.) Although actually I'm really not that hungry..."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 226,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(entering, to herself) Oh good, Lenny and Squigy are here."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 227,
+    "type": "dialogue",
+    "character": "All",
+    "direction": null,
+    "text": "Morning. Good morning."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 228,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "(entering from Monica's room) Morning."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 229,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Morning, Paul."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 230,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Hello, Paul."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 231,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Hi, Paul, is it?"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 232,
+    "type": "action",
+    "text": "Monica and Paul walk to the door and talk in a low voice so the others can't hear.  The others move Monica's table closer to the door so that they can."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 233,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "Thank you!  Thank you so much!"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 234,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Stop!"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 235,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "No, I'm telling you last night was like umm, all my birthdays, both graduations, plus the barn raising scene in Witness."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 236,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "We'll talk later."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 237,
+    "type": "dialogue",
+    "character": "Paul",
+    "direction": null,
+    "text": "Yeah. (They kiss) Thank you. (Exits)"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 238,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "That wasn't a real date?! What the hell do you do on a real date?"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 239,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Shut up, and put my table back."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 240,
+    "type": "dialogue",
+    "character": "All",
+    "direction": null,
+    "text": "Okayyy! (They do so.)"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 241,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "All right, kids, I gotta get to work. If I don't input those numbers,... it doesn't make much of a difference..."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 242,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "So, like, you guys all have jobs?"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 243,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Yeah, we all have jobs. See, that's how we buy stuff."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 244,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Yeah, I'm an actor."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 245,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Wow! Would I have seen you in anything?"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 246,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "I doubt it. Mostly regional work."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 247,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Oh wait, wait, unless you happened to catch the Reruns' production of Pinocchio, at the little theater in the park."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 248,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Look, it was a job all right?"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 249,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "'Look, Gippetto, I'm a real live boy.'"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 250,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "I will not take this abuse. (Walks to the door and opens it to leave.)"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 251,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "You're right, I'm sorry. (Burst into song and dances out of the door.) \"Once I was a wooden boy, a little wooden boy...\""
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 252,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "You should both know, that he's a dead man.  Oh, Chandler? (Starts after Chandler.)"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 253,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "So how you doing today? Did you sleep okay? Talk to Barry? I can't stop smiling."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 254,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "I can see that. You look like you slept with a hanger in your mouth."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 255,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "I know, he's just so, so... Do you remember you and Tony DeMarco?"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 256,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Oh, yeah."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 257,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Well, it's like that. With feelings."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 258,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Oh wow. Are you in trouble."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 259,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Big time!"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 260,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Want a wedding dress?   Hardly used."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 261,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "I think we are getting a little ahead of selves here. Okay. Okay. I am just going to get up, go to work and not think about him all day. Or else I'm just gonna get up and go to work."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 262,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Oh, look, wish me luck!"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 263,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "What for?"
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 264,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "I'm gonna go get one of those (Thinks) job things."
+  },
+  {
+    "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+    "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+    "line_index": 265,
+    "type": "action",
+    "text": "Monica exits."
+  },
+  {
+    "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+    "scene_name": "Iridium, Monica is working as Frannie enters",
+    "line_index": 266,
+    "type": "dialogue",
+    "character": "Frannie",
+    "direction": null,
+    "text": "Hey, Monica!"
+  },
+  {
+    "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+    "scene_name": "Iridium, Monica is working as Frannie enters",
+    "line_index": 267,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Hey Frannie, welcome back! How was Florida?"
+  },
+  {
+    "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+    "scene_name": "Iridium, Monica is working as Frannie enters",
+    "line_index": 268,
+    "type": "dialogue",
+    "character": "Frannie",
+    "direction": null,
+    "text": "You had sex, didn't you?"
+  },
+  {
+    "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+    "scene_name": "Iridium, Monica is working as Frannie enters",
+    "line_index": 269,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "How do you do that?"
+  },
+  {
+    "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+    "scene_name": "Iridium, Monica is working as Frannie enters",
+    "line_index": 270,
+    "type": "dialogue",
+    "character": "Frannie",
+    "direction": null,
+    "text": "Oh, I hate you, I'm pushing my Aunt Roz through Parrot Jungle and you're having sex!  So? Who?"
+  },
+  {
+    "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+    "scene_name": "Iridium, Monica is working as Frannie enters",
+    "line_index": 271,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "You know Paul?"
+  },
+  {
+    "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+    "scene_name": "Iridium, Monica is working as Frannie enters",
+    "line_index": 272,
+    "type": "dialogue",
+    "character": "Frannie",
+    "direction": null,
+    "text": "Paul the Wine Guy? Oh yeah, I know Paul."
+  },
+  {
+    "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+    "scene_name": "Iridium, Monica is working as Frannie enters",
+    "line_index": 273,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "You mean you know Paul like I know Paul?"
+  },
+  {
+    "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+    "scene_name": "Iridium, Monica is working as Frannie enters",
+    "line_index": 274,
+    "type": "dialogue",
+    "character": "Frannie",
+    "direction": null,
+    "text": "Are you kidding? I take credit for Paul. Y'know before me, there was no snap in his turtle for two years."
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 275,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "(sitting on the arm of the couch)Of course it was a line!"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 276,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Why?! Why? Why, why would anybody do something like that?"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 277,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "I assume we're looking for an answer more sophisticated than 'to get you into bed'."
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 278,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "I hate men!  I hate men!"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 279,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "Oh no, don't hate, you don't want to put that out into the universe."
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 280,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Is it me? Is it like I have some sort of beacon that only dogs and men with severe emotional problems can hear?"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 281,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "All right, c'mere, gimme your feet. (She starts massaging them.)"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 282,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "I just thought he was nice, y'know?"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 283,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "(bursts out laughing again) I can't believe you didn't know it was a line!"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 284,
+    "type": "action",
+    "text": "Monica pushes him off of the sofa as Rachel enters with a shopping bag."
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 285,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Guess what?"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 286,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "You got a job?"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 287,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Are you kidding? I'm trained for nothing! I was laughed out of twelve interviews today."
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 288,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "And yet you're surprisingly upbeat."
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 289,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "You would be too if you found John and David boots on sale, fifty percent off!"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 290,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Oh, how well you know me..."
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 291,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "They're my new 'I don't need a job, I don't need my parents, I've got great boots' boots!"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 292,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "How'd you pay for them?"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 293,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Uh, credit card."
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 294,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "And who pays for that?"
+  },
+  {
+    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+    "scene_name": "Central Perk, everyone but Rachel is there",
+    "line_index": 295,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Um... my... father."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 296,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Oh God, come on you guys, is this really necessary?  I mean, I can stop charging anytime I want."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 297,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "C'mon, you can't live off your parents your whole life."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 298,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "I know that. That's why I was getting married."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 299,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "Give her a break, it's hard being on your own for the first time."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 300,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Thank you."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 301,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "You're welcome. I remember wh"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 302,
+    "type": "note",
+    "text": "en I first came to this city. I was fourteen. My mom had just killed herself and my step-dad was back in prison, and I got here, and I didn't know anybody. And I ended up living with this albino guy who was, like, cleaning windshields outside port authori"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 303,
+    "type": "note",
+    "text": "ty, and then he killed himself, and then I found aromatherapy. So believe me, I know exactly how you feel."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 304,
+    "type": "action",
+    "text": "Pause"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 305,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "The word you're looking for is 'Anyway'..."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 306,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "All right, you ready?"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 307,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "No.  No, no, I'm not ready!  How can I be ready?  \"Hey, Rach!  You ready to jump out the airplane without your parachute?\"  Come on, I can't do this!"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 308,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "You can, I know you can!"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 309,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "I don't think so."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 310,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Come on, you made coffee!   You can do anything! (Chandler slowly tries to hide the now dead plant from that morning when he and Joey poured their coffee into it.)"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 311,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "C'mon, cut. Cut, cut, cut,..."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 312,
+    "type": "dialogue",
+    "character": "All",
+    "direction": null,
+    "text": "Cut, cut, cut, cut, cut, cut, cut... (She cuts one of them and they cheer.)"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 313,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Y'know what?  I think we can just leave it at that.  It's kinda like a symbolic gesture..."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 314,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Rachel!  That was a library card!"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 315,
+    "type": "dialogue",
+    "character": "All",
+    "direction": null,
+    "text": "Cut, cut, cut, cut, cut, cut, cut.."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 316,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "(as Rachel is cutting up her cards) Y'know, if you listen closely, you can hear a thousand retailers scream."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 317,
+    "type": "action",
+    "text": "She finishes cutting them up and they all cheer."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 318,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Welcome to the real world! It sucks. You're gonna love it!"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 319,
+    "type": "note",
+    "text": "[Time Lapse, Rachel and Ross are watching a TV channel finishing its broadcast day by playing the national anthem.]"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 320,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "Well, that's it (To Ross) You gonna crash* on the couch?"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 321,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "No. No, I gotta* go home sometime."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 322,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "You be okay?"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 323,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Yeah."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 324,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Hey Mon, look what I just found on the floor. (Monica smiles.) What?"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 325,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "That's Paul's watch. You just put it back where you found it. Oh boy. Alright. Goodnight, everybody."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 326,
+    "type": "dialogue",
+    "character": "Ross and Rachel",
+    "direction": null,
+    "text": "Goodnight."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 327,
+    "type": "action",
+    "text": "Monica stomps on Paul's watch and goes into her room."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 328,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Mmm. (They both reach for the last cookie) Oh, no-"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 329,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Sorry-"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 330,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "No no no, go-"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 331,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "No, you have it, really, I don't want it-"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 332,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Split it?"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 333,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Okay."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 334,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Okay. (They split it.) You know you probably didn't know this, but back in high school, I had a, um, major crush*"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 335,
+    "type": "note",
+    "text": "on you."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 336,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "I knew."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 337,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "You did! Oh.... I always figured* you just thought I was Monica's geeky"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 338,
+    "type": "note",
+    "text": "* older brother."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 339,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "I did."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 340,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Oh. Listen, do you think- and try not to let my intense vulnerability become any kind of a factor here- but do you think it would be okay if I asked you out? Sometime? Maybe?"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 341,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Yeah, maybe..."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 342,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Okay... okay, maybe I will..."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 343,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Goodnight."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 344,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "Goodnight."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 345,
+    "type": "action",
+    "text": "Rachel goes into her room and Monica enters the living room as Ross is leaving."
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 346,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "See ya.... Waitwait, what's with you?"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 347,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "I just grabbed a spoon. (Ross exits and Monica has no idea what that means.)"
+  },
+  {
+    "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+    "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+    "line_index": 348,
+    "type": "note",
+    "text": "Closing Credits"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 349,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "I can't believe what I'm hearing here."
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 350,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "(sings) I can't believe what I'm hearing here..."
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 351,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "What? I-I said you had a-"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 352,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "(sings) What I said you had..."
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 353,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "(to Phoebe) Would you stop?"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 354,
+    "type": "dialogue",
+    "character": "Phoebe",
+    "direction": null,
+    "text": "Oh, was I doing it again?"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 355,
+    "type": "dialogue",
+    "character": "All",
+    "direction": null,
+    "text": "Yes!"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 356,
+    "type": "dialogue",
+    "character": "Monica",
+    "direction": null,
+    "text": "I said that you had a nice butt, it's just not a great butt."
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 357,
+    "type": "dialogue",
+    "character": "Joey",
+    "direction": null,
+    "text": "Oh, you wouldn't know a great butt if it came up and bit ya."
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 358,
+    "type": "dialogue",
+    "character": "Ross",
+    "direction": null,
+    "text": "There's an image."
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 359,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "(walks up with a pot of coffee) Would anybody like more coffee?"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 360,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Did you make it, or are you just serving it?"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 361,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "I'm just serving it."
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 362,
+    "type": "dialogue",
+    "character": "All",
+    "direction": null,
+    "text": "Yeah. Yeah, I'll have a cup of coffee."
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 363,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Kids, new dream... I'm in Las Vegas. (Rachel sits down to hear Chandler's dream.)"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 364,
+    "type": "dialogue",
+    "character": "Customer",
+    "direction": null,
+    "text": "(To Rachel) Ahh, miss?   More coffee?"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 365,
+    "type": "dialogue",
+    "character": "Rachel",
+    "direction": null,
+    "text": "Ugh. (To another customer that's leaving.) Excuse me, could you give this to that guy over there? (Hands him the coffee pot.) Go ahead. (He does so.) Thank you. (To the gang.) Sorry.  Okay, Las Vegas."
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 366,
+    "type": "dialogue",
+    "character": "Chandler",
+    "direction": null,
+    "text": "Okay, so, I'm in Las Vegas... I'm Liza Minelli-"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 367,
+    "type": "note",
+    "text": "End"
+  },
+  {
+    "scene_id": "scene_012_central_perk_everyone_is_there",
+    "scene_name": "Central Perk, everyone is there",
+    "line_index": 368,
+    "type": "note",
+    "text": "--------------------------------------------------------------"
+  }
+]

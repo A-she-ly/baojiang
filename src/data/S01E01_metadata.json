@@ -1,0 +1,85 @@
+{
+  "episode": "S01E01",
+  "title": "The One Where Monica Gets a New Roommate – a",
+  "title_cn": "莫妮卡的新室友",
+  "description": "The pilot episode — Rachel leaves her fiancé at the altar and moves in with Monica; Ross is devastated after his wife Carol leaves him for a woman.",
+  "scenes_count": 12,
+  "dialogue_lines_count": 369,
+  "characters": [
+    "All",
+    "Chandler",
+    "Customer",
+    "Frannie",
+    "Joey",
+    "Monica",
+    "Paul",
+    "Phoebe",
+    "Priest on TV",
+    "Rachel",
+    "Ross",
+    "Ross and Rachel",
+    "Waitress"
+  ],
+  "scenes_summary": [
+    {
+      "scene_id": "scene_001_central_perk",
+      "scene_name": "Central Perk,*",
+      "lines_count": 147
+    },
+    {
+      "scene_id": "scene_002_the_subway_phoebe_is_singing_for_change",
+      "scene_name": "The Subway, Phoebe is singing for change",
+      "lines_count": 2
+    },
+    {
+      "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
+      "scene_name": "Ross's Apartment, the guys are there assembling furniture",
+      "lines_count": 22
+    },
+    {
+      "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
+      "scene_name": "A Restaurant, Monica and Paul are eating",
+      "lines_count": 14
+    },
+    {
+      "scene_id": "scene_005_ross_s_apartment_ross_is_pacing_while_joey_and_chandler_are_working_on_some_more_furniture",
+      "scene_name": "Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture",
+      "lines_count": 26
+    },
+    {
+      "scene_id": "scene_006_monica_s_apartment_rachel_is_watching_joanne_loves_chaci",
+      "scene_name": "Monica's Apartment, Rachel is watching Joanne Loves Chaci",
+      "lines_count": 2
+    },
+    {
+      "scene_id": "scene_007_ross_s_apartment_they_re_all_sitting_around_and_talking",
+      "scene_name": "Ross's Apartment, they're all sitting around and talking",
+      "lines_count": 7
+    },
+    {
+      "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
+      "scene_name": "Monica's Apartment, Rachel is making coffee for Joey and Chandler",
+      "lines_count": 46
+    },
+    {
+      "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
+      "scene_name": "Iridium, Monica is working as Frannie enters",
+      "lines_count": 9
+    },
+    {
+      "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
+      "scene_name": "Central Perk, everyone but Rachel is there",
+      "lines_count": 21
+    },
+    {
+      "scene_id": "scene_011_monica_and_rachel_s_everyone_is_sitting_around_the_kitchen_table_rachel_s_credit_cards_are_spread_out_on_the_table_along_with_a_pair_of_scissors",
+      "scene_name": "Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors",
+      "lines_count": 53
+    },
+    {
+      "scene_id": "scene_012_central_perk_everyone_is_there",
+      "scene_name": "Central Perk, everyone is there",
+      "lines_count": 20
+    }
+  ]
+}
