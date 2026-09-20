@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react'
-import type { EpisodeMetadata, Flashcard } from '../data/types'
+import { PRONUNCIATION_FOCUS_LABELS } from '../data/types'
+import type { EpisodeMetadata, Flashcard, PronunciationFocus } from '../data/types'
 import { useStore } from '../utils/store'
 
-type FilterKey = 'all' | 'pos' | 'vowel' | 'character' | 'scene' | 'level' | 'tags'
+type FilterKey = 'all' | 'pos' | 'pronunciation' | 'character' | 'scene' | 'level' | 'tags'
 
 interface Props {
   cards: Flashcard[]
@@ -38,12 +39,12 @@ export default function Home({ cards, metadata, onStart }: Props) {
         return 'other'
       }),
     )
-    const vowel = uniq(cards.map((c) => c.vowel_category))
+    const pronunciation = uniq(cards.map((c) => c.pronunciation_focus))
     const chars = uniq(cards.map((c) => c.character))
     const scenes = metadata.scenes_summary.map((s) => s.scene_id)
     const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const
     const tags = uniq(cards.flatMap((c) => c.tags))
-    return { pos, vowel, chars, scenes, levels, tags }
+    return { pos, pronunciation, chars, scenes, levels, tags }
   }, [cards, metadata])
 
   const filteredCards = useMemo(() => {
@@ -61,7 +62,7 @@ export default function Home({ cards, metadata, onStart }: Props) {
           raw.includes('phrase') ? 'phrase' : 'other'
         return key === selectedValue
       }
-      if (selectedFilter === 'vowel') return c.vowel_category === selectedValue
+      if (selectedFilter === 'pronunciation') return c.pronunciation_focus === selectedValue
       if (selectedFilter === 'character') return c.character === selectedValue
       if (selectedFilter === 'scene') return c.scene_id === selectedValue
       if (selectedFilter === 'level') return c.level === selectedValue
@@ -96,8 +97,11 @@ export default function Home({ cards, metadata, onStart }: Props) {
   function pickChips() {
     if (selectedFilter === 'pos')
       return filters.pos.map((v) => ({ value: v, label: POS_LABELS[v] || v }))
-    if (selectedFilter === 'vowel')
-      return filters.vowel.map((v) => ({ value: v, label: v }))
+    if (selectedFilter === 'pronunciation')
+      return filters.pronunciation.map((v) => ({
+        value: v,
+        label: PRONUNCIATION_FOCUS_LABELS[v as PronunciationFocus],
+      }))
     if (selectedFilter === 'character')
       return filters.chars.map((v) => ({ value: v, label: v }))
     if (selectedFilter === 'scene')
@@ -120,7 +124,7 @@ export default function Home({ cards, metadata, onStart }: Props) {
   const tabItems: { key: FilterKey; label: string; icon: string }[] = [
     { key: 'all', label: '全部', icon: '📚' },
     { key: 'pos', label: '词性', icon: '🔤' },
-    { key: 'vowel', label: '元音/发音', icon: '🎵' },
+    { key: 'pronunciation', label: '发音重点', icon: '🗣️' },
     { key: 'character', label: '角色', icon: '🎭' },
     { key: 'scene', label: '场景', icon: '🎬' },
     { key: 'level', label: '难度', icon: '📶' },
@@ -179,10 +183,13 @@ export default function Home({ cards, metadata, onStart }: Props) {
       {/* Filter section */}
       <section className="max-w-4xl mx-auto px-4 -mt-6 sm:px-6">
         <div className="bg-white rounded-2xl shadow-card border border-friends-coffee/10 p-5">
-          <div className="text-sm font-semibold text-friends-sofa/80 mb-3 flex items-center gap-2">
+          <div className="text-sm font-semibold text-friends-sofa/80 flex items-center gap-2">
             <span className="w-1 h-4 bg-friends-perk rounded-full inline-block" />
             选择闪卡分类维度
           </div>
+          <p className="mt-1 mb-3 text-xs text-friends-coffee/70">
+            音标采用 General American（GenAm）标注；每张卡突出一个主要听辨或发音重点。
+          </p>
 
           <div className="flex flex-wrap gap-2">
             {tabItems.map((t) => (
@@ -232,7 +239,10 @@ export default function Home({ cards, metadata, onStart }: Props) {
                 当前筛选：<span className="font-semibold text-friends-sofa">{filteredCards.length}</span> 张闪卡
                 {selectedFilter !== 'all' && selectedValue && (
                   <span className="ml-2 text-friends-perk font-medium">
-                    → {tabItems.find((t) => t.key === selectedFilter)?.label}: {selectedValue}
+                    → {tabItems.find((t) => t.key === selectedFilter)?.label}:{' '}
+                    {selectedFilter === 'pronunciation'
+                      ? PRONUNCIATION_FOCUS_LABELS[selectedValue as PronunciationFocus]
+                      : selectedValue}
                   </span>
                 )}
               </div>
@@ -289,7 +299,10 @@ export default function Home({ cards, metadata, onStart }: Props) {
                   {c.level}
                 </span>
               </div>
-              <div className="text-xs text-friends-coffee mb-2">{c.ipa} · {c.pos}</div>
+              <div className="text-xs text-friends-coffee mb-2">GenAm {c.ipa} · {c.pos}</div>
+              <div className="mb-2 inline-flex w-fit rounded-full border border-friends-perk/25 bg-friends-perk/10 px-2 py-0.5 text-xs font-medium text-friends-perk">
+                🗣️ {PRONUNCIATION_FOCUS_LABELS[c.pronunciation_focus]}
+              </div>
               <div className="text-sm text-friends-sofa/80 line-clamp-2 leading-relaxed">
                 {c.sentence_full}
               </div>

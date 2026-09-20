@@ -6,10 +6,10 @@
     "line_index": 2,
     "character": "Joey",
     "target_word": "gotta",
-    "ipa": "/ˈɡɒtə/",
+    "ipa": "/ˈɡɑɾə/",
     "pos": "contraction (got to)",
     "level": "B1",
-    "vowel_category": "short_o+schwa",
+    "pronunciation_focus": "flap_t",
     "tags": [
       "contraction",
       "连读",
@@ -32,7 +32,7 @@
     "ipa": "/hʌmp/",
     "pos": "n. 驼背；隆起",
     "level": "C1",
-    "vowel_category": "short_u",
+    "pronunciation_focus": "vowel_uh",
     "tags": [
       "身体词汇",
       "幽默"
@@ -50,33 +50,11 @@
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
-    "target_word": "bemused",
-    "ipa": "/bɪˈmjuːzd/",
-    "pos": "adj. 困惑的；茫然的",
-    "level": "B2",
-    "vowel_category": "juice_diphthong",
-    "tags": [
-      "情绪词",
-      "CET6"
-    ],
-    "sentence_cloze": "(They all stare, ___.)",
-    "sentence_full": "(They all stare, bemused.)",
-    "translation": "（大家都一脸困惑地盯着Phoebe。）",
-    "cultural_note": "注意不要和 amused（被逗乐）搞混！前缀 be- + muse（沉思）→ 陷入沉思而发懵。",
-    "screenshot": "/episodes/S01E01/images/scene_001_central_perk.png",
-    "frequency_rank": null
-  },
-  {
-    "id": "S01E01_004",
-    "episode": "S01E01",
-    "scene_id": "scene_001_central_perk",
-    "line_index": 0,
-    "character": "Chandler",
     "target_word": "drifted apart",
-    "ipa": "/ˈdrɪftɪd əˈpɑːt/",
+    "ipa": "/ˈdrɪftɪd əˈpɑrt/",
     "pos": "phrasal verb 渐行渐远",
     "level": "B2",
-    "vowel_category": "short_i",
+    "pronunciation_focus": "vowel_ih",
     "tags": [
       "phrasal_verb",
       "关系"
@@ -89,16 +67,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_005",
+    "id": "S01E01_004",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "turned on by",
-    "ipa": "/tɜːnd ɒn baɪ/",
+    "ipa": "/tɝnd ɑn baɪ/",
     "pos": "phrase 被…吸引；对…有性趣",
     "level": "B2",
-    "vowel_category": "r-controlled_vowel",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "俚语",
       "phrasal"
@@ -111,16 +89,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_006",
+    "id": "S01E01_005",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 66,
     "character": "Rachel",
     "target_word": "gravy boat",
-    "ipa": "/ˈɡreɪvi bəʊt/",
+    "ipa": "/ˈɡreɪvi boʊt/",
     "pos": "n. 船形调味汁碟",
     "level": "B2",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "o_diphthong",
     "tags": [
       "生活词汇",
       "餐具"
@@ -133,16 +111,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_007",
+    "id": "S01E01_006",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "freaked out",
-    "ipa": "/friːkt aʊt/",
+    "ipa": "/frikt aʊt/",
     "pos": "phrasal verb 崩溃；吓尿",
     "level": "B1",
-    "vowel_category": "long_e",
+    "pronunciation_focus": "long_e",
     "tags": [
       "phrasal_verb",
       "情绪"
@@ -155,16 +133,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_008",
+    "id": "S01E01_007",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "hit on her",
-    "ipa": "/hɪt ɒn hɜː/",
+    "ipa": "/hɪɾ ɑn hɚ/",
     "pos": "phrase 搭讪；撩",
     "level": "B2",
-    "vowel_category": "short_i",
+    "pronunciation_focus": "flap_t",
     "tags": [
       "俚语",
       "phrasal",
@@ -178,7 +156,7 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_009",
+    "id": "S01E01_008",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
@@ -187,7 +165,7 @@
     "ipa": "/bʌz ɪm ɪn/",
     "pos": "phrase 按门铃让他进",
     "level": "B2",
-    "vowel_category": "short_u",
+    "pronunciation_focus": "weak_forms",
     "tags": [
       "生活词汇",
       "公寓"
@@ -200,16 +178,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_010",
+    "id": "S01E01_009",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 113,
     "character": "Chandler",
     "target_word": "Dear Diary moment",
-    "ipa": "/dɪə ˈdaɪəri ˈməʊmənt/",
+    "ipa": "/ˌdɪr ˈdaɪəri ˈmoʊmənt/",
     "pos": "n. phrase 值得写进日记的大事",
     "level": "B2",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "习语",
       "幽默"
@@ -222,38 +200,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_011",
-    "episode": "S01E01",
-    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
-    "line_index": 149,
-    "character": "Ross",
-    "target_word": "squatting",
-    "ipa": "/ˈskwɒtɪŋ/",
-    "pos": "v. 蹲着",
-    "level": "B2",
-    "vowel_category": "short_o",
-    "tags": [
-      "动作",
-      "CET6"
-    ],
-    "sentence_cloze": "(Ross is ___ and reading the instructions)",
-    "sentence_full": "(Ross is squatting and reading the instructions)",
-    "translation": "（Ross蹲在地上读说明书。）",
-    "cultural_note": "squat 深蹲（健身）/ 蹲坐；另外也指擅自占住空屋（squatter=占屋者）。",
-    "screenshot": "/episodes/S01E01/images/scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture.png",
-    "frequency_rank": null
-  },
-  {
-    "id": "S01E01_012",
+    "id": "S01E01_010",
     "episode": "S01E01",
     "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
     "line_index": 149,
     "character": "Ross",
     "target_word": "brackety thing",
-    "ipa": "/ˈbrækəti θɪŋ/",
+    "ipa": "/ˈbrækəɾi θɪŋ/",
     "pos": "n. phrase（瞎编的）那个支架玩意儿",
     "level": "B1",
-    "vowel_category": "short_a",
+    "pronunciation_focus": "flap_t",
     "tags": [
       "口语",
       "瞎编词汇"
@@ -266,16 +222,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_013",
+    "id": "S01E01_011",
     "episode": "S01E01",
     "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
     "line_index": 149,
     "character": "Ross",
     "target_word": "worm guys",
-    "ipa": "/wɜːm ɡaɪz/",
+    "ipa": "/wɝm ɡaɪz/",
     "pos": "n. phrase（瞎编的）螺丝小子们",
     "level": "B1",
-    "vowel_category": "r-controlled_vowel",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "口语",
       "幽默"
@@ -288,38 +244,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_014",
-    "episode": "S01E01",
-    "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
-    "line_index": 160,
-    "character": "Ross",
-    "target_word": "clutching",
-    "ipa": "/ˈklʌtʃɪŋ/",
-    "pos": "v. 紧紧攥着",
-    "level": "B2",
-    "vowel_category": "short_u",
-    "tags": [
-      "动作",
-      "CET6"
-    ],
-    "sentence_cloze": "(Ross is ___ a beer can and sniffing)",
-    "sentence_full": "(Ross is clutching a beer can and sniffing)",
-    "translation": "（Ross攥着一罐啤酒，闻来闻去。）",
-    "cultural_note": "clutch = hold tightly（紧紧抓住，常因激动/害怕）；也可做名词=离合器。",
-    "screenshot": "/episodes/S01E01/images/scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture.png",
-    "frequency_rank": null
-  },
-  {
-    "id": "S01E01_015",
+    "id": "S01E01_012",
     "episode": "S01E01",
     "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
     "line_index": 163,
     "character": "Joey",
     "target_word": "outta here",
-    "ipa": "/ˈaʊtə hɪə/",
+    "ipa": "/ˈaʊɾə hɪr/",
     "pos": "contraction (out of here)",
     "level": "A2",
-    "vowel_category": "schwa",
+    "pronunciation_focus": "flap_t",
     "tags": [
       "连读",
       "口语缩写"
@@ -332,16 +266,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_016",
+    "id": "S01E01_013",
     "episode": "S01E01",
     "scene_id": "scene_003_ross_s_apartment_the_guys_are_there_assembling_furniture",
     "line_index": 169,
     "character": "Joey",
     "target_word": "got screwed",
-    "ipa": "/ɡɒt skruːd/",
+    "ipa": "/ɡɑt skrud/",
     "pos": "phrase 被坑惨了",
     "level": "B2",
-    "vowel_category": "long_u",
+    "pronunciation_focus": "vowel_ah",
     "tags": [
       "俚语",
       "情绪"
@@ -354,16 +288,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_017",
+    "id": "S01E01_014",
     "episode": "S01E01",
     "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
     "line_index": 172,
     "character": "Paul",
     "target_word": "caught on",
-    "ipa": "/kɔːt ɒn/",
+    "ipa": "/kɔt ɑn/",
     "pos": "phrasal verb 察觉、明白",
     "level": "B2",
-    "vowel_category": "r-controlled_vowel",
+    "pronunciation_focus": "vowel_ah",
     "tags": [
       "phrasal_verb"
     ],
@@ -375,16 +309,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_018",
+    "id": "S01E01_015",
     "episode": "S01E01",
     "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
     "line_index": 179,
     "character": "Paul",
     "target_word": "steer clear of you",
-    "ipa": "/stɪə klɪə əv juː/",
+    "ipa": "/stɪr klɪr əv ju/",
     "pos": "phrase 躲你远点儿",
     "level": "B2",
-    "vowel_category": "long_e",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "习语",
       "幽默"
@@ -397,16 +331,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_019",
+    "id": "S01E01_016",
     "episode": "S01E01",
     "scene_id": "scene_004_a_restaurant_monica_and_paul_are_eating",
     "line_index": 177,
     "character": "Monica",
     "target_word": "shredded",
-    "ipa": "/ˈʃredɪd/",
+    "ipa": "/ˈʃrɛdɪd/",
     "pos": "v. 撕成碎片",
     "level": "B2",
-    "vowel_category": "short_e",
+    "pronunciation_focus": "vowel_eh",
     "tags": [
       "动作",
       "CET6"
@@ -419,16 +353,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_020",
+    "id": "S01E01_017",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "cut me off",
-    "ipa": "/kʌt mi ɒf/",
+    "ipa": "/kʌt mi ɔf/",
     "pos": "phrasal verb 挂断我电话",
     "level": "B2",
-    "vowel_category": "short_u",
+    "pronunciation_focus": "vowel_uh",
     "tags": [
       "phrasal_verb",
       "通讯"
@@ -441,16 +375,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_021",
+    "id": "S01E01_018",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "ripped your heart out",
-    "ipa": "/rɪpt jɔː hɑːt aʊt/",
+    "ipa": "/rɪpt jʊr hɑrt aʊt/",
     "pos": "phrase 把你心都撕烂了",
     "level": "B2",
-    "vowel_category": "short_i",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "习语",
       "情绪"
@@ -463,16 +397,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_022",
+    "id": "S01E01_019",
     "episode": "S01E01",
     "scene_id": "scene_007_ross_s_apartment_they_re_all_sitting_around_and_talking",
     "line_index": 213,
     "character": "Ross",
     "target_word": "Grab a spoon",
-    "ipa": "/ɡræb ə spuːn/",
+    "ipa": "/ɡræb ə spun/",
     "pos": "phrase 拿起勺子=重新开始约会",
     "level": "B2",
-    "vowel_category": "short_a",
+    "pronunciation_focus": "vowel_ae",
     "tags": [
       "经典金句",
       "隐喻"
@@ -485,16 +419,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_023",
+    "id": "S01E01_020",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "flavors of ice cream",
-    "ipa": "/ˈfleɪvəz əv ˈaɪs kriːm/",
+    "ipa": "/ˈfleɪvɚz əv ˈaɪs krim/",
     "pos": "n. 比喻 不同类型的女生",
     "level": "B1",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "经典比喻"
     ],
@@ -506,16 +440,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_024",
+    "id": "S01E01_021",
     "episode": "S01E01",
     "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
     "line_index": 274,
     "character": "Frannie",
     "target_word": "a snap in his turtle",
-    "ipa": "/ə snæp ɪn hɪz ˈtɜːtl/",
+    "ipa": "/ə snæp ɪn hɪz ˈtɝɾəl/",
     "pos": "phrase （粗俗）他的小弟弟能重振雄风了",
     "level": "B2",
-    "vowel_category": "short_a",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "俚语",
       "Frannie梗"
@@ -528,16 +462,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_025",
+    "id": "S01E01_022",
     "episode": "S01E01",
     "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
     "line_index": 275,
     "character": "Joey",
     "target_word": "was a line",
-    "ipa": "/wɒz ə laɪn/",
+    "ipa": "/wʌz ə laɪn/",
     "pos": "phrase 是一句撩妹的套话",
     "level": "B2",
-    "vowel_category": "long_i",
+    "pronunciation_focus": "vowel_uh",
     "tags": [
       "俚语",
       "约会"
@@ -550,16 +484,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_026",
+    "id": "S01E01_023",
     "episode": "S01E01",
     "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
     "line_index": 280,
     "character": "Monica",
     "target_word": "beacon",
-    "ipa": "/ˈbiːkən/",
+    "ipa": "/ˈbikən/",
     "pos": "n. 信标、灯塔般的信号",
     "level": "C1",
-    "vowel_category": "long_e",
+    "pronunciation_focus": "long_e",
     "tags": [
       "CET6",
       "比喻"
@@ -572,16 +506,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_027",
+    "id": "S01E01_024",
     "episode": "S01E01",
     "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
     "line_index": 287,
     "character": "Rachel",
     "target_word": "trained for nothing",
-    "ipa": "/treɪnd fɔː ˈnʌθɪŋ/",
+    "ipa": "/treɪnd fɔr ˈnʌθɪŋ/",
     "pos": "phrase 什么技能都没学过",
     "level": "B1",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "Rachel名言"
     ],
@@ -593,16 +527,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_028",
+    "id": "S01E01_025",
     "episode": "S01E01",
     "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
     "line_index": 287,
     "character": "Rachel",
     "target_word": "laughed out of",
-    "ipa": "/lɑːft aʊt əv/",
+    "ipa": "/læft aʊt əv/",
     "pos": "phrase 被轰着笑出来=面试惨败",
     "level": "B2",
-    "vowel_category": "short_a",
+    "pronunciation_focus": "vowel_ae",
     "tags": [
       "习语"
     ],
@@ -614,16 +548,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_029",
+    "id": "S01E01_026",
     "episode": "S01E01",
     "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
     "line_index": 288,
     "character": "Chandler",
     "target_word": "upbeat",
-    "ipa": "/ˈʌpbiːt/",
+    "ipa": "/ˈʌpbit/",
     "pos": "adj. 乐观的、积极向上的",
     "level": "B2",
-    "vowel_category": "long_e",
+    "pronunciation_focus": "long_e",
     "tags": [
       "情绪",
       "CET6"
@@ -636,16 +570,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_030",
+    "id": "S01E01_027",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "Sweet 'n' Lo",
-    "ipa": "/swiːt ənd ləʊ/",
+    "ipa": "/swit ən loʊ/",
     "pos": "n. 甜蜜低卡糖（代糖品牌名）",
     "level": "B2",
-    "vowel_category": "long_e",
+    "pronunciation_focus": "o_diphthong",
     "tags": [
       "品牌",
       "生活"
@@ -658,7 +592,7 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_031",
+    "id": "S01E01_028",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
@@ -667,7 +601,7 @@
     "ipa": "/ˈkaɪndə ˈdrɪftɪd/",
     "pos": "phrase 有点疏远了",
     "level": "B1",
-    "vowel_category": "long_i",
+    "pronunciation_focus": "schwa",
     "tags": [
       "kinda句型"
     ],
@@ -679,16 +613,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_032",
+    "id": "S01E01_029",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 74,
     "character": "Rachel",
     "target_word": "figure out",
-    "ipa": "/ˈfɪɡər aʊt/",
+    "ipa": "/ˈfɪɡjɚ aʊt/",
     "pos": "phrasal verb 想明白、搞懂",
     "level": "B1",
-    "vowel_category": "short_i",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "phrasal_verb",
       "高频"
@@ -701,38 +635,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_033",
-    "episode": "S01E01",
-    "scene_id": "scene_001_central_perk",
-    "line_index": 25,
-    "character": "Ross",
-    "target_word": "mortified",
-    "ipa": "/ˈmɔːtɪfaɪd/",
-    "pos": "adj. 羞愧到想死、囧爆了",
-    "level": "C1",
-    "vowel_category": "r-controlled_vowel",
-    "tags": [
-      "情绪",
-      "CET6"
-    ],
-    "sentence_cloze": "Ross: (___) Hi.",
-    "sentence_full": "Ross: (mortified) Hi.",
-    "translation": "Ross（脸都丢尽了）：嗨……",
-    "cultural_note": "mort- 词根=死亡（mortal）→ mortify=羞愧得想死。Ross刚离婚，看到老友尴尬爆了。",
-    "screenshot": "/episodes/S01E01/images/scene_001_central_perk.png",
-    "frequency_rank": null
-  },
-  {
-    "id": "S01E01_034",
+    "id": "S01E01_030",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 36,
     "character": "Ross",
     "target_word": "cleansing my aura",
-    "ipa": "/ˈklenzɪŋ maɪ ˈɔːrə/",
+    "ipa": "/ˈklɛnzɪŋ maɪ ˈɔrə/",
     "pos": "phrase 净化我的气场",
     "level": "B2",
-    "vowel_category": "long_o",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "Phoebe梗",
       "神秘学"
@@ -745,16 +657,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_035",
+    "id": "S01E01_031",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 37,
     "character": "Phoebe",
     "target_word": "Be murky!",
-    "ipa": "/biː ˈmɜːki/",
+    "ipa": "/bi ˈmɝki/",
     "pos": "phrase 那就浑浊你的吧！",
     "level": "B2",
-    "vowel_category": "r-controlled_vowel",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "Phoebe名言"
     ],
@@ -766,16 +678,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_036",
+    "id": "S01E01_032",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 40,
     "character": "Ross",
     "target_word": "to hell with her",
-    "ipa": "/tuː hel wɪð hɜː/",
+    "ipa": "/tu hɛl wɪð hɚ/",
     "pos": "phrase 让她去死吧/管她呢",
     "level": "B1",
-    "vowel_category": "short_e",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "情绪",
       "发泄"
@@ -788,16 +700,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_037",
+    "id": "S01E01_033",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "keep fixating on that",
-    "ipa": "/kiːp fɪkˈseɪtɪŋ ɒn ðæt/",
+    "ipa": "/kip fɪkˈseɪɾɪŋ ɑn ðæt/",
     "pos": "phrase 老纠结这事",
     "level": "B2",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "flap_t",
     "tags": [
       "心理",
       "CET6"
@@ -810,16 +722,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_038",
+    "id": "S01E01_034",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "take it pretty well",
-    "ipa": "/teɪk ɪt ˈprɪti wel/",
+    "ipa": "/teɪk ɪt ˈprɪɾi wɛl/",
     "pos": "phrase 接受得挺坦然、挺想得开",
     "level": "B1",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "flap_t",
     "tags": [
       "情绪",
       "高频词组"
@@ -832,16 +744,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_039",
+    "id": "S01E01_035",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 45,
     "character": "Monica",
     "target_word": "hysterical",
-    "ipa": "/hɪˈsterɪkl/",
+    "ipa": "/hɪˈstɛrɪkəl/",
     "pos": "adj. 歇斯底里的；极搞笑的",
     "level": "B2",
-    "vowel_category": "short_i",
+    "pronunciation_focus": "vowel_eh",
     "tags": [
       "情绪",
       "多义词"
@@ -854,16 +766,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_040",
+    "id": "S01E01_036",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 51,
     "character": "Joey",
     "target_word": "have some hormones",
-    "ipa": "/hæv səm ˈhɔːməʊnz/",
+    "ipa": "/hæv sʌm ˈhɔrmoʊnz/",
     "pos": "phrase 男人一点、拿出性欲来",
     "level": "B2",
-    "vowel_category": "r-controlled_vowel",
+    "pronunciation_focus": "o_diphthong",
     "tags": [
       "Joey梗",
       "幽默"
@@ -876,16 +788,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_041",
+    "id": "S01E01_037",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "a wrong number",
-    "ipa": "/ə rɒŋ ˈnʌmbə/",
+    "ipa": "/ə rɔŋ ˈnʌmbɚ/",
     "pos": "n. 打错的电话",
     "level": "A2",
-    "vowel_category": "short_o",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "基础高频"
     ],
@@ -897,16 +809,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_042",
+    "id": "S01E01_038",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "survivor",
-    "ipa": "/səˈvaɪvə/",
+    "ipa": "/sɚˈvaɪvɚ/",
     "pos": "n. 幸存者",
     "level": "B2",
-    "vowel_category": "long_i",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "CET4",
       "比喻"
@@ -919,16 +831,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_043",
+    "id": "S01E01_039",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 63,
     "character": "Monica",
     "target_word": "four wet bridesmaids",
-    "ipa": "/fɔː wet ˈbraɪdzmeɪdz/",
+    "ipa": "/fɔr wɛt ˈbraɪdzmeɪdz/",
     "pos": "n. phrase 四个浑身湿透的伴娘",
     "level": "B1",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "Monica梗",
       "幽默"
@@ -941,16 +853,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_044",
+    "id": "S01E01_040",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 58,
     "character": "Monica",
     "target_word": "de-caff",
-    "ipa": "/diː kæf/",
+    "ipa": "/di ˈkæf/",
     "pos": "n. 无咖啡因咖啡（decaf缩写）",
     "level": "B2",
-    "vowel_category": "short_a",
+    "pronunciation_focus": "vowel_ae",
     "tags": [
       "生活词汇",
       "咖啡"
@@ -963,16 +875,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_045",
+    "id": "S01E01_041",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "wondering",
-    "ipa": "/ˈwʌndərɪŋ/",
+    "ipa": "/ˈwʌndɚɪŋ/",
     "pos": "v. 在琢磨、在纳闷",
     "level": "A2",
-    "vowel_category": "schwa",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "A2高频"
     ],
@@ -984,16 +896,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_046",
+    "id": "S01E01_042",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 75,
     "character": "Monica",
     "target_word": "a big pipe organ",
-    "ipa": "/ə bɪɡ paɪp ˈɔːɡən/",
+    "ipa": "/ə bɪɡ paɪp ˈɔrɡən/",
     "pos": "n. phrase 大型管风琴",
     "level": "B2",
-    "vowel_category": "long_i",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "Monica肥皂剧梗"
     ],
@@ -1005,16 +917,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_047",
+    "id": "S01E01_043",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 225,
     "character": "Joey",
     "target_word": "on a roll",
-    "ipa": "/ɒn ə rəʊl/",
+    "ipa": "/ɑn ə roʊl/",
     "pos": "phrase 手气正顺、势如破竹",
     "level": "B2",
-    "vowel_category": "long_o",
+    "pronunciation_focus": "o_diphthong",
     "tags": [
       "习语",
       "高频"
@@ -1027,16 +939,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_048",
+    "id": "S01E01_044",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 225,
     "character": "Joey",
     "target_word": "Western omelet",
-    "ipa": "/ˈwestən ˈɒməlɪt/",
+    "ipa": "/ˈwɛstɚn ˈɑmlət/",
     "pos": "n. 西式洋葱火腿蛋卷",
     "level": "B2",
-    "vowel_category": "short_e",
+    "pronunciation_focus": "vowel_ah",
     "tags": [
       "生活词汇",
       "食物"
@@ -1049,16 +961,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_049",
+    "id": "S01E01_045",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 235,
     "character": "Paul",
     "target_word": "the barn raising scene in Witness",
-    "ipa": "/ðə bɑːn ˈreɪzɪŋ siːn ɪn ˈwɪtnəs/",
+    "ipa": "/ðə bɑrn ˈreɪzɪŋ sin ɪn ˈwɪtnəs/",
     "pos": "phrase 《目击者》里集体建谷仓的经典温馨场面",
     "level": "C1",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "电影梗",
       "Paul的夸张比喻"
@@ -1071,16 +983,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_050",
+    "id": "S01E01_046",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 241,
     "character": "Chandler",
     "target_word": "input those numbers",
-    "ipa": "/ˈɪnpʊt ðəʊz ˈnʌmbəz/",
+    "ipa": "/ˈɪnpʊt ðoʊz ˈnʌmbɚz/",
     "pos": "phrase 把那些数字输进去",
     "level": "B1",
-    "vowel_category": "short_u",
+    "pronunciation_focus": "o_diphthong",
     "tags": [
       "Chandler冷笑话"
     ],
@@ -1092,16 +1004,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_051",
+    "id": "S01E01_047",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 246,
     "character": "Joey",
     "target_word": "regional work",
-    "ipa": "/ˈriːdʒənəl wɜːk/",
+    "ipa": "/ˈridʒənəl wɝk/",
     "pos": "n. phrase 地方剧场演出（非百老汇）",
     "level": "B2",
-    "vowel_category": "long_e",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "Joey演员"
     ],
@@ -1113,16 +1025,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_052",
+    "id": "S01E01_048",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 249,
     "character": "Chandler",
     "target_word": "a real live boy",
-    "ipa": "/ə rɪəl laɪv bɔɪ/",
+    "ipa": "/ə ˈriəl laɪv bɔɪ/",
     "pos": "phrase 一个真真正正的小男孩（匹诺曹梗）",
     "level": "B2",
-    "vowel_category": "long_i",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "文化梗",
       "匹诺曹"
@@ -1135,16 +1047,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_053",
+    "id": "S01E01_049",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 253,
     "character": "Monica",
     "target_word": "stop smiling",
-    "ipa": "/stɒp ˈsmaɪlɪŋ/",
+    "ipa": "/stɑp ˈsmaɪlɪŋ/",
     "pos": "phrase 别老傻笑了",
     "level": "A1",
-    "vowel_category": "long_i",
+    "pronunciation_focus": "vowel_ah",
     "tags": [
       "高频词组"
     ],
@@ -1156,16 +1068,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_054",
+    "id": "S01E01_050",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 254,
     "character": "Rachel",
     "target_word": "a hanger in your mouth",
-    "ipa": "/ə ˈhæŋər ɪn jɔː maʊθ/",
+    "ipa": "/ə ˈhæŋɚ ɪn jʊr maʊθ/",
     "pos": "phrase 嘴里含了个衣架（形容咧嘴笑到僵）",
     "level": "B2",
-    "vowel_category": "short_a",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "Rachel比喻"
     ],
@@ -1177,16 +1089,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_055",
+    "id": "S01E01_051",
     "episode": "S01E01",
     "scene_id": "scene_001_central_perk",
     "line_index": 0,
     "character": "Chandler",
     "target_word": "a little ahead of ourselves",
-    "ipa": "/ə ˈlɪtl əˈhed əv aʊəˈselvz/",
+    "ipa": "/ə ˈlɪɾəl əˈhɛd əv aʊrˈsɛlvz/",
     "pos": "phrase 步子迈太大、想太远了",
     "level": "B2",
-    "vowel_category": "schwa",
+    "pronunciation_focus": "flap_t",
     "tags": [
       "习语",
       "高频"
@@ -1199,7 +1111,7 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_056",
+    "id": "S01E01_052",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 262,
@@ -1208,7 +1120,7 @@
     "ipa": "/wɪʃ mi lʌk/",
     "pos": "phrase 祝我好运",
     "level": "A2",
-    "vowel_category": "short_u",
+    "pronunciation_focus": "vowel_uh",
     "tags": [
       "高频"
     ],
@@ -1220,16 +1132,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_057",
+    "id": "S01E01_053",
     "episode": "S01E01",
     "scene_id": "scene_008_monica_s_apartment_rachel_is_making_coffee_for_joey_and_chandler",
     "line_index": 264,
     "character": "Rachel",
     "target_word": "job things",
-    "ipa": "/dʒɒb θɪŋz/",
+    "ipa": "/dʒɑb θɪŋz/",
     "pos": "n. 那种叫「工作」的玩意儿",
     "level": "A1",
-    "vowel_category": "short_o",
+    "pronunciation_focus": "vowel_ah",
     "tags": [
       "Rachel金句"
     ],
@@ -1241,16 +1153,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_058",
+    "id": "S01E01_054",
     "episode": "S01E01",
     "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
     "line_index": 270,
     "character": "Frannie",
     "target_word": "push my Aunt Roz through Parrot Jungle",
-    "ipa": "/pʊʃ maɪ ɑːnt rɒz θruː ˈpærət ˈdʒʌŋɡl/",
+    "ipa": "/pʊʃ maɪ ænt rɑz θru ˈpærət ˈdʒʌŋɡəl/",
     "pos": "phrase 推着轮椅上的Roz阿姨逛鹦鹉丛林乐园",
     "level": "B2",
-    "vowel_category": "short_u",
+    "pronunciation_focus": "vowel_ae",
     "tags": [
       "Florida梗",
       "Frannie"
@@ -1263,16 +1175,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_059",
+    "id": "S01E01_055",
     "episode": "S01E01",
     "scene_id": "scene_009_iridium_monica_is_working_as_frannie_enters",
     "line_index": 274,
     "character": "Frannie",
     "target_word": "take credit for Paul",
-    "ipa": "/teɪk ˈkredɪt fɔː pɔːl/",
+    "ipa": "/teɪk ˈkrɛdɪt fɔr pɔl/",
     "pos": "phrase 把Paul的改变归功于我",
     "level": "B2",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "高频词组"
     ],
@@ -1284,16 +1196,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_060",
+    "id": "S01E01_056",
     "episode": "S01E01",
     "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
     "line_index": 280,
     "character": "Monica",
     "target_word": "severe emotional problems",
-    "ipa": "/sɪˈvɪə ɪˈməʊʃənəl ˈprɒbləmz/",
+    "ipa": "/səˈvɪr ɪˈmoʊʃənəl ˈprɑbləmz/",
     "pos": "phrase 严重的情感问题",
     "level": "B2",
-    "vowel_category": "long_e",
+    "pronunciation_focus": "o_diphthong",
     "tags": [
       "Monica自嘲"
     ],
@@ -1305,59 +1217,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_061",
-    "episode": "S01E01",
-    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
-    "line_index": 283,
-    "character": "Joey",
-    "target_word": "bursts out laughing",
-    "ipa": "/bɜːsts aʊt ˈlɑːfɪŋ/",
-    "pos": "phrase 突然放声大笑",
-    "level": "B2",
-    "vowel_category": "r-controlled_vowel",
-    "tags": [
-      "动作"
-    ],
-    "sentence_cloze": "Joey (___ again) I can't believe you didn't know!",
-    "sentence_full": "Joey (bursts out laughing again) I can't believe you didn't know!",
-    "translation": "Joey（又爆笑出来）：你居然没听出来那是套话！",
-    "cultural_note": "burst out doing = 突然开始做某事（笑、哭）；burst into tears/laughter=突然哭/笑。",
-    "screenshot": "/episodes/S01E01/images/scene_010_central_perk_everyone_but_rachel_is_there.png",
-    "frequency_rank": null
-  },
-  {
-    "id": "S01E01_062",
-    "episode": "S01E01",
-    "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
-    "line_index": 281,
-    "character": "Phoebe",
-    "target_word": "massaging",
-    "ipa": "/ˈmæsɑːʒɪŋ/",
-    "pos": "v. 按摩",
-    "level": "B2",
-    "vowel_category": "short_a",
-    "tags": [
-      "Phoebe技能",
-      "CET4"
-    ],
-    "sentence_cloze": "All right, c'mere, gimme your feet. (She starts ___ them.)",
-    "sentence_full": "All right, c'mere, gimme your feet. (She starts massaging them.)",
-    "translation": "好了好了过来，把脚给我。（她开始帮Monica按摩脚）",
-    "cultural_note": "massage n./v.按摩；Phoebe的职业就是masseuse（女按摩师）。",
-    "screenshot": "/episodes/S01E01/images/scene_010_central_perk_everyone_but_rachel_is_there.png",
-    "frequency_rank": null
-  },
-  {
-    "id": "S01E01_063",
+    "id": "S01E01_057",
     "episode": "S01E01",
     "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
     "line_index": 289,
     "character": "Rachel",
     "target_word": "on sale",
-    "ipa": "/ɒn seɪl/",
+    "ipa": "/ɑn seɪl/",
     "pos": "phrase 打折出售中",
     "level": "A2",
-    "vowel_category": "long_a",
+    "pronunciation_focus": "o_diphthong",
     "tags": [
       "购物高频"
     ],
@@ -1369,16 +1238,16 @@
     "frequency_rank": null
   },
   {
-    "id": "S01E01_064",
+    "id": "S01E01_058",
     "episode": "S01E01",
     "scene_id": "scene_010_central_perk_everyone_but_rachel_is_there",
     "line_index": 289,
     "character": "Rachel",
     "target_word": "fifty percent off",
-    "ipa": "/ˈfɪfti pəˈsent ɒf/",
+    "ipa": "/ˈfɪfti pɚˈsɛnt ɔf/",
     "pos": "phrase 打五折",
     "level": "A2",
-    "vowel_category": "long_i",
+    "pronunciation_focus": "r_colored",
     "tags": [
       "购物数字"
     ],

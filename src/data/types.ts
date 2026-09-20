@@ -1,3 +1,32 @@
+export type PronunciationFocus =
+  | 'flap_t'
+  | 'vowel_uh'
+  | 'y_glide'
+  | 'vowel_ih'
+  | 'r_colored'
+  | 'o_diphthong'
+  | 'long_e'
+  | 'weak_forms'
+  | 'vowel_ah'
+  | 'vowel_ae'
+  | 'vowel_eh'
+  | 'schwa'
+
+export const PRONUNCIATION_FOCUS_LABELS: Record<PronunciationFocus, string> = {
+  flap_t: '闪音 /ɾ/',
+  vowel_uh: '短元音 /ʌ/',
+  y_glide: '滑音 /j/',
+  vowel_ih: '短元音 /ɪ/',
+  r_colored: '卷舌元音 /ɚ, ɝ/',
+  o_diphthong: '双元音 /oʊ/',
+  long_e: '长元音 /i/',
+  weak_forms: '弱读与连读',
+  vowel_ah: '短元音 /ɑ/',
+  vowel_ae: '短元音 /æ/',
+  vowel_eh: '短元音 /ɛ/',
+  schwa: '弱读 /ə/',
+}
+
 export interface Flashcard {
   id: string
   episode: string
@@ -8,7 +37,7 @@ export interface Flashcard {
   ipa: string
   pos: string
   level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2'
-  vowel_category: string
+  pronunciation_focus: PronunciationFocus
   tags: string[]
   sentence_cloze: string
   sentence_full: string

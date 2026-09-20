@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { PRONUNCIATION_FOCUS_LABELS } from '../data/types'
 import type { Flashcard } from '../data/types'
 import { useStore } from '../utils/store'
 
@@ -104,8 +105,11 @@ export default function FlashcardView({
           <span className={`px-2.5 py-0.5 rounded-full text-xs font-semibold ${LEVEL_COLORS[card.level]}`}>
             {card.level}
           </span>
-          <span className="px-2.5 py-0.5 rounded-full bg-white/70 border border-friends-coffee/30 text-xs font-medium">
-            {card.vowel_category}
+          <span
+            title={`发音重点：${PRONUNCIATION_FOCUS_LABELS[card.pronunciation_focus]}`}
+            className="px-2.5 py-0.5 rounded-full bg-white/70 border border-friends-coffee/30 text-xs font-medium"
+          >
+            {PRONUNCIATION_FOCUS_LABELS[card.pronunciation_focus]}
           </span>
         </div>
       </div>
@@ -187,8 +191,11 @@ export default function FlashcardView({
                   <div className="font-hand text-5xl sm:text-6xl text-friends-sofa leading-none">
                     {card.target_word}
                   </div>
-                  <div className="mt-2 text-lg text-friends-coffee font-medium">
-                    {card.ipa}
+                  <div className="mt-2 flex items-center gap-2 text-lg text-friends-coffee font-medium">
+                    <span>{card.ipa}</span>
+                    <span className="rounded bg-friends-perk/15 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-friends-perk">
+                      GenAm
+                    </span>
                   </div>
                   <div className="mt-1 text-sm text-friends-coffee/80">{card.pos}</div>
                 </div>
