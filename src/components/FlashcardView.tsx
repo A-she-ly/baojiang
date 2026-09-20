@@ -26,6 +26,9 @@ const CHAR_AVATAR: Record<string, string> = {
 
 interface Props {
   card: Flashcard
+  canGoNext: boolean
+  canGoPrev: boolean
+  onComplete: () => void
   onRate: (rating: 'again' | 'hard' | 'good' | 'easy') => void
   onNext: () => void
   onPrev: () => void
@@ -40,7 +43,16 @@ function renderCloze(sentence: string) {
   )
 }
 
-export default function FlashcardView({ card, onRate, onNext, onPrev, progress }: Props) {
+export default function FlashcardView({
+  card,
+  canGoNext,
+  canGoPrev,
+  onComplete,
+  onRate,
+  onNext,
+  onPrev,
+  progress,
+}: Props) {
   const [flipped, setFlipped] = useState(false)
   const favorites = useStore((s) => s.favorites)
   const toggleFavorite = useStore((s) => s.toggleFavorite)
@@ -61,7 +73,8 @@ export default function FlashcardView({ card, onRate, onNext, onPrev, progress }
   function handleRate(r: 'again' | 'hard' | 'good' | 'easy') {
     onRate(r)
     setFlipped(false)
-    onNext()
+    if (canGoNext) onNext()
+    else onComplete()
   }
 
   return (
@@ -70,8 +83,9 @@ export default function FlashcardView({ card, onRate, onNext, onPrev, progress }
       <div className="flex items-center justify-between mb-4 text-sm text-friends-sofa/80">
         <div className="flex items-center gap-2">
           <button
+            disabled={!canGoPrev}
             onClick={onPrev}
-            className="px-3 py-1 rounded-full bg-white/60 hover:bg-white border border-friends-coffee/30 transition"
+            className="px-3 py-1 rounded-full bg-white/60 hover:bg-white border border-friends-coffee/30 transition disabled:opacity-40 disabled:hover:bg-white/60"
           >
             ← 上一张
           </button>
@@ -79,8 +93,9 @@ export default function FlashcardView({ card, onRate, onNext, onPrev, progress }
             {progress.current} / {progress.total}
           </span>
           <button
+            disabled={!canGoNext}
             onClick={onNext}
-            className="px-3 py-1 rounded-full bg-white/60 hover:bg-white border border-friends-coffee/30 transition"
+            className="px-3 py-1 rounded-full bg-white/60 hover:bg-white border border-friends-coffee/30 transition disabled:opacity-40 disabled:hover:bg-white/60"
           >
             下一张 →
           </button>

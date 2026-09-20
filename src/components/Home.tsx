@@ -70,6 +70,18 @@ export default function Home({ cards, metadata, onStart }: Props) {
     })
   }, [cards, selectedFilter, selectedValue])
 
+  const recommendedCards = useMemo(() => {
+    const now = Date.now()
+    return filteredCards
+      .filter((card) => !srs[card.id] || srs[card.id].dueAt <= now)
+      .sort((a, b) => {
+        const aState = srs[a.id]
+        const bState = srs[b.id]
+        if (Boolean(aState) !== Boolean(bState)) return aState ? -1 : 1
+        return (aState?.dueAt ?? 0) - (bState?.dueAt ?? 0)
+      })
+  }, [filteredCards, srs])
+
   const stats = useMemo(() => {
     const due = cards.filter((c) => !srs[c.id] || srs[c.id].dueAt <= Date.now()).length
     const learned = cards.filter((c) => srs[c.id]?.status === 'review').length
@@ -100,10 +112,9 @@ export default function Home({ cards, metadata, onStart }: Props) {
     return []
   }
 
-  function startSession() {
-    const ids = filteredCards.map((c) => c.id)
-    if (ids.length === 0) return
-    onStart(ids)
+  function startSession(sessionCards: Flashcard[]) {
+    if (sessionCards.length === 0) return
+    onStart(sessionCards.map((card) => card.id))
   }
 
   const tabItems: { key: FilterKey; label: string; icon: string }[] = [
@@ -217,20 +228,32 @@ export default function Home({ cards, metadata, onStart }: Props) {
 
           <div className="mt-5 flex items-center justify-between gap-4 flex-wrap">
             <div className="text-sm text-friends-coffee/90">
-              当前筛选：<span className="font-semibold text-friends-sofa">{filteredCards.length}</span> 张闪卡
-              {selectedFilter !== 'all' && selectedValue && (
-                <span className="ml-2 text-friends-perk font-medium">
-                  → {tabItems.find((t) => t.key === selectedFilter)?.label}: {selectedValue}
-                </span>
-              )}
+              <div>
+                当前筛选：<span className="font-semibold text-friends-sofa">{filteredCards.length}</span> 张闪卡
+                {selectedFilter !== 'all' && selectedValue && (
+                  <span className="ml-2 text-friends-perk font-medium">
+                    → {tabItems.find((t) => t.key === selectedFilter)?.label}: {selectedValue}
+                  </span>
+                )}
+              </div>
+              <div className="mt-1 text-xs text-friends-coffee/70">
+                可练习 {recommendedCards.length} 张，到期复习会优先安排
+              </div>
             </div>
-            <div className="flex gap-3">
+            <div className="flex flex-wrap gap-2">
+              <button
+                disabled={recommendedCards.length === 0}
+                onClick={() => startSession(recommendedCards.slice(0, 10))}
+                className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-friends-perk to-emerald-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-40 disabled:pointer-events-none disabled:hover:scale-100"
+              >
+                🚀 开始本轮 ({Math.min(10, recommendedCards.length)})
+              </button>
               <button
                 disabled={filteredCards.length === 0}
-                onClick={startSession}
-                className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-friends-perk to-emerald-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-40 disabled:pointer-events-none disabled:hover:scale-100"
+                onClick={() => startSession(filteredCards)}
+                className="px-4 py-2.5 rounded-xl bg-friends-paper text-friends-sofa font-semibold border border-friends-coffee/25 hover:bg-friends-accent/30 transition-all disabled:opacity-40 disabled:pointer-events-none"
               >
-                🚀 开始学习 ({filteredCards.length})
+                全部学习
               </button>
             </div>
           </div>

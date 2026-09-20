@@ -33,10 +33,12 @@ export default function App() {
   }, [view, allCards])
 
   const [queueIndex, setQueueIndex] = useState(0)
+  const [sessionCompleted, setSessionCompleted] = useState(false)
 
   useEffect(() => {
     setQueueIndex(0)
-  }, [view.name])
+    setSessionCompleted(false)
+  }, [view])
 
   if (!ready) {
     return (
@@ -76,7 +78,10 @@ export default function App() {
         <FlashcardView
           key={current.id}
           card={current}
+          canGoNext={queueIndex < queueCards.length - 1}
+          canGoPrev={queueIndex > 0}
           progress={{ current: queueIndex + 1, total: queueCards.length }}
+          onComplete={() => setSessionCompleted(true)}
           onRate={(r) => rateCard(current.id, r)}
           onNext={() => {
             setQueueIndex((i) => Math.min(queueCards.length - 1, i + 1))
@@ -89,7 +94,7 @@ export default function App() {
         <div className="text-center py-20 text-friends-coffee">空的 🫥</div>
       )}
 
-      {queueIndex === queueCards.length - 1 && (
+      {sessionCompleted && (
         <div className="max-w-2xl mx-auto mb-10 px-4">
           <div className="bg-gradient-to-r from-friends-perk/15 to-friends-accent/25 border border-friends-perk/30 rounded-2xl p-5 text-center">
             <div className="font-hand text-3xl text-friends-sofa">🎉 本轮完成！</div>
