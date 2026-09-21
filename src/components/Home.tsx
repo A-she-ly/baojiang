@@ -299,7 +299,10 @@ export default function Home({ cards, metadata, onStart }: Props) {
                   {c.level}
                 </span>
               </div>
-              <div className="text-xs text-friends-coffee mb-2">GenAm {c.ipa} · {c.pos}</div>
+              <div className="text-xs text-friends-coffee mb-1">GenAm {c.ipa} · {c.pos}</div>
+              {c.translation && (
+                <div className="text-xs text-friends-perk font-medium mb-2">{c.translation}</div>
+              )}
               <div className="mb-2 inline-flex w-fit rounded-full border border-friends-perk/25 bg-friends-perk/10 px-2 py-0.5 text-xs font-medium text-friends-perk">
                 🗣️ {PRONUNCIATION_FOCUS_LABELS[c.pronunciation_focus]}
               </div>

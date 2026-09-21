@@ -19,7 +19,7 @@ export const PRONUNCIATION_FOCUS_LABELS: Record<PronunciationFocus, string> = {
   vowel_ih: '短元音 /ɪ/',
   r_colored: '卷舌元音 /ɚ, ɝ/',
   o_diphthong: '双元音 /oʊ/',
-  long_e: '长元音 /i/',
+  long_e: '长元音 /iː/',
   weak_forms: '弱读与连读',
   vowel_ah: '短元音 /ɑ/',
   vowel_ae: '短元音 /æ/',
@@ -41,10 +41,16 @@ export interface Flashcard {
   tags: string[]
   sentence_cloze: string
   sentence_full: string
-  translation: string
+  translation: string  // 目标词中文释义
+  sentence_translation?: string  // 整句台词中文翻译
   cultural_note: string
   screenshot: string
   frequency_rank: number | null
+  is_example_sentence?: boolean // true = 示例句，非台词
+  context_prev?: string | null  // 前一句台词（用于台词卡）
+  context_prev_cn?: string | null  // 前一句台词中文翻译
+  context_next?: string | null  // 后一句台词（用于台词卡）
+  context_next_cn?: string | null  // 后一句台词中文翻译
 }
 
 export interface EpisodeMetadata {
