@@ -1,4 +1,5 @@
 export type PronunciationFocus =
+  // English
   | 'flap_t'
   | 'vowel_uh'
   | 'y_glide'
@@ -11,8 +12,24 @@ export type PronunciationFocus =
   | 'vowel_ae'
   | 'vowel_eh'
   | 'schwa'
+  // Spanish
+  | 'rolled_r'
+  | 'tapped_r'
+  | 'ny_sound'
+  | 'll_y'
+  | 'vowel_a'
+  | 'vowel_e'
+  | 'vowel_i'
+  | 'vowel_o'
+  | 'vowel_u'
+  | 'diphthong'
+  | 'silent_h'
+  | 'c_z_distinction'
+  | 'j_sound'
+  | 'gl_gu'
 
 export const PRONUNCIATION_FOCUS_LABELS: Record<PronunciationFocus, string> = {
+  // English
   flap_t: '闪音 /ɾ/',
   vowel_uh: '短元音 /ʌ/',
   y_glide: '滑音 /j/',
@@ -25,6 +42,21 @@ export const PRONUNCIATION_FOCUS_LABELS: Record<PronunciationFocus, string> = {
   vowel_ae: '短元音 /æ/',
   vowel_eh: '短元音 /ɛ/',
   schwa: '弱读 /ə/',
+  // Spanish
+  rolled_r: '颤音 /r/ (rr, r词首)',
+  tapped_r: '弹音 /ɾ/ (r元音间)',
+  ny_sound: '鼻音 /ɲ/ (ñ)',
+  ll_y: '腭边音 /ʎ/ 或 // (ll/y)',
+  vowel_a: '元音 /a/',
+  vowel_e: '元音 /e/',
+  vowel_i: '元音 /i/',
+  vowel_o: '元音 /o/',
+  vowel_u: '元音 /u/',
+  diphthong: '双元音 (ie, ue, ui…)',
+  silent_h: '不发音的 H',
+  c_z_distinction: 'c/z 发音 /θ/ (西班牙) 或 /s/ (拉美)',
+  j_sound: '喉音 /x/ (j, g+e/i)',
+  gl_gu: 'g 发音 /g/ /ɣ/ (g+元音)',
 }
 
 export interface Flashcard {

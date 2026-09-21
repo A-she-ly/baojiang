@@ -1,0 +1,130 @@
+{
+  "app": {
+    "name": { "main": "BaoJiang English", "zh": "包浆英语" },
+    "subtitle": { "main": "Domina idiomas a través de tus series favoritas", "zh": "跟着你爱看的美剧学语言" },
+    "loading": { "main": "Preparando café, cargando tarjetas…", "zh": "泡杯咖啡，卡片加载中…" },
+    "footer": { "main": "Hecho con ☕ en Central Perk · BaoJiang English", "zh": "在 Central Perk 用 ☕ 制作 · 包浆英语" }
+  },
+  "nav": {
+    "backHome": { "main": "← Volver al inicio", "zh": "← 返回首页" },
+    "home": { "main": "Volver al inicio", "zh": "返回首页" },
+    "changeShow": { "main": "Cambiar serie", "zh": "换一部剧" }
+  },
+  "show": {
+    "title": { "main": "Elige tu serie", "zh": "选择你要学的剧" },
+    "subtitle": { "main": "Selecciona una serie para empezar a aprender", "zh": "选一部剧，开始边看边学" },
+    "episodes": { "main": "Episodios", "zh": "集" },
+    "comingSoon": { "main": "Próximamente", "zh": "即将上线" },
+    "comingSoonDesc": { "main": "Las tarjetas de esta serie están en preparación. ¡Mantente atento!", "zh": "这部剧的闪卡正在制作中，敬请期待！" },
+    "selectEpisode": { "main": "Selecciona un episodio para comenzar", "zh": "选择一集开始学习" },
+    "availableEpisodes": { "main": "{{count}} episodio(s) disponible(s)", "zh": "共 {{count}} 集" },
+    "language": { "main": "Idioma", "zh": "语言" },
+    "english": { "main": "Inglés", "zh": "英语" },
+    "spanish": { "main": "Español", "zh": "西班牙语" }
+  },
+  "shows": {
+    "friends": {
+      "name": { "main": "Friends", "zh": "老友记" },
+      "description": { "main": "Aprende inglés cotidiano con la icónica sitcom sobre seis amigos que navegan la vida y el amor en Nueva York.", "zh": "通过这部经典情景喜剧，跟着六位好友在纽约的生活与爱情学地道日常英语。" }
+    },
+    "modern-family": {
+      "name": { "main": "Modern Family", "zh": "摩登家庭" },
+      "description": { "main": "Domina el inglés contemporáneo con las historias humorísticas de tres familias diversas pero interconectadas.", "zh": "在三个风格迥异却又紧密相连的家庭的幽默故事中，掌握当代实用英语。" }
+    },
+    "transformers": {
+      "name": { "main": "Transformers", "zh": "变形金刚" },
+      "description": { "main": "Explora vocabulario de acción y inglés cinematográfico a través de la saga legendaria de ciencia ficción.", "zh": "在传奇科幻史诗中，学习动作场景词汇和电影级英语表达。" }
+    },
+    "la-casa-de-papel": {
+      "name": { "main": "La Casa de Papel", "zh": "纸钞屋（银行大劫案）" },
+      "description": { "main": "Aprende español con la emocionante historia del Profesor y su equipo en sus ambiciosos atracos.", "zh": "跟随教授团队的惊天劫案，在紧张刺激中习得地道西班牙语。" }
+    },
+    "7-vidas": {
+      "name": { "main": "7 Vidas", "zh": "七条命" },
+      "description": { "main": "Recoge español coloquial con el humor cotidiano e ingenioso de esta sitcom clásica española.", "zh": "在这部经典西班牙情景喜剧的机智日常中，轻松掌握口语化西班牙语。" }
+    }
+  },
+  "home": {
+    "episode": { "main": "Episodio", "zh": "集" },
+    "totalCards": { "main": "Total tarjetas", "zh": "总闪卡" },
+    "toLearn": { "main": "Por aprender", "zh": "待学习" },
+    "learning": { "main": "Aprendiendo", "zh": "学习中" },
+    "mastered": { "main": "Dominado", "zh": "已掌握" },
+    "favorites": { "main": "Frases favoritas", "zh": "收藏金句" },
+    "filterTitle": { "main": "Elige dimensión del filtro", "zh": "选择闪卡分类维度" },
+    "filterDesc": { "main": "La fonética usa notación General American (GenAm); cada tarjeta destaca un punto clave de audición o pronunciación.", "zh": "音标采用美式英语（GenAm）标注，每张卡突出一个听辨或发音重点。" },
+    "filterAll": { "main": "Todo", "zh": "全部" },
+    "filterPos": { "main": "Categoría gramatical", "zh": "词性" },
+    "filterPronunciation": { "main": "Pronunciación", "zh": "发音重点" },
+    "filterCharacter": { "main": "Personaje", "zh": "角色" },
+    "filterScene": { "main": "Escena", "zh": "场景" },
+    "filterLevel": { "main": "Nivel", "zh": "难度" },
+    "filterTags": { "main": "Etiquetas", "zh": "主题标签" },
+    "currentFilter": { "main": "Filtro actual: ", "zh": "当前筛选：" },
+    "cardsCount": { "main": "{{count}} tarjetas", "zh": "{{count}} 张闪卡" },
+    "practiceCount": { "main": "{{count}} tarjetas listas para practicar, las revisiones vencidas tienen prioridad", "zh": "可练习 {{count}} 张，到期复习会优先安排" },
+    "startSession": { "main": "🚀 Iniciar sesión ({{count}})", "zh": " 开始本轮 ({{count}})" },
+    "studyAll": { "main": "Estudiar todo", "zh": "全部学习" },
+    "previewTitle": { "main": "Vista previa (primeras 12)", "zh": "闪卡预览（前 12 张）" }
+  },
+  "pos": {
+    "n": { "main": "Sustantivo", "zh": "名词" },
+    "v": { "main": "Verbo", "zh": "动词" },
+    "adj": { "main": "Adjetivo", "zh": "形容词" },
+    "adv": { "main": "Adverbio", "zh": "副词" },
+    "phrase": { "main": "Frase", "zh": "短语" },
+    "phrasal": { "main": "Verbo frasal", "zh": "动词短语" },
+    "contraction": { "main": "Contracción", "zh": "缩读" }
+  },
+  "pronunciation": {
+    "flap_t": { "main": "Flap /ɾ/", "zh": "闪音 /ɾ/" },
+    "vowel_uh": { "main": "Vocal corta /ʌ/", "zh": "短元音 /ʌ/" },
+    "y_glide": { "main": "Glide /j/", "zh": "滑音 /j/" },
+    "vowel_ih": { "main": "Vocal corta /ɪ/", "zh": "短元音 /ɪ/" },
+    "r_colored": { "main": "R-colored /ɚ, ɝ/", "zh": "卷舌元音 /ɚ, ɝ/" },
+    "o_diphthong": { "main": "Diptongo /oʊ/", "zh": "双元音 /oʊ/" },
+    "long_e": { "main": "Vocal larga /iː/", "zh": "长元音 /iː/" },
+    "weak_forms": { "main": "Formas débiles y enlace", "zh": "弱读与连读" },
+    "vowel_ah": { "main": "Vocal corta /ɑ/", "zh": "短元音 /ɑ/" },
+    "vowel_ae": { "main": "Vocal corta /æ/", "zh": "短元音 /æ/" },
+    "vowel_eh": { "main": "Vocal corta /ɛ/", "zh": "短元音 /ɛ/" },
+    "schwa": { "main": "Schwa /ə/", "zh": "弱读 /ə/" }
+  },
+  "card": {
+    "prev": { "main": "← Anterior", "zh": "← 上一张" },
+    "next": { "main": "Siguiente →", "zh": "下一张 →" },
+    "favorite": { "main": "Favorito", "zh": "收藏" },
+    "readSentence": { "main": "Leer oración", "zh": "朗读句子" },
+    "readWord": { "main": "Leer palabra", "zh": "朗读单词" },
+    "readExample": { "main": "Leer ejemplo", "zh": "朗读例句" },
+    "readLine": { "main": "Leer línea", "zh": "朗读台词" },
+    "lightHint": { "main": "💡 Pista", "zh": "💡 轻微提示" },
+    "giveAnswer": { "main": "🎯 Mostrar respuesta", "zh": "🎯 直接给答案" },
+    "collapseHint": { "main": "Ocultar pista", "zh": "收起提示" },
+    "tapToShow": { "main": "👆 Toca la tarjeta para ver la respuesta", "zh": "👆 点击卡片查看答案" },
+    "tapToHide": { "main": "👆 Toca la tarjeta para volver", "zh": "👆 点击卡片返回正面" },
+    "answer": { "main": "🎯 Respuesta", "zh": "🎯 答案" },
+    "dialogueLine": { "main": "Línea de {{character}}", "zh": "{{character}} 的台词" },
+    "exampleSentence": { "main": "📖 Oración de ejemplo", "zh": "📖 包浆例句" },
+    "exampleNote": { "main": "Oración de ejemplo, no es un diálogo", "zh": "示例句，非台词" },
+    "context": { "main": "Contexto", "zh": "上下文" },
+    "culturalNote": { "main": "💡 Nota cultural", "zh": "💡 包浆注解" },
+    "pronunciationFocus": { "main": "Pronunciación: {{label}}", "zh": "发音重点：{{label}}" }
+  },
+  "rating": {
+    "again": { "main": "Otra vez", "zh": "还不会" },
+    "hard": { "main": "Difícil", "zh": "有点印象" },
+    "good": { "main": "Bien", "zh": "记住了" },
+    "easy": { "main": "Fácil", "zh": "太简单" },
+    "againTime": { "main": "10min", "zh": "10分钟" },
+    "hardTime": { "main": "1 día", "zh": "1天" },
+    "goodTime": { "main": "3 días", "zh": "3天" },
+    "easyTime": { "main": "7 días+", "zh": "7天+" },
+    "suffix": { "main": " después", "zh": "后再见" }
+  },
+  "session": {
+    "complete": { "main": "🎉 ¡Sesión completada!", "zh": "🎉 本轮完成！" },
+    "completeSub": { "main": "¡Buen trabajo! Tu inglés está mejorando. ¡Hasta la próxima!", "zh": "今天的包浆已经烤上了，下次见面继续磨～" },
+    "empty": { "main": "Vacío", "zh": "空的" }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "episode": "S01E01",
+  "title": "Efecto Mariposa",
+  "title_cn": "蝴蝶效应",
+  "description": "La primera episodio — Tokio narra cómo conoció al Profesor y comenzó el mayor robo de la historia en la Fábrica Nacional de Moneda y Timbre.",
+  "scenes_count": 32,
+  "dialogue_lines_count": 597,
+  "characters": [
+    "Alison Parker",
+    "Arturo Román",
+    "Berlín",
+    "Denver",
+    "El Profesor",
+    "Helsinki",
+    "Mercedes",
+    "Moscú",
+    "Mónica Gaztambre",
+    "Nairobi",
+    "Narrador",
+    "Oslo",
+    "Raquel Murillo",
+    "Río",
+    "Su madre",
+    "Tokio",
+    "Ángel Rubio"
+  ],
+  "scenes_summary": [
+    {
+      "scene_id": "scene_001",
+      "scene_name": "Escena 1 (00:00:06,800 - 00:00:09,720)",
+      "lines_count": 2
+    },
+    {
+      "scene_id": "scene_002",
+      "scene_name": "Escena 2 (00:00:25,200 - 00:01:07,960)",
+      "lines_count": 15
+    },
+    {
+      "scene_id": "scene_003",
+      "scene_name": "Escena 3 (00:01:27,000 - 00:04:25,480)",
+      "lines_count": 60
+    },
+    {
+      "scene_id": "scene_004",
+      "scene_name": "Escena 4 (00:04:40,560 - 00:05:30,320)",
+      "lines_count": 13
+    },
+    {
+      "scene_id": "scene_005",
+      "scene_name": "Escena 5 (00:06:08,880 - 00:11:03,000)",
+      "lines_count": 85
+    },
+    {
+      "scene_id": "scene_006",
+      "scene_name": "Escena 6 (00:12:14,920 - 00:13:48,560)",
+      "lines_count": 31
+    },
+    {
+      "scene_id": "scene_007",
+      "scene_name": "Escena 7 (00:14:07,680 - 00:14:16,520)",
+      "lines_count": 3
+    },
+    {
+      "scene_id": "scene_008",
+      "scene_name": "Escena 8 (00:14:26,720 - 00:16:39,320)",
+      "lines_count": 42
+    },
+    {
+      "scene_id": "scene_009",
+      "scene_name": "Escena 9 (00:17:18,480 - 00:17:27,800)",
+      "lines_count": 2
+    },
+    {
+      "scene_id": "scene_010",
+      "scene_name": "Escena 10 (00:17:39,440 - 00:18:06,480)",
+      "lines_count": 7
+    },
+    {
+      "scene_id": "scene_011",
+      "scene_name": "Escena 11 (00:18:37,200 - 00:19:59,480)",
+      "lines_count": 17
+    },
+    {
+      "scene_id": "scene_012",
+      "scene_name": "Escena 12 (00:20:13,160 - 00:20:53,480)",
+      "lines_count": 8
+    },
+    {
+      "scene_id": "scene_013",
+      "scene_name": "Escena 13 (00:21:19,600 - 00:22:33,680)",
+      "lines_count": 20
+    },
+    {
+      "scene_id": "scene_014",
+      "scene_name": "Escena 14 (00:22:51,880 - 00:23:25,840)",
+      "lines_count": 9
+    },
+    {
+      "scene_id": "scene_015",
+      "scene_name": "Escena 15 (00:23:44,480 - 00:25:20,680)",
+      "lines_count": 25
+    },
+    {
+      "scene_id": "scene_016",
+      "scene_name": "Escena 16 (00:25:40,520 - 00:27:00,600)",
+      "lines_count": 18
+    },
+    {
+      "scene_id": "scene_017",
+      "scene_name": "Escena 17 (00:27:16,320 - 00:27:31,160)",
+      "lines_count": 6
+    },
+    {
+      "scene_id": "scene_018",
+      "scene_name": "Escena 18 (00:28:15,720 - 00:31:10,080)",
+      "lines_count": 54
+    },
+    {
+      "scene_id": "scene_019",
+      "scene_name": "Escena 19 (00:32:01,120 - 00:32:04,720)",
+      "lines_count": 2
+    },
+    {
+      "scene_id": "scene_020",
+      "scene_name": "Escena 20 (00:32:41,840 - 00:33:36,720)",
+      "lines_count": 20
+    },
+    {
+      "scene_id": "scene_021",
+      "scene_name": "Escena 21 (00:33:48,160 - 00:35:34,960)",
+      "lines_count": 29
+    },
+    {
+      "scene_id": "scene_022",
+      "scene_name": "Escena 22 (00:35:49,320 - 00:36:19,200)",
+      "lines_count": 9
+    },
+    {
+      "scene_id": "scene_023",
+      "scene_name": "Escena 23 (00:36:33,040 - 00:36:34,640)",
+      "lines_count": 1
+    },
+    {
+      "scene_id": "scene_024",
+      "scene_name": "Escena 24 (00:36:56,160 - 00:36:58,800)",
+      "lines_count": 2
+    },
+    {
+      "scene_id": "scene_025",
+      "scene_name": "Escena 25 (00:37:11,080 - 00:39:32,960)",
+      "lines_count": 38
+    },
+    {
+      "scene_id": "scene_026",
+      "scene_name": "Escena 26 (00:39:44,480 - 00:39:45,520)",
+      "lines_count": 1
+    },
+    {
+      "scene_id": "scene_027",
+      "scene_name": "Escena 27 (00:40:21,600 - 00:40:29,920)",
+      "lines_count": 4
+    },
+    {
+      "scene_id": "scene_028",
+      "scene_name": "Escena 28 (00:40:43,440 - 00:41:11,240)",
+      "lines_count": 8
+    },
+    {
+      "scene_id": "scene_029",
+      "scene_name": "Escena 29 (00:41:23,920 - 00:41:30,840)",
+      "lines_count": 3
+    },
+    {
+      "scene_id": "scene_030",
+      "scene_name": "Escena 30 (00:41:55,000 - 00:44:55,160)",
+      "lines_count": 50
+    },
+    {
+      "scene_id": "scene_031",
+      "scene_name": "Escena 31 (00:45:41,480 - 00:45:45,400)",
+      "lines_count": 2
+    },
+    {
+      "scene_id": "scene_032",
+      "scene_name": "Escena 32 (00:46:05,360 - 00:46:38,360)",
+      "lines_count": 11
+    }
+  ]
+}

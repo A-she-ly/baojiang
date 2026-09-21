@@ -1,6 +1,9 @@
 import { useMemo, useState } from 'react'
-import { PRONUNCIATION_FOCUS_LABELS } from '../data/types'
+import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from './LanguageSwitcher'
+import BilingualText, { Bi } from './BilingualText'
 import type { EpisodeMetadata, Flashcard, PronunciationFocus } from '../data/types'
+import type { ShowDefinition, ShowEpisode } from '../data/showTypes'
 import { useStore } from '../utils/store'
 
 type FilterKey = 'all' | 'pos' | 'pronunciation' | 'character' | 'scene' | 'level' | 'tags'
@@ -8,20 +11,47 @@ type FilterKey = 'all' | 'pos' | 'pronunciation' | 'character' | 'scene' | 'leve
 interface Props {
   cards: Flashcard[]
   metadata: EpisodeMetadata
+  show: ShowDefinition
+  episode?: ShowEpisode
+  onChangeShow: () => void
   onStart: (queueIds: string[]) => void
 }
 
-const POS_LABELS: Record<string, string> = {
-  n: '名词', v: '动词', adj: '形容词', adv: '副词',
-  phrase: '短语', phrasal: '动词短语', contraction: '缩读',
+/** Helper: get the main (target language) text from a bilingual key */
+function useBi(i18nKey: string, values?: Record<string, string | number>): string {
+  const { t } = useTranslation()
+  const raw = t(i18nKey, { ...values, returnObjects: true }) as { main?: string } | string
+  return typeof raw === 'string' ? raw : (raw.main ?? i18nKey)
 }
 
-export default function Home({ cards, metadata, onStart }: Props) {
+export default function Home({ cards, metadata, show, episode, onChangeShow, onStart }: Props) {
+  const { t } = useTranslation()
   const srs = useStore((s) => s.srs)
   const favorites = useStore((s) => s.favorites)
 
   const [selectedFilter, setSelectedFilter] = useState<FilterKey>('all')
   const [selectedValue, setSelectedValue] = useState<string | null>(null)
+
+  // POS labels: use main text for filter logic, Bi component for display
+  const POS_MAIN: Record<string, string> = {
+    n: useBi('pos.n'), v: useBi('pos.v'), adj: useBi('pos.adj'), adv: useBi('pos.adv'),
+    phrase: useBi('pos.phrase'), phrasal: useBi('pos.phrasal'), contraction: useBi('pos.contraction'),
+  }
+
+  const PRON_MAIN: Record<string, string> = {
+    flap_t: useBi('pronunciation.flap_t'),
+    vowel_uh: useBi('pronunciation.vowel_uh'),
+    y_glide: useBi('pronunciation.y_glide'),
+    vowel_ih: useBi('pronunciation.vowel_ih'),
+    r_colored: useBi('pronunciation.r_colored'),
+    o_diphthong: useBi('pronunciation.o_diphthong'),
+    long_e: useBi('pronunciation.long_e'),
+    weak_forms: useBi('pronunciation.weak_forms'),
+    vowel_ah: useBi('pronunciation.vowel_ah'),
+    vowel_ae: useBi('pronunciation.vowel_ae'),
+    vowel_eh: useBi('pronunciation.vowel_eh'),
+    schwa: useBi('pronunciation.schwa'),
+  }
 
   const filters = useMemo(() => {
     const uniq = <T,>(arr: T[]) => Array.from(new Set(arr)).sort()
@@ -96,23 +126,25 @@ export default function Home({ cards, metadata, onStart }: Props) {
 
   function pickChips() {
     if (selectedFilter === 'pos')
-      return filters.pos.map((v) => ({ value: v, label: POS_LABELS[v] || v }))
+      return filters.pos.map((v) => ({ value: v, label: POS_MAIN[v] || v, i18nKey: `pos.${v}` }))
     if (selectedFilter === 'pronunciation')
       return filters.pronunciation.map((v) => ({
         value: v,
-        label: PRONUNCIATION_FOCUS_LABELS[v as PronunciationFocus],
+        label: PRON_MAIN[v] || v,
+        i18nKey: `pronunciation.${v}`,
       }))
     if (selectedFilter === 'character')
-      return filters.chars.map((v) => ({ value: v, label: v }))
+      return filters.chars.map((v) => ({ value: v, label: v, i18nKey: null }))
     if (selectedFilter === 'scene')
       return filters.scenes.map((v) => ({
         value: v,
         label: sceneName(v).slice(0, 18) + (sceneName(v).length > 18 ? '…' : ''),
+        i18nKey: null,
       }))
     if (selectedFilter === 'level')
-      return filters.levels.map((v) => ({ value: v, label: v }))
+      return filters.levels.map((v) => ({ value: v, label: v, i18nKey: null }))
     if (selectedFilter === 'tags')
-      return filters.tags.map((v) => ({ value: v, label: '#' + v }))
+      return filters.tags.map((v) => ({ value: v, label: '#' + v, i18nKey: null }))
     return []
   }
 
@@ -121,14 +153,14 @@ export default function Home({ cards, metadata, onStart }: Props) {
     onStart(sessionCards.map((card) => card.id))
   }
 
-  const tabItems: { key: FilterKey; label: string; icon: string }[] = [
-    { key: 'all', label: '全部', icon: '📚' },
-    { key: 'pos', label: '词性', icon: '🔤' },
-    { key: 'pronunciation', label: '发音重点', icon: '🗣️' },
-    { key: 'character', label: '角色', icon: '🎭' },
-    { key: 'scene', label: '场景', icon: '🎬' },
-    { key: 'level', label: '难度', icon: '📶' },
-    { key: 'tags', label: '主题标签', icon: '🏷️' },
+  const tabItems: { key: FilterKey; i18nKey: string; icon: string }[] = [
+    { key: 'all', i18nKey: 'home.filterAll', icon: '📚' },
+    { key: 'pos', i18nKey: 'home.filterPos', icon: '🔤' },
+    { key: 'pronunciation', i18nKey: 'home.filterPronunciation', icon: '️' },
+    { key: 'character', i18nKey: 'home.filterCharacter', icon: '🎭' },
+    { key: 'scene', i18nKey: 'home.filterScene', icon: '🎬' },
+    { key: 'level', i18nKey: 'home.filterLevel', icon: '📶' },
+    { key: 'tags', i18nKey: 'home.filterTags', icon: '️' },
   ]
 
   return (
@@ -141,18 +173,42 @@ export default function Home({ cards, metadata, onStart }: Props) {
             "radial-gradient(circle at 20% 20%, #FFB74D 0, transparent 40%), radial-gradient(circle at 80% 60%, #FFF8E1 0, transparent 35%)",
         }} />
         <div className="relative px-6 pt-10 pb-14 text-white max-w-4xl mx-auto">
-          <div className="font-hand text-6xl sm:text-7xl text-friends-cream drop-shadow-md">
-            包浆英语
+          {/* Top bar: language + change show */}
+          <div className="absolute top-4 right-4 flex items-center gap-2">
+            <LanguageSwitcher />
+            <button
+              onClick={onChangeShow}
+              className="px-3 py-1.5 rounded-full bg-white/20 backdrop-blur border border-white/30 text-white text-sm font-medium hover:bg-white/30 transition-all"
+            >
+              <Bi i18nKey="nav.changeShow" />
+            </button>
           </div>
-          <div className="mt-1 text-lg text-friends-accent/90 font-medium tracking-wide">
-            Bāo Jiāng English · 跟着《老友记》把英语磨到包浆
+
+          <div className="flex items-center gap-3">
+            <span className="text-4xl">{show.coverEmoji}</span>
+            <div>
+              <BilingualText
+                i18nKey={show.titleKey}
+                as="div"
+                className="font-hand text-4xl sm:text-5xl text-friends-cream drop-shadow-md"
+                zhClassName="text-friends-cream/80"
+              />
+              <div className="mt-1 text-sm text-friends-cream/80">
+                {episode?.title || metadata.title}
+              </div>
+            </div>
           </div>
-          <div className="mt-5 bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/20">
+
+          <BilingualText
+            i18nKey={show.descKey}
+            as="div"
+            className="mt-3 text-sm text-friends-accent/90 font-medium tracking-wide"
+            zhClassName="text-friends-accent/70"
+          />
+
+          <div className="mt-4 bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/20">
             <div className="text-xl font-semibold">
               {metadata.episode} · {metadata.title}
-            </div>
-            <div className="text-base text-friends-cream/80 mt-0.5">
-              {metadata.title_cn}
             </div>
             <p className="mt-2 text-sm text-friends-cream/80 max-w-2xl leading-relaxed">
               {metadata.description}
@@ -162,17 +218,17 @@ export default function Home({ cards, metadata, onStart }: Props) {
           {/* stats */}
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mt-5">
             {[
-              { label: '总闪卡', num: cards.length, color: 'from-amber-400/80 to-orange-400/80' },
-              { label: '待学习', num: stats.new, color: 'from-sky-400/80 to-indigo-400/80' },
-              { label: '学习中', num: stats.learning, color: 'from-yellow-400/80 to-amber-400/80' },
-              { label: '已掌握', num: stats.learned, color: 'from-green-400/80 to-emerald-400/80' },
-              { label: '收藏金句', num: stats.favCount, color: 'from-rose-400/80 to-pink-400/80' },
+              { i18nKey: 'home.totalCards', num: cards.length, color: 'from-amber-400/80 to-orange-400/80' },
+              { i18nKey: 'home.toLearn', num: stats.new, color: 'from-sky-400/80 to-indigo-400/80' },
+              { i18nKey: 'home.learning', num: stats.learning, color: 'from-yellow-400/80 to-amber-400/80' },
+              { i18nKey: 'home.mastered', num: stats.learned, color: 'from-green-400/80 to-emerald-400/80' },
+              { i18nKey: 'home.favorites', num: stats.favCount, color: 'from-rose-400/80 to-pink-400/80' },
             ].map((s) => (
               <div
-                key={s.label}
+                key={s.i18nKey}
                 className={`rounded-xl p-3 bg-gradient-to-br ${s.color} backdrop-blur border border-white/20`}
               >
-                <div className="text-xs opacity-90">{s.label}</div>
+                <div className="text-xs opacity-90"><Bi i18nKey={s.i18nKey} /></div>
                 <div className="text-2xl font-bold mt-0.5">{s.num}</div>
               </div>
             ))}
@@ -185,28 +241,28 @@ export default function Home({ cards, metadata, onStart }: Props) {
         <div className="bg-white rounded-2xl shadow-card border border-friends-coffee/10 p-5">
           <div className="text-sm font-semibold text-friends-sofa/80 flex items-center gap-2">
             <span className="w-1 h-4 bg-friends-perk rounded-full inline-block" />
-            选择闪卡分类维度
+            <Bi i18nKey="home.filterTitle" />
           </div>
           <p className="mt-1 mb-3 text-xs text-friends-coffee/70">
-            音标采用 General American（GenAm）标注；每张卡突出一个主要听辨或发音重点。
+            <Bi i18nKey="home.filterDesc" />
           </p>
 
           <div className="flex flex-wrap gap-2">
-            {tabItems.map((t) => (
+            {tabItems.map((t2) => (
               <button
-                key={t.key}
+                key={t2.key}
                 onClick={() => {
-                  setSelectedFilter(t.key)
+                  setSelectedFilter(t2.key)
                   setSelectedValue(null)
                 }}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                  selectedFilter === t.key
+                  selectedFilter === t2.key
                     ? 'bg-friends-sofa text-white shadow-md'
                     : 'bg-friends-cream text-friends-sofa hover:bg-friends-coffee/15 border border-friends-coffee/20'
                 }`}
               >
-                <span className="mr-1.5">{t.icon}</span>
-                {t.label}
+                <span className="mr-1.5">{t2.icon}</span>
+                <Bi i18nKey={t2.i18nKey} />
               </button>
             ))}
           </div>
@@ -226,7 +282,7 @@ export default function Home({ cards, metadata, onStart }: Props) {
                         : 'bg-friends-paper text-friends-sofa hover:bg-friends-accent/30 border border-friends-coffee/20'
                     }`}
                   >
-                    {chip.label}
+                    {chip.i18nKey ? <Bi i18nKey={chip.i18nKey} /> : chip.label}
                   </button>
                 ))}
               </div>
@@ -236,18 +292,21 @@ export default function Home({ cards, metadata, onStart }: Props) {
           <div className="mt-5 flex items-center justify-between gap-4 flex-wrap">
             <div className="text-sm text-friends-coffee/90">
               <div>
-                当前筛选：<span className="font-semibold text-friends-sofa">{filteredCards.length}</span> 张闪卡
+                <Bi i18nKey="home.currentFilter" />
+                <span className="font-semibold text-friends-sofa">
+                  <Bi i18nKey="home.cardsCount" values={{ count: filteredCards.length }} />
+                </span>
                 {selectedFilter !== 'all' && selectedValue && (
                   <span className="ml-2 text-friends-perk font-medium">
-                    → {tabItems.find((t) => t.key === selectedFilter)?.label}:{' '}
+                    → {tabItems.find((t2) => t2.key === selectedFilter) && <Bi i18nKey={tabItems.find((t2) => t2.key === selectedFilter)!.i18nKey} />}:{' '}
                     {selectedFilter === 'pronunciation'
-                      ? PRONUNCIATION_FOCUS_LABELS[selectedValue as PronunciationFocus]
+                      ? PRON_MAIN[selectedValue as PronunciationFocus] || selectedValue
                       : selectedValue}
                   </span>
                 )}
               </div>
               <div className="mt-1 text-xs text-friends-coffee/70">
-                可练习 {recommendedCards.length} 张，到期复习会优先安排
+                <Bi i18nKey="home.practiceCount" values={{ count: recommendedCards.length }} />
               </div>
             </div>
             <div className="flex flex-wrap gap-2">
@@ -256,14 +315,14 @@ export default function Home({ cards, metadata, onStart }: Props) {
                 onClick={() => startSession(recommendedCards.slice(0, 10))}
                 className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-friends-perk to-emerald-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-40 disabled:pointer-events-none disabled:hover:scale-100"
               >
-                🚀 开始本轮 ({Math.min(10, recommendedCards.length)})
+                <Bi i18nKey="home.startSession" values={{ count: Math.min(10, recommendedCards.length) }} />
               </button>
               <button
                 disabled={filteredCards.length === 0}
                 onClick={() => startSession(filteredCards)}
                 className="px-4 py-2.5 rounded-xl bg-friends-paper text-friends-sofa font-semibold border border-friends-coffee/25 hover:bg-friends-accent/30 transition-all disabled:opacity-40 disabled:pointer-events-none"
               >
-                全部学习
+                <Bi i18nKey="home.studyAll" />
               </button>
             </div>
           </div>
@@ -275,7 +334,7 @@ export default function Home({ cards, metadata, onStart }: Props) {
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-semibold text-friends-sofa flex items-center gap-2">
             <span className="w-1 h-6 bg-friends-accent rounded-full inline-block" />
-            闪卡预览（前 12 张）
+            <Bi i18nKey="home.previewTitle" />
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -304,14 +363,14 @@ export default function Home({ cards, metadata, onStart }: Props) {
                 <div className="text-xs text-friends-perk font-medium mb-2">{c.translation}</div>
               )}
               <div className="mb-2 inline-flex w-fit rounded-full border border-friends-perk/25 bg-friends-perk/10 px-2 py-0.5 text-xs font-medium text-friends-perk">
-                🗣️ {PRONUNCIATION_FOCUS_LABELS[c.pronunciation_focus]}
+                🗣️ {PRON_MAIN[c.pronunciation_focus] || c.pronunciation_focus}
               </div>
               <div className="text-sm text-friends-sofa/80 line-clamp-2 leading-relaxed">
                 {c.sentence_full}
               </div>
               <div className="mt-3 pt-3 border-t border-friends-coffee/10 flex items-center justify-between text-xs text-friends-coffee/80">
                 <span>🎭 {c.character}</span>
-                <span>🎬 {c.scene_id.replace(/scene_\d+_/, '').slice(0, 12)}</span>
+                <span> {c.scene_id.replace(/scene_\d+_/, '').slice(0, 12)}</span>
               </div>
             </div>
           ))}
@@ -319,7 +378,7 @@ export default function Home({ cards, metadata, onStart }: Props) {
       </section>
 
       <footer className="py-8 text-center text-xs text-friends-coffee/60">
-        Made with ☕ at Central Perk · 包浆英语 © {new Date().getFullYear()}
+        <Bi i18nKey="app.footer" values={{ year: new Date().getFullYear() }} />
       </footer>
     </div>
   )
