@@ -109,7 +109,11 @@
     "exampleNote": { "main": "Oración de ejemplo, no es un diálogo", "zh": "示例句，非台词" },
     "context": { "main": "Contexto", "zh": "上下文" },
     "culturalNote": { "main": "💡 Nota cultural", "zh": "💡 包浆注解" },
-    "pronunciationFocus": { "main": "Pronunciación: {{label}}", "zh": "发音重点：{{label}}" }
+    "pronunciationFocus": { "main": "Pronunciación: {{label}}", "zh": "发音重点：{{label}}" },
+    "answerPlaceholder": { "main": "Escribe tu respuesta…", "zh": "输入你的答案…" },
+    "checkAnswer": { "main": "Comprobar", "zh": "检查" },
+    "showAnswer": { "main": "Mostrar respuesta", "zh": "看答案" },
+    "viewDetails": { "main": "Ver detalles →", "zh": "查看详情 →" }
   },
   "rating": {
     "again": { "main": "Otra vez", "zh": "还不会" },
@@ -120,11 +124,38 @@
     "hardTime": { "main": "1 día", "zh": "1天" },
     "goodTime": { "main": "3 días", "zh": "3天" },
     "easyTime": { "main": "7 días+", "zh": "7天+" },
-    "suffix": { "main": " después", "zh": "后再见" }
+    "suffix": { "main": " después", "zh": "后再见" },
+    "autoScheduled": { "main": "Programado automáticamente", "zh": "已自动安排" }
   },
   "session": {
     "complete": { "main": "🎉 ¡Sesión completada!", "zh": "🎉 本轮完成！" },
     "completeSub": { "main": "¡Buen trabajo! Tu inglés está mejorando. ¡Hasta la próxima!", "zh": "今天的包浆已经烤上了，下次见面继续磨～" },
     "empty": { "main": "Vacío", "zh": "空的" }
+  },
+  "feedback": {
+    "correct": {
+      "youRock": { "main": "¡Eres genial! ", "zh": "太棒了！" },
+      "nailedIt": { "main": "¡Lo clavaste! ", "zh": "搞定！" },
+      "spotOn": { "main": "¡Exacto! ✨", "zh": "完全正确！✨" },
+      "perfect": { "main": "¡Perfecto! ", "zh": "完美！" },
+      "brilliant": { "main": "¡Brillante! ", "zh": "精彩！" },
+      "thatsRight": { "main": "¡Correcto! 🎉", "zh": "答对了！🎉" },
+      "youGotIt": { "main": "¡Lo lograste! ", "zh": "你做到了！" },
+      "excellent": { "main": "¡Excelente! 👏", "zh": "优秀！👏" },
+      "amazing": { "main": "¡Increíble! ", "zh": "太厉害了！" },
+      "rightOn": { "main": "¡Así se hace! 💪", "zh": "就是这样！💪" }
+    },
+    "almost": {
+      "almostThere": { "main": "¡Casi lo tienes! 💪", "zh": "差一点点！💪" },
+      "soClose": { "main": "¡Tan cerca! ", "zh": "就差一点！" },
+      "justABitMore": { "main": "¡Un poco más! ✨", "zh": "再努把力！✨" },
+      "onFire": { "main": "¡Estás en racha, sigue así! ", "zh": "状态火热，继续！" }
+    },
+    "notQuite": {
+      "notQuite": { "main": "No exactamente. Inténtalo de nuevo", "zh": "不太对，再想想" },
+      "keepGoing": { "main": "¡Sigue intentando! 🤔", "zh": "别放弃，继续试！🤔" },
+      "notTheRightWord": { "main": "No es la palabra correcta, ¡prueba otra vez! 💭", "zh": "词不对，再试试！💭" },
+      "giveItAnotherShot": { "main": "Mmm, no exactamente. ¡Dale otra oportunidad! ", "zh": "嗯，不太对。再来一次！" }
+    }
   }
 }

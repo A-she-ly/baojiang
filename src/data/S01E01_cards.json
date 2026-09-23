@@ -283,7 +283,7 @@
     "tags": [
       "台词"
     ],
-    "sentence_cloze": "Okay, everybody relax. This is not even a date.* It's just two people going out to dinner and- not having sex.",
+    "sentence_cloze": "Okay, everybody relax. This is not even a date.* ___'s just two people going out to dinner and- not having sex.",
     "sentence_full": "Okay, everybody relax. This is not even a date.* It's just two people going out to dinner and- not having sex.",
     "translation": "它",
     "sentence_translation": "好了大家别紧张，这根本不算约会。* 就是两个人出去吃个饭，然后——不发生关系。",
@@ -337,7 +337,7 @@
     "tags": [
       "台词"
     ],
-    "sentence_cloze": "Strip joint! C'mon, you're single! Have some hormones!",
+    "sentence_cloze": "___ joint! C'mon, you're single! Have some hormones!",
     "sentence_full": "Strip joint! C'mon, you're single! Have some hormones!",
     "translation": "脱掉；条纹",
     "sentence_translation": "脱衣舞俱乐部！拜托，你现在单身！释放一下荷尔蒙嘛！",
@@ -1633,7 +1633,7 @@
     "tags": [
       "台词"
     ],
-    "sentence_cloze": "All right Joey, be nice. So does he have a hump?* A hump and a hairpiece?",
+    "sentence_cloze": "All right Joey, be nice. ___ does he have a hump?* A hump and a hairpiece?",
     "sentence_full": "All right Joey, be nice. So does he have a hump?* A hump and a hairpiece?",
     "translation": "所以",
     "sentence_translation": "行了Joey，别损人了。所以他到底有没有驼背？* 一个驼背还戴假发？",
@@ -1741,7 +1741,7 @@
     "tags": [
       "台词"
     ],
-    "sentence_cloze": "No.",
+    "sentence_cloze": "___.",
     "sentence_full": "No.",
     "translation": "不",
     "sentence_translation": "不。",
@@ -1876,7 +1876,7 @@
     "tags": [
       "台词"
     ],
-    "sentence_cloze": "Done with the bookcase!",
+    "sentence_cloze": "___ with the bookcase!",
     "sentence_full": "Done with the bookcase!",
     "translation": "完成",
     "sentence_translation": "书架搞定了！",
@@ -2551,7 +2551,7 @@
     "tags": [
       "台词"
     ],
-    "sentence_cloze": "I'll be fine, alright? Really, everyone. I hope she'll be very happy.",
+    "sentence_cloze": "I'll be fine, alright? ___, everyone. I hope she'll be very happy.",
     "sentence_full": "I'll be fine, alright? Really, everyone. I hope she'll be very happy.",
     "translation": "真的",
     "sentence_translation": "我会没事的，好吗？真的，大家。我希望她能幸福。",
@@ -2956,7 +2956,7 @@
     "tags": [
       "台词"
     ],
-    "sentence_cloze": "Okay, everybody relax. This is not even a date.* It's just two people going out to dinner and- not having sex.",
+    "sentence_cloze": "Okay, everybody relax. ___ is not even a date.* It's just two people going out to dinner and- not having sex.",
     "sentence_full": "Okay, everybody relax. This is not even a date.* It's just two people going out to dinner and- not having sex.",
     "translation": "这个",
     "sentence_translation": "好了大家别紧张，这根本不算约会。* 就是两个人出去吃个饭，然后——不发生关系。",
@@ -3010,7 +3010,7 @@
     "tags": [
       "台词"
     ],
-    "sentence_cloze": "Yes!",
+    "sentence_cloze": "___!",
     "sentence_full": "Yes!",
     "translation": "是的",
     "sentence_translation": "是的！",

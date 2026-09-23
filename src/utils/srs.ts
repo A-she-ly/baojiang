@@ -71,6 +71,25 @@ export function isDue(state: SrsState[string] | undefined, now = Date.now()) {
   return state.dueAt <= now
 }
 
+/**
+ * Automatically determine SRS rating based on answer performance.
+ * - 0 wrong attempts + correct on 1st try → easy (7+ days)
+ * - 1 wrong attempt + 'almost' feedback → good (3 days)
+ * - 1 wrong attempt + 'not_quite' feedback → hard (1 day)
+ * - 2+ wrong attempts → hard (1 day)
+ * - Answer revealed → again (10 min)
+ */
+export function autoRateFromAttempts(
+  attempts: number,
+  feedbackLevel: 'almost' | 'not_quite',
+  revealed: boolean,
+): SrsRating {
+  if (revealed) return 'again'
+  if (attempts === 0) return 'easy'
+  if (attempts === 1 && feedbackLevel === 'almost') return 'good'
+  return 'hard'
+}
+
 export function sortByDue<T extends { id: string }>(
   cards: T[],
   srs: SrsState,

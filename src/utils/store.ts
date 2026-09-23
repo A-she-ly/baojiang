@@ -6,6 +6,7 @@ const LS_KEYS = {
   srs: 'bjy_srs_v1',
   favorites: 'bjy_favorites_v1',
   settings: 'bjy_settings_v1',
+  view: 'bjy_view_v1',
 }
 
 type View =
@@ -48,10 +49,12 @@ export const useStore = create<Store>((set, get) => ({
   hydrate() {
     const srs = loadLS<SrsState>(LS_KEYS.srs, {})
     const favArr = loadLS<string[]>(LS_KEYS.favorites, [])
-    set({ srs, favorites: new Set(favArr) })
+    const savedView = loadLS<View>(LS_KEYS.view, { name: 'home' as const })
+    set({ srs, favorites: new Set(favArr), view: savedView })
   },
 
   setView(view) {
+    localStorage.setItem(LS_KEYS.view, JSON.stringify(view))
     set({ view })
   },
 

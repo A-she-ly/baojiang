@@ -24,6 +24,20 @@ const EPISODE_DATA: Record<string, { cards: Flashcard[]; metadata: EpisodeMetada
   'la-casa-de-papel:S01E01': { cards: lcdpCardsData, metadata: lcdpMetaData },
 }
 
+const LS_SESSION_KEY = 'bjy_session_v1'
+
+function loadSession(): { showId: string | null; episodeId: string | null } {
+  try {
+    const raw = localStorage.getItem(LS_SESSION_KEY)
+    if (raw) return JSON.parse(raw)
+  } catch { /* ignore */ }
+  return { showId: null, episodeId: null }
+}
+
+function saveSession(showId: string | null, episodeId: string | null) {
+  localStorage.setItem(LS_SESSION_KEY, JSON.stringify({ showId, episodeId }))
+}
+
 export default function App() {
   const { t } = useTranslation()
   const load = useStore((s) => s.load)
@@ -33,14 +47,20 @@ export default function App() {
   const rateCard = useStore((s) => s.rateCard)
   const allCards = useStore((s) => s.cards)
 
+  const savedSession = useMemo(() => loadSession(), [])
   const [ready, setReady] = useState(false)
-  const [selectedShowId, setSelectedShowId] = useState<string | null>(null)
-  const [selectedEpisodeId, setSelectedEpisodeId] = useState<string | null>(null)
+  const [selectedShowId, setSelectedShowId] = useState<string | null>(savedSession.showId)
+  const [selectedEpisodeId, setSelectedEpisodeId] = useState<string | null>(savedSession.episodeId)
 
   useEffect(() => {
     hydrate()
     setReady(true)
   }, [hydrate])
+
+  // Persist session state
+  useEffect(() => {
+    saveSession(selectedShowId, selectedEpisodeId)
+  }, [selectedShowId, selectedEpisodeId])
 
   // Load cards when episode is selected
   useEffect(() => {

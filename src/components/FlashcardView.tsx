@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import BilingualText, { Bi } from './BilingualText'
-import type { Flashcard } from '../data/types'
+import type { Flashcard, SrsRating } from '../data/types'
 import { useStore } from '../utils/store'
+import { autoRateFromAttempts } from '../utils/srs'
 
 const LEVEL_COLORS: Record<Flashcard['level'], string> = {
   A1: 'bg-green-100 text-green-800',
@@ -76,6 +77,14 @@ export default function FlashcardView({
   const toggleFavorite = useStore((s) => s.toggleFavorite)
   const isFav = favorites.has(card.id)
 
+  // --- Quiz / answer input state ---
+  const [userAnswer, setUserAnswer] = useState('')
+  const [answerState, setAnswerState] = useState<'idle' | 'correct' | 'wrong' | 'revealed'>('idle')
+  const [feedbackLevel, setFeedbackLevel] = useState<'almost' | 'not_quite'>('not_quite')
+  const [attempts, setAttempts] = useState(0)
+  const [autoRating, setAutoRating] = useState<SrsRating | null>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+
   // Pronunciation focus label (main text only for badge)
   const pronLabel = (t(`pronunciation.${card.pronunciation_focus}`, { returnObjects: true }) as { main?: string })?.main ?? card.pronunciation_focus
 
@@ -127,7 +136,19 @@ export default function FlashcardView({
     window.speechSynthesis.speak(utterance)
   }
 
-  const avatar = CHAR_AVATAR[card.character] ?? '🎬'
+  const avatar = CHAR_AVATAR[card.character] ?? ''
+
+  // Reset quiz state & autofocus when card changes
+  useEffect(() => {
+    setUserAnswer('')
+    setAnswerState('idle')
+    setFeedbackLevel('not_quite')
+    setAttempts(0)
+    setAutoRating(null)
+    setFlipped(false)
+    setHintLevel('none')
+    setTimeout(() => inputRef.current?.focus(), 100)
+  }, [card.id])
 
   const clozeLength = card.sentence_cloze.length
   const clozeFontSize = clozeLength > 120 ? 'text-lg' : clozeLength > 80 ? 'text-xl' : clozeLength > 50 ? 'text-2xl' : 'text-2xl sm:text-3xl'
@@ -137,20 +158,120 @@ export default function FlashcardView({
 
   const ratingActions = useMemo(
     () => [
-      { key: 'again' as const, label: 'rating.again', time: 'rating.againTime', cls: 'bg-rose-500 hover:bg-rose-600' },
-      { key: 'hard' as const, label: 'rating.hard', time: 'rating.hardTime', cls: 'bg-amber-500 hover:bg-amber-600' },
-      { key: 'good' as const, label: 'rating.good', time: 'rating.goodTime', cls: 'bg-friends-perk hover:bg-green-700' },
-      { key: 'easy' as const, label: 'rating.easy', time: 'rating.easyTime', cls: 'bg-sky-500 hover:bg-sky-600' },
+      { key: 'again' as const, label: 'rating.again', time: 'rating.againTime', cls: 'bg-green-700 hover:bg-green-800' },
+      { key: 'hard' as const, label: 'rating.hard', time: 'rating.hardTime', cls: 'bg-green-600 hover:bg-green-700' },
+      { key: 'good' as const, label: 'rating.good', time: 'rating.goodTime', cls: 'bg-green-400 hover:bg-green-500' },
+      { key: 'easy' as const, label: 'rating.easy', time: 'rating.easyTime', cls: 'bg-green-200 hover:bg-green-300' },
     ],
     [],
   )
+
+  const ratingBadge: Record<SrsRating, { label: string; time: string; cls: string }> = {
+    again: { label: 'rating.again', time: 'rating.againTime', cls: 'bg-green-700 text-black' },
+    hard: { label: 'rating.hard', time: 'rating.hardTime', cls: 'bg-green-600 text-black' },
+    good: { label: 'rating.good', time: 'rating.goodTime', cls: 'bg-green-400 text-black' },
+    easy: { label: 'rating.easy', time: 'rating.easyTime', cls: 'bg-green-200 text-black' },
+  }
 
   function handleRate(r: 'again' | 'hard' | 'good' | 'easy') {
     onRate(r)
     setFlipped(false)
     setHintLevel('none')
+    setAnswerState('idle')
+    setFeedbackLevel('not_quite')
+    setUserAnswer('')
+    setAttempts(0)
+    setAutoRating(null)
     if (canGoNext) onNext()
     else onComplete()
+  }
+
+  // --- Answer checking ---
+  function normalizeForMatch(text: string): string {
+    return text
+      .toLowerCase()
+      .trim()
+      .replace(/^(a|an|the)\s+/i, '')
+      .replace(/[^\w\s]/g, '')
+      .trim()
+  }
+
+  function isAnswerCorrect(input: string, target: string): boolean {
+    if (!input.trim()) return false
+    return normalizeForMatch(input) === normalizeForMatch(target)
+  }
+
+  /** Find the end index of the first vowel group in a word (for syllable-based feedback) */
+  function firstVowelGroupEnd(word: string): number {
+    const vowels = 'aeiou'
+    let i = 0
+    while (i < word.length && !vowels.includes(word[i])) i++
+    if (i >= word.length) return Math.ceil(word.length / 2)
+    while (i < word.length && vowels.includes(word[i])) i++
+    return i
+  }
+
+  /** Evaluate answer: returns 'correct' | 'almost' | 'wrong' */
+  function evaluateAnswer(input: string, target: string): 'correct' | 'almost' | 'wrong' {
+    const normInput = normalizeForMatch(input)
+    const normTarget = normalizeForMatch(target)
+    if (!normInput) return 'wrong'
+    if (normInput === normTarget) return 'correct'
+    if (normTarget.includes(' ')) return 'wrong'
+    let cpl = 0
+    while (cpl < normInput.length && cpl < normTarget.length && normInput[cpl] === normTarget[cpl]) cpl++
+    if (cpl === 0) return 'wrong'
+    const fvgEnd = firstVowelGroupEnd(normTarget)
+    if (cpl >= fvgEnd || cpl >= Math.ceil(normTarget.length / 2)) return 'almost'
+    return 'wrong'
+  }
+
+  const ENCOURAGEMENTS = [
+    'feedback.correct.youRock', 'feedback.correct.nailedIt', 'feedback.correct.spotOn', 'feedback.correct.perfect',
+    'feedback.correct.brilliant', 'feedback.correct.thatsRight', 'feedback.correct.youGotIt', 'feedback.correct.excellent',
+    'feedback.correct.amazing', 'feedback.correct.rightOn',
+  ]
+  const ALMOST_MESSAGES = [
+    'feedback.almost.almostThere', 'feedback.almost.soClose', 'feedback.almost.justABitMore', 'feedback.almost.onFire',
+  ]
+  const NOT_QUITE_MESSAGES = [
+    'feedback.notQuite.notQuite', 'feedback.notQuite.keepGoing', 'feedback.notQuite.notTheRightWord', 'feedback.notQuite.giveItAnotherShot',
+  ]
+
+  function checkAnswer() {
+    if (!userAnswer.trim() || answerState === 'revealed') return
+    const result = evaluateAnswer(userAnswer, card.target_word)
+    if (result === 'correct') {
+      const rating = autoRateFromAttempts(attempts, feedbackLevel, false)
+      onRate(rating)
+      setAutoRating(rating)
+      setAnswerState('correct')
+      // Auto-advance after showing encouragement
+      setTimeout(() => {
+        if (canGoNext) onNext()
+        else onComplete()
+      }, 1500)
+    } else {
+      const nextAttempts = attempts + 1
+      setAttempts(nextAttempts)
+      setFeedbackLevel(result === 'almost' ? 'almost' : 'not_quite')
+      setAnswerState('wrong')
+      setUserAnswer('')
+      setTimeout(() => setAnswerState('idle'), 1500)
+    }
+  }
+
+  function revealAnswer() {
+    const rating = autoRateFromAttempts(attempts, feedbackLevel, true)
+    onRate(rating)
+    setAutoRating(rating)
+    setAnswerState('revealed')
+    setUserAnswer('')
+    // Auto-advance after showing answer
+    setTimeout(() => {
+      if (canGoNext) onNext()
+      else onComplete()
+    }, 2500)
   }
 
   return (
@@ -242,7 +363,43 @@ export default function FlashcardView({
                 </div>
 
                 <div className={`${clozeFontSize} font-semibold text-friends-sofa leading-snug flex-1 flex items-start gap-2`} style={{ columnCount: 1 }}>
-                  <div className="flex-1">{renderCloze(card.sentence_cloze)}</div>
+                  <div className="flex-1">
+                    {answerState === 'revealed'
+                      ? renderCloze(card.sentence_cloze)
+                      : (
+                        <>
+                          {card.sentence_cloze.split(/(_{3,})/g).map((p, i) =>
+                            /^_+$/.test(p)
+                              ? (
+                                <input
+                                  key={i}
+                                  ref={inputRef}
+                                  type="text"
+                                  value={userAnswer}
+                                  onChange={(e) => {
+                                    setUserAnswer(e.target.value)
+                                    if (answerState === 'wrong') setAnswerState('idle')
+                                  }}
+                                  onKeyDown={(e) => {
+                                    if (e.key === 'Enter') checkAnswer()
+                                  }}
+                                  onClick={(e) => e.stopPropagation()}
+                                  onFocus={(e) => e.stopPropagation()}
+                                  disabled={false}
+                                  placeholder="___"
+                                  autoComplete="off"
+                                  autoCorrect="off"
+                                  autoCapitalize="off"
+                                  spellCheck={false}
+                                  className="cloze-input"
+                                />
+                              )
+                              : <span key={i}>{p}</span>
+                          )}
+                        </>
+                      )
+                    }
+                  </div>
                   <button
                     onClick={(e) => {
                       e.stopPropagation()
@@ -264,7 +421,79 @@ export default function FlashcardView({
                   </button>
                 </div>
 
-                {/* Hint buttons */}
+                {/* Answer check button & feedback */}
+                {answerState !== 'revealed' && (
+                  <div className="mt-3 flex items-center justify-center gap-2">
+                    <button
+                      onClick={(e) => { e.stopPropagation(); checkAnswer(); }}
+                      disabled={!userAnswer.trim()}
+                      className="px-5 py-2 rounded-lg bg-friends-perk text-white text-sm font-semibold hover:bg-friends-perk/90 transition disabled:opacity-40 disabled:pointer-events-none"
+                    >
+                      <Bi i18nKey="card.checkAnswer" />
+                    </button>
+                  </div>
+                )}
+
+                {/* Feedback messages */}
+                {answerState === 'correct' && (
+                  <div className="mt-2 text-center">
+                    <div className="text-lg font-semibold text-friends-perk animate-bounce">
+                      <Bi i18nKey={ENCOURAGEMENTS[Math.floor(Math.random() * ENCOURAGEMENTS.length)]} />
+                    </div>
+                    {autoRating && (
+                      <div className={`mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold ${ratingBadge[autoRating].cls}`}>
+                        <Bi i18nKey="rating.autoScheduled" />
+                        <span>·</span>
+                        <Bi i18nKey={ratingBadge[autoRating].label} />
+                        <span>·</span>
+                        <Bi i18nKey={ratingBadge[autoRating].time} />
+                      </div>
+                    )}
+                  </div>
+                )}
+                {answerState === 'wrong' && feedbackLevel === 'almost' && (
+                  <div className="mt-2 text-center text-sm text-amber-600 font-medium">
+                    <Bi i18nKey={ALMOST_MESSAGES[attempts % ALMOST_MESSAGES.length]} />
+                  </div>
+                )}
+                {answerState === 'wrong' && feedbackLevel === 'not_quite' && (
+                  <div className="mt-2 text-center text-sm text-rose-500 font-medium">
+                    <Bi i18nKey={NOT_QUITE_MESSAGES[attempts % NOT_QUITE_MESSAGES.length]} />
+                  </div>
+                )}
+                {answerState === 'revealed' && (
+                  <div className="mt-2 text-center">
+                    <div className="text-sm text-friends-accent font-medium mb-1">
+                      <Bi i18nKey="card.answer" />
+                    </div>
+                    <div className="text-lg font-hand text-friends-sofa">{card.target_word}</div>
+                    <div className="text-sm text-friends-coffee">{card.ipa} · {card.pos}</div>
+                    {autoRating && (
+                      <div className={`mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold ${ratingBadge[autoRating].cls}`}>
+                        <Bi i18nKey="rating.autoScheduled" />
+                        <span>·</span>
+                        <Bi i18nKey={ratingBadge[autoRating].label} />
+                        <span>·</span>
+                        <Bi i18nKey={ratingBadge[autoRating].time} />
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* Show Answer button (after 2 wrong attempts) */}
+                {answerState !== 'revealed' && attempts >= 2 && (
+                  <div className="mt-2 text-center">
+                    <button
+                      onClick={(e) => { e.stopPropagation(); revealAnswer(); }}
+                      className="text-xs text-friends-accent hover:text-friends-accent/80 underline"
+                    >
+                      <Bi i18nKey="card.showAnswer" />
+                    </button>
+                  </div>
+                )}
+
+                {/* Hint buttons (hidden when answer is revealed) */}
+                {answerState !== 'revealed' && (
                 <div className="mt-4 flex flex-col items-center gap-2">
                   {hintLevel === 'none' && (
                     <div className="flex gap-2">
@@ -324,12 +553,13 @@ export default function FlashcardView({
                     </div>
                   )}
 
-                  {hintLevel === 'none' && (
+                  {hintLevel === 'none' && answerState !== 'correct' && (
                     <div className="text-center text-sm text-friends-coffee animate-pulse">
                       <Bi i18nKey="card.tapToShow" />
                     </div>
                   )}
                 </div>
+                )}
               </div>
             </div>
           </div>
@@ -518,27 +748,6 @@ export default function FlashcardView({
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Rating buttons */}
-      <div
-        className={`mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3 transition-all duration-500 ${
-          flipped ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 translate-y-4 pointer-events-none'
-        }`}
-      >
-        {ratingActions.map((a) => (
-          <button
-            key={a.key}
-            onClick={() => handleRate(a.key)}
-            className={`${a.cls} text-white py-3 px-2 rounded-xl shadow-md hover:shadow-lg transition-all font-semibold`}
-          >
-            <div className="text-base"><Bi i18nKey={a.label} /></div>
-            <div className="text-xs opacity-90 mt-0.5">
-              <Bi i18nKey={a.time} />
-              <Bi i18nKey="rating.suffix" />
-            </div>
-          </button>
-        ))}
       </div>
     </div>
   )
