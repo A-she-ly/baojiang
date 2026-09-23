@@ -5,8 +5,14 @@ import Home from './components/Home'
 import ShowSelector from './components/ShowSelector'
 import BilingualText, { Bi } from './components/BilingualText'
 import { useStore } from './utils/store'
-import type { EpisodeMetadata, Flashcard } from './data/types'
+import type { EpisodeMetadata, Flashcard, SrsRating, SrsState } from './data/types'
 import { SHOW_MAP } from './data/shows'
+
+type SessionStats = {
+  perfect: Flashcard[]    // 一把过 (easy)
+  bumpy: Flashcard[]      // 小磕绊 (good/hard)
+  needsWork: Flashcard[]  // 需夯实 (again)
+}
 
 import friendsCards from './data/S01E01_cards.json'
 import friendsMeta from './data/S01E01_metadata.json'
@@ -80,10 +86,14 @@ export default function App() {
 
   const [queueIndex, setQueueIndex] = useState(0)
   const [sessionCompleted, setSessionCompleted] = useState(false)
+  const [sessionStats, setSessionStats] = useState<SessionStats>({ perfect: [], bumpy: [], needsWork: [] })
+  const [sessionCounter, setSessionCounter] = useState(0)  // Force remount on new session
+  const srs = useStore((s) => s.srs)
 
   useEffect(() => {
     setQueueIndex(0)
     setSessionCompleted(false)
+    setSessionStats({ perfect: [], bumpy: [], needsWork: [] })
   }, [view])
 
   // Current show & episode info
@@ -116,6 +126,21 @@ export default function App() {
     setSelectedShowId(null)
     setSelectedEpisodeId(null)
     setView({ name: 'home' })
+  }
+
+  function handleCardComplete(card: Flashcard, rating: SrsRating) {
+    setSessionStats((prev) => {
+      const next = { ...prev }
+      // Remove card from all categories first (allow re-rating)
+      next.perfect = prev.perfect.filter((c) => c.id !== card.id)
+      next.bumpy = prev.bumpy.filter((c) => c.id !== card.id)
+      next.needsWork = prev.needsWork.filter((c) => c.id !== card.id)
+      // Add to new category based on current rating
+      if (rating === 'easy') next.perfect = [...next.perfect, card]
+      else if (rating === 'good') next.bumpy = [...next.bumpy, card]
+      else next.needsWork = [...next.needsWork, card]  // hard / again → 需夯实
+      return next
+    })
   }
 
   if (!ready) {
@@ -252,12 +277,13 @@ export default function App() {
 
         {current ? (
           <FlashcardView
-            key={current.id}
+            key={`${current.id}-${sessionCounter}`}
             card={current}
             canGoNext={queueIndex < queueCards.length - 1}
             canGoPrev={queueIndex > 0}
             progress={{ current: queueIndex + 1, total: queueCards.length }}
-            onComplete={() => setSessionCompleted(true)}
+            onCardComplete={handleCardComplete}
+            onSessionComplete={() => setSessionCompleted(true)}
             onRate={(r) => rateCard(current.id, r)}
             onNext={() => {
               setQueueIndex((i) => Math.min(queueCards.length - 1, i + 1))
@@ -273,23 +299,113 @@ export default function App() {
         )}
 
         {sessionCompleted && (
-          <div className="max-w-2xl mx-auto mb-10 px-4">
-            <div className="bg-gradient-to-r from-friends-perk/15 to-friends-accent/25 border border-friends-perk/30 rounded-2xl p-5 text-center">
-              <BilingualText
-                i18nKey="session.complete"
-                as="div"
-                className="font-hand text-3xl text-friends-sofa"
-                zhClassName="text-friends-coffee/60"
-              />
-              <div className="mt-1 text-sm text-friends-coffee/90">
-                <Bi i18nKey="session.completeSub" />
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
+            <div className="max-w-2xl w-full max-h-[90vh] overflow-y-auto bg-gradient-to-br from-friends-cream to-white border border-friends-perk/30 rounded-2xl p-6 shadow-2xl">
+              {/* Header */}
+              <div className="text-center mb-6">
+                <div className="text-4xl mb-2">🎉</div>
+                <BilingualText
+                  i18nKey="session.complete"
+                  as="div"
+                  className="font-hand text-3xl text-friends-sofa"
+                  zhClassName="text-friends-coffee/60"
+                />
+                <div className="mt-1 text-sm text-friends-coffee/90">
+                  <Bi i18nKey="session.completeSub" />
+                </div>
               </div>
-              <button
-                onClick={() => setView({ name: 'home' })}
-                className="mt-4 px-6 py-2 rounded-xl bg-friends-sofa text-white font-semibold hover:bg-friends-coffee transition-all"
-              >
-                <Bi i18nKey="nav.home" />
-              </button>
+
+              {/* Stats */}
+              <div className="space-y-3 mb-6">
+                {/* Perfect */}
+                {sessionStats.perfect.length > 0 && (
+                  <button
+                    onClick={() => {
+                      setSessionStats({ perfect: [], bumpy: [], needsWork: [] })
+                      setSessionCompleted(false)
+                      setQueueIndex(0)
+                      setSessionCounter((c) => c + 1)  // Force remount
+                      setView({ name: 'study', queueIds: sessionStats.perfect.map((c) => c.id) })
+                    }}
+                    className="w-full text-left bg-green-50 border border-green-200 rounded-xl p-4 hover:shadow-md hover:scale-[1.01] transition-all cursor-pointer"
+                  >
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-lg font-semibold text-green-800">
+                        ✅ <Bi i18nKey="session.perfect" /> · {sessionStats.perfect.length}
+                      </span>
+                      <span className="text-sm text-green-700">
+                        <Bi i18nKey="session.perfectTime" />
+                      </span>
+                    </div>
+                    <div className="text-sm text-green-700">
+                      <Bi i18nKey="session.perfectMsg" />
+                    </div>
+                  </button>
+                )}
+
+                {/* Bumpy */}
+                {sessionStats.bumpy.length > 0 && (
+                  <button
+                    onClick={() => {
+                      setSessionStats({ perfect: [], bumpy: [], needsWork: [] })
+                      setSessionCompleted(false)
+                      setQueueIndex(0)
+                      setSessionCounter((c) => c + 1)  // Force remount
+                      setView({ name: 'study', queueIds: sessionStats.bumpy.map((c) => c.id) })
+                    }}
+                    className="w-full text-left bg-amber-50 border border-amber-200 rounded-xl p-4 hover:shadow-md hover:scale-[1.01] transition-all cursor-pointer"
+                  >
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-lg font-semibold text-amber-800">
+                        💪 <Bi i18nKey="session.bumpy" /> · {sessionStats.bumpy.length}
+                      </span>
+                      <span className="text-sm text-amber-700">
+                        <Bi i18nKey="session.bumpyTime" />
+                      </span>
+                    </div>
+                    <div className="text-sm text-amber-700">
+                      <Bi i18nKey="session.bumpyMsg" />
+                    </div>
+                  </button>
+                )}
+
+                {/* Needs Work */}
+                {sessionStats.needsWork.length > 0 && (
+                  <button
+                    onClick={() => {
+                      setSessionStats({ perfect: [], bumpy: [], needsWork: [] })
+                      setSessionCompleted(false)
+                      setQueueIndex(0)
+                      setSessionCounter((c) => c + 1)  // Force remount
+                      setView({ name: 'study', queueIds: sessionStats.needsWork.map((c) => c.id) })
+                    }}
+                    className="w-full text-left bg-rose-50 border border-rose-200 rounded-xl p-4 hover:shadow-md hover:scale-[1.01] transition-all cursor-pointer"
+                  >
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-lg font-semibold text-rose-800">
+                        🔥 <Bi i18nKey="session.needsWork" /> · {sessionStats.needsWork.length}
+                      </span>
+                      <span className="text-sm text-rose-700">
+                        <Bi i18nKey="session.needsWorkTime" />
+                      </span>
+                    </div>
+                    <div className="text-sm text-rose-700">
+                      <Bi i18nKey="session.needsWorkMsg" />
+                    </div>
+                  </button>
+                )}
+              </div>
+
+              {/* Actions */}
+              <div className="flex flex-col gap-3">
+                <button
+                  onClick={() => setView({ name: 'home' })}
+                  className="w-full py-3 rounded-xl bg-friends-paper text-friends-sofa font-semibold border border-friends-coffee/25 hover:bg-friends-accent/30 transition-all flex items-center justify-center gap-2"
+                >
+                  <span>🏠</span>
+                  <Bi i18nKey="nav.home" />
+                </button>
+              </div>
             </div>
           </div>
         )}

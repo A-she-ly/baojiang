@@ -31,7 +31,8 @@ interface Props {
   card: Flashcard
   canGoNext: boolean
   canGoPrev: boolean
-  onComplete: () => void
+  onCardComplete: (card: Flashcard, rating: SrsRating) => void
+  onSessionComplete: () => void
   onRate: (rating: 'again' | 'hard' | 'good' | 'easy') => void
   onNext: () => void
   onPrev: () => void
@@ -63,7 +64,8 @@ export default function FlashcardView({
   card,
   canGoNext,
   canGoPrev,
-  onComplete,
+  onCardComplete,
+  onSessionComplete,
   onRate,
   onNext,
   onPrev,
@@ -83,6 +85,7 @@ export default function FlashcardView({
   const [feedbackLevel, setFeedbackLevel] = useState<'almost' | 'not_quite'>('not_quite')
   const [attempts, setAttempts] = useState(0)
   const [autoRating, setAutoRating] = useState<SrsRating | null>(null)
+  const [cardRated, setCardRated] = useState(false)  // Prevent double-counting
   const inputRef = useRef<HTMLInputElement>(null)
 
   // Pronunciation focus label (main text only for badge)
@@ -145,10 +148,18 @@ export default function FlashcardView({
     setFeedbackLevel('not_quite')
     setAttempts(0)
     setAutoRating(null)
+    setCardRated(false)  // Reset rating flag for new card
     setFlipped(false)
     setHintLevel('none')
     setTimeout(() => inputRef.current?.focus(), 100)
   }, [card.id])
+
+  // Focus input when flipping back to front
+  useEffect(() => {
+    if (!flipped && answerState !== 'correct') {
+      setTimeout(() => inputRef.current?.focus(), 300)  // Wait for flip animation
+    }
+  }, [flipped, answerState])
 
   const clozeLength = card.sentence_cloze.length
   const clozeFontSize = clozeLength > 120 ? 'text-lg' : clozeLength > 80 ? 'text-xl' : clozeLength > 50 ? 'text-2xl' : 'text-2xl sm:text-3xl'
@@ -183,7 +194,7 @@ export default function FlashcardView({
     setAttempts(0)
     setAutoRating(null)
     if (canGoNext) onNext()
-    else onComplete()
+    else onSessionComplete()
   }
 
   // --- Answer checking ---
@@ -246,10 +257,14 @@ export default function FlashcardView({
       onRate(rating)
       setAutoRating(rating)
       setAnswerState('correct')
+      if (!cardRated) {
+        onCardComplete(card, rating)
+        setCardRated(true)
+      }
       // Auto-advance after showing encouragement
       setTimeout(() => {
         if (canGoNext) onNext()
-        else onComplete()
+        else onSessionComplete()
       }, 1500)
     } else {
       const nextAttempts = attempts + 1
@@ -267,10 +282,12 @@ export default function FlashcardView({
     setAutoRating(rating)
     setAnswerState('revealed')
     setUserAnswer('')
+    onCardComplete(card, rating)
+    setCardRated(true)  // Mark as rated to prevent double-counting
     // Auto-advance after showing answer
     setTimeout(() => {
       if (canGoNext) onNext()
-      else onComplete()
+      else onSessionComplete()
     }, 2500)
   }
 
@@ -324,7 +341,17 @@ export default function FlashcardView({
           {/* FRONT */}
           <div
             className="card-face front paper-texture cursor-pointer"
-            onClick={() => setFlipped(true)}
+            onClick={() => {
+              if (!cardRated && answerState !== 'correct' && answerState !== 'revealed') {
+                // Peeking at back = revealed the answer, but still allow answering
+                const rating = autoRateFromAttempts(attempts, feedbackLevel, true)
+                onRate(rating)
+                setAutoRating(rating)
+                onCardComplete(card, rating)
+                setCardRated(true)  // Prevent duplicate recording
+              }
+              setFlipped(true)
+            }}
           >
             <div className="relative h-full w-full flex flex-col">
               <div className="h-1/2 w-full bg-friends-coffee/20 relative overflow-hidden">
@@ -386,7 +413,7 @@ export default function FlashcardView({
                                   onClick={(e) => e.stopPropagation()}
                                   onFocus={(e) => e.stopPropagation()}
                                   disabled={false}
-                                  placeholder="___"
+                                  placeholder=""
                                   autoComplete="off"
                                   autoCorrect="off"
                                   autoCapitalize="off"
@@ -420,6 +447,13 @@ export default function FlashcardView({
                     🔊
                   </button>
                 </div>
+
+                {/* Chinese translation */}
+                {card.sentence_translation && (
+                  <div className="mt-2 text-sm text-friends-coffee/70">
+                    {card.sentence_translation}
+                  </div>
+                )}
 
                 {/* Answer check button & feedback */}
                 {answerState !== 'revealed' && (
@@ -504,7 +538,7 @@ export default function FlashcardView({
                         <Bi i18nKey="card.lightHint" />
                       </button>
                       <button
-                        onClick={(e) => { e.stopPropagation(); setHintLevel('full'); }}
+                        onClick={(e) => { e.stopPropagation(); revealAnswer(); }}
                         className="px-3 py-1.5 rounded-full bg-friends-accent/20 text-friends-accent text-xs font-medium hover:bg-friends-accent/30 transition border border-friends-accent/30"
                       >
                         <Bi i18nKey="card.giveAnswer" />

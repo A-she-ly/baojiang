@@ -65,7 +65,14 @@
     "practiceCount": { "main": "{{count}} tarjetas listas para practicar, las revisiones vencidas tienen prioridad", "zh": "可练习 {{count}} 张，到期复习会优先安排" },
     "startSession": { "main": "🚀 Iniciar sesión ({{count}})", "zh": " 开始本轮 ({{count}})" },
     "studyAll": { "main": "Estudiar todo", "zh": "全部学习" },
-    "previewTitle": { "main": "Vista previa (primeras 12)", "zh": "闪卡预览（前 12 张）" }
+    "startLearning": { "main": "Empezar a aprender ({{count}} tarjetas)", "zh": "开始学习（{{count}} 张）" },
+    "allCaughtUp": { "main": "¡Todo al día! Vuelve más tarde para repasar.", "zh": "全部学完啦！等会儿再来复习吧～" },
+    "previewTitle": { "main": "Vista previa (primeras 12)", "zh": "闪卡预览（前 12 张）" },
+    "cards": { "main": "tarjetas", "zh": "张" },
+    "reviewPerfect": { "main": "¡Repasa estas palabras ya dominadas!", "zh": "复习这些已掌握的单词！" },
+    "reviewBumpy": { "main": "¡Sigue practicando estas palabras casi listas!", "zh": "继续练习这些差一点就记住的单词！" },
+    "startYourJourney": { "main": " ¿Listo para comenzar tu viaje? 🌟", "zh": "准备好开始你的学习之旅了吗？🌟" },
+    "noDataYet": { "main": "Aún no has aprendido ninguna palabra. ¡Haz clic en 'Iniciar sesión' abajo para comenzar!", "zh": "你还没有学习任何单词。点击下方的'开始本轮'按钮开始吧！" }
   },
   "pos": {
     "n": { "main": "Sustantivo", "zh": "名词" },
@@ -128,9 +135,19 @@
     "autoScheduled": { "main": "Programado automáticamente", "zh": "已自动安排" }
   },
   "session": {
-    "complete": { "main": "🎉 ¡Sesión completada!", "zh": "🎉 本轮完成！" },
+    "complete": { "main": "🎉 ¡Sesión completada!", "zh": " 本轮完成！" },
     "completeSub": { "main": "¡Buen trabajo! Tu inglés está mejorando. ¡Hasta la próxima!", "zh": "今天的包浆已经烤上了，下次见面继续磨～" },
-    "empty": { "main": "Vacío", "zh": "空的" }
+    "empty": { "main": "Vacío", "zh": "空的" },
+    "perfect": { "main": "¡Perfecto!", "zh": "一把过" },
+    "perfectTime": { "main": "7 días después", "zh": "7 天后再巩固" },
+    "perfectMsg": { "main": "¡Perfecto! ¡Estas palabras ya son tuyas! ", "zh": "太棒了！这些词你已经掌握了！🎉" },
+    "bumpy": { "main": "Casi lo tienes", "zh": "小磕绊" },
+    "bumpyTime": { "main": "1-3 días después", "zh": "1-3 天后再复习" },
+    "bumpyMsg": { "main": "¡Tan cerca! ¡Una revisión más y estará grabado! 💪", "zh": "差一点！再复习一次就记住了！💪" },
+    "needsWork": { "main": "Necesita práctica", "zh": "需夯实" },
+    "needsWorkTime": { "main": "10 min - 1 día después", "zh": "10分钟-1天后再挑战" },
+    "needsWorkMsg": { "main": "¡No te preocupes! ¡La repetición es la madre del aprendizaje! 🔄", "zh": "别担心！重复是学习之母！🔄" },
+    "reviewNow": { "main": "Repasar ahora ({{count}} tarjetas)", "zh": "立即复习 ({{count}} 张)" }
   },
   "feedback": {
     "correct": {

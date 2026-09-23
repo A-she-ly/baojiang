@@ -65,7 +65,14 @@
     "practiceCount": { "main": "{{count}} cards ready for practice, due reviews prioritized", "zh": "可练习 {{count}} 张，到期复习会优先安排" },
     "startSession": { "main": "🚀 Start Session ({{count}})", "zh": "🚀 开始本轮 ({{count}})" },
     "studyAll": { "main": "Study All", "zh": "全部学习" },
-    "previewTitle": { "main": "Card Preview (first 12)", "zh": "闪卡预览（前 12 张）" }
+    "startLearning": { "main": "Start Learning ({{count}} cards)", "zh": "开始学习（{{count}} 张）" },
+    "allCaughtUp": { "main": "All caught up! Come back later for reviews.", "zh": "全部学完啦！等会儿再来复习吧～" },
+    "previewTitle": { "main": "Card Preview (first 12)", "zh": "闪卡预览（前 12 张）" },
+    "cards": { "main": "cards", "zh": "张" },
+    "reviewPerfect": { "main": "Review these mastered words!", "zh": "复习这些已掌握的单词！" },
+    "reviewBumpy": { "main": "Keep practicing these almost-there words!", "zh": "继续练习这些差一点就记住的单词！" },
+    "startYourJourney": { "main": " Ready to start your journey? 🌟", "zh": "准备好开始你的学习之旅了吗？🌟" },
+    "noDataYet": { "main": "You haven't learned any words yet. Click 'Start Session' below to begin!", "zh": "你还没有学习任何单词。点击下方的'开始本轮'按钮开始吧！" }
   },
   "pos": {
     "n": { "main": "Noun", "zh": "名词" },
@@ -130,7 +137,17 @@
   "session": {
     "complete": { "main": "🎉 Session Complete!", "zh": " 本轮完成！" },
     "completeSub": { "main": "Great job! Your English is getting smoother. See you next time!", "zh": "今天的包浆已经烤上了，下次见面继续磨～" },
-    "empty": { "main": "Empty", "zh": "空的" }
+    "empty": { "main": "Empty", "zh": "空的" },
+    "perfect": { "main": "Nailed it", "zh": "一把过" },
+    "perfectTime": { "main": "7 days later", "zh": "7 天后再巩固" },
+    "perfectMsg": { "main": "Perfect! These words are locked in! 🎉", "zh": "太棒了！这些词你已经掌握了！🎉" },
+    "bumpy": { "main": "Almost there", "zh": "小磕绊" },
+    "bumpyTime": { "main": "1-3 days later", "zh": "1-3 天后再复习" },
+    "bumpyMsg": { "main": "So close! One more review and it's locked in! 💪", "zh": "差一点！再复习一次就记住了！💪" },
+    "needsWork": { "main": "Needs practice", "zh": "需夯实" },
+    "needsWorkTime": { "main": "10 min - 1 day later", "zh": "10分钟-1天后再挑战" },
+    "needsWorkMsg": { "main": "Don't worry! Repetition is the mother of learning! 🔄", "zh": "别担心！重复是学习之母！🔄" },
+    "reviewNow": { "main": "Review now ({{count}} cards)", "zh": "立即复习 ({{count}} 张)" }
   },
   "feedback": {
     "correct": {

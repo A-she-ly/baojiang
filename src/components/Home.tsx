@@ -103,7 +103,7 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
 
   const recommendedCards = useMemo(() => {
     const now = Date.now()
-    return filteredCards
+    const dueCards = filteredCards
       .filter((card) => !srs[card.id] || srs[card.id].dueAt <= now)
       .sort((a, b) => {
         const aState = srs[a.id]
@@ -111,6 +111,11 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
         if (Boolean(aState) !== Boolean(bState)) return aState ? -1 : 1
         return (aState?.dueAt ?? 0) - (bState?.dueAt ?? 0)
       })
+    // Fall back to new cards when no due cards
+    if (dueCards.length === 0) {
+      return filteredCards.filter((card) => !srs[card.id])
+    }
+    return dueCards
   }, [filteredCards, srs])
 
   const stats = useMemo(() => {
@@ -233,6 +238,45 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
               </div>
             ))}
           </div>
+
+          {/* Rating category buttons */}
+          <div className="mt-4 space-y-2">
+            {stats.learned > 0 || stats.learning > 0 ? (
+              // Show rating buttons when there's data
+              <>
+                {stats.learned > 0 && (
+                  <button
+                    onClick={() => onStart(cards.filter((c) => srs[c.id]?.status === 'review' && srs[c.id]?.lastRating === 'easy').map((c) => c.id))}
+                    className="w-full text-left bg-green-50/90 border border-green-200 rounded-xl p-3 hover:shadow-md hover:scale-[1.01] transition-all cursor-pointer"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-base font-semibold text-green-800">✅ <Bi i18nKey="session.perfect" /></span>
+                      <span className="text-sm text-green-700">{stats.learned} <Bi i18nKey="home.cards" /></span>
+                    </div>
+                    <div className="text-xs text-green-600 mt-1"><Bi i18nKey="home.reviewPerfect" /></div>
+                  </button>
+                )}
+                {stats.learning > 0 && (
+                  <button
+                    onClick={() => onStart(cards.filter((c) => srs[c.id]?.status === 'learning').map((c) => c.id))}
+                    className="w-full text-left bg-amber-50/90 border border-amber-200 rounded-xl p-3 hover:shadow-md hover:scale-[1.01] transition-all cursor-pointer"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-base font-semibold text-amber-800">💪 <Bi i18nKey="session.bumpy" /></span>
+                      <span className="text-sm text-amber-700">{stats.learning} <Bi i18nKey="home.cards" /></span>
+                    </div>
+                    <div className="text-xs text-amber-600 mt-1"><Bi i18nKey="home.reviewBumpy" /></div>
+                  </button>
+                )}
+              </>
+            ) : (
+              // Encouragement message when no data
+              <div className="bg-gradient-to-r from-friends-perk/10 to-emerald-500/10 border border-friends-perk/30 rounded-xl p-4 text-center">
+                <div className="text-lg font-semibold text-friends-sofa mb-1"> <Bi i18nKey="home.startYourJourney" /></div>
+                <div className="text-sm text-friends-coffee/80"><Bi i18nKey="home.noDataYet" /></div>
+              </div>
+            )}
+          </div>
         </div>
       </header>
 
@@ -312,10 +356,10 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
             <div className="flex flex-wrap gap-2">
               <button
                 disabled={recommendedCards.length === 0}
-                onClick={() => startSession(recommendedCards.slice(0, 10))}
+                onClick={() => startSession(recommendedCards.slice(0, 3))}
                 className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-friends-perk to-emerald-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-40 disabled:pointer-events-none disabled:hover:scale-100"
               >
-                <Bi i18nKey="home.startSession" values={{ count: Math.min(10, recommendedCards.length) }} />
+                <Bi i18nKey="home.startSession" values={{ count: Math.min(3, recommendedCards.length) }} />
               </button>
               <button
                 disabled={filteredCards.length === 0}
