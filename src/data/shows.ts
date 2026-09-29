@@ -16,6 +16,12 @@ export const SHOWS: ShowDefinition[] = [
         description: 'Rachel leaves her fiancé and moves in with Monica; Ross reels from his wife leaving him.',
         hasCards: true,
       },
+      {
+        episodeId: 'S01E01-NOUNS',
+        title: 'S01E01 — Noun Classification',
+        description: 'Nouns extracted from Friends S01E01 dialogue, each card shows context from the episode.',
+        hasCards: true,
+      },
     ],
   },
   {
@@ -65,6 +71,12 @@ export const SHOWS: ShowDefinition[] = [
         episodeId: 'S01E01',
         title: 'S01E01 — Efecto Mariposa',
         description: 'El Profesor recluta a su equipo para el atraco más grande de la historia.',
+        hasCards: true,
+      },
+      {
+        episodeId: 'S3E01',
+        title: 'S3E01 — 名词分类',
+        description: '第三季第一集台词中提取的名词闪卡，每张卡背面展示台词上下文。',
         hasCards: true,
       },
     ],

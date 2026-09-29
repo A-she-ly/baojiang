@@ -356,10 +356,10 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
             <div className="flex flex-wrap gap-2">
               <button
                 disabled={recommendedCards.length === 0}
-                onClick={() => startSession(recommendedCards.slice(0, 3))}
+                onClick={() => startSession(recommendedCards.slice(0, 7))}
                 className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-friends-perk to-emerald-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-40 disabled:pointer-events-none disabled:hover:scale-100"
               >
-                <Bi i18nKey="home.startSession" values={{ count: Math.min(3, recommendedCards.length) }} />
+                <Bi i18nKey="home.startSession" values={{ count: Math.min(7, recommendedCards.length) }} />
               </button>
               <button
                 disabled={filteredCards.length === 0}
@@ -382,7 +382,7 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredCards.slice(0, 12).map((c) => (
+          {recommendedCards.slice(0, 12).map((c) => (
             <div
               key={c.id}
               className="group bg-white rounded-xl border border-friends-coffee/10 hover:border-friends-perk/40 shadow-sm hover:shadow-card transition-all p-4 cursor-pointer"

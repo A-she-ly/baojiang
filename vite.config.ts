@@ -9,9 +9,8 @@ export default defineConfig({
     strictPort: false,
     proxy: {
       '/api/tts': {
-        target: 'http://dict.youdao.com',
+        target: 'http://localhost:8901',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api\/tts/, '/dictvoice'),
       },
     },
   },

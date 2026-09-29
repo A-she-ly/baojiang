@@ -110,8 +110,10 @@ export default function FlashcardView({
     const cleanText = text.replace(/\*|\(.*?\)/g, '').trim()
     if (!cleanText) return
 
+    const isSpanish = card.id.startsWith('LCDP_')
+    const lang = isSpanish ? 'es' : 'en'
     const encoded = encodeURIComponent(cleanText)
-    const audio = new Audio(`/api/tts?type=2&audio=${encoded}`)
+    const audio = new Audio(`/api/tts?text=${encoded}&lang=${lang}`)
     audio.onplay = () => setIsPlaying(true)
     audio.onended = () => setIsPlaying(false)
     audio.onerror = () => playBrowserTTS(cleanText)
@@ -354,39 +356,24 @@ export default function FlashcardView({
             }}
           >
             <div className="relative h-full w-full flex flex-col">
-              <div className="h-1/2 w-full bg-friends-coffee/20 relative overflow-hidden">
-                <img
-                  src={card.screenshot}
-                  alt="scene"
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    ;(e.target as HTMLImageElement).src =
-                      '/episodes/S01E01/images/scene_001_central_perk.png'
-                  }}
-                />
-                <div className="absolute top-3 left-3 flex items-center gap-2">
-                  <span className="px-2.5 py-1 rounded-full bg-black/50 backdrop-blur text-white text-xs font-medium">
-                    {card.scene_id.replace(/^scene_\d+_/, '').replace(/_/g, ' ')}
-                  </span>
-                </div>
-                <button
-                  className="absolute top-3 right-3 w-9 h-9 rounded-full bg-black/50 backdrop-blur text-white text-lg hover:bg-black/70 transition"
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    toggleFavorite(card.id)
-                  }}
-                  title={t('card.favorite', { returnObjects: true }) as any}
-                >
-                  {isFav ? '⭐' : '☆'}
-                </button>
-              </div>
-
               <div className="flex-1 p-5 sm:p-7 flex flex-col">
-                <div className="flex items-center gap-2 mb-3 text-sm text-friends-sofa/80">
-                  <span className="text-2xl">{avatar}</span>
-                  <span className="font-semibold text-friends-sofa">{card.character}</span>
-                  <span className="mx-1 text-friends-coffee/40">·</span>
-                  <span className="text-xs">{card.id}</span>
+                <div className="flex items-center justify-between mb-3 text-sm text-friends-sofa/80">
+                  <div className="flex items-center gap-2">
+                    <span className="text-2xl">{avatar}</span>
+                    <span className="font-semibold text-friends-sofa">{card.character}</span>
+                    <span className="mx-1 text-friends-coffee/40">·</span>
+                    <span className="text-xs">{card.id}</span>
+                  </div>
+                  <button
+                    className="w-9 h-9 rounded-full flex items-center justify-center text-lg hover:bg-friends-coffee/10 transition"
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      toggleFavorite(card.id)
+                    }}
+                    title={t('card.favorite', { returnObjects: true }) as any}
+                  >
+                    {isFav ? '⭐' : '☆'}
+                  </button>
                 </div>
 
                 <div className={`${clozeFontSize} font-semibold text-friends-sofa leading-snug flex-1 flex items-start gap-2`} style={{ columnCount: 1 }}>
@@ -398,28 +385,40 @@ export default function FlashcardView({
                           {card.sentence_cloze.split(/(_{3,})/g).map((p, i) =>
                             /^_+$/.test(p)
                               ? (
-                                <input
-                                  key={i}
-                                  ref={inputRef}
-                                  type="text"
-                                  value={userAnswer}
-                                  onChange={(e) => {
-                                    setUserAnswer(e.target.value)
-                                    if (answerState === 'wrong') setAnswerState('idle')
-                                  }}
-                                  onKeyDown={(e) => {
-                                    if (e.key === 'Enter') checkAnswer()
-                                  }}
-                                  onClick={(e) => e.stopPropagation()}
-                                  onFocus={(e) => e.stopPropagation()}
-                                  disabled={false}
-                                  placeholder=""
-                                  autoComplete="off"
-                                  autoCorrect="off"
-                                  autoCapitalize="off"
-                                  spellCheck={false}
-                                  className="cloze-input"
-                                />
+                                <span key={i} className="inline-flex items-center gap-2">
+                                  <input
+                                    ref={i === 0 ? inputRef : undefined}
+                                    type="text"
+                                    value={userAnswer}
+                                    onChange={(e) => {
+                                      setUserAnswer(e.target.value)
+                                      if (answerState === 'wrong') setAnswerState('idle')
+                                    }}
+                                    onKeyDown={(e) => {
+                                      if (e.key === 'Enter') checkAnswer()
+                                    }}
+                                    onClick={(e) => e.stopPropagation()}
+                                    onFocus={(e) => e.stopPropagation()}
+                                    disabled={false}
+                                    placeholder=""
+                                    autoComplete="off"
+                                    autoCorrect="off"
+                                    autoCapitalize="off"
+                                    spellCheck={false}
+                                    className="cloze-input"
+                                  />
+                                  {/* Play target word button */}
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation()
+                                      playTTS(card.target_word)
+                                    }}
+                                    className="w-6 h-6 rounded-full flex items-center justify-center transition text-sm bg-friends-accent/15 text-friends-accent hover:bg-friends-accent/30"
+                                    title={`播放单词: ${card.target_word}`}
+                                  >
+                                    🔈
+                                  </button>
+                                </span>
                               )
                               : <span key={i}>{p}</span>
                           )}
@@ -614,6 +613,35 @@ export default function FlashcardView({
                     {card.translation && (
                       <div className="mt-1 text-lg text-friends-perk font-medium">{card.translation}</div>
                     )}
+
+                    {/* Etymology breakdown */}
+                    {(card as any).etymology && (
+                      <div className="mt-3 bg-white/70 rounded-xl p-4 border border-friends-coffee/20">
+                        <div className="text-xs font-semibold mb-2 text-friends-perk flex items-center gap-1">
+                          📚 词源学拆分
+                        </div>
+                        {/* Main breakdown formula */}
+                        <div className="text-sm text-friends-sofa font-medium mb-3">
+                          {card.target_word} = {(card as any).etymology.map((e: { part: string }, i: number) => (
+                            <span key={i}>
+                              {i > 0 && ' + '}
+                              <span className="text-friends-accent font-semibold">{e.part}</span>
+                            </span>
+                          ))}
+                        </div>
+                        {/* Detailed table */}
+                        <div className="space-y-2">
+                          {(card as any).etymology.map((e: { part: string; origin: string; meaning: string }, idx: number) => (
+                            <div key={idx} className="flex items-start gap-2 text-xs">
+                              <span className="font-semibold text-friends-accent min-w-[3rem]">{e.part}</span>
+                              <span className="text-friends-coffee/70 italic min-w-[6rem]">{e.origin}</span>
+                              <span className="text-friends-sofa/90 flex-1">{e.meaning}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
                     <div className="mt-1 flex items-center gap-2 text-lg text-friends-coffee font-medium">
                       <span>{card.ipa}</span>
                       <span className="rounded bg-friends-perk/15 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-friends-perk">
@@ -761,6 +789,32 @@ export default function FlashcardView({
                       )}
                     </div>
                   )}
+                </div>
+              )}
+
+              {/* Additional context examples (for noun cards with multiple occurrences) */}
+              {(card as any).context_examples && (card as any).context_examples.length > 1 && (
+                <div className="bg-white/70 rounded-xl p-4 border border-friends-coffee/20">
+                  <div className="text-xs font-semibold mb-3 text-friends-perk">
+                    📖 更多台词引用 ({(card as any).context_examples.length})
+                  </div>
+                  <div className="space-y-3">
+                    {(card as any).context_examples.slice(1).map((ctx: { espanol?: string; english?: string; chinese: string; seq: number }, idx: number) => {
+                      const sentenceText = ctx.espanol || ctx.english || '';
+                      return (
+                      <div key={idx} className="border-l-2 border-friends-perk/30 pl-3">
+                        <div className="text-sm text-friends-sofa font-medium leading-relaxed" style={{ columnCount: 1 }}>
+                          {highlightWord(sentenceText, card.target_word)}
+                        </div>
+                        {ctx.chinese && (
+                          <div className="text-xs text-friends-perk/80 mt-1">
+                            {ctx.chinese}
+                          </div>
+                        )}
+                      </div>
+                      );
+                    })}
+                  </div>
                 </div>
               )}
 

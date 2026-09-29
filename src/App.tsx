@@ -16,18 +16,28 @@ type SessionStats = {
 
 import friendsCards from './data/S01E01_cards.json'
 import friendsMeta from './data/S01E01_metadata.json'
+import friendsNounsCards from './data/Friends_S01E01_nouns_cards.json'
+import friendsNounsMeta from './data/Friends_S01E01_nouns_metadata.json'
 import lcdpCards from './data/LCDP_S01E01_cards.json'
 import lcdpMeta from './data/LCDP_S01E01_metadata.json'
+import lcdpNounsCards from './data/LCDP_S3E01_nouns_cards.json'
+import lcdpNounsMeta from './data/LCDP_S3E01_nouns_metadata.json'
 
 const friendsCardsData = friendsCards as Flashcard[]
 const friendsMetaData = friendsMeta as EpisodeMetadata
+const friendsNounsCardsData = friendsNounsCards as Flashcard[]
+const friendsNounsMetaData = friendsNounsMeta as EpisodeMetadata
 const lcdpCardsData = lcdpCards as Flashcard[]
 const lcdpMetaData = lcdpMeta as EpisodeMetadata
+const lcdpNounsCardsData = lcdpNounsCards as Flashcard[]
+const lcdpNounsMetaData = lcdpNounsMeta as EpisodeMetadata
 
 /** Map of "showId:episodeId" → { cards, metadata } */
 const EPISODE_DATA: Record<string, { cards: Flashcard[]; metadata: EpisodeMetadata }> = {
   'friends:S01E01': { cards: friendsCardsData, metadata: friendsMetaData },
+  'friends:S01E01-NOUNS': { cards: friendsNounsCardsData, metadata: friendsNounsMetaData },
   'la-casa-de-papel:S01E01': { cards: lcdpCardsData, metadata: lcdpMetaData },
+  'la-casa-de-papel:S3E01': { cards: lcdpNounsCardsData, metadata: lcdpNounsMetaData },
 }
 
 const LS_SESSION_KEY = 'bjy_session_v1'
