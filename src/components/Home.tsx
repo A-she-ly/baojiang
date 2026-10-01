@@ -13,7 +13,6 @@ interface Props {
   metadata: EpisodeMetadata
   show: ShowDefinition
   episode?: ShowEpisode
-  onChangeShow: () => void
   onStart: (queueIds: string[]) => void
 }
 
@@ -24,7 +23,7 @@ function useBi(i18nKey: string, values?: Record<string, string | number>): strin
   return typeof raw === 'string' ? raw : (raw.main ?? i18nKey)
 }
 
-export default function Home({ cards, metadata, show, episode, onChangeShow, onStart }: Props) {
+export default function Home({ cards, metadata, show, episode, onStart }: Props) {
   const { t } = useTranslation()
   const srs = useStore((s) => s.srs)
   const favorites = useStore((s) => s.favorites)
@@ -162,31 +161,16 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
     { key: 'all', i18nKey: 'home.filterAll', icon: '📚' },
     { key: 'pos', i18nKey: 'home.filterPos', icon: '🔤' },
     { key: 'pronunciation', i18nKey: 'home.filterPronunciation', icon: '️' },
-    { key: 'character', i18nKey: 'home.filterCharacter', icon: '🎭' },
-    { key: 'scene', i18nKey: 'home.filterScene', icon: '🎬' },
-    { key: 'level', i18nKey: 'home.filterLevel', icon: '📶' },
-    { key: 'tags', i18nKey: 'home.filterTags', icon: '️' },
   ]
 
   return (
     <div className="min-h-full">
       {/* Header */}
       <header className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-friends-sofa via-friends-coffee to-friends-sofa opacity-90" />
-        <div className="absolute inset-0 opacity-20" style={{
-          backgroundImage:
-            "radial-gradient(circle at 20% 20%, #FFB74D 0, transparent 40%), radial-gradient(circle at 80% 60%, #FFF8E1 0, transparent 35%)",
-        }} />
-        <div className="relative px-6 pt-10 pb-14 text-white max-w-4xl mx-auto">
-          {/* Top bar: language + change show */}
+        <div className="relative px-6 pt-10 pb-14 max-w-4xl mx-auto">
+          {/* Top bar: language */}
           <div className="absolute top-4 right-4 flex items-center gap-2">
             <LanguageSwitcher />
-            <button
-              onClick={onChangeShow}
-              className="px-3 py-1.5 rounded-full bg-white/20 backdrop-blur border border-white/30 text-white text-sm font-medium hover:bg-white/30 transition-all"
-            >
-              <Bi i18nKey="nav.changeShow" />
-            </button>
           </div>
 
           <div className="flex items-center gap-3">
@@ -195,10 +179,10 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
               <BilingualText
                 i18nKey={show.titleKey}
                 as="div"
-                className="font-hand text-4xl sm:text-5xl text-friends-cream drop-shadow-md"
-                zhClassName="text-friends-cream/80"
+                className="text-3xl sm:text-4xl font-semibold text-primary-900 tracking-tight"
+                zhClassName="text-primary-600"
               />
-              <div className="mt-1 text-sm text-friends-cream/80">
+              <div className="mt-1 text-sm text-primary-500 font-medium">
                 {episode?.title || metadata.title}
               </div>
             </div>
@@ -207,62 +191,43 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
           <BilingualText
             i18nKey={show.descKey}
             as="div"
-            className="mt-3 text-sm text-friends-accent/90 font-medium tracking-wide"
-            zhClassName="text-friends-accent/70"
+            className="mt-4 text-base text-primary-700 leading-relaxed"
+            zhClassName="text-primary-500"
           />
 
-          <div className="mt-4 bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/20">
-            <div className="text-xl font-semibold">
+          <div className="mt-6 bg-surface-secondary rounded-2xl p-5 border border-border-light">
+            <div className="text-lg font-semibold text-primary-900">
               {metadata.episode} · {metadata.title}
             </div>
-            <p className="mt-2 text-sm text-friends-cream/80 max-w-2xl leading-relaxed">
+            <p className="mt-2 text-sm text-primary-600 leading-relaxed">
               {metadata.description}
             </p>
           </div>
 
-          {/* stats */}
-          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mt-5">
-            {[
-              { i18nKey: 'home.totalCards', num: cards.length, color: 'from-amber-400/80 to-orange-400/80' },
-              { i18nKey: 'home.toLearn', num: stats.new, color: 'from-sky-400/80 to-indigo-400/80' },
-              { i18nKey: 'home.learning', num: stats.learning, color: 'from-yellow-400/80 to-amber-400/80' },
-              { i18nKey: 'home.mastered', num: stats.learned, color: 'from-green-400/80 to-emerald-400/80' },
-              { i18nKey: 'home.favorites', num: stats.favCount, color: 'from-rose-400/80 to-pink-400/80' },
-            ].map((s) => (
-              <div
-                key={s.i18nKey}
-                className={`rounded-xl p-3 bg-gradient-to-br ${s.color} backdrop-blur border border-white/20`}
-              >
-                <div className="text-xs opacity-90"><Bi i18nKey={s.i18nKey} /></div>
-                <div className="text-2xl font-bold mt-0.5">{s.num}</div>
-              </div>
-            ))}
-          </div>
-
           {/* Rating category buttons */}
-          <div className="mt-4 space-y-2">
+          <div className="mt-6 space-y-3">
             {stats.learned > 0 || stats.learning > 0 ? (
               // Show rating buttons when there's data
               <>
                 {stats.learned > 0 && (
                   <button
                     onClick={() => onStart(cards.filter((c) => srs[c.id]?.status === 'review' && srs[c.id]?.lastRating === 'easy').map((c) => c.id))}
-                    className="w-full text-left bg-green-50/90 border border-green-200 rounded-xl p-3 hover:shadow-md hover:scale-[1.01] transition-all cursor-pointer"
+                    className="w-full text-left bg-accent-50 border border-accent-200 rounded-xl p-4 hover:shadow-subtle transition-all cursor-pointer"
                   >
                     <div className="flex items-center justify-between">
-                      <span className="text-base font-semibold text-green-800">✅ <Bi i18nKey="session.perfect" /></span>
-                      <span className="text-sm text-green-700">{stats.learned} <Bi i18nKey="home.cards" /></span>
+                      <span className="text-base font-semibold text-accent-800">✅ <Bi i18nKey="session.perfect" /></span>
+                      <span className="text-sm text-accent-700">{stats.learned} <Bi i18nKey="home.cards" /></span>
                     </div>
-                    <div className="text-xs text-green-600 mt-1"><Bi i18nKey="home.reviewPerfect" /></div>
+                    <div className="text-xs text-accent-600 mt-1"><Bi i18nKey="home.reviewPerfect" /></div>
                   </button>
                 )}
                 {stats.learning > 0 && (
                   <button
                     onClick={() => onStart(cards.filter((c) => srs[c.id]?.status === 'learning').map((c) => c.id))}
-                    className="w-full text-left bg-amber-50/90 border border-amber-200 rounded-xl p-3 hover:shadow-md hover:scale-[1.01] transition-all cursor-pointer"
+                    className="w-full text-left bg-amber-50 border border-amber-200 rounded-xl p-4 hover:shadow-subtle transition-all cursor-pointer"
                   >
                     <div className="flex items-center justify-between">
-                      <span className="text-base font-semibold text-amber-800">💪 <Bi i18nKey="session.bumpy" /></span>
+                      <span className="text-base font-semibold text-amber-800"> <Bi i18nKey="session.bumpy" /></span>
                       <span className="text-sm text-amber-700">{stats.learning} <Bi i18nKey="home.cards" /></span>
                     </div>
                     <div className="text-xs text-amber-600 mt-1"><Bi i18nKey="home.reviewBumpy" /></div>
@@ -271,9 +236,9 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
               </>
             ) : (
               // Encouragement message when no data
-              <div className="bg-gradient-to-r from-friends-perk/10 to-emerald-500/10 border border-friends-perk/30 rounded-xl p-4 text-center">
-                <div className="text-lg font-semibold text-friends-sofa mb-1"> <Bi i18nKey="home.startYourJourney" /></div>
-                <div className="text-sm text-friends-coffee/80"><Bi i18nKey="home.noDataYet" /></div>
+              <div className="bg-accent-50 border border-accent-200 rounded-xl p-5 text-center">
+                <div className="text-base font-semibold text-accent-800 mb-1"> <Bi i18nKey="home.startYourJourney" /></div>
+                <div className="text-sm text-accent-700"><Bi i18nKey="home.noDataYet" /></div>
               </div>
             )}
           </div>
@@ -282,12 +247,12 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
 
       {/* Filter section */}
       <section className="max-w-4xl mx-auto px-4 -mt-6 sm:px-6">
-        <div className="bg-white rounded-2xl shadow-card border border-friends-coffee/10 p-5">
-          <div className="text-sm font-semibold text-friends-sofa/80 flex items-center gap-2">
-            <span className="w-1 h-4 bg-friends-perk rounded-full inline-block" />
+        <div className="bg-white rounded-2xl shadow-card border border-border-light p-6">
+          <div className="text-sm font-semibold text-primary-700 flex items-center gap-2">
+            <span className="w-1 h-4 bg-accent-600 rounded-full inline-block" />
             <Bi i18nKey="home.filterTitle" />
           </div>
-          <p className="mt-1 mb-3 text-xs text-friends-coffee/70">
+          <p className="mt-2 mb-4 text-xs text-primary-500">
             <Bi i18nKey="home.filterDesc" />
           </p>
 
@@ -301,8 +266,8 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
                 }}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                   selectedFilter === t2.key
-                    ? 'bg-friends-sofa text-white shadow-md'
-                    : 'bg-friends-cream text-friends-sofa hover:bg-friends-coffee/15 border border-friends-coffee/20'
+                    ? 'bg-primary-900 text-white shadow-subtle'
+                    : 'bg-surface-secondary text-primary-700 hover:bg-primary-100 border border-border-light'
                 }`}
               >
                 <span className="mr-1.5">{t2.icon}</span>
@@ -312,7 +277,7 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
           </div>
 
           {selectedFilter !== 'all' && (
-            <div className="mt-4 pt-4 border-t border-friends-coffee/10">
+            <div className="mt-4 pt-4 border-t border-border-light">
               <div className="flex flex-wrap gap-2">
                 {pickChips().map((chip) => (
                   <button
@@ -322,8 +287,8 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
                     }
                     className={`px-3 py-1.5 rounded-full text-sm transition-all ${
                       selectedValue === chip.value
-                        ? 'bg-friends-perk text-white shadow'
-                        : 'bg-friends-paper text-friends-sofa hover:bg-friends-accent/30 border border-friends-coffee/20'
+                        ? 'bg-accent-600 text-white shadow-subtle'
+                        : 'bg-surface-secondary text-primary-700 hover:bg-primary-100 border border-border-light'
                     }`}
                   >
                     {chip.i18nKey ? <Bi i18nKey={chip.i18nKey} /> : chip.label}
@@ -333,15 +298,15 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
             </div>
           )}
 
-          <div className="mt-5 flex items-center justify-between gap-4 flex-wrap">
-            <div className="text-sm text-friends-coffee/90">
+          <div className="mt-6 flex items-center justify-between gap-4 flex-wrap">
+            <div className="text-sm text-primary-600">
               <div>
                 <Bi i18nKey="home.currentFilter" />
-                <span className="font-semibold text-friends-sofa">
+                <span className="font-semibold text-primary-900">
                   <Bi i18nKey="home.cardsCount" values={{ count: filteredCards.length }} />
                 </span>
                 {selectedFilter !== 'all' && selectedValue && (
-                  <span className="ml-2 text-friends-perk font-medium">
+                  <span className="ml-2 text-accent-600 font-medium">
                     → {tabItems.find((t2) => t2.key === selectedFilter) && <Bi i18nKey={tabItems.find((t2) => t2.key === selectedFilter)!.i18nKey} />}:{' '}
                     {selectedFilter === 'pronunciation'
                       ? PRON_MAIN[selectedValue as PronunciationFocus] || selectedValue
@@ -349,7 +314,7 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
                   </span>
                 )}
               </div>
-              <div className="mt-1 text-xs text-friends-coffee/70">
+              <div className="mt-1 text-xs text-primary-500">
                 <Bi i18nKey="home.practiceCount" values={{ count: recommendedCards.length }} />
               </div>
             </div>
@@ -357,14 +322,14 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
               <button
                 disabled={recommendedCards.length === 0}
                 onClick={() => startSession(recommendedCards.slice(0, 7))}
-                className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-friends-perk to-emerald-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-40 disabled:pointer-events-none disabled:hover:scale-100"
+                className="px-5 py-2.5 rounded-xl bg-accent-600 text-white font-semibold shadow-subtle hover:shadow-card hover:scale-[1.02] transition-all disabled:opacity-40 disabled:pointer-events-none disabled:hover:scale-100"
               >
                 <Bi i18nKey="home.startSession" values={{ count: Math.min(7, recommendedCards.length) }} />
               </button>
               <button
                 disabled={filteredCards.length === 0}
                 onClick={() => startSession(filteredCards)}
-                className="px-4 py-2.5 rounded-xl bg-friends-paper text-friends-sofa font-semibold border border-friends-coffee/25 hover:bg-friends-accent/30 transition-all disabled:opacity-40 disabled:pointer-events-none"
+                className="px-4 py-2.5 rounded-xl bg-surface-secondary text-primary-700 font-semibold border border-border-light hover:bg-primary-100 transition-all disabled:opacity-40 disabled:pointer-events-none"
               >
                 <Bi i18nKey="home.studyAll" />
               </button>
@@ -376,8 +341,8 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
       {/* Preview grid */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-semibold text-friends-sofa flex items-center gap-2">
-            <span className="w-1 h-6 bg-friends-accent rounded-full inline-block" />
+          <h2 className="text-xl font-semibold text-primary-900 flex items-center gap-2">
+            <span className="w-1 h-6 bg-accent-600 rounded-full inline-block" />
             <Bi i18nKey="home.previewTitle" />
           </h2>
         </div>
@@ -385,34 +350,34 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
           {recommendedCards.slice(0, 12).map((c) => (
             <div
               key={c.id}
-              className="group bg-white rounded-xl border border-friends-coffee/10 hover:border-friends-perk/40 shadow-sm hover:shadow-card transition-all p-4 cursor-pointer"
+              className="group bg-white rounded-xl border border-border-light hover:border-accent-300 shadow-subtle hover:shadow-card transition-all p-4 cursor-pointer"
               onClick={() => onStart([c.id, ...filteredCards.filter((x) => x.id !== c.id).map((x) => x.id)])}
             >
               <div className="flex items-start justify-between mb-2">
-                <div className="font-hand text-2xl text-friends-sofa group-hover:text-friends-perk transition">
+                <div className="text-xl font-semibold text-primary-900 group-hover:text-accent-600 transition">
                   {c.target_word}
                 </div>
                 <span className={`text-xs px-2 py-0.5 rounded-full font-semibold ${
-                  c.level === 'A1' ? 'bg-green-100 text-green-800' :
-                  c.level === 'A2' ? 'bg-emerald-100 text-emerald-800' :
-                  c.level === 'B1' ? 'bg-yellow-100 text-yellow-800' :
-                  c.level === 'B2' ? 'bg-orange-100 text-orange-800' :
-                  c.level === 'C1' ? 'bg-red-100 text-red-800' : 'bg-rose-100 text-rose-800'
+                  c.level === 'A1' ? 'bg-accent-50 text-accent-700' :
+                  c.level === 'A2' ? 'bg-accent-100 text-accent-800' :
+                  c.level === 'B1' ? 'bg-yellow-50 text-yellow-700' :
+                  c.level === 'B2' ? 'bg-orange-50 text-orange-700' :
+                  c.level === 'C1' ? 'bg-red-50 text-red-700' : 'bg-rose-50 text-rose-700'
                 }`}>
                   {c.level}
                 </span>
               </div>
-              <div className="text-xs text-friends-coffee mb-1">GenAm {c.ipa} · {c.pos}</div>
+              <div className="text-xs text-primary-500 mb-1">GenAm {c.ipa} · {c.pos}</div>
               {c.translation && (
-                <div className="text-xs text-friends-perk font-medium mb-2">{c.translation}</div>
+                <div className="text-xs text-accent-600 font-medium mb-2">{c.translation}</div>
               )}
-              <div className="mb-2 inline-flex w-fit rounded-full border border-friends-perk/25 bg-friends-perk/10 px-2 py-0.5 text-xs font-medium text-friends-perk">
-                🗣️ {PRON_MAIN[c.pronunciation_focus] || c.pronunciation_focus}
+              <div className="mb-2 inline-flex w-fit rounded-full border border-accent-200 bg-accent-50 px-2 py-0.5 text-xs font-medium text-accent-700">
+                ️ {PRON_MAIN[c.pronunciation_focus] || c.pronunciation_focus}
               </div>
-              <div className="text-sm text-friends-sofa/80 line-clamp-2 leading-relaxed">
+              <div className="text-sm text-primary-700 line-clamp-2 leading-relaxed">
                 {c.sentence_full}
               </div>
-              <div className="mt-3 pt-3 border-t border-friends-coffee/10 flex items-center justify-between text-xs text-friends-coffee/80">
+              <div className="mt-3 pt-3 border-t border-border-light flex items-center justify-between text-xs text-primary-500">
                 <span>🎭 {c.character}</span>
                 <span> {c.scene_id.replace(/scene_\d+_/, '').slice(0, 12)}</span>
               </div>
@@ -421,7 +386,7 @@ export default function Home({ cards, metadata, show, episode, onChangeShow, onS
         </div>
       </section>
 
-      <footer className="py-8 text-center text-xs text-friends-coffee/60">
+      <footer className="py-8 text-center text-xs text-primary-400">
         <Bi i18nKey="app.footer" values={{ year: new Date().getFullYear() }} />
       </footer>
     </div>

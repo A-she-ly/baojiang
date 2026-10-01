@@ -8,13 +8,14 @@ html, body, #root {
 
 body {
   margin: 0;
-  background: linear-gradient(180deg, #FFF8E1 0%, #FFECB3 100%);
-  font-family: 'Inter', system-ui, sans-serif;
-  color: #3E2723;
+  background: #FAFAFA;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Inter, system-ui, sans-serif;
+  color: #262626;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* 3D card flip */
+/* 3D card flip - refined */
 .perspective {
   perspective: 1600px;
 }
@@ -34,53 +35,43 @@ body {
   inset: 0;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  border-radius: 1.25rem;
+  border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 20px 45px -15px rgba(93, 64, 55, 0.35);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 .card-face.back {
   transform: rotateY(180deg);
 }
 
-/* Subtle paper texture */
-.paper-texture {
-  background-color: #FFF8E1;
-  background-image:
-    radial-gradient(rgba(141, 110, 99, 0.05) 1px, transparent 1px),
-    radial-gradient(rgba(141, 110, 99, 0.04) 1px, transparent 1px);
-  background-size: 20px 20px, 30px 30px;
-  background-position: 0 0, 10px 10px;
-}
-
-/* Cloze blank underline */
+/* Cloze blank underline - refined */
 .cloze-blank {
   display: inline-block;
   min-width: 5em;
-  border-bottom: 3px solid #5D4037;
+  border-bottom: 2px solid #262626;
   margin: 0 0.2em;
   color: transparent;
   user-select: none;
 }
 
-/* Cloze input field (underline style) */
+/* Cloze input field - refined */
 .cloze-input {
   display: inline-block;
   min-width: 5em;
   max-width: 8em;
   border: none;
-  border-bottom: 3px solid #5D4037;
+  border-bottom: 2px solid #262626;
   background: transparent;
   margin: 0 0.2em;
   padding: 0 0.2em;
   font: inherit;
   font-weight: inherit;
-  color: #3E2723;
+  color: #262626;
   outline: none;
   text-align: center;
 }
 .cloze-input:focus {
-  border-bottom-color: #4CAF50;
+  border-bottom-color: #16A34A;
 }
 .cloze-input::placeholder {
-  color: rgba(93, 64, 55, 0.3);
+  color: rgba(38, 38, 38, 0.3);
 }

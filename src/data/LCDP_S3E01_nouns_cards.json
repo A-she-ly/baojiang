@@ -474,7 +474,7 @@
     ],
     "sentence_cloze": "___, ¿esto está habitado?",
     "sentence_full": "Andrés, ¿esto está habitado?",
-    "translation": "",
+    "translation": "安德鲁",
     "sentence_translation": "安德鲁斯 这里有人",
     "cultural_note": "",
     "screenshot": "",
@@ -495,6 +495,13 @@
         "espanol": "Os lo he dicho mil veces: se puede sacar el oro. Pero, Andrés,",
         "chinese": "我说过无数次了 你们或许能抢到黄金 可是 安德鲁斯",
         "seq": 382
+      }
+    ],
+    "etymology": [
+      {
+        "part": "Andrés",
+        "origin": "希腊语 Andreas",
+        "meaning": "男人气的/勇敢的"
       }
     ]
   },
@@ -806,12 +813,24 @@
     ],
     "sentence_cloze": "...el monstruo de los ___,",
     "sentence_full": "...el monstruo de los Balcanes,",
-    "translation": "",
+    "translation": "巴尔干",
     "sentence_translation": "那个来自巴尔干地区的混蛋",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Balcan-",
+        "origin": "土耳其语 Balkan",
+        "meaning": "山脉"
+      },
+      {
+        "part": "-es",
+        "origin": "复数标记",
+        "meaning": "复数后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_023",
@@ -936,12 +955,24 @@
     ],
     "sentence_cloze": "Continúe por el corredor de Pedro ___.",
     "sentence_full": "Continúe por el corredor de Pedro Barrios.",
-    "translation": "",
+    "translation": "街区",
     "sentence_translation": "A组 从小道穿过！",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "barr-",
+        "origin": "拉丁语 barra",
+        "meaning": "条/杆 → 街区"
+      },
+      {
+        "part": "-ios",
+        "origin": "复数标记",
+        "meaning": "复数后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_026",
@@ -1029,35 +1060,19 @@
     ],
     "sentence_cloze": "Y pudiste salir por el túnel porque ___...",
     "sentence_full": "Y pudiste salir por el túnel porque Berlín...",
-    "translation": "",
+    "translation": "柏林",
     "sentence_translation": "你从隧道脱身 因为是柏林...",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
-  },
-  {
-    "id": "LCDP_S3E01_029",
-    "episode": "S3E01",
-    "scene_id": "line_116",
-    "line_index": 29,
-    "character": "S3E01",
-    "target_word": "bodegón",
-    "ipa": "",
-    "pos": "n.m. bodegón",
-    "level": "B2",
-    "pronunciation_focus": "vowel_e",
-    "tags": [
-      "名词"
-    ],
-    "sentence_cloze": "Ve por el callejón del ___. Es un atajo.",
-    "sentence_full": "Ve por el callejón del Bodegón. Es un atajo.",
-    "translation": "",
-    "sentence_translation": "库贝塔 从伯蒂良小路穿过 那样走更近",
-    "cultural_note": "",
-    "screenshot": "",
-    "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Berlín",
+        "origin": "西斯拉夫语 berlo",
+        "meaning": "沼泽地（地名）"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_030",
@@ -1075,12 +1090,24 @@
     ],
     "sentence_cloze": "Ché, ___, escucha, ¡felicitaciones!",
     "sentence_full": "Ché, boludo, escucha, ¡felicitaciones!",
-    "translation": "",
+    "translation": "笨蛋",
     "sentence_translation": "嘿 伙计 听我说 恭喜了",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "bol-",
+        "origin": "拉丁语 bulla",
+        "meaning": "球/气泡"
+      },
+      {
+        "part": "-udo",
+        "origin": "拉丁语 -ūtus",
+        "meaning": "充满...的"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_031",
@@ -1098,12 +1125,24 @@
     ],
     "sentence_cloze": "¿Por qué mantener el secreto? ¡Es un ___!",
     "sentence_full": "¿Por qué mantener el secreto? ¡Es un bombazo!",
-    "translation": "",
+    "translation": "重磅炸弹",
     "sentence_translation": "他们为何要保密？这可是爆炸性新闻",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "bomb-",
+        "origin": "拟声词 bomba",
+        "meaning": "爆炸声"
+      },
+      {
+        "part": "-azo",
+        "origin": "指大后缀",
+        "meaning": "猛烈打击"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_032",
@@ -1121,12 +1160,24 @@
     ],
     "sentence_cloze": "La de tu ___.",
     "sentence_full": "La de tu bragueta.",
-    "translation": "",
+    "translation": "飞",
     "sentence_translation": "你的命根子很确定吗？",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "brag-",
+        "origin": "拉丁语 braca",
+        "meaning": "裤子"
+      },
+      {
+        "part": "-ueta",
+        "origin": "指小后缀",
+        "meaning": "小"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_033",
@@ -1144,12 +1195,24 @@
     ],
     "sentence_cloze": "___ a mi transportador.",
     "sentence_full": "Busco a mi transportador.",
-    "translation": "",
+    "translation": "寻找",
     "sentence_translation": "我找我的承运人",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "busc-",
+        "origin": "拉丁语 buscare",
+        "meaning": "寻找"
+      },
+      {
+        "part": "-o",
+        "origin": "动词后缀",
+        "meaning": "第一人称单数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_034",
@@ -1221,12 +1284,24 @@
     ],
     "sentence_cloze": "Ve por el ___ del Bodegón. Es un atajo.",
     "sentence_full": "Ve por el callejón del Bodegón. Es un atajo.",
-    "translation": "",
+    "translation": "胡同",
     "sentence_translation": "库贝塔 从伯蒂良小路穿过 那样走更近",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "callej-",
+        "origin": "拉丁语 callis",
+        "meaning": "小路"
+      },
+      {
+        "part": "-ón",
+        "origin": "指大后缀",
+        "meaning": "大"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_036",
@@ -1244,12 +1319,24 @@
     ],
     "sentence_cloze": "De atrás. En el ___ que introduce las bobinas.",
     "sentence_full": "De atrás. En el camión que introduce las bobinas.",
-    "translation": "",
+    "translation": "卡车",
     "sentence_translation": "后门 通过运筒管的卡车",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cam-",
+        "origin": "拉丁语 caminus",
+        "meaning": "路"
+      },
+      {
+        "part": "-ión",
+        "origin": "指大后缀",
+        "meaning": "大"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_037",
@@ -1302,12 +1389,24 @@
     ],
     "sentence_cloze": "Es la obra de ingeniería civil más brillante desde el ___ de Panamá.",
     "sentence_full": "Es la obra de ingeniería civil más brillante desde el canal de Panamá.",
-    "translation": "",
+    "translation": "渠道",
     "sentence_translation": "这是自巴拿马运河以来 土木工程史上最具智慧的工程…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "can-",
+        "origin": "拉丁语 canalis",
+        "meaning": "管道"
+      },
+      {
+        "part": "-al",
+        "origin": "拉丁语 -ālem",
+        "meaning": "相关"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_039",
@@ -1325,12 +1424,24 @@
     ],
     "sentence_cloze": "A veces, ___ gregoriano con ellos.",
     "sentence_full": "A veces, canto gregoriano con ellos.",
-    "translation": "",
+    "translation": "歌唱",
     "sentence_translation": "有时我甚至跟他们 一起唱格利高里圣歌",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cant-",
+        "origin": "拉丁语 cantus",
+        "meaning": "歌唱"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_040",
@@ -1348,12 +1459,24 @@
     ],
     "sentence_cloze": "Y la ___ de la Interpol será muy débil.",
     "sentence_full": "Y la capacidad de la Interpol será muy débil.",
-    "translation": "",
+    "translation": "能力",
     "sentence_translation": "所以国际刑警很难能找到你们",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "capac-",
+        "origin": "拉丁语 capax",
+        "meaning": "能容纳的"
+      },
+      {
+        "part": "-idad",
+        "origin": "拉丁语 -itātem",
+        "meaning": "抽象名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_041",
@@ -1371,12 +1494,24 @@
     ],
     "sentence_cloze": "...de esta ___.",
     "sentence_full": "...de esta capilla.",
-    "translation": "",
+    "translation": "教堂",
     "sentence_translation": "这个教堂",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cap-",
+        "origin": "拉丁语 capa",
+        "meaning": "斗篷"
+      },
+      {
+        "part": "-illa",
+        "origin": "指小后缀",
+        "meaning": "小"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_042",
@@ -1429,12 +1564,24 @@
     ],
     "sentence_cloze": "Después de un petrolero, dos aviones de ___ y varios autobuses...",
     "sentence_full": "Después de un petrolero, dos aviones de carga y varios autobuses...",
-    "translation": "",
+    "translation": "负担",
     "sentence_translation": "途中我坐了一次油轮、两次货运飞机 转了无数次车…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "carg-",
+        "origin": "拉丁语 carricare",
+        "meaning": "装载"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_044",
@@ -1452,12 +1599,19 @@
     ],
     "sentence_cloze": "Hace 17 días. En una isla del ___.",
     "sentence_full": "Hace 17 días. En una isla del Caribe.",
-    "translation": "",
+    "translation": "加勒比海",
     "sentence_translation": "17天前 在一个加勒比小岛上",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Caribe",
+        "origin": "加勒比语 Karina",
+        "meaning": "人/民族"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_045",
@@ -1475,7 +1629,7 @@
     ],
     "sentence_cloze": "Nada, ___, la abuela... - Qué niña tan guapa.",
     "sentence_full": "Nada, cariño, la abuela... - Qué niña tan guapa.",
-    "translation": "",
+    "translation": "亲爱的",
     "sentence_translation": "没事 亲爱的 外婆刚…",
     "cultural_note": "",
     "screenshot": "",
@@ -1491,6 +1645,18 @@
         "espanol": "Cariño, ¿qué tal el viaje?",
         "chinese": "你的旅行怎么样 亲爱的？",
         "seq": 170
+      }
+    ],
+    "etymology": [
+      {
+        "part": "cariñ-",
+        "origin": "拉丁语 carus",
+        "meaning": "亲爱的"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -1545,12 +1711,24 @@
     ],
     "sentence_cloze": "hicimos puerto en ___ 24 horas.",
     "sentence_full": "hicimos puerto en Casablanca 24 horas.",
-    "translation": "",
+    "translation": "卡萨布兰卡",
     "sentence_translation": "在卡萨布兰卡港口待了24个小时",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "casa",
+        "origin": "拉丁语 casa",
+        "meaning": "房子"
+      },
+      {
+        "part": "blanca",
+        "origin": "拉丁语 blancus",
+        "meaning": "白色"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_048",
@@ -1568,7 +1746,7 @@
     ],
     "sentence_cloze": "Te voy a llevar a mi ___.",
     "sentence_full": "Te voy a llevar a mi casita.",
-    "translation": "",
+    "translation": "casita",
     "sentence_translation": "我带你去寒舍",
     "cultural_note": "",
     "screenshot": "",
@@ -1584,6 +1762,18 @@
         "espanol": "¿Esta es la discreta casita de campo que ibas a arrendar?",
         "chinese": "这就是你当时要租下的 \"那个国家的寒舍\" 吗？",
         "seq": 347
+      }
+    ],
+    "etymology": [
+      {
+        "part": "cas-",
+        "origin": "拉丁语 casa",
+        "meaning": "房子"
+      },
+      {
+        "part": "-ita",
+        "origin": "指小后缀",
+        "meaning": "小"
       }
     ]
   },
@@ -1603,12 +1793,24 @@
     ],
     "sentence_cloze": "En ___ de máxima urgencia, llamáis al número que corresponda",
     "sentence_full": "En caso de máxima urgencia, llamáis al número que corresponda",
-    "translation": "",
+    "translation": "案件",
     "sentence_translation": "如果有紧急情况 你们可以拨打符合你们位置的号码",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cas-",
+        "origin": "拉丁语 casus",
+        "meaning": "事件"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_050",
@@ -1626,12 +1828,24 @@
     ],
     "sentence_cloze": "Andrés, ¿estás durmiendo en una ___?",
     "sentence_full": "Andrés, ¿estás durmiendo en una celda?",
-    "translation": "",
+    "translation": "细胞",
     "sentence_translation": "安德鲁斯 你睡在牢房里吗?",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "celd-",
+        "origin": "拉丁语 cella",
+        "meaning": "小房间"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_051",
@@ -1649,12 +1863,24 @@
     ],
     "sentence_cloze": "De la Europol al ___ Nacional de Inteligencia en 50 segundos.",
     "sentence_full": "De la Europol al Centro Nacional de Inteligencia en 50 segundos.",
-    "translation": "",
+    "translation": "中心",
     "sentence_translation": "50秒内又传到了国家情报中心",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "centr-",
+        "origin": "希腊语 kentron",
+        "meaning": "中心点"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_052",
@@ -1672,12 +1898,24 @@
     ],
     "sentence_cloze": "Tengo la absoluta ___. - ¿Qué certeza?",
     "sentence_full": "Tengo la absoluta certeza. - ¿Qué certeza?",
-    "translation": "",
+    "translation": "肯定",
     "sentence_translation": "-而且我百分百确定 -你确定？",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cert-",
+        "origin": "拉丁语 certus",
+        "meaning": "确定的"
+      },
+      {
+        "part": "-eza",
+        "origin": "拉丁语 -itia",
+        "meaning": "性质后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_053",
@@ -1695,12 +1933,19 @@
     ],
     "sentence_cloze": "Acabad el ___ que hay conceptos que fijar.",
     "sentence_full": "Acabad el champán que hay conceptos que fijar.",
-    "translation": "",
+    "translation": "香槟酒",
     "sentence_translation": "喝完香槟后 我们需要制定新的准则",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Champán",
+        "origin": "法语 Champagne",
+        "meaning": "香槟地区"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_054",
@@ -1718,12 +1963,19 @@
     ],
     "sentence_cloze": "y ___ chunda, y ponernos moraos",
     "sentence_full": "y chunda chunda, y ponernos moraos",
-    "translation": "",
+    "translation": "春达",
     "sentence_translation": "好好跳舞 喝个大醉",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Chunda",
+        "origin": "昵称",
+        "meaning": "人名"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_055",
@@ -1741,12 +1993,19 @@
     ],
     "sentence_cloze": "en los vuelos de la ___, en el mismo Guantánamo.",
     "sentence_full": "en los vuelos de la CIA, en el mismo Guantánamo.",
-    "translation": "",
+    "translation": "公司",
     "sentence_translation": "在美国中央情报局的飞机上 或在关塔那摩监狱里",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Cía.",
+        "origin": "compañía 缩写",
+        "meaning": "公司"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_056",
@@ -1764,12 +2023,29 @@
     ],
     "sentence_cloze": "¡Son monjes! - ___.",
     "sentence_full": "¡Son monjes! - Cistercienses.",
-    "translation": "",
+    "translation": "西多会",
     "sentence_translation": "-他们是和尚！ -西斯特教团修士",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Cisterci-",
+        "origin": "拉丁语 Cistercium",
+        "meaning": "西多"
+      },
+      {
+        "part": "-ense",
+        "origin": "拉丁语 -ensis",
+        "meaning": "来自...的"
+      },
+      {
+        "part": "-s",
+        "origin": "复数标记",
+        "meaning": "复数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_057",
@@ -1787,7 +2063,7 @@
     ],
     "sentence_cloze": "Aunque sea solo una ___.",
     "sentence_full": "Aunque sea solo una cita.",
-    "translation": "",
+    "translation": "预约",
     "sentence_translation": "即便只是一次约会",
     "cultural_note": "",
     "screenshot": "",
@@ -1803,6 +2079,18 @@
         "espanol": "¿Quieres una cita?",
         "chinese": "你想跟我约会？",
         "seq": 106
+      }
+    ],
+    "etymology": [
+      {
+        "part": "cit-",
+        "origin": "拉丁语 citare",
+        "meaning": "召唤"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -1857,7 +2145,7 @@
     ],
     "sentence_cloze": "Ahora que tenemos mil millonacos, ¿nos vamos a poner a dar ___?",
     "sentence_full": "Ahora que tenemos mil millonacos, ¿nos vamos a poner a dar clase?",
-    "translation": "",
+    "translation": "班级",
     "sentence_translation": "我们现在有一千万 你觉得我们会回学校上学吗？",
     "cultural_note": "",
     "screenshot": "",
@@ -1873,6 +2161,18 @@
         "espanol": "Un país con arte, con clase,",
         "chinese": "这是一个充满艺术、格调的国家",
         "seq": 341
+      }
+    ],
+    "etymology": [
+      {
+        "part": "clas-",
+        "origin": "拉丁语 classis",
+        "meaning": "阶级"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -1927,12 +2227,24 @@
     ],
     "sentence_cloze": "Hasta España tuvo un ___ terrorista,",
     "sentence_full": "Hasta España tuvo un comando terrorista,",
-    "translation": "",
+    "translation": "命令",
     "sentence_translation": "就连西班牙都有 一支恐怖分子突击队",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "comand-",
+        "origin": "拉丁语 commandare",
+        "meaning": "委托"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_062",
@@ -1950,7 +2262,7 @@
     ],
     "sentence_cloze": "Pescamos nuestra ___.",
     "sentence_full": "Pescamos nuestra comida.",
-    "translation": "",
+    "translation": "一顿饭",
     "sentence_translation": "我们自己捕鱼吃",
     "cultural_note": "",
     "screenshot": "",
@@ -1966,6 +2278,18 @@
         "espanol": "Ya no aguanto más. No soporto la comida de los guna,",
         "chinese": "我忍不下去了 我受不了库那的食物",
         "seq": 97
+      }
+    ],
+    "etymology": [
+      {
+        "part": "com-",
+        "origin": "拉丁语 comedere",
+        "meaning": "吃"
+      },
+      {
+        "part": "-ida",
+        "origin": "过去分词后缀",
+        "meaning": "结果"
       }
     ]
   },
@@ -1985,12 +2309,24 @@
     ],
     "sentence_cloze": "¿___ más teléfonos?",
     "sentence_full": "¿Comprasteis más teléfonos?",
-    "translation": "",
+    "translation": "你买了",
     "sentence_translation": "你们还另外买了手机吗？",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "compr-",
+        "origin": "拉丁语 comparare",
+        "meaning": "购买"
+      },
+      {
+        "part": "-asteis",
+        "origin": "动词后缀",
+        "meaning": "第二人称复数过去时"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_064",
@@ -2008,12 +2344,24 @@
     ],
     "sentence_cloze": "y lo apagas si no hay ___.",
     "sentence_full": "y lo apagas si no hay comunicación.",
-    "translation": "",
+    "translation": "沟通",
     "sentence_translation": "要是没有跟对方联系上 就关机",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "comunic-",
+        "origin": "拉丁语 communicare",
+        "meaning": "分享"
+      },
+      {
+        "part": "-ación",
+        "origin": "拉丁语 -tiōnem",
+        "meaning": "动作名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_065",
@@ -2031,12 +2379,24 @@
     ],
     "sentence_cloze": "___ con la policía panameña, ¡ya!",
     "sentence_full": "Contacten con la policía panameña, ¡ya!",
-    "translation": "",
+    "translation": "接触",
     "sentence_translation": "马上联系巴拿马警方！快！",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "contact-",
+        "origin": "拉丁语 contactus",
+        "meaning": "接触"
+      },
+      {
+        "part": "-en",
+        "origin": "动词后缀",
+        "meaning": "第三人称复数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_066",
@@ -2054,12 +2414,24 @@
     ],
     "sentence_cloze": "Quiero irme de fiesta ___,",
     "sentence_full": "Quiero irme de fiesta contigo,",
-    "translation": "",
+    "translation": "与你",
     "sentence_translation": "我想跟你一起玩乐",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "con-",
+        "origin": "拉丁语 cum",
+        "meaning": "和"
+      },
+      {
+        "part": "-tigo",
+        "origin": "拉丁语 tēcum",
+        "meaning": "和你"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_067",
@@ -2077,7 +2449,7 @@
     ],
     "sentence_cloze": "Cada uno corresponde a un ___.",
     "sentence_full": "Cada uno corresponde a un continente.",
-    "translation": "",
+    "translation": "大陆",
     "sentence_translation": "每个数字代表一个大洲",
     "cultural_note": "",
     "screenshot": "",
@@ -2093,6 +2465,18 @@
         "espanol": "Un continente en el que podríais estar cuando necesitéis ayuda.",
         "chinese": "你们所在的大洲 以防你们需要帮助",
         "seq": 143
+      }
+    ],
+    "etymology": [
+      {
+        "part": "continent-",
+        "origin": "拉丁语 continens",
+        "meaning": "包含的"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -2112,12 +2496,24 @@
     ],
     "sentence_cloze": "___ por el corredor de Pedro Barrios.",
     "sentence_full": "Continúe por el corredor de Pedro Barrios.",
-    "translation": "",
+    "translation": "继续",
     "sentence_translation": "A组 从小道穿过！",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "continu-",
+        "origin": "拉丁语 continuare",
+        "meaning": "连续"
+      },
+      {
+        "part": "-e",
+        "origin": "动词后缀",
+        "meaning": "虚拟式"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_069",
@@ -2135,12 +2531,19 @@
     ],
     "sentence_cloze": "Perdí el ___.",
     "sentence_full": "Perdí el control.",
-    "translation": "",
+    "translation": "控制措施",
     "sentence_translation": "我失去控制",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "control",
+        "origin": "拉丁语 contrarotulus",
+        "meaning": "对照记录"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_070",
@@ -2158,12 +2561,24 @@
     ],
     "sentence_cloze": "Está dentro de la ___.",
     "sentence_full": "Está dentro de la corrala.",
-    "translation": "",
+    "translation": "科拉拉",
     "sentence_translation": "库贝塔 她就在庭院里",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "corral-",
+        "origin": "拉丁语 coralium",
+        "meaning": "院子"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_071",
@@ -2181,12 +2596,24 @@
     ],
     "sentence_cloze": "¡___, Tokio! ¡Nos han pillado!",
     "sentence_full": "¡Corre, Tokio! ¡Nos han pillado!",
-    "translation": "",
+    "translation": "运行",
     "sentence_translation": "快跑 东京！他们找到我们了",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "corr-",
+        "origin": "拉丁语 currere",
+        "meaning": "跑"
+      },
+      {
+        "part": "-e",
+        "origin": "动词后缀",
+        "meaning": "第三人称单数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_072",
@@ -2204,12 +2631,19 @@
     ],
     "sentence_cloze": "Continúe por el ___ de Pedro Barrios.",
     "sentence_full": "Continúe por el corredor de Pedro Barrios.",
-    "translation": "",
+    "translation": "走廊",
     "sentence_translation": "A组 从小道穿过！",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "corredor",
+        "origin": "拉丁语 currere",
+        "meaning": "跑 → 走廊"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_073",
@@ -2227,12 +2661,24 @@
     ],
     "sentence_cloze": "Y yo me pregunto: \"¿Es gracioso un ___?\".",
     "sentence_full": "Y yo me pregunto: \"¿Es gracioso un criminal?\".",
-    "translation": "",
+    "translation": "刑事",
     "sentence_translation": "而我一直在想…罪犯有意思吗？",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "crimin-",
+        "origin": "拉丁语 crimen",
+        "meaning": "罪行"
+      },
+      {
+        "part": "-al",
+        "origin": "拉丁语 -ālem",
+        "meaning": "相关"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_074",
@@ -2250,12 +2696,29 @@
     ],
     "sentence_cloze": "¡No! - Sí, ___, les hacen gracia.",
     "sentence_full": "¡No! - Sí, créanme, les hacen gracia.",
-    "translation": "",
+    "translation": "相信我",
     "sentence_translation": "-不可能！ -相信我 他们觉得绑匪很有意思",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cre-",
+        "origin": "拉丁语 credere",
+        "meaning": "相信"
+      },
+      {
+        "part": "-an",
+        "origin": "动词后缀",
+        "meaning": "第三人称复数"
+      },
+      {
+        "part": "-me",
+        "origin": "代词",
+        "meaning": "我"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_075",
@@ -2273,12 +2736,24 @@
     ],
     "sentence_cloze": "Nos ha hecho venir con un ___ en brazos para soltarnos esta basura.",
     "sentence_full": "Nos ha hecho venir con un crío en brazos para soltarnos esta basura.",
-    "translation": "",
+    "translation": "孩子",
     "sentence_translation": "你让我带着一个婴儿漂洋过海来这里 就是为了告诉我这个吗?",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cri-",
+        "origin": "拉丁语 criare",
+        "meaning": "抚养"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_076",
@@ -2331,12 +2806,24 @@
     ],
     "sentence_cloze": "¡Que te den por el ___, amigo! ...pero frescas.",
     "sentence_full": "¡Que te den por el culo, amigo! ...pero frescas.",
-    "translation": "",
+    "translation": "屁股",
     "sentence_translation": "去你娘的！去你的烂香蕉！",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cul-",
+        "origin": "拉丁语 culus",
+        "meaning": "臀部"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_078",
@@ -2354,12 +2841,24 @@
     ],
     "sentence_cloze": "y por ___ de eso,",
     "sentence_full": "y por culpa de eso,",
-    "translation": "",
+    "translation": "责备",
     "sentence_translation": "因此…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "culp-",
+        "origin": "拉丁语 culpa",
+        "meaning": "过错"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_079",
@@ -2377,12 +2876,24 @@
     ],
     "sentence_cloze": "¿___ pueden tenerlo incomunicado?",
     "sentence_full": "¿Cuánto pueden tenerlo incomunicado?",
-    "translation": "",
+    "translation": "多少",
     "sentence_translation": "他们还能隔离他多久？",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cuánt-",
+        "origin": "拉丁语 quantus",
+        "meaning": "多少"
+      },
+      {
+        "part": "-o",
+        "origin": "疑问后缀",
+        "meaning": "疑问标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_080",
@@ -2402,12 +2913,24 @@
     ],
     "sentence_cloze": "por una ___ que va a entrar en mi cabeza ahora mismo.",
     "sentence_full": "por una decisión que va a entrar en mi cabeza ahora mismo.",
-    "translation": "",
+    "translation": "决定",
     "sentence_translation": "被进入我脑海的一个决定摧毁",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "decis-",
+        "origin": "拉丁语 decidere",
+        "meaning": "决定"
+      },
+      {
+        "part": "-ión",
+        "origin": "拉丁语 -siōnem",
+        "meaning": "动作名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_081",
@@ -2425,12 +2948,24 @@
     ],
     "sentence_cloze": "Lo de Río es una ___ de guerra.",
     "sentence_full": "Lo de Río es una declaración de guerra.",
-    "translation": "",
+    "translation": "陈述",
     "sentence_translation": "他们对里约的所作所为就是宣战",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "declar-",
+        "origin": "拉丁语 declarare",
+        "meaning": "声明"
+      },
+      {
+        "part": "-ación",
+        "origin": "拉丁语 -tiōnem",
+        "meaning": "动作名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_082",
@@ -2449,7 +2984,7 @@
     ],
     "sentence_cloze": "Yo ataqué a ese tal ___",
     "sentence_full": "Yo ataqué a ese tal Denver",
-    "translation": "",
+    "translation": "丹佛",
     "sentence_translation": "我控诉那个叫丹佛的人",
     "cultural_note": "",
     "screenshot": "",
@@ -2471,6 +3006,13 @@
         "chinese": "拜托 坐下",
         "seq": 279
       }
+    ],
+    "etymology": [
+      {
+        "part": "Denver",
+        "origin": "法语地名",
+        "meaning": "地名"
+      }
     ]
   },
   {
@@ -2489,12 +3031,24 @@
     ],
     "sentence_cloze": "Pero se me va llenando el ___ de la niña traviesa.",
     "sentence_full": "Pero se me va llenando el depósito de la niña traviesa.",
-    "translation": "",
+    "translation": "订金",
     "sentence_translation": "但是一点一点的 我淘气的那一面就会慢慢露出来",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "deposit-",
+        "origin": "拉丁语 depositum",
+        "meaning": "存放物"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_084",
@@ -2512,12 +3066,24 @@
     ],
     "sentence_cloze": "con mi ___ intacta.",
     "sentence_full": "con mi dignidad intacta.",
-    "translation": "",
+    "translation": "尊严",
     "sentence_translation": "我的尊严没有遭到破坏",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "dign-",
+        "origin": "拉丁语 dignus",
+        "meaning": "值得的"
+      },
+      {
+        "part": "-idad",
+        "origin": "拉丁语 -itātem",
+        "meaning": "抽象名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_085",
@@ -2535,7 +3101,7 @@
     ],
     "sentence_cloze": "___, ¿cómo lo sabes?",
     "sentence_full": "Dime, ¿cómo lo sabes?",
-    "translation": "",
+    "translation": "告诉我",
     "sentence_translation": "你怎么知道？告诉我！",
     "cultural_note": "",
     "screenshot": "",
@@ -2551,6 +3117,18 @@
         "espanol": "Dime que vas a salvar a Río.",
         "chinese": "告诉我你会救里约",
         "seq": 244
+      }
+    ],
+    "etymology": [
+      {
+        "part": "di-",
+        "origin": "拉丁语 dicere",
+        "meaning": "说"
+      },
+      {
+        "part": "-me",
+        "origin": "代词",
+        "meaning": "我"
       }
     ]
   },
@@ -2694,12 +3272,24 @@
     ],
     "sentence_cloze": "por el rito balinés. Con el ___ y todo.",
     "sentence_full": "por el rito balinés. Con el elefante y todo.",
-    "translation": "",
+    "translation": "大象",
     "sentence_translation": "婚礼是按巴厘岛传统举行的 骑在大象上什么的",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "elefant-",
+        "origin": "拉丁语 elephantus",
+        "meaning": "大象"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_090",
@@ -2717,12 +3307,24 @@
     ],
     "sentence_cloze": "Sin ___, él me arrebató lo que yo más quería.",
     "sentence_full": "Sin embargo, él me arrebató lo que yo más quería.",
-    "translation": "",
+    "translation": "禁运",
     "sentence_translation": "但是 作为交换 他带走了我的最爱",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "embarg-",
+        "origin": "拉丁语 imbarricare",
+        "meaning": "阻碍"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_091",
@@ -2740,12 +3342,24 @@
     ],
     "sentence_cloze": "___ buscando algo con dos baños y jardín,",
     "sentence_full": "Empiezas buscando algo con dos baños y jardín,",
-    "translation": "",
+    "translation": "你开始",
     "sentence_translation": "我最先想找有两个浴室和花园的房子",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "empiez-",
+        "origin": "拉丁语 initium",
+        "meaning": "开始"
+      },
+      {
+        "part": "-as",
+        "origin": "动词后缀",
+        "meaning": "第二人称单数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_092",
@@ -2763,7 +3377,7 @@
     ],
     "sentence_cloze": "___ cada tres días a las seis.",
     "sentence_full": "Enciéndelo cada tres días a las seis.",
-    "translation": "",
+    "translation": "打开它",
     "sentence_translation": "每三天下午六点的时候打开电话",
     "cultural_note": "",
     "screenshot": "",
@@ -2779,6 +3393,23 @@
         "espanol": "Venga, Tokio, enciéndelo, ¡coño!",
         "chinese": "可恶 东京 开机啊",
         "seq": 84
+      }
+    ],
+    "etymology": [
+      {
+        "part": "enciend-",
+        "origin": "拉丁语 incendere",
+        "meaning": "点燃"
+      },
+      {
+        "part": "-e",
+        "origin": "动词后缀",
+        "meaning": "命令式"
+      },
+      {
+        "part": "-lo",
+        "origin": "代词",
+        "meaning": "它"
       }
     ]
   },
@@ -2798,12 +3429,24 @@
     ],
     "sentence_cloze": "Bueno, y ahora, después de este entrañable ___,",
     "sentence_full": "Bueno, y ahora, después de este entrañable encuentro,",
-    "translation": "",
+    "translation": "会议",
     "sentence_translation": "亲切的团聚后",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "encuentr-",
+        "origin": "拉丁语 invenire",
+        "meaning": "找到"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_094",
@@ -2823,7 +3466,7 @@
     ],
     "sentence_cloze": "Río ha cometido un ___.",
     "sentence_full": "Río ha cometido un error.",
-    "translation": "",
+    "translation": "错误",
     "sentence_translation": "里约犯了错误",
     "cultural_note": "",
     "screenshot": "",
@@ -2845,6 +3488,18 @@
         "chinese": "现在里约就像我们一样也犯了错",
         "seq": 312
       }
+    ],
+    "etymology": [
+      {
+        "part": "err-",
+        "origin": "拉丁语 errare",
+        "meaning": "犯错"
+      },
+      {
+        "part": "-or",
+        "origin": "拉丁语 -ōrem",
+        "meaning": "结果后缀"
+      }
     ]
   },
   {
@@ -2863,12 +3518,24 @@
     ],
     "sentence_cloze": "¡Manos a la ___!",
     "sentence_full": "¡Manos a la espalda!",
-    "translation": "",
+    "translation": "后退",
     "sentence_translation": "手放在后面…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "espald-",
+        "origin": "拉丁语 spatha",
+        "meaning": "肩胛骨"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_096",
@@ -2888,7 +3555,7 @@
     ],
     "sentence_cloze": "Hasta ___ tuvo un comando terrorista,",
     "sentence_full": "Hasta España tuvo un comando terrorista,",
-    "translation": "",
+    "translation": "西班牙",
     "sentence_translation": "就连西班牙都有 一支恐怖分子突击队",
     "cultural_note": "",
     "screenshot": "",
@@ -2910,6 +3577,13 @@
         "chinese": "还记得我们计划抢劫 西班牙银行的储备黄金吗?",
         "seq": 377
       }
+    ],
+    "etymology": [
+      {
+        "part": "España",
+        "origin": "拉丁语 Hispania",
+        "meaning": "西班牙"
+      }
     ]
   },
   {
@@ -2928,12 +3602,24 @@
     ],
     "sentence_cloze": "___ seguros, protegidos y vigilados.",
     "sentence_full": "Estaréis seguros, protegidos y vigilados.",
-    "translation": "",
+    "translation": "你会",
     "sentence_translation": "你们都会受到保护和防卫",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "estar-",
+        "origin": "拉丁语 stare",
+        "meaning": "在"
+      },
+      {
+        "part": "-éis",
+        "origin": "动词后缀",
+        "meaning": "第二人称复数将来时"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_098",
@@ -2951,12 +3637,24 @@
     ],
     "sentence_cloze": "donde la gente viste con ___, no como tú.",
     "sentence_full": "donde la gente viste con estilo, no como tú.",
-    "translation": "",
+    "translation": "风格",
     "sentence_translation": "人们穿着时髦 不像你一样",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "estil-",
+        "origin": "拉丁语 stilus",
+        "meaning": "笔/风格"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_099",
@@ -2974,12 +3672,19 @@
     ],
     "sentence_cloze": "Nada de ___.",
     "sentence_full": "Nada de Europa.",
-    "translation": "",
+    "translation": "欧洲",
     "sentence_translation": "不去欧洲",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Europa",
+        "origin": "希腊语 Eurōpē",
+        "meaning": "欧洲"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_100",
@@ -2997,7 +3702,7 @@
     ],
     "sentence_cloze": "a la ___ en un segundo. -",
     "sentence_full": "a la Europol en un segundo. -",
-    "translation": "",
+    "translation": "欧洲刑警组织",
     "sentence_translation": "便传到了欧洲刑警组织",
     "cultural_note": "",
     "screenshot": "",
@@ -3013,6 +3718,18 @@
         "espanol": "De la Europol al Centro Nacional de Inteligencia en 50 segundos.",
         "chinese": "50秒内又传到了国家情报中心",
         "seq": 87
+      }
+    ],
+    "etymology": [
+      {
+        "part": "Euro-",
+        "origin": "Europa",
+        "meaning": "欧洲"
+      },
+      {
+        "part": "-pol",
+        "origin": "希腊语 polis",
+        "meaning": "警察"
       }
     ]
   },
@@ -3032,12 +3749,24 @@
     ],
     "sentence_cloze": "Aquel día, llovieron sobre Madrid 140 millones de ___.",
     "sentence_full": "Aquel día, llovieron sobre Madrid 140 millones de euros.",
-    "translation": "",
+    "translation": "欧元",
     "sentence_translation": "那天 马德里上空飘下1.4亿欧元",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "eur-",
+        "origin": "Europa",
+        "meaning": "欧洲"
+      },
+      {
+        "part": "-os",
+        "origin": "复数标记",
+        "meaning": "复数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_102",
@@ -3055,12 +3784,24 @@
     ],
     "sentence_cloze": "que me tuvo 24 horas seguidas con un ___ pegado al cuerpo,",
     "sentence_full": "que me tuvo 24 horas seguidas con un explosivo pegado al cuerpo,",
-    "translation": "",
+    "translation": "爆炸物",
     "sentence_translation": "把炸药在我身上绑了24个小时",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "explos-",
+        "origin": "拉丁语 explodere",
+        "meaning": "爆炸"
+      },
+      {
+        "part": "-ivo",
+        "origin": "拉丁语 -īvus",
+        "meaning": "相关"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_103",
@@ -3078,12 +3819,24 @@
     ],
     "sentence_cloze": "cien millones de veces. - Por ___.",
     "sentence_full": "cien millones de veces. - Por favor.",
-    "translation": "",
+    "translation": "青睐",
     "sentence_translation": "-也会无数次背叛别人 -东京 拜托…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "fav-",
+        "origin": "拉丁语 favor",
+        "meaning": "支持"
+      },
+      {
+        "part": "-or",
+        "origin": "拉丁语 -ōrem",
+        "meaning": "抽象名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_104",
@@ -3101,12 +3854,24 @@
     ],
     "sentence_cloze": "...mientras pensaba en cada segundo de ___ con Río...",
     "sentence_full": "...mientras pensaba en cada segundo de felicidad con Río...",
-    "translation": "",
+    "translation": "幸福",
     "sentence_translation": "每次回想跟里约的每个快乐瞬间",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "felic-",
+        "origin": "拉丁语 felix",
+        "meaning": "幸福的"
+      },
+      {
+        "part": "-idad",
+        "origin": "拉丁语 -itātem",
+        "meaning": "抽象名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_105",
@@ -3124,12 +3889,24 @@
     ],
     "sentence_cloze": "Quiero irme de ___ contigo,",
     "sentence_full": "Quiero irme de fiesta contigo,",
-    "translation": "",
+    "translation": "節期",
     "sentence_translation": "我想跟你一起玩乐",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "fiest-",
+        "origin": "拉丁语 festa",
+        "meaning": "节日"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_106",
@@ -3147,12 +3924,29 @@
     ],
     "sentence_cloze": "para escribir un tratado de ___ teológica.",
     "sentence_full": "para escribir un tratado de filosofía teológica.",
-    "translation": "",
+    "translation": "哲学",
     "sentence_translation": "需要保持苦行和孤独",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "filo-",
+        "origin": "希腊语 philia",
+        "meaning": "爱"
+      },
+      {
+        "part": "-sof-",
+        "origin": "希腊语 sophia",
+        "meaning": "智慧"
+      },
+      {
+        "part": "-ía",
+        "origin": "希腊语 -ia",
+        "meaning": "学科"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_107",
@@ -3170,7 +3964,7 @@
     ],
     "sentence_cloze": "Y, al ___, explota.",
     "sentence_full": "Y, al final, explota.",
-    "translation": "",
+    "translation": "帐期",
     "sentence_translation": "最后它会爆炸",
     "cultural_note": "",
     "screenshot": "",
@@ -3186,6 +3980,18 @@
         "espanol": "Al final, algunas personas mordemos la manzana",
         "chinese": "最终有个人咬了苹果",
         "seq": 158
+      }
+    ],
+    "etymology": [
+      {
+        "part": "fin-",
+        "origin": "拉丁语 finis",
+        "meaning": "结束"
+      },
+      {
+        "part": "-al",
+        "origin": "拉丁语 -ālem",
+        "meaning": "相关"
       }
     ]
   },
@@ -3205,7 +4011,7 @@
     ],
     "sentence_cloze": "...de ___ segura.",
     "sentence_full": "...de forma segura.",
-    "translation": "",
+    "translation": "表单",
     "sentence_translation": "送到我这里",
     "cultural_note": "",
     "screenshot": "",
@@ -3221,6 +4027,18 @@
         "espanol": "Fue nuestra forma de decir:",
         "chinese": "那是我们在说…",
         "seq": 407
+      }
+    ],
+    "etymology": [
+      {
+        "part": "form-",
+        "origin": "拉丁语 forma",
+        "meaning": "形状"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -3240,12 +4058,24 @@
     ],
     "sentence_cloze": "¡___, Helsinki!",
     "sentence_full": "¡Frena, Helsinki!",
-    "translation": "",
+    "translation": "制动",
     "sentence_translation": "慢点 赫尔辛基！",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "fren-",
+        "origin": "拉丁语 frenum",
+        "meaning": "缰绳"
+      },
+      {
+        "part": "-a",
+        "origin": "动词后缀",
+        "meaning": "第三人称单数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_110",
@@ -3263,12 +4093,24 @@
     ],
     "sentence_cloze": "___ a eso,",
     "sentence_full": "Frente a eso,",
-    "translation": "",
+    "translation": "額",
     "sentence_translation": "要想直面这一点",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "frent-",
+        "origin": "拉丁语 frons",
+        "meaning": "额头"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_111",
@@ -3286,12 +4128,24 @@
     ],
     "sentence_cloze": "Sé cómo entrar en la ___ de la Moneda.",
     "sentence_full": "Sé cómo entrar en la Fábrica de la Moneda.",
-    "translation": "",
+    "translation": "工厂",
     "sentence_translation": "我知道如何进入皇家铸币厂",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "fábric-",
+        "origin": "拉丁语 fabrica",
+        "meaning": "作坊"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_112",
@@ -3363,12 +4217,24 @@
     ],
     "sentence_cloze": "Muy bonita la casa. - Se está en la ___.",
     "sentence_full": "Muy bonita la casa. - Se está en la gloria.",
-    "translation": "",
+    "translation": "荣耀",
     "sentence_translation": "-你家真漂亮 -这里感觉就像天堂",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "glor-",
+        "origin": "拉丁语 gloria",
+        "meaning": "荣耀"
+      },
+      {
+        "part": "-ia",
+        "origin": "拉丁语 -ia",
+        "meaning": "状态"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_114",
@@ -3386,12 +4252,24 @@
     ],
     "sentence_cloze": "Es la noticia más grande que podría dar el ___.",
     "sentence_full": "Es la noticia más grande que podría dar el Gobierno.",
-    "translation": "",
+    "translation": "政府",
     "sentence_translation": "这是政府可以公布的大新闻",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "gobiern-",
+        "origin": "拉丁语 gubernare",
+        "meaning": "统治"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_115",
@@ -3409,12 +4287,24 @@
     ],
     "sentence_cloze": "¡No! - Sí, créanme, les hacen ___.",
     "sentence_full": "¡No! - Sí, créanme, les hacen gracia.",
-    "translation": "",
+    "translation": "有趣的",
     "sentence_translation": "-不可能！ -相信我 他们觉得绑匪很有意思",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "graci-",
+        "origin": "拉丁语 gratia",
+        "meaning": "恩典"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_116",
@@ -3432,12 +4322,24 @@
     ],
     "sentence_cloze": "Tal vez. Pero ___ a eso, pudieron escapar los primeros rehenes.",
     "sentence_full": "Tal vez. Pero gracias a eso, pudieron escapar los primeros rehenes.",
-    "translation": "",
+    "translation": "谢谢",
     "sentence_translation": "或许吧 但第一批人质因此得以逃走",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "graci-",
+        "origin": "拉丁语 gratia",
+        "meaning": "感谢"
+      },
+      {
+        "part": "-as",
+        "origin": "复数标记",
+        "meaning": "复数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_117",
@@ -3455,12 +4357,24 @@
     ],
     "sentence_cloze": "A veces, canto ___ con ellos.",
     "sentence_full": "A veces, canto gregoriano con ellos.",
-    "translation": "",
+    "translation": "公历",
     "sentence_translation": "有时我甚至跟他们 一起唱格利高里圣歌",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Gregori-",
+        "origin": "拉丁语 Gregorius",
+        "meaning": "格里高利"
+      },
+      {
+        "part": "-ano",
+        "origin": "拉丁语 -ānus",
+        "meaning": "属于...的"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_118",
@@ -3478,12 +4392,19 @@
     ],
     "sentence_cloze": "en los vuelos de la CIA, en el mismo ___.",
     "sentence_full": "en los vuelos de la CIA, en el mismo Guantánamo.",
-    "translation": "",
+    "translation": "关塔那摩",
     "sentence_translation": "在美国中央情报局的飞机上 或在关塔那摩监狱里",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Guantánamo",
+        "origin": "泰诺语",
+        "meaning": "地名"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_119",
@@ -3501,12 +4422,24 @@
     ],
     "sentence_cloze": "...apareció mi ángel de la ___.",
     "sentence_full": "...apareció mi ángel de la guarda.",
-    "translation": "",
+    "translation": "警卫",
     "sentence_translation": "…我的守护天使终于出现了",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "guard-",
+        "origin": "日耳曼语 wardon",
+        "meaning": "守卫"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_120",
@@ -3560,12 +4493,24 @@
     ],
     "sentence_cloze": "¿de qué ___ te has caído?",
     "sentence_full": "¿de qué guindo te has caído?",
-    "translation": "",
+    "translation": "guindo",
     "sentence_translation": "不会吧 东京 你怎么这么天真？",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "guind-",
+        "origin": "拉丁语 cerasus",
+        "meaning": "樱桃"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_122",
@@ -3583,7 +4528,7 @@
     ],
     "sentence_cloze": "La localización de Río viajó desde ___ Yala",
     "sentence_full": "La localización de Río viajó desde Guna Yala",
-    "translation": "",
+    "translation": "古纳",
     "sentence_translation": "里约在加勒比海 库那亚拉的位置不到一秒",
     "cultural_note": "",
     "screenshot": "",
@@ -3599,6 +4544,13 @@
         "espanol": "Ya no aguanto más. No soporto la comida de los guna,",
         "chinese": "我忍不下去了 我受不了库那的食物",
         "seq": 97
+      }
+    ],
+    "etymology": [
+      {
+        "part": "Guna",
+        "origin": "地名",
+        "meaning": "专有名词"
       }
     ]
   },
@@ -3618,7 +4570,7 @@
     ],
     "sentence_cloze": "No quiero que las abráis ahora, ___ cuando estéis solos.",
     "sentence_full": "No quiero que las abráis ahora, hacedlo cuando estéis solos.",
-    "translation": "",
+    "translation": "做吧",
     "sentence_translation": "先别打开 等你们分开后再打开",
     "cultural_note": "",
     "screenshot": "",
@@ -3634,6 +4586,23 @@
         "espanol": "Hacedlo cuando estéis solos.",
         "chinese": "等你们分开后再打开",
         "seq": 139
+      }
+    ],
+    "etymology": [
+      {
+        "part": "hac-",
+        "origin": "拉丁语 facere",
+        "meaning": "做"
+      },
+      {
+        "part": "-ed",
+        "origin": "动词后缀",
+        "meaning": "第二人称复数命令式"
+      },
+      {
+        "part": "-lo",
+        "origin": "代词",
+        "meaning": "它"
       }
     ]
   },
@@ -3655,7 +4624,7 @@
     ],
     "sentence_cloze": "Es un teléfono satelital. Lo compré en el mercado negro con ___.",
     "sentence_full": "Es un teléfono satelital. Lo compré en el mercado negro con Helsinki.",
-    "translation": "",
+    "translation": "赫尔辛基",
     "sentence_translation": "这是卫星电话 我和赫尔辛基一起在黑市上买的",
     "cultural_note": "",
     "screenshot": "",
@@ -3677,6 +4646,13 @@
         "chinese": "慢点 赫尔辛基！",
         "seq": 252
       }
+    ],
+    "etymology": [
+      {
+        "part": "Helsinki",
+        "origin": "芬兰语",
+        "meaning": "地名"
+      }
     ]
   },
   {
@@ -3695,12 +4671,24 @@
     ],
     "sentence_cloze": "___, ¿no me notas un poco distinto?",
     "sentence_full": "Hermanito, ¿no me notas un poco distinto?",
-    "translation": "",
+    "translation": "弟弟",
     "sentence_translation": "弟弟 你不觉得我不一样了吗?",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "herman-",
+        "origin": "拉丁语 germanus",
+        "meaning": "兄弟"
+      },
+      {
+        "part": "-ito",
+        "origin": "指小后缀",
+        "meaning": "小"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_126",
@@ -3718,12 +4706,24 @@
     ],
     "sentence_cloze": "Ya te tengo, ___ de puta, te tengo.",
     "sentence_full": "Ya te tengo, hija de puta, te tengo.",
-    "translation": "",
+    "translation": "女儿",
     "sentence_translation": "你逃不掉了 贱人！",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "hij-",
+        "origin": "拉丁语 filia",
+        "meaning": "女儿"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_127",
@@ -3741,12 +4741,24 @@
     ],
     "sentence_cloze": "¿Qué hace esta ___ aquí? - Es de los nuestros.",
     "sentence_full": "¿Qué hace esta hijaputa aquí? - Es de los nuestros.",
-    "translation": "",
+    "translation": "hijaputa",
     "sentence_translation": "-这个贱人怎么在这里？ -冷静 她现在是我们的人",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "hija",
+        "origin": "拉丁语 filia",
+        "meaning": "女儿"
+      },
+      {
+        "part": "puta",
+        "origin": "拉丁语 puta",
+        "meaning": "妓女"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_128",
@@ -3852,12 +4864,19 @@
     ],
     "sentence_cloze": "¿Es acaso ese tal Profesor un Robin ___?",
     "sentence_full": "¿Es acaso ese tal Profesor un Robin Hood?",
-    "translation": "",
+    "translation": "连帽",
     "sentence_translation": "那个所谓的罗宾汉教授呢？",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "hood",
+        "origin": "英语 hood",
+        "meaning": "兜帽"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_131",
@@ -3875,7 +4894,7 @@
     ],
     "sentence_cloze": "Es la ___ si vives en tu vida gris,",
     "sentence_full": "Es la hostia si vives en tu vida gris,",
-    "translation": "",
+    "translation": "主持人",
     "sentence_translation": "人们因为生活太单调 四处都是交通堵塞…",
     "cultural_note": "",
     "screenshot": "",
@@ -3891,6 +4910,18 @@
         "espanol": "Vaya hostia me has dado.",
         "chinese": "你倒挺会打的",
         "seq": 199
+      }
+    ],
+    "etymology": [
+      {
+        "part": "host-",
+        "origin": "拉丁语 hostia",
+        "meaning": "牺牲"
+      },
+      {
+        "part": "-ia",
+        "origin": "拉丁语 -ia",
+        "meaning": "名词后缀"
       }
     ]
   },
@@ -3910,12 +4941,24 @@
     ],
     "sentence_cloze": "y les he evitado convertir esta maravilla en un ___.",
     "sentence_full": "y les he evitado convertir esta maravilla en un hotel.",
-    "translation": "",
+    "translation": "旅馆",
     "sentence_translation": "这样他们就不必 把这么美丽的地方变成酒店了",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "hot-",
+        "origin": "法语 hôtel",
+        "meaning": "酒店"
+      },
+      {
+        "part": "-el",
+        "origin": "法语后缀",
+        "meaning": "场所"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_133",
@@ -3934,7 +4977,7 @@
     ],
     "sentence_cloze": "Desde hace dos años y medio, muchos me llaman ___.",
     "sentence_full": "Desde hace dos años y medio, muchos me llaman héroe.",
-    "translation": "",
+    "translation": "英雄",
     "sentence_translation": "过去两年半里 你们很多人都叫我英雄",
     "cultural_note": "",
     "screenshot": "",
@@ -3956,6 +4999,13 @@
         "chinese": "恐怖分子怎么能被当做英雄？",
         "seq": 12
       }
+    ],
+    "etymology": [
+      {
+        "part": "héroe",
+        "origin": "希腊语 hērōs",
+        "meaning": "英雄"
+      }
     ]
   },
   {
@@ -3974,12 +5024,24 @@
     ],
     "sentence_cloze": "¡Aparta, ___!",
     "sentence_full": "¡Aparta, idiota!",
-    "translation": "",
+    "translation": "白痴",
     "sentence_translation": "让开 你个白痴！",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "idiot-",
+        "origin": "希腊语 idiōtēs",
+        "meaning": "普通人"
+      },
+      {
+        "part": "-a",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_135",
@@ -3997,12 +5059,24 @@
     ],
     "sentence_cloze": "cuando nos dejamos llevar por la ___.",
     "sentence_full": "cuando nos dejamos llevar por la inercia.",
-    "translation": "",
+    "translation": "惯性原理",
     "sentence_translation": "人生就会迷失",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "inerc-",
+        "origin": "拉丁语 inertia",
+        "meaning": "无活性"
+      },
+      {
+        "part": "-ia",
+        "origin": "拉丁语 -ia",
+        "meaning": "状态"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_136",
@@ -4020,12 +5094,24 @@
     ],
     "sentence_cloze": "y cobró la recompensa por la ___.",
     "sentence_full": "y cobró la recompensa por la información.",
-    "translation": "",
+    "translation": "信息技术",
     "sentence_translation": "他当然会因为提供信息获得报酬",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "inform-",
+        "origin": "拉丁语 informare",
+        "meaning": "通知"
+      },
+      {
+        "part": "-ación",
+        "origin": "拉丁语 -tiōnem",
+        "meaning": "动作名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_137",
@@ -4043,12 +5129,24 @@
     ],
     "sentence_cloze": "Es la obra de ___ civil más brillante desde el canal de Panamá.",
     "sentence_full": "Es la obra de ingeniería civil más brillante desde el canal de Panamá.",
-    "translation": "",
+    "translation": "基因",
     "sentence_translation": "这是自巴拿马运河以来 土木工程史上最具智慧的工程…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ingeni-",
+        "origin": "拉丁语 ingenium",
+        "meaning": "天赋"
+      },
+      {
+        "part": "-ería",
+        "origin": "拉丁语 -aria",
+        "meaning": "行业"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_138",
@@ -4066,12 +5164,24 @@
     ],
     "sentence_cloze": "De la Europol al Centro Nacional de ___ en 50 segundos.",
     "sentence_full": "De la Europol al Centro Nacional de Inteligencia en 50 segundos.",
-    "translation": "",
+    "translation": "情报",
     "sentence_translation": "50秒内又传到了国家情报中心",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "intelig-",
+        "origin": "拉丁语 intellegere",
+        "meaning": "理解"
+      },
+      {
+        "part": "-encia",
+        "origin": "拉丁语 -entia",
+        "meaning": "状态后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_139",
@@ -4089,12 +5199,24 @@
     ],
     "sentence_cloze": "Bueno, era mi ___, pero me enamoré...",
     "sentence_full": "Bueno, era mi intención, pero me enamoré...",
-    "translation": "",
+    "translation": "意向性",
     "sentence_translation": "我倒是想 但我爱上了…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "intenc-",
+        "origin": "拉丁语 intentio",
+        "meaning": "意图"
+      },
+      {
+        "part": "-ión",
+        "origin": "拉丁语 -tiōnem",
+        "meaning": "动作名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_140",
@@ -4112,12 +5234,24 @@
     ],
     "sentence_cloze": "Y la capacidad de la ___ será muy débil.",
     "sentence_full": "Y la capacidad de la Interpol será muy débil.",
-    "translation": "",
+    "translation": "刑警组织",
     "sentence_translation": "所以国际刑警很难能找到你们",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Inter-",
+        "origin": "拉丁语 inter",
+        "meaning": "国际"
+      },
+      {
+        "part": "-pol",
+        "origin": "希腊语 polis",
+        "meaning": "警察"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_141",
@@ -4135,7 +5269,7 @@
     ],
     "sentence_cloze": "Pues aquí. Tres diitas comiendo techo en esta puñetera ___.",
     "sentence_full": "Pues aquí. Tres diitas comiendo techo en esta puñetera isla.",
-    "translation": "",
+    "translation": "岛",
     "sentence_translation": "我这三天在这个破岛上 看着时间一分一秒流逝",
     "cultural_note": "",
     "screenshot": "",
@@ -4151,6 +5285,18 @@
         "espanol": "Hace 17 días. En una isla del Caribe.",
         "chinese": "17天前 在一个加勒比小岛上",
         "seq": 262
+      }
+    ],
+    "etymology": [
+      {
+        "part": "isl-",
+        "origin": "拉丁语 insula",
+        "meaning": "岛"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -4170,12 +5316,19 @@
     ],
     "sentence_cloze": "Bienvenido a ___.",
     "sentence_full": "Bienvenido a Italia.",
-    "translation": "",
+    "translation": "意大利",
     "sentence_translation": "欢迎来意大利",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Italia",
+        "origin": "拉丁语 Italia",
+        "meaning": "意大利"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_143",
@@ -4193,12 +5346,24 @@
     ],
     "sentence_cloze": "___.",
     "sentence_full": "Jarana.",
-    "translation": "",
+    "translation": "jarana",
     "sentence_translation": "暴动！",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "jar-",
+        "origin": "阿拉伯语",
+        "meaning": "喧闹"
+      },
+      {
+        "part": "-ana",
+        "origin": "名词后缀",
+        "meaning": "行为"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_144",
@@ -4216,7 +5381,7 @@
     ],
     "sentence_cloze": "Que me debe ese puto ___ y que me debe hasta el puto mar,",
     "sentence_full": "Que me debe ese puto jardín y que me debe hasta el puto mar,",
-    "translation": "",
+    "translation": "花园",
     "sentence_translation": "这是你欠我的 后院的事 甚至海上的事",
     "cultural_note": "",
     "screenshot": "",
@@ -4232,6 +5397,18 @@
         "espanol": "Empiezas buscando algo con dos baños y jardín,",
         "chinese": "我最先想找有两个浴室和花园的房子",
         "seq": 348
+      }
+    ],
+    "etymology": [
+      {
+        "part": "jard-",
+        "origin": "法语 jardin",
+        "meaning": "花园"
+      },
+      {
+        "part": "-ín",
+        "origin": "指小后缀",
+        "meaning": "小"
       }
     ]
   },
@@ -4251,12 +5428,24 @@
     ],
     "sentence_cloze": "Se piensa que esto es un puto videojuego. Usted no es mi ___.",
     "sentence_full": "Se piensa que esto es un puto videojuego. Usted no es mi jefe.",
-    "translation": "",
+    "translation": "Jefe",
     "sentence_translation": "你以为这是什么? 电子游戏吗? 你不是我的老大!",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "jef-",
+        "origin": "法语 chef",
+        "meaning": "首领"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_146",
@@ -4274,12 +5463,19 @@
     ],
     "sentence_cloze": "no ante un arma, no ante un ___,",
     "sentence_full": "no ante un arma, no ante un juez,",
-    "translation": "",
+    "translation": "法官",
     "sentence_translation": "不是在枪支或是法官面前",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "juez",
+        "origin": "拉丁语 iudex",
+        "meaning": "法官"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_147",
@@ -4297,12 +5493,24 @@
     ],
     "sentence_cloze": "A 35 000 pies de altura fuera de toda ___,",
     "sentence_full": "A 35 000 pies de altura fuera de toda jurisdicción,",
-    "translation": "",
+    "translation": "管辖权",
     "sentence_translation": "在一万米的高空 不受任何司法管辖的地方",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "jurisdic-",
+        "origin": "拉丁语 iurisdictio",
+        "meaning": "法律宣告"
+      },
+      {
+        "part": "-ción",
+        "origin": "拉丁语 -tiōnem",
+        "meaning": "动作名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_148",
@@ -4320,12 +5528,24 @@
     ],
     "sentence_cloze": "Eso es ___ pardísima, ¿no?",
     "sentence_full": "Eso es liarla pardísima, ¿no?",
-    "translation": "",
+    "translation": "liarla",
     "sentence_translation": "这一票可不小 对吧？",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "li-",
+        "origin": "拉丁语 ligare",
+        "meaning": "绑"
+      },
+      {
+        "part": "-arla",
+        "origin": "动词+代词",
+        "meaning": "它"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_149",
@@ -4343,7 +5563,7 @@
     ],
     "sentence_cloze": "pero el ___ que los vendió, no.",
     "sentence_full": "pero el libio que los vendió, no.",
-    "translation": "",
+    "translation": "利比亚",
     "sentence_translation": "不可靠的是那个利比亚卖家",
     "cultural_note": "",
     "screenshot": "",
@@ -4359,6 +5579,18 @@
         "espanol": "A un libio.",
         "chinese": "从一个利比亚人那里",
         "seq": 210
+      }
+    ],
+    "etymology": [
+      {
+        "part": "Lib-",
+        "origin": "拉丁语 Libya",
+        "meaning": "利比亚"
+      },
+      {
+        "part": "-io",
+        "origin": "拉丁语 -ius",
+        "meaning": "属于...的"
       }
     ]
   },
@@ -4378,12 +5610,24 @@
     ],
     "sentence_cloze": "Y está ___ de amor.",
     "sentence_full": "Y está loca de amor.",
-    "translation": "",
+    "translation": "loca",
     "sentence_translation": "她疯狂地坠入了爱河",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "loc-",
+        "origin": "拉丁语 locus",
+        "meaning": "疯狂"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性后缀",
+        "meaning": "阴性标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_151",
@@ -4401,12 +5645,24 @@
     ],
     "sentence_cloze": "La ___ de Río viajó desde Guna Yala",
     "sentence_full": "La localización de Río viajó desde Guna Yala",
-    "translation": "",
+    "translation": "本地化",
     "sentence_translation": "里约在加勒比海 库那亚拉的位置不到一秒",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "localiz-",
+        "origin": "拉丁语 locus",
+        "meaning": "地方"
+      },
+      {
+        "part": "-ación",
+        "origin": "拉丁语 -tiōnem",
+        "meaning": "动作名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_152",
@@ -4424,12 +5680,24 @@
     ],
     "sentence_cloze": "Y a pesar de que este no es un ___ seguro, tú te quedas.",
     "sentence_full": "Y a pesar de que este no es un lugar seguro, tú te quedas.",
-    "translation": "",
+    "translation": "位 位 [wei4]",
     "sentence_translation": "即便这里不安全 你还是要留下来",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "lug-",
+        "origin": "拉丁语 locus",
+        "meaning": "地方"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -ārem",
+        "meaning": "相关"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_153",
@@ -4447,12 +5715,24 @@
     ],
     "sentence_cloze": "pero con algún ___.",
     "sentence_full": "pero con algún lujo.",
-    "translation": "",
+    "translation": "豪华型",
     "sentence_translation": "但也自有一番乐趣",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "luj-",
+        "origin": "拉丁语 luxus",
+        "meaning": "奢侈"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_154",
@@ -4470,12 +5750,19 @@
     ],
     "sentence_cloze": "Él tenía un ___.",
     "sentence_full": "Él tenía un M16.",
-    "translation": "",
+    "translation": "m16",
     "sentence_translation": "其实是一把M16来福步枪",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "M16",
+        "origin": "军事编号",
+        "meaning": "型号"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_155",
@@ -4528,12 +5815,19 @@
     ],
     "sentence_cloze": "Aquel día, llovieron sobre ___ 140 millones de euros.",
     "sentence_full": "Aquel día, llovieron sobre Madrid 140 millones de euros.",
-    "translation": "",
+    "translation": "马德里",
     "sentence_translation": "那天 马德里上空飘下1.4亿欧元",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Madrid",
+        "origin": "阿拉伯语 Majrit",
+        "meaning": "水源丰富之地"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_157",
@@ -4551,7 +5845,7 @@
     ],
     "sentence_cloze": "Es una maravilla. Encontramos la ___ de sacar más de 90 toneladas de oro.",
     "sentence_full": "Es una maravilla. Encontramos la manera de sacar más de 90 toneladas de oro.",
-    "translation": "",
+    "translation": "方式",
     "sentence_translation": "简直棒极了 我们可以从那里弄到90吨黄金",
     "cultural_note": "",
     "screenshot": "",
@@ -4567,6 +5861,18 @@
         "espanol": "no hay manera de salir vivo del Banco de España.",
         "chinese": "你们不可能活着离开西班牙银行",
         "seq": 383
+      }
+    ],
+    "etymology": [
+      {
+        "part": "maner-",
+        "origin": "拉丁语 manus",
+        "meaning": "手"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -4586,12 +5892,24 @@
     ],
     "sentence_cloze": "¡___ a la espalda!",
     "sentence_full": "¡Manos a la espalda!",
-    "translation": "",
+    "translation": "手",
     "sentence_translation": "手放在后面…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "man-",
+        "origin": "拉丁语 manus",
+        "meaning": "手"
+      },
+      {
+        "part": "-os",
+        "origin": "复数标记",
+        "meaning": "复数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_159",
@@ -4609,12 +5927,24 @@
     ],
     "sentence_cloze": "Al final, algunas personas mordemos la ___",
     "sentence_full": "Al final, algunas personas mordemos la manzana",
-    "translation": "",
+    "translation": "苹果",
     "sentence_translation": "最终有个人咬了苹果",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "manzan-",
+        "origin": "拉丁语 matiana",
+        "meaning": "苹果"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_160",
@@ -4633,7 +5963,7 @@
     ],
     "sentence_cloze": "y les he evitado convertir esta ___ en un hotel.",
     "sentence_full": "y les he evitado convertir esta maravilla en un hotel.",
-    "translation": "",
+    "translation": "wonder",
     "sentence_translation": "这样他们就不必 把这么美丽的地方变成酒店了",
     "cultural_note": "",
     "screenshot": "",
@@ -4655,6 +5985,18 @@
         "chinese": "简直棒极了 我们可以从那里弄到90吨黄金",
         "seq": 378
       }
+    ],
+    "etymology": [
+      {
+        "part": "marav-",
+        "origin": "拉丁语 mirabilia",
+        "meaning": "奇迹"
+      },
+      {
+        "part": "-illa",
+        "origin": "指小后缀",
+        "meaning": "小"
+      }
     ]
   },
   {
@@ -4673,7 +6015,7 @@
     ],
     "sentence_cloze": "Y hoy en día, al despertar cada ___,",
     "sentence_full": "Y hoy en día, al despertar cada mañana,",
-    "translation": "",
+    "translation": "明天",
     "sentence_translation": "如今 每天早上",
     "cultural_note": "",
     "screenshot": "",
@@ -4689,6 +6031,18 @@
         "espanol": "No saber dónde estaré mañana.",
         "chinese": "我想过那种充满不确定的生活",
         "seq": 63
+      }
+    ],
+    "etymology": [
+      {
+        "part": "mañ-",
+        "origin": "拉丁语 mane",
+        "meaning": "早晨"
+      },
+      {
+        "part": "-ana",
+        "origin": "名词后缀",
+        "meaning": "时间"
       }
     ]
   },
@@ -4708,12 +6062,24 @@
     ],
     "sentence_cloze": "Si tienes en ___ esconderme para que no me vea,",
     "sentence_full": "Si tienes en mente esconderme para que no me vea,",
-    "translation": "",
+    "translation": "思想",
     "sentence_translation": "如果你觉得把我藏起来 她就不会看到我",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ment-",
+        "origin": "拉丁语 mens",
+        "meaning": "心智"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_163",
@@ -4731,7 +6097,7 @@
     ],
     "sentence_cloze": "Es un teléfono satelital. Lo compré en el ___ negro con Helsinki.",
     "sentence_full": "Es un teléfono satelital. Lo compré en el mercado negro con Helsinki.",
-    "translation": "",
+    "translation": "市场",
     "sentence_translation": "这是卫星电话 我和赫尔辛基一起在黑市上买的",
     "cultural_note": "",
     "screenshot": "",
@@ -4747,6 +6113,18 @@
         "espanol": "Los compró en el mercado negro.",
         "chinese": "他在黑市上买的",
         "seq": 209
+      }
+    ],
+    "etymology": [
+      {
+        "part": "mercad-",
+        "origin": "拉丁语 mercatus",
+        "meaning": "交易"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -4788,6 +6166,18 @@
         "chinese": "-最卑鄙无耻的人 -东京！",
         "seq": 186
       }
+    ],
+    "etymology": [
+      {
+        "part": "mierd-",
+        "origin": "拉丁语 merda",
+        "meaning": "粪便"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
     ]
   },
   {
@@ -4811,7 +6201,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Mindanao",
+        "origin": "菲律宾语",
+        "meaning": "地名"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_166",
@@ -4847,6 +6244,18 @@
         "chinese": "不到一分钟后",
         "seq": 88
       }
+    ],
+    "etymology": [
+      {
+        "part": "minut-",
+        "origin": "拉丁语 minutus",
+        "meaning": "微小的"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
     ]
   },
   {
@@ -4870,7 +6279,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "moment-",
+        "origin": "拉丁语 momentum",
+        "meaning": "运动"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_168",
@@ -4893,7 +6314,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "monaster-",
+        "origin": "希腊语 monastērion",
+        "meaning": "修道院"
+      },
+      {
+        "part": "-io",
+        "origin": "拉丁语 -ium",
+        "meaning": "地点"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_169",
@@ -4916,7 +6349,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "mon-",
+        "origin": "拉丁语 moneta",
+        "meaning": "铸币厂"
+      },
+      {
+        "part": "-eda",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_170",
@@ -4934,12 +6379,24 @@
     ],
     "sentence_cloze": "...el ___ de los Balcanes,",
     "sentence_full": "...el monstruo de los Balcanes,",
-    "translation": "",
+    "translation": "怪物",
     "sentence_translation": "那个来自巴尔干地区的混蛋",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "monstru-",
+        "origin": "拉丁语 monstrum",
+        "meaning": "怪物"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_171",
@@ -4957,12 +6414,24 @@
     ],
     "sentence_cloze": "No... - Tengo que hablarte de una ___.",
     "sentence_full": "No... - Tengo que hablarte de una mujer.",
-    "translation": "",
+    "translation": "女性",
     "sentence_translation": "-这个… -我得跟你说说一个女人的事",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "muj-",
+        "origin": "拉丁语 mulier",
+        "meaning": "女人"
+      },
+      {
+        "part": "-er",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_172",
@@ -5015,7 +6484,7 @@
     ],
     "sentence_cloze": "De la Europol al Centro ___ de Inteligencia en 50 segundos.",
     "sentence_full": "De la Europol al Centro Nacional de Inteligencia en 50 segundos.",
-    "translation": "",
+    "translation": "国家的",
     "sentence_translation": "50秒内又传到了国家情报中心",
     "cultural_note": "",
     "screenshot": "",
@@ -5031,6 +6500,18 @@
         "espanol": "La Reserva Nacional del Banco de España.",
         "chinese": "西班牙银行的国家储备金",
         "seq": 334
+      }
+    ],
+    "etymology": [
+      {
+        "part": "nacion-",
+        "origin": "拉丁语 natio",
+        "meaning": "民族"
+      },
+      {
+        "part": "-al",
+        "origin": "拉丁语 -ālem",
+        "meaning": "相关"
       }
     ]
   },
@@ -5055,7 +6536,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Nairobi",
+        "origin": "马赛语",
+        "meaning": "冷水之地"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_175",
@@ -5073,12 +6561,24 @@
     ],
     "sentence_cloze": "Que soy un intelectual que ___ austeridad y retiro",
     "sentence_full": "Que soy un intelectual que necesita austeridad y retiro",
-    "translation": "",
+    "translation": "需要",
     "sentence_translation": "就说我是知识分子 为了写一份神学哲学方面的协定",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "necesit-",
+        "origin": "拉丁语 necesse",
+        "meaning": "必要的"
+      },
+      {
+        "part": "-a",
+        "origin": "动词后缀",
+        "meaning": "第三人称单数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_176",
@@ -5096,12 +6596,24 @@
     ],
     "sentence_cloze": "___, no es ella.",
     "sentence_full": "Negativo, no es ella.",
-    "translation": "",
+    "translation": "消极的",
     "sentence_translation": "错误 不是她",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "negat-",
+        "origin": "拉丁语 negare",
+        "meaning": "否认"
+      },
+      {
+        "part": "-ivo",
+        "origin": "拉丁语 -īvus",
+        "meaning": "相关"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_177",
@@ -5121,7 +6633,7 @@
     ],
     "sentence_cloze": "Puedo ser una ___ formal mucho tiempo.",
     "sentence_full": "Puedo ser una niña formal mucho tiempo.",
-    "translation": "",
+    "translation": "小女孩",
     "sentence_translation": "我可以很长时间 都做个正正经经的姑娘",
     "cultural_note": "",
     "screenshot": "",
@@ -5142,6 +6654,18 @@
         "espanol": "Nada, cariño, la abuela... - Qué niña tan guapa.",
         "chinese": "没事 亲爱的 外婆刚…",
         "seq": 167
+      }
+    ],
+    "etymology": [
+      {
+        "part": "niñ-",
+        "origin": "拉丁语 ninnus",
+        "meaning": "小孩"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "阴性标记"
       }
     ]
   },
@@ -5166,7 +6690,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "niñ-",
+        "origin": "拉丁语 ninnus",
+        "meaning": "小孩"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "阳性标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_179",
@@ -5224,7 +6760,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "norm-",
+        "origin": "拉丁语 norma",
+        "meaning": "规则"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_181",
@@ -5247,7 +6795,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "notic-",
+        "origin": "拉丁语 notitia",
+        "meaning": "消息"
+      },
+      {
+        "part": "-ia",
+        "origin": "拉丁语 -ia",
+        "meaning": "状态"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_182",
@@ -5284,6 +6844,18 @@
         "chinese": "如果有紧急情况 你们可以拨打符合你们位置的号码",
         "seq": 146
       }
+    ],
+    "etymology": [
+      {
+        "part": "númer-",
+        "origin": "拉丁语 numerus",
+        "meaning": "数字"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
     ]
   },
   {
@@ -5307,7 +6879,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "objet-",
+        "origin": "拉丁语 objectum",
+        "meaning": "对象"
+      },
+      {
+        "part": "-ivo",
+        "origin": "拉丁语 -īvus",
+        "meaning": "相关"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_184",
@@ -5330,7 +6914,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "obr-",
+        "origin": "拉丁语 opera",
+        "meaning": "工作"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_185",
@@ -5353,7 +6949,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "opi-",
+        "origin": "希腊语 opion",
+        "meaning": "鸦片"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_186",
@@ -5479,12 +7087,19 @@
     ],
     "sentence_cloze": "Es la obra de ingeniería civil más brillante desde el canal de ___.",
     "sentence_full": "Es la obra de ingeniería civil más brillante desde el canal de Panamá.",
-    "translation": "",
+    "translation": "巴拿马",
     "sentence_translation": "这是自巴拿马运河以来 土木工程史上最具智慧的工程…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Panamá",
+        "origin": "印第安语",
+        "meaning": "鱼多之地"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_189",
@@ -5507,7 +7122,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "paraís-",
+        "origin": "希腊语 paradeisos",
+        "meaning": "花园"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_190",
@@ -5530,7 +7157,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "parej-",
+        "origin": "拉丁语 paria",
+        "meaning": "一对"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_191",
@@ -5553,7 +7192,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "pat-",
+        "origin": "拉丁语 patere",
+        "meaning": "展开"
+      },
+      {
+        "part": "-io",
+        "origin": "拉丁语 -ium",
+        "meaning": "地点"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_192",
@@ -5571,12 +7222,29 @@
     ],
     "sentence_cloze": "___. - ¿Cómo?",
     "sentence_full": "Patrulleras. - ¿Cómo?",
-    "translation": "",
+    "translation": "巡逻艇",
     "sentence_translation": "-巡逻艇 -什么？",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "patrull-",
+        "origin": "法语 patrouille",
+        "meaning": "巡逻"
+      },
+      {
+        "part": "-era",
+        "origin": "阴性名词后缀",
+        "meaning": "工具"
+      },
+      {
+        "part": "-s",
+        "origin": "复数标记",
+        "meaning": "复数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_193",
@@ -5612,6 +7280,13 @@
         "chinese": "这是一个充满艺术、格调的国家",
         "seq": 341
       }
+    ],
+    "etymology": [
+      {
+        "part": "país",
+        "origin": "拉丁语 pagensis",
+        "meaning": "地区"
+      }
     ]
   },
   {
@@ -5635,7 +7310,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Pedro",
+        "origin": "希腊语 Petros",
+        "meaning": "石头"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_195",
@@ -5653,12 +7335,24 @@
     ],
     "sentence_cloze": "¿Corría ___?",
     "sentence_full": "¿Corría peligro?",
-    "translation": "",
+    "translation": "危险",
     "sentence_translation": "他当时有危险吗?",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "pelig-",
+        "origin": "拉丁语 periculum",
+        "meaning": "危险"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_196",
@@ -5681,7 +7375,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "películ-",
+        "origin": "拉丁语 pellicula",
+        "meaning": "薄膜"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_197",
@@ -5699,7 +7405,7 @@
     ],
     "sentence_cloze": "lo ___ absolutamente todo.",
     "sentence_full": "lo perdí absolutamente todo.",
-    "translation": "",
+    "translation": "我输了",
     "sentence_translation": "我失去了一切",
     "cultural_note": "",
     "screenshot": "",
@@ -5715,6 +7421,18 @@
         "espanol": "Perdí el control.",
         "chinese": "我失去控制",
         "seq": 311
+      }
+    ],
+    "etymology": [
+      {
+        "part": "perd-",
+        "origin": "拉丁语 perdere",
+        "meaning": "失去"
+      },
+      {
+        "part": "-í",
+        "origin": "动词后缀",
+        "meaning": "第一人称过去时"
       }
     ]
   },
@@ -5739,7 +7457,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "pes-",
+        "origin": "拉丁语 pensare",
+        "meaning": "称重"
+      },
+      {
+        "part": "-ar",
+        "origin": "动词后缀",
+        "meaning": "不定式"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_199",
@@ -5757,12 +7487,24 @@
     ],
     "sentence_cloze": "Después de un ___, dos aviones de carga y varios autobuses...",
     "sentence_full": "Después de un petrolero, dos aviones de carga y varios autobuses...",
-    "translation": "",
+    "translation": "油",
     "sentence_translation": "途中我坐了一次油轮、两次货运飞机 转了无数次车…",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "petrol-",
+        "origin": "拉丁语 petra+oleum",
+        "meaning": "石油"
+      },
+      {
+        "part": "-ero",
+        "origin": "拉丁语 -ārius",
+        "meaning": "相关"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_200",
@@ -5780,7 +7522,7 @@
     ],
     "sentence_cloze": "¡Deja el arma en el ___, estás rodeado!",
     "sentence_full": "¡Deja el arma en el piso, estás rodeado!",
-    "translation": "",
+    "translation": "地面",
     "sentence_translation": "放下武器！你被包围了",
     "cultural_note": "",
     "screenshot": "",
@@ -5796,6 +7538,18 @@
         "espanol": "Tírese al piso.",
         "chinese": "我让你趴下！",
         "seq": 203
+      }
+    ],
+    "etymology": [
+      {
+        "part": "pis-",
+        "origin": "拉丁语 pinsare",
+        "meaning": "踩踏"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -5838,6 +7592,13 @@
         "chinese": "他会亲自执行那个自杀性的计划",
         "seq": 395
       }
+    ],
+    "etymology": [
+      {
+        "part": "plan",
+        "origin": "拉丁语 planus",
+        "meaning": "平坦/计划"
+      }
     ]
   },
   {
@@ -5856,7 +7617,7 @@
     ],
     "sentence_cloze": "Contacten con la ___ panameña, ¡ya!",
     "sentence_full": "Contacten con la policía panameña, ¡ya!",
-    "translation": "",
+    "translation": "警察",
     "sentence_translation": "马上联系巴拿马警方！快！",
     "cultural_note": "",
     "screenshot": "",
@@ -5872,6 +7633,18 @@
         "espanol": "Y la policía entró.",
         "chinese": "警察进来了",
         "seq": 304
+      }
+    ],
+    "etymology": [
+      {
+        "part": "polic-",
+        "origin": "希腊语 polis",
+        "meaning": "城市"
+      },
+      {
+        "part": "-ía",
+        "origin": "希腊语 -ia",
+        "meaning": "管理"
       }
     ]
   },
@@ -5896,7 +7669,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "posic-",
+        "origin": "拉丁语 positio",
+        "meaning": "放置"
+      },
+      {
+        "part": "-ón",
+        "origin": "拉丁语 -tiōnem",
+        "meaning": "动作名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_204",
@@ -5919,7 +7704,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "pri-",
+        "origin": "拉丁语 pressus",
+        "meaning": "紧的"
+      },
+      {
+        "part": "-eto",
+        "origin": "形容词后缀",
+        "meaning": "性质"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_205",
@@ -5955,6 +7752,18 @@
         "espanol": "¿Entiendes eso? - Tokio, es su puto problema.",
         "chinese": "-你能理解吗? -抱歉 那是他自己的错",
         "seq": 290
+      }
+    ],
+    "etymology": [
+      {
+        "part": "problem-",
+        "origin": "希腊语 problēma",
+        "meaning": "问题"
+      },
+      {
+        "part": "-a",
+        "origin": "希腊语 -a",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -5996,6 +7805,18 @@
         "espanol": "Lo que nunca imaginó el Profesor",
         "chinese": "教授从未想到",
         "seq": 393
+      }
+    ],
+    "etymology": [
+      {
+        "part": "profes-",
+        "origin": "拉丁语 profiteri",
+        "meaning": "声明"
+      },
+      {
+        "part": "-or",
+        "origin": "拉丁语 -tōrem",
+        "meaning": "行为者"
       }
     ]
   },
@@ -6055,7 +7876,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "puert-",
+        "origin": "拉丁语 portus",
+        "meaning": "港口"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_209",
@@ -6078,7 +7911,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "puls-",
+        "origin": "拉丁语 pulsus",
+        "meaning": "跳动"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_210",
@@ -6101,7 +7946,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "punt-",
+        "origin": "拉丁语 puncta",
+        "meaning": "尖"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_211",
@@ -6124,7 +7981,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "punt-",
+        "origin": "拉丁语 punctum",
+        "meaning": "点"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_212",
@@ -6165,6 +8034,18 @@
         "espanol": "y por mi puta vida que no le hago pasar por lo que pasé yo.",
         "chinese": "我发誓不会让他受我受过的罪",
         "seq": 286
+      }
+    ],
+    "etymology": [
+      {
+        "part": "put-",
+        "origin": "拉丁语 puta",
+        "meaning": "妓女"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "阴性标记"
       }
     ]
   },
@@ -6207,6 +8088,18 @@
         "chinese": "-你能理解吗? -抱歉 那是他自己的错",
         "seq": 290
       }
+    ],
+    "etymology": [
+      {
+        "part": "put-",
+        "origin": "拉丁语 putus",
+        "meaning": "男孩"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "阳性标记"
+      }
     ]
   },
   {
@@ -6230,7 +8123,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "puñet-",
+        "origin": "拉丁语 pugnus",
+        "meaning": "拳头"
+      },
+      {
+        "part": "-ero",
+        "origin": "拉丁语 -ārius",
+        "meaning": "相关"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_215",
@@ -6253,7 +8158,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "recompens-",
+        "origin": "拉丁语 recompensare",
+        "meaning": "补偿"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_216",
@@ -6276,7 +8193,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "reform-",
+        "origin": "拉丁语 reformare",
+        "meaning": "重塑"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_217",
@@ -6300,7 +8229,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "rehén",
+        "origin": "阿拉伯语 rahan",
+        "meaning": "抵押"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_218",
@@ -6323,7 +8259,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "reserv-",
+        "origin": "拉丁语 reservare",
+        "meaning": "保留"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_219",
@@ -6346,7 +8294,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "resist-",
+        "origin": "拉丁语 resistere",
+        "meaning": "抵抗"
+      },
+      {
+        "part": "-encia",
+        "origin": "拉丁语 -entia",
+        "meaning": "状态后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_220",
@@ -6369,7 +8329,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "respons-",
+        "origin": "拉丁语 respondere",
+        "meaning": "回答"
+      },
+      {
+        "part": "-able",
+        "origin": "拉丁语 -abilis",
+        "meaning": "能够...的"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_221",
@@ -6392,7 +8364,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "retir-",
+        "origin": "拉丁语 retrahere",
+        "meaning": "拉回"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_222",
@@ -6415,7 +8399,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "retras-",
+        "origin": "拉丁语 retrahere",
+        "meaning": "延迟"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_223",
@@ -6438,7 +8434,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "rit-",
+        "origin": "拉丁语 ritus",
+        "meaning": "仪式"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_224",
@@ -6461,7 +8469,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Robin",
+        "origin": "日耳曼语 Hrodberht",
+        "meaning": "名声+明亮"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_225",
@@ -6495,6 +8510,18 @@
         "espanol": "Haciendo mucho ruido.",
         "chinese": "通过制造混乱",
         "seq": 402
+      }
+    ],
+    "etymology": [
+      {
+        "part": "ruid-",
+        "origin": "拉丁语 rugitus",
+        "meaning": "吼叫"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
       }
     ]
   },
@@ -6590,6 +8617,18 @@
         "chinese": "你知道叛徒会怎样吗？",
         "seq": 187
       }
+    ],
+    "etymology": [
+      {
+        "part": "sab-",
+        "origin": "拉丁语 sapere",
+        "meaning": "知道"
+      },
+      {
+        "part": "-es",
+        "origin": "动词后缀",
+        "meaning": "第二人称单数"
+      }
     ]
   },
   {
@@ -6613,7 +8652,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "sac-",
+        "origin": "拉丁语 sacculare",
+        "meaning": "拿出"
+      },
+      {
+        "part": "-aste",
+        "origin": "动词后缀",
+        "meaning": "第二人称过去时"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_229",
@@ -6636,7 +8687,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "secret-",
+        "origin": "拉丁语 secretus",
+        "meaning": "秘密的"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_230",
@@ -6678,6 +8741,18 @@
         "chinese": "她一直陪在他身边 一秒都没有离开",
         "seq": 295
       }
+    ],
+    "etymology": [
+      {
+        "part": "segund-",
+        "origin": "拉丁语 secundus",
+        "meaning": "第二"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
     ]
   },
   {
@@ -6701,7 +8776,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "segur-",
+        "origin": "拉丁语 securus",
+        "meaning": "安全的"
+      },
+      {
+        "part": "-idad",
+        "origin": "拉丁语 -itātem",
+        "meaning": "抽象名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_232",
@@ -6724,7 +8811,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Sergio",
+        "origin": "拉丁语 Sergius",
+        "meaning": "罗马氏族名"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_233",
@@ -6747,7 +8841,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "setent-",
+        "origin": "拉丁语 septuaginta",
+        "meaning": "七十"
+      },
+      {
+        "part": "-a",
+        "origin": "数词后缀",
+        "meaning": "数词"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_234",
@@ -6770,7 +8876,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "sigl-",
+        "origin": "拉丁语 saeculum",
+        "meaning": "时代"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_235",
@@ -6805,6 +8923,18 @@
         "chinese": "而且 他们信奉安宁",
         "seq": 357
       }
+    ],
+    "etymology": [
+      {
+        "part": "silenc-",
+        "origin": "拉丁语 silentium",
+        "meaning": "沉默"
+      },
+      {
+        "part": "-io",
+        "origin": "拉丁语 -ium",
+        "meaning": "状态"
+      }
     ]
   },
   {
@@ -6828,7 +8958,24 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "simpát-",
+        "origin": "希腊语 sympatheia",
+        "meaning": "同情"
+      },
+      {
+        "part": "-ico",
+        "origin": "希腊语 -ikos",
+        "meaning": "相关"
+      },
+      {
+        "part": "-s",
+        "origin": "复数标记",
+        "meaning": "复数"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_237",
@@ -6851,7 +8998,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "sistem-",
+        "origin": "希腊语 systēma",
+        "meaning": "系统"
+      },
+      {
+        "part": "-a",
+        "origin": "希腊语 -a",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_238",
@@ -6891,6 +9050,18 @@
         "chinese": "只有我能全天候知道你们的行踪",
         "seq": 140
       }
+    ],
+    "etymology": [
+      {
+        "part": "sol-",
+        "origin": "拉丁语 solus",
+        "meaning": "单独的"
+      },
+      {
+        "part": "-o",
+        "origin": "形容词后缀",
+        "meaning": "阳性"
+      }
     ]
   },
   {
@@ -6914,7 +9085,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "solo-",
+        "origin": "拉丁语 solus",
+        "meaning": "单独"
+      },
+      {
+        "part": "millo",
+        "origin": "拉丁语 milium",
+        "meaning": "小米"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_240",
@@ -6937,7 +9120,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "soluc-",
+        "origin": "拉丁语 solutio",
+        "meaning": "解开"
+      },
+      {
+        "part": "-ión",
+        "origin": "拉丁语 -tiōnem",
+        "meaning": "动作名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_241",
@@ -6960,7 +9155,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Sputnik",
+        "origin": "俄语 sputnik",
+        "meaning": "旅伴"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_242",
@@ -6983,7 +9185,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Tailand-",
+        "origin": "泰语 Thai",
+        "meaning": "自由人"
+      },
+      {
+        "part": "-ia",
+        "origin": "拉丁语 -ia",
+        "meaning": "地名"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_243",
@@ -7023,6 +9237,13 @@
         "chinese": "或许吧 但第一批人质因此得以逃走",
         "seq": 22
       }
+    ],
+    "etymology": [
+      {
+        "part": "tal",
+        "origin": "拉丁语 talis",
+        "meaning": "这样的"
+      }
     ]
   },
   {
@@ -7046,7 +9267,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tard-",
+        "origin": "拉丁语 tardare",
+        "meaning": "延迟"
+      },
+      {
+        "part": "-aste",
+        "origin": "动词后缀",
+        "meaning": "第二人称过去时"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_245",
@@ -7069,7 +9302,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "Tatiana",
+        "origin": "拉丁语 Tatianus",
+        "meaning": "罗马氏族名"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_246",
@@ -7092,7 +9332,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tech-",
+        "origin": "拉丁语 tectum",
+        "meaning": "覆盖物"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_247",
@@ -7134,6 +9386,18 @@
         "chinese": "这些是电话号码",
         "seq": 145
       }
+    ],
+    "etymology": [
+      {
+        "part": "tel-",
+        "origin": "希腊语 tēle",
+        "meaning": "远"
+      },
+      {
+        "part": "-éfono",
+        "origin": "希腊语 phōnē",
+        "meaning": "声音"
+      }
     ]
   },
   {
@@ -7169,6 +9433,18 @@
         "chinese": "我用了11天才到那座寺庙 承运人把我留在了那里",
         "seq": 161
       }
+    ],
+    "etymology": [
+      {
+        "part": "templ-",
+        "origin": "拉丁语 templum",
+        "meaning": "神圣场所"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
     ]
   },
   {
@@ -7203,6 +9479,18 @@
         "espanol": "Hasta España tuvo un comando terrorista,",
         "chinese": "就连西班牙都有 一支恐怖分子突击队",
         "seq": 237
+      }
+    ],
+    "etymology": [
+      {
+        "part": "terror-",
+        "origin": "拉丁语 terror",
+        "meaning": "恐惧"
+      },
+      {
+        "part": "-ista",
+        "origin": "希腊语 -istēs",
+        "meaning": "从业者"
       }
     ]
   },
@@ -7280,7 +9568,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "todo",
+        "origin": "拉丁语 totus",
+        "meaning": "全部"
+      },
+      {
+        "part": "poderoso",
+        "origin": "拉丁语 poterosus",
+        "meaning": "强大的"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_252",
@@ -7322,6 +9622,13 @@
         "chinese": "我想过这样的生活 东京！",
         "seq": 104
       }
+    ],
+    "etymology": [
+      {
+        "part": "Tokio",
+        "origin": "日语 Tōkyō",
+        "meaning": "东方首都"
+      }
     ]
   },
   {
@@ -7345,7 +9652,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tranquil-",
+        "origin": "拉丁语 tranquillus",
+        "meaning": "平静的"
+      },
+      {
+        "part": "-o",
+        "origin": "形容词后缀",
+        "meaning": "阳性"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_254",
@@ -7386,6 +9705,18 @@
         "chinese": "不然他会像你一样 给他的承运人打电话 不是吗？",
         "seq": 217
       }
+    ],
+    "etymology": [
+      {
+        "part": "transport-",
+        "origin": "拉丁语 transportare",
+        "meaning": "运输"
+      },
+      {
+        "part": "-ador",
+        "origin": "拉丁语 -ātor",
+        "meaning": "行为者"
+      }
     ]
   },
   {
@@ -7409,7 +9740,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "trat-",
+        "origin": "拉丁语 tractare",
+        "meaning": "处理"
+      },
+      {
+        "part": "-ado",
+        "origin": "过去分词后缀",
+        "meaning": "结果"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_256",
@@ -7449,6 +9792,13 @@
         "chinese": "你的命根子很确定吗？",
         "seq": 196
       }
+    ],
+    "etymology": [
+      {
+        "part": "tu",
+        "origin": "拉丁语 tuus",
+        "meaning": "你的"
+      }
     ]
   },
   {
@@ -7472,7 +9822,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "té",
+        "origin": "汉语 chá/tê",
+        "meaning": "茶"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_258",
@@ -7495,7 +9852,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tir-",
+        "origin": "拉丁语 tirare",
+        "meaning": "拉"
+      },
+      {
+        "part": "-ese",
+        "origin": "动词+代词",
+        "meaning": "自己"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_259",
@@ -7530,6 +9899,13 @@
         "chinese": "你从隧道脱身 因为是柏林...",
         "seq": 305
       }
+    ],
+    "etymology": [
+      {
+        "part": "túnel",
+        "origin": "法语 tunnel",
+        "meaning": "隧道"
+      }
     ]
   },
   {
@@ -7553,7 +9929,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "urg-",
+        "origin": "拉丁语 urgere",
+        "meaning": "催促"
+      },
+      {
+        "part": "-encia",
+        "origin": "拉丁语 -entia",
+        "meaning": "状态"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_261",
@@ -7576,7 +9964,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "val-",
+        "origin": "拉丁语 valere",
+        "meaning": "强壮/有价值"
+      },
+      {
+        "part": "-or",
+        "origin": "拉丁语 -ōrem",
+        "meaning": "抽象名词后缀"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_262",
@@ -7599,7 +9999,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "vay-",
+        "origin": "拉丁语 vadere",
+        "meaning": "走"
+      },
+      {
+        "part": "-a",
+        "origin": "动词后缀",
+        "meaning": "虚拟式"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_263",
@@ -7633,6 +10045,13 @@
         "espanol": "ve con tu madre y con la niña a Mindanao.",
         "chinese": "你一定要带你母亲和女儿去棉兰老岛",
         "seq": 175
+      }
+    ],
+    "etymology": [
+      {
+        "part": "ve",
+        "origin": "拉丁语 videre/ire",
+        "meaning": "看/去"
       }
     ]
   },
@@ -7674,6 +10093,18 @@
         "chinese": "我说过无数次了 你们或许能抢到黄金 可是 安德鲁斯",
         "seq": 382
       }
+    ],
+    "etymology": [
+      {
+        "part": "vec-",
+        "origin": "拉丁语 vicis",
+        "meaning": "次/回"
+      },
+      {
+        "part": "-es",
+        "origin": "复数标记",
+        "meaning": "复数"
+      }
     ]
   },
   {
@@ -7697,7 +10128,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "vended-",
+        "origin": "拉丁语 vendere",
+        "meaning": "卖"
+      },
+      {
+        "part": "-or",
+        "origin": "拉丁语 -tōrem",
+        "meaning": "行为者"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_266",
@@ -7732,6 +10175,18 @@
         "chinese": "当然了",
         "seq": 135
       }
+    ],
+    "etymology": [
+      {
+        "part": "veng-",
+        "origin": "拉丁语 venire",
+        "meaning": "来"
+      },
+      {
+        "part": "-a",
+        "origin": "动词后缀",
+        "meaning": "虚拟式"
+      }
     ]
   },
   {
@@ -7755,7 +10210,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ver-",
+        "origin": "拉丁语 videre",
+        "meaning": "看"
+      },
+      {
+        "part": "-te",
+        "origin": "代词",
+        "meaning": "你"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_268",
@@ -7792,6 +10259,13 @@
         "chinese": "所以会时不时地去天堂休整",
         "seq": 56
       }
+    ],
+    "etymology": [
+      {
+        "part": "vez",
+        "origin": "拉丁语 vicis",
+        "meaning": "次/回"
+      }
     ]
   },
   {
@@ -7815,7 +10289,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "viaj-",
+        "origin": "拉丁语 viaticum",
+        "meaning": "旅行"
+      },
+      {
+        "part": "-ante",
+        "origin": "拉丁语 -antem",
+        "meaning": "行为者"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_270",
@@ -7838,7 +10324,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "viaj-",
+        "origin": "拉丁语 viaticum",
+        "meaning": "旅行"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_271",
@@ -7915,7 +10413,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "vot-",
+        "origin": "拉丁语 votum",
+        "meaning": "誓言"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_273",
@@ -7938,7 +10448,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "zorr-",
+        "origin": "拉丁语 vulpes",
+        "meaning": "狐狸（变体）"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_274",
@@ -7961,7 +10483,19 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "águil-",
+        "origin": "拉丁语 aquila",
+        "meaning": "鹰"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_275",
@@ -7984,7 +10518,14 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ángel",
+        "origin": "希腊语 angelos",
+        "meaning": "信使"
+      }
+    ]
   },
   {
     "id": "LCDP_S3E01_276",
@@ -8007,6 +10548,18 @@
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
-    "is_example_sentence": false
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ídol-",
+        "origin": "希腊语 eidōlon",
+        "meaning": "形象/偶像"
+      },
+      {
+        "part": "-o",
+        "origin": "阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
   }
 ]

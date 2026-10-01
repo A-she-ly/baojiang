@@ -18,25 +18,36 @@ import friendsCards from './data/S01E01_cards.json'
 import friendsMeta from './data/S01E01_metadata.json'
 import friendsNounsCards from './data/Friends_S01E01_nouns_cards.json'
 import friendsNounsMeta from './data/Friends_S01E01_nouns_metadata.json'
-import lcdpCards from './data/LCDP_S01E01_cards.json'
-import lcdpMeta from './data/LCDP_S01E01_metadata.json'
 import lcdpNounsCards from './data/LCDP_S3E01_nouns_cards.json'
 import lcdpNounsMeta from './data/LCDP_S3E01_nouns_metadata.json'
 
 const friendsCardsData = friendsCards as Flashcard[]
 const friendsMetaData = friendsMeta as EpisodeMetadata
-const friendsNounsCardsData = friendsNounsCards as Flashcard[]
+
+/** Person names to exclude from flashcard decks */
+const PERSON_NAMES = new Set([
+  'andrea','angela','arcola','barry','billy','bing','carol','chachi',
+  'chandler','charles','christine','cunningham','david','demarco',
+  'finkel','frannie','gippetto','joanne','joey','john','june',
+  'lamauge','lenny','liza','louise','monica','paul','pheebs','phoebe',
+  'rach','rachel','rocky','ross','roz','tony',
+  // LCDP names
+  'alison','arturo','berlín','denver','helsinki','mercedes','moscú',
+  'naomi','nairobi','oslo','raquel','tokio','ángel',
+])
+
+function filterNameCards(cards: Flashcard[]): Flashcard[] {
+  return cards.filter((c) => !PERSON_NAMES.has(c.target_word.toLowerCase()))
+}
+
+const friendsNounsCardsData = filterNameCards(friendsNounsCards as Flashcard[])
 const friendsNounsMetaData = friendsNounsMeta as EpisodeMetadata
-const lcdpCardsData = lcdpCards as Flashcard[]
-const lcdpMetaData = lcdpMeta as EpisodeMetadata
-const lcdpNounsCardsData = lcdpNounsCards as Flashcard[]
+const lcdpNounsCardsData = filterNameCards(lcdpNounsCards as Flashcard[])
 const lcdpNounsMetaData = lcdpNounsMeta as EpisodeMetadata
 
 /** Map of "showId:episodeId" → { cards, metadata } */
 const EPISODE_DATA: Record<string, { cards: Flashcard[]; metadata: EpisodeMetadata }> = {
-  'friends:S01E01': { cards: friendsCardsData, metadata: friendsMetaData },
   'friends:S01E01-NOUNS': { cards: friendsNounsCardsData, metadata: friendsNounsMetaData },
-  'la-casa-de-papel:S01E01': { cards: lcdpCardsData, metadata: lcdpMetaData },
   'la-casa-de-papel:S3E01': { cards: lcdpNounsCardsData, metadata: lcdpNounsMetaData },
 }
 
@@ -55,7 +66,7 @@ function saveSession(showId: string | null, episodeId: string | null) {
 }
 
 export default function App() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const load = useStore((s) => s.load)
   const hydrate = useStore((s) => s.hydrate)
   const view = useStore((s) => s.view)
@@ -73,9 +84,33 @@ export default function App() {
     setReady(true)
   }, [hydrate])
 
+  // Auto-select show based on language
+  useEffect(() => {
+    if (!ready) return
+    const lang = i18n.language
+    // Find a show matching the current language
+    const matchingShow = Object.values(SHOW_MAP).find((s) => s.language === lang)
+    if (matchingShow && matchingShow.id !== selectedShowId) {
+      const ep = matchingShow.episodes[0]
+      setSelectedShowId(matchingShow.id)
+      setSelectedEpisodeId(ep?.episodeId || null)
+    }
+  }, [i18n.language, ready])
+
   // Persist session state
   useEffect(() => {
     saveSession(selectedShowId, selectedEpisodeId)
+  }, [selectedShowId, selectedEpisodeId])
+
+  // Fallback: if saved episode no longer exists, auto-select first available
+  useEffect(() => {
+    if (!selectedShowId || !selectedEpisodeId) return
+    const show = SHOW_MAP[selectedShowId]
+    if (!show) return
+    const ep = show.episodes.find((e) => e.episodeId === selectedEpisodeId)
+    if (!ep && show.episodes.length > 0) {
+      setSelectedEpisodeId(show.episodes[0].episodeId)
+    }
   }, [selectedShowId, selectedEpisodeId])
 
   // Load cards when episode is selected
@@ -408,6 +443,43 @@ export default function App() {
 
               {/* Actions */}
               <div className="flex flex-col gap-3">
+                {/* All perfect → encourage new challenge */}
+                {sessionStats.perfect.length > 0 && sessionStats.bumpy.length === 0 && sessionStats.needsWork.length === 0 && episodeData && (
+                  <>
+                    <div className="text-center py-2">
+                      <div className="text-lg font-semibold text-friends-perk">
+                        <Bi i18nKey="session.allPerfect" />
+                      </div>
+                      <div className="text-sm text-friends-coffee/80 mt-1">
+                        <Bi i18nKey="session.newChallengeDesc" />
+                      </div>
+                    </div>
+                    <button
+                      onClick={() => {
+                        // Get truly new cards: not yet learned (no SRS entry or not in 'review' status)
+                        const newCards = episodeData.cards
+                          .filter((c) => {
+                            const srsState = srs[c.id]
+                            return !srsState || srsState.status !== 'review'
+                          })
+                          .slice(0, 7)
+                        if (newCards.length > 0) {
+                          setSessionStats({ perfect: [], bumpy: [], needsWork: [] })
+                          setSessionCompleted(false)
+                          setQueueIndex(0)
+                          setSessionCounter((c) => c + 1)
+                          setView({ name: 'study', queueIds: newCards.map((c) => c.id) })
+                        } else {
+                          setView({ name: 'home' })
+                        }
+                      }}
+                      className="w-full py-3 rounded-xl bg-gradient-to-r from-friends-perk to-friends-accent text-white font-semibold shadow-subtle hover:shadow-card hover:scale-[1.02] transition-all flex items-center justify-center gap-2"
+                    >
+                      <span></span>
+                      <Bi i18nKey="session.newChallenge" />
+                    </button>
+                  </>
+                )}
                 <button
                   onClick={() => setView({ name: 'home' })}
                   className="w-full py-3 rounded-xl bg-friends-paper text-friends-sofa font-semibold border border-friends-coffee/25 hover:bg-friends-accent/30 transition-all flex items-center justify-center gap-2"
@@ -430,7 +502,6 @@ export default function App() {
       metadata={episodeData.metadata}
       show={selectedShow}
       episode={selectedEpisode}
-      onChangeShow={handleChangeShow}
       onStart={(queueIds) => setView({ name: 'study', queueIds })}
     />
   )

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import BilingualText, { Bi } from './BilingualText'
 import type { Flashcard, SrsRating } from '../data/types'
@@ -88,6 +88,30 @@ export default function FlashcardView({
   const [cardRated, setCardRated] = useState(false)  // Prevent double-counting
   const inputRef = useRef<HTMLInputElement>(null)
 
+  // Focus input when card changes OR when flipping back to front
+  useEffect(() => {
+    // Skip focus when answer is correct/revealed (card will auto-advance)
+    if (answerState === 'correct' || answerState === 'revealed') return
+    let cancelled = false
+    const focusInput = () => {
+      if (cancelled) return
+      const el = inputRef.current || document.querySelector('.cloze-input') as HTMLInputElement | null
+      if (el && document.activeElement !== el) {
+        el.focus()
+      }
+    }
+    focusInput()
+    const t1 = setTimeout(focusInput, 50)
+    const t2 = setTimeout(focusInput, 150)
+    const t3 = setTimeout(focusInput, 400)
+    return () => {
+      cancelled = true
+      clearTimeout(t1)
+      clearTimeout(t2)
+      clearTimeout(t3)
+    }
+  }, [card.id, flipped, answerState])
+
   // Pronunciation focus label (main text only for badge)
   const pronLabel = (t(`pronunciation.${card.pronunciation_focus}`, { returnObjects: true }) as { main?: string })?.main ?? card.pronunciation_focus
 
@@ -143,25 +167,17 @@ export default function FlashcardView({
 
   const avatar = CHAR_AVATAR[card.character] ?? ''
 
-  // Reset quiz state & autofocus when card changes
+  // Reset quiz state when card changes
   useEffect(() => {
     setUserAnswer('')
     setAnswerState('idle')
     setFeedbackLevel('not_quite')
     setAttempts(0)
     setAutoRating(null)
-    setCardRated(false)  // Reset rating flag for new card
+    setCardRated(false)
     setFlipped(false)
     setHintLevel('none')
-    setTimeout(() => inputRef.current?.focus(), 100)
   }, [card.id])
-
-  // Focus input when flipping back to front
-  useEffect(() => {
-    if (!flipped && answerState !== 'correct') {
-      setTimeout(() => inputRef.current?.focus(), 300)  // Wait for flip animation
-    }
-  }, [flipped, answerState])
 
   const clozeLength = card.sentence_cloze.length
   const clozeFontSize = clozeLength > 120 ? 'text-lg' : clozeLength > 80 ? 'text-xl' : clozeLength > 50 ? 'text-2xl' : 'text-2xl sm:text-3xl'
@@ -388,6 +404,7 @@ export default function FlashcardView({
                                 <span key={i} className="inline-flex items-center gap-2">
                                   <input
                                     ref={i === 0 ? inputRef : undefined}
+                                    autoFocus
                                     type="text"
                                     value={userAnswer}
                                     onChange={(e) => {

@@ -17,6 +17,7 @@ Run:
 
 from __future__ import annotations
 import asyncio
+import os
 import sys
 from pathlib import Path
 
@@ -49,7 +50,10 @@ async def edge_tts_stream(text: str, voice: str = EDGE_VOICE_ES) -> bytes:
     if edge_tts is None:
         raise RuntimeError("edge-tts is not installed")
 
-    communicate = edge_tts.Communicate(text, voice, rate="+0%", volume="+0%", pitch="+0Hz")
+    # Support proxy via environment variable (HTTP_PROXY or HTTPS_PROXY)
+    proxy = os.environ.get("HTTP_PROXY") or os.environ.get("HTTPS_PROXY")
+    
+    communicate = edge_tts.Communicate(text, voice, rate="+0%", volume="+0%", pitch="+0Hz", proxy=proxy)
     audio_chunks: list[bytes] = []
 
     async for chunk in communicate.stream():
@@ -130,6 +134,28 @@ async def handle_options(request: web.Request) -> web.Response:
 
 
 # ---------------------------------------------------------------------------
+# Clash proxy auto-detection
+# ---------------------------------------------------------------------------
+def _detect_clash_proxy() -> str | None:
+    """Auto-detect Clash Verge proxy port from config file."""
+    config_paths = [
+        Path(os.environ.get("APPDATA", "")) / "io.github.clash-verge-rev.clash-verge-rev" / "clash-verge.yaml",
+        Path(os.environ.get("APPDATA", "")) / "io.github.clash-verge-maint.clash-verge" / "clash-verge.yaml",
+    ]
+    for p in config_paths:
+        if p.exists():
+            try:
+                for line in p.read_text(encoding="utf-8").splitlines():
+                    line = line.strip()
+                    if line.startswith("mixed-port:"):
+                        port = line.split(":", 1)[1].strip()
+                        return f"http://127.0.0.1:{port}"
+            except Exception:
+                pass
+    return None
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 def main() -> None:
@@ -142,6 +168,15 @@ def main() -> None:
     print(f"   Spanish → Edge TTS ({EDGE_VOICE_ES})")
     print(f"   English → Youdao Dict Voice")
     print(f"   Endpoint: GET /api/tts?text=<text>&lang=<es|en>")
+    
+    proxy = os.environ.get("HTTP_PROXY") or os.environ.get("HTTPS_PROXY") or _detect_clash_proxy()
+    if proxy:
+        os.environ["HTTP_PROXY"] = proxy
+        os.environ["HTTPS_PROXY"] = proxy
+        print(f"   Proxy: {proxy}")
+    else:
+        print(f"   ⚠️  No proxy configured. Edge TTS may be blocked in China.")
+        print(f"   Set HTTP_PROXY or install Clash Verge for auto-detection.")
 
     if edge_tts is None:
         print("   ⚠️  edge-tts NOT installed — Spanish TTS unavailable!")

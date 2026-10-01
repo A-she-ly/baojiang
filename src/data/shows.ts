@@ -11,15 +11,9 @@ export const SHOWS: ShowDefinition[] = [
     accentTo: 'to-orange-600',
     episodes: [
       {
-        episodeId: 'S01E01',
-        title: 'S01E01 — The Pilot',
-        description: 'Rachel leaves her fiancé and moves in with Monica; Ross reels from his wife leaving him.',
-        hasCards: true,
-      },
-      {
         episodeId: 'S01E01-NOUNS',
-        title: 'S01E01 — Noun Classification',
-        description: 'Nouns extracted from Friends S01E01 dialogue, each card shows context from the episode.',
+        title: 'S01E01 — The Pilot 试播集',
+        description: 'Rachel leaves her fiancé and moves in with Monica; Ross reels from his wife leaving him. 瑞秋离开未婚夫搬去和莫妮卡住；罗斯因妻子离开而陷入痛苦。',
         hasCards: true,
       },
     ],
@@ -67,12 +61,6 @@ export const SHOWS: ShowDefinition[] = [
     accentFrom: 'from-red-600',
     accentTo: 'to-rose-800',
     episodes: [
-      {
-        episodeId: 'S01E01',
-        title: 'S01E01 — Efecto Mariposa',
-        description: 'El Profesor recluta a su equipo para el atraco más grande de la historia.',
-        hasCards: true,
-      },
       {
         episodeId: 'S3E01',
         title: 'S3E01 — 名词分类',

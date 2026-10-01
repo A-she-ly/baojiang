@@ -147,7 +147,10 @@
     "needsWork": { "main": "Needs practice", "zh": "需夯实" },
     "needsWorkTime": { "main": "10 min - 1 day later", "zh": "10分钟-1天后再挑战" },
     "needsWorkMsg": { "main": "Don't worry! Repetition is the mother of learning! 🔄", "zh": "别担心！重复是学习之母！🔄" },
-    "reviewNow": { "main": "Review now ({{count}} cards)", "zh": "立即复习 ({{count}} 张)" }
+    "reviewNow": { "main": "Review now ({{count}} cards)", "zh": "立即复习 ({{count}} 张)" },
+    "allPerfect": { "main": "Incredible! Perfect score! 🌟", "zh": "太厉害了！全部一把过！🌟" },
+    "newChallenge": { "main": " Take on a new challenge!", "zh": "🔥 接受新挑战！" },
+    "newChallengeDesc": { "main": "These words are yours now. Ready for the next 7?", "zh": "这些词已经拿下了，准备好挑战下一批 7 个词了吗？" }
   },
   "feedback": {
     "correct": {
