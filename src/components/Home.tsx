@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from './LanguageSwitcher'
 import BilingualText, { Bi } from './BilingualText'
@@ -27,9 +27,19 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
   const { t } = useTranslation()
   const srs = useStore((s) => s.srs)
   const favorites = useStore((s) => s.favorites)
+  const disliked = useStore((s) => s.disliked)
+  const mastered = useStore((s) => s.mastered)
+  const seen = useStore((s) => s.seen)
+  const [previewPage, setPreviewPage] = useState(0)
+  const [previewMode, setPreviewMode] = useState<'session' | 'all' | 'blindSpots'>('session')
+  const PREVIEW_PER_PAGE = 8
+  const BLIND_SPOT_PER_PAGE = 16
 
   const [selectedFilter, setSelectedFilter] = useState<FilterKey>('all')
   const [selectedValue, setSelectedValue] = useState<string | null>(null)
+
+  // Reset preview page when filter or mode changes
+  useEffect(() => { setPreviewPage(0) }, [selectedFilter, selectedValue, previewMode])
 
   // POS labels: use main text for filter logic, Bi component for display
   const POS_MAIN: Record<string, string> = {
@@ -77,8 +87,10 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
   }, [cards, metadata])
 
   const filteredCards = useMemo(() => {
-    if (selectedFilter === 'all' || !selectedValue) return cards
-    return cards.filter((c) => {
+    // Filter out disliked and mastered cards
+    const availableCards = cards.filter((c) => !disliked.has(c.id) && !mastered.has(c.id))
+    if (selectedFilter === 'all' || !selectedValue) return availableCards
+    return availableCards.filter((c) => {
       if (selectedFilter === 'pos') {
         const raw = c.pos.toLowerCase()
         const key =
@@ -98,7 +110,7 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
       if (selectedFilter === 'tags') return c.tags.includes(selectedValue)
       return true
     })
-  }, [cards, selectedFilter, selectedValue])
+  }, [cards, selectedFilter, selectedValue, disliked, mastered])
 
   const recommendedCards = useMemo(() => {
     const now = Date.now()
@@ -118,12 +130,39 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
   }, [filteredCards, srs])
 
   const stats = useMemo(() => {
-    const due = cards.filter((c) => !srs[c.id] || srs[c.id].dueAt <= Date.now()).length
-    const learned = cards.filter((c) => srs[c.id]?.status === 'review').length
-    const learning = cards.filter((c) => srs[c.id]?.status === 'learning').length
-    const newCount = cards.filter((c) => !srs[c.id]).length
-    return { due, learned, learning, new: newCount, favCount: favorites.size }
-  }, [cards, srs, favorites])
+    const due = filteredCards.filter((c) => !srs[c.id] || srs[c.id].dueAt <= Date.now()).length
+    const learned = filteredCards.filter((c) => srs[c.id]?.status === 'review').length
+    const learning = filteredCards.filter((c) => srs[c.id]?.status === 'learning').length
+    const newCount = filteredCards.filter((c) => !srs[c.id]).length
+    // Blind spots: cards never seen in any session (based on current filter)
+    // A card is considered "seen" if it's in the seen set OR has an SRS entry (learned before this feature existed)
+    const blindSpots = filteredCards.filter((c) => !seen.has(c.id) && !srs[c.id]).length
+    return { due, learned, learning, new: newCount, favCount: favorites.size, dislikedCount: disliked.size, masteredCount: mastered.size, blindSpots }
+  }, [filteredCards, srs, favorites, disliked, mastered, seen])
+
+  // Blind spot cards: never seen, not disliked, not mastered
+  const blindSpotCards = useMemo(() => {
+    return filteredCards.filter((c) => !seen.has(c.id) && !srs[c.id])
+  }, [filteredCards, seen, srs])
+
+  // Favorited cards within current filter
+  const favCards = useMemo(() => {
+    return filteredCards.filter((c) => favorites.has(c.id))
+  }, [filteredCards, favorites])
+
+  // Preview cards based on mode
+  const previewCards = useMemo(() => {
+    if (previewMode === 'session') {
+      return recommendedCards.slice(0, 7)
+    }
+    if (previewMode === 'blindSpots') {
+      return blindSpotCards
+    }
+    return filteredCards
+  }, [previewMode, recommendedCards, filteredCards, blindSpotCards])
+
+  // Dynamic page size based on mode
+  const currentPageSize = previewMode === 'blindSpots' ? BLIND_SPOT_PER_PAGE : PREVIEW_PER_PAGE
 
   const sceneName = (id: string) =>
     metadata.scenes_summary.find((s) => s.scene_id === id)?.scene_name || id
@@ -211,7 +250,7 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
               <>
                 {stats.learned > 0 && (
                   <button
-                    onClick={() => onStart(cards.filter((c) => srs[c.id]?.status === 'review' && srs[c.id]?.lastRating === 'easy').map((c) => c.id))}
+                    onClick={() => onStart(filteredCards.filter((c) => srs[c.id]?.status === 'review' && srs[c.id]?.lastRating === 'easy').map((c) => c.id))}
                     className="w-full text-left bg-accent-50 border border-accent-200 rounded-xl p-4 hover:shadow-subtle transition-all cursor-pointer"
                   >
                     <div className="flex items-center justify-between">
@@ -223,7 +262,7 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
                 )}
                 {stats.learning > 0 && (
                   <button
-                    onClick={() => onStart(cards.filter((c) => srs[c.id]?.status === 'learning').map((c) => c.id))}
+                    onClick={() => onStart(filteredCards.filter((c) => srs[c.id]?.status === 'learning').map((c) => c.id))}
                     className="w-full text-left bg-amber-50 border border-amber-200 rounded-xl p-4 hover:shadow-subtle transition-all cursor-pointer"
                   >
                     <div className="flex items-center justify-between">
@@ -231,6 +270,18 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
                       <span className="text-sm text-amber-700">{stats.learning} <Bi i18nKey="home.cards" /></span>
                     </div>
                     <div className="text-xs text-amber-600 mt-1"><Bi i18nKey="home.reviewBumpy" /></div>
+                  </button>
+                )}
+                {blindSpotCards.length > 0 && (
+                  <button
+                    onClick={() => { setPreviewMode('blindSpots'); setPreviewPage(0); }}
+                    className="w-full text-left bg-orange-50 border border-orange-200 rounded-xl p-4 hover:shadow-subtle transition-all cursor-pointer"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-base font-semibold text-orange-800">🔍 <Bi i18nKey="home.blindSpotPreview" /></span>
+                      <span className="text-sm text-orange-700">{blindSpotCards.length} <Bi i18nKey="home.cards" /></span>
+                    </div>
+                    <div className="text-xs text-orange-600 mt-1"><Bi i18nKey="home.blindSpotPreviewDesc" /></div>
                   </button>
                 )}
               </>
@@ -314,21 +365,41 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
                   </span>
                 )}
               </div>
-              <div className="mt-1 text-xs text-primary-500">
-                <Bi i18nKey="home.practiceCount" values={{ count: recommendedCards.length }} />
-              </div>
+              {stats.blindSpots > 0 && (
+                <div className="mt-1 text-xs font-medium text-amber-600">
+                   <Bi i18nKey="home.blindSpots" values={{ count: stats.blindSpots }} />
+                </div>
+              )}
             </div>
             <div className="flex flex-wrap gap-2">
-              <button
-                disabled={recommendedCards.length === 0}
-                onClick={() => startSession(recommendedCards.slice(0, 7))}
-                className="px-5 py-2.5 rounded-xl bg-accent-600 text-white font-semibold shadow-subtle hover:shadow-card hover:scale-[1.02] transition-all disabled:opacity-40 disabled:pointer-events-none disabled:hover:scale-100"
-              >
-                <Bi i18nKey="home.startSession" values={{ count: Math.min(7, recommendedCards.length) }} />
-              </button>
+              {favCards.length > 0 && (
+                <button
+                  onClick={() => {
+                    setPreviewMode('session')
+                    startSession(favCards)
+                  }}
+                  className="px-4 py-2.5 rounded-xl bg-green-500 text-white font-semibold shadow-subtle hover:shadow-card hover:scale-[1.02] transition-all"
+                >
+                  <Bi i18nKey="home.studyFavorites" values={{ count: favCards.length }} />
+                </button>
+              )}
+              {blindSpotCards.length > 0 && (
+                <button
+                  onClick={() => {
+                    setPreviewMode('session')
+                    startSession(blindSpotCards.slice(0, 7))
+                  }}
+                  className="px-4 py-2.5 rounded-xl bg-amber-500 text-white font-semibold shadow-subtle hover:shadow-card hover:scale-[1.02] transition-all"
+                >
+                  <Bi i18nKey="home.studyBlindSpots" values={{ count: Math.min(7, blindSpotCards.length) }} />
+                </button>
+              )}
               <button
                 disabled={filteredCards.length === 0}
-                onClick={() => startSession(filteredCards)}
+                onClick={() => {
+                  setPreviewMode('all')
+                  startSession(filteredCards)
+                }}
                 className="px-4 py-2.5 rounded-xl bg-surface-secondary text-primary-700 font-semibold border border-border-light hover:bg-primary-100 transition-all disabled:opacity-40 disabled:pointer-events-none"
               >
                 <Bi i18nKey="home.studyAll" />
@@ -338,20 +409,70 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
         </div>
       </section>
 
+      {/* Favorites preview */}
+      {favCards.length > 0 && (
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 pb-4">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-lg font-semibold text-primary-900 flex items-center gap-2">
+              <span className="w-1 h-5 bg-green-500 rounded-full inline-block" />
+              <span>❤️ Favoritas 收藏闪卡</span>
+              <span className="text-sm font-normal text-primary-500 ml-2">({favCards.length} <Bi i18nKey="home.cards" />)</span>
+            </h2>
+            <button
+              onClick={() => onStart(favCards.map((c) => c.id))}
+              className="px-4 py-1.5 rounded-lg text-sm font-medium bg-green-600 text-white hover:bg-green-700 transition-all"
+            >
+              ▶ Repasar 复习收藏
+            </button>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {favCards.map((c) => (
+              <div
+                key={c.id}
+                className="group bg-white rounded-lg border border-green-200 hover:border-green-400 shadow-subtle hover:shadow-card transition-all p-3 cursor-pointer"
+                onClick={() => onStart([c.id, ...favCards.filter((x) => x.id !== c.id).map((x) => x.id)])}
+              >
+                <div className="flex items-center justify-between mb-1">
+                  <div className="text-base font-semibold text-primary-900 group-hover:text-green-600 transition truncate">
+                    {c.target_word}
+                  </div>
+                  <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-semibold flex-shrink-0 ml-1 ${
+                    c.level === 'A1' ? 'bg-accent-50 text-accent-700' :
+                    c.level === 'A2' ? 'bg-accent-100 text-accent-800' :
+                    c.level === 'B1' ? 'bg-yellow-50 text-yellow-700' :
+                    c.level === 'B2' ? 'bg-orange-50 text-orange-700' :
+                    c.level === 'C1' ? 'bg-red-50 text-red-700' : 'bg-rose-50 text-rose-700'
+                  }`}>
+                    {c.level}
+                  </span>
+                </div>
+                <div className="text-[10px] text-primary-500 mb-1 truncate">{c.ipa} · {c.pos}</div>
+                {c.translation && (
+                  <div className="text-[11px] text-green-700 font-medium truncate">{c.translation}</div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Preview grid */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-semibold text-primary-900 flex items-center gap-2">
             <span className="w-1 h-6 bg-accent-600 rounded-full inline-block" />
             <Bi i18nKey="home.previewTitle" />
+            <span className="text-sm font-normal text-primary-500 ml-2">
+              ({previewCards.length} <Bi i18nKey="home.cards" />)
+            </span>
           </h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {recommendedCards.slice(0, 12).map((c) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {previewCards.slice(previewPage * currentPageSize, (previewPage + 1) * currentPageSize).map((c) => (
             <div
               key={c.id}
               className="group bg-white rounded-xl border border-border-light hover:border-accent-300 shadow-subtle hover:shadow-card transition-all p-4 cursor-pointer"
-              onClick={() => onStart([c.id, ...filteredCards.filter((x) => x.id !== c.id).map((x) => x.id)])}
+              onClick={() => onStart([c.id, ...previewCards.filter((x) => x.id !== c.id).map((x) => x.id)])}
             >
               <div className="flex items-start justify-between mb-2">
                 <div className="text-xl font-semibold text-primary-900 group-hover:text-accent-600 transition">
@@ -367,7 +488,12 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
                   {c.level}
                 </span>
               </div>
-              <div className="text-xs text-primary-500 mb-1">GenAm {c.ipa} · {c.pos}</div>
+              <div className="text-xs text-primary-500 mb-1">
+                <span className="rounded bg-friends-perk/15 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-friends-perk">
+                  {c.id.startsWith('LCDP_') ? 'Español' : 'GenAm'}
+                </span>
+                {' '}{c.ipa} · {c.pos}
+              </div>
               {c.translation && (
                 <div className="text-xs text-accent-600 font-medium mb-2">{c.translation}</div>
               )}
@@ -384,6 +510,41 @@ export default function Home({ cards, metadata, show, episode, onStart }: Props)
             </div>
           ))}
         </div>
+
+        {/* Pagination */}
+        {previewCards.length > currentPageSize && (
+          <div className="mt-6 flex items-center justify-center gap-3">
+            <button
+              onClick={() => setPreviewPage((p) => Math.max(0, p - 1))}
+              disabled={previewPage === 0}
+              className="px-4 py-2 rounded-lg text-sm font-medium border border-border-light bg-white text-primary-700 hover:bg-primary-50 transition-all disabled:opacity-30 disabled:pointer-events-none"
+            >
+              ← <Bi i18nKey="home.prevPage" />
+            </button>
+            <span className="text-sm text-primary-500">
+              {previewPage + 1} / {Math.ceil(previewCards.length / currentPageSize)}
+            </span>
+            <button
+              onClick={() => setPreviewPage((p) => Math.min(Math.ceil(previewCards.length / currentPageSize) - 1, p + 1))}
+              disabled={previewPage >= Math.ceil(previewCards.length / currentPageSize) - 1}
+              className="px-4 py-2 rounded-lg text-sm font-medium border border-border-light bg-white text-primary-700 hover:bg-primary-50 transition-all disabled:opacity-30 disabled:pointer-events-none"
+            >
+              <Bi i18nKey="home.nextPage" /> →
+            </button>
+          </div>
+        )}
+
+        {/* Return button when in blind spot preview mode */}
+        {previewMode === 'blindSpots' && (
+          <div className="mt-6 flex justify-center">
+            <button
+              onClick={() => { setPreviewMode('session'); setPreviewPage(0); }}
+              className="px-5 py-2.5 rounded-xl text-sm font-medium border border-border-light bg-white text-primary-700 hover:bg-primary-50 transition-all"
+            >
+              ← Volver a la vista previa 返回常规预览
+            </button>
+          </div>
+        )}
       </section>
 
       <footer className="py-8 text-center text-xs text-primary-400">

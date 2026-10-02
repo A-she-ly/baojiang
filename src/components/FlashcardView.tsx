@@ -36,6 +36,10 @@ interface Props {
   onRate: (rating: 'again' | 'hard' | 'good' | 'easy') => void
   onNext: () => void
   onPrev: () => void
+  onDislike: (cardId: string) => void
+  onMastered: (cardId: string) => void
+  onWordClick: (cardId: string) => void
+  wordMap: Map<string, string>
   progress: { current: number; total: number }
 }
 
@@ -60,6 +64,83 @@ function highlightWord(text: string, word: string) {
     )
 }
 
+// ---------------------------------------------------------------------------
+// Word link helpers
+// ---------------------------------------------------------------------------
+
+function normalizeWord(w: string): string {
+  return w
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+}
+
+/** Generate all normalized forms of a Spanish word (singular + plural) */
+function wordForms(word: string): string[] {
+  const base = normalizeWord(word)
+  const forms = new Set<string>([base])
+  if (base.endsWith('z')) forms.add(base.slice(0, -1) + 'ces')
+  else if (base.endsWith('n') || base.endsWith('r') || base.endsWith('l')) forms.add(base + 'es')
+  else if (base.endsWith('s') && base.length > 2) forms.add(base.slice(0, -1))
+  else if (base.endsWith('es') && base.length > 3) forms.add(base.slice(0, -2))
+  else forms.add(base + 's')
+  return [...forms]
+}
+
+/** Build a word → cardId map from all cards */
+export function buildWordMap(cards: Flashcard[]): Map<string, string> {
+  const map = new Map<string, string>()
+  for (const card of cards) {
+    for (const form of wordForms(card.target_word)) {
+      if (!map.has(form)) map.set(form, card.id)
+    }
+  }
+  return map
+}
+
+interface SentenceWithLinksProps {
+  text: string
+  wordMap: Map<string, string>
+  onWordClick: (cardId: string) => void
+  highlightWord?: string
+}
+
+/** Render a sentence with clickable word links */
+function SentenceWithLinks({ text, wordMap, onWordClick, highlightWord: hlWord }: SentenceWithLinksProps) {
+  const tokens = text.split(/(\S+)/g)
+  const hlNorm = hlWord ? normalizeWord(hlWord) : null
+
+  return (
+    <>
+      {tokens.map((token, i) => {
+        if (!/\S/.test(token)) return <span key={i}>{token}</span>
+        const clean = token.replace(/[^\w\u00C0-\u024F]/g, '')
+        const norm = normalizeWord(clean)
+        const cardId = wordMap.get(norm)
+        const isHl = hlNorm !== null && norm === hlNorm
+
+        if (cardId) {
+          return (
+            <span
+              key={i}
+              onClick={(e) => { e.stopPropagation(); onWordClick(cardId) }}
+              className={`cursor-pointer border-b border-dashed transition-colors ${
+                isHl
+                  ? 'bg-friends-accent/60 px-1 rounded border-friends-accent text-friends-sofa'
+                  : 'text-friends-accent border-friends-accent/50 hover:text-friends-perk hover:border-friends-perk'
+              }`}
+              title="点击跳转到该单词闪卡"
+            >
+              {token}
+            </span>
+          )
+        }
+        return <span key={i}>{token}</span>
+      })}
+    </>
+  )
+}
+
 export default function FlashcardView({
   card,
   canGoNext,
@@ -69,7 +150,11 @@ export default function FlashcardView({
   onRate,
   onNext,
   onPrev,
+  onDislike,
+  onMastered,
   progress,
+  onWordClick,
+  wordMap,
 }: Props) {
   const { t } = useTranslation()
   const [flipped, setFlipped] = useState(false)
@@ -77,7 +162,19 @@ export default function FlashcardView({
   const [isPlaying, setIsPlaying] = useState(false)
   const favorites = useStore((s) => s.favorites)
   const toggleFavorite = useStore((s) => s.toggleFavorite)
+  const disliked = useStore((s) => s.disliked)
+  const toggleDislike = useStore((s) => s.toggleDislike)
+  const mastered = useStore((s) => s.mastered)
+  const toggleMastered = useStore((s) => s.toggleMastered)
+  const markSeen = useStore((s) => s.markSeen)
   const isFav = favorites.has(card.id)
+  const isDisliked = disliked.has(card.id)
+  const isMastered = mastered.has(card.id)
+
+  // Mark card as seen when it appears
+  useEffect(() => {
+    markSeen(card.id)
+  }, [card.id, markSeen])
 
   // --- Quiz / answer input state ---
   const [userAnswer, setUserAnswer] = useState('')
@@ -380,16 +477,46 @@ export default function FlashcardView({
                     <span className="mx-1 text-friends-coffee/40">·</span>
                     <span className="text-xs">{card.id}</span>
                   </div>
-                  <button
-                    className="w-9 h-9 rounded-full flex items-center justify-center text-lg hover:bg-friends-coffee/10 transition"
-                    onClick={(e) => {
-                      e.stopPropagation()
-                      toggleFavorite(card.id)
-                    }}
-                    title={t('card.favorite', { returnObjects: true }) as any}
-                  >
-                    {isFav ? '⭐' : '☆'}
-                  </button>
+                  <div className="flex items-center gap-1">
+                    <button
+                      className={`w-9 h-9 rounded-full flex items-center justify-center text-lg transition ${
+                        isFav ? 'bg-green-100 text-green-600' : 'hover:bg-green-50 text-friends-coffee/60'
+                      }`}
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        toggleFavorite(card.id)
+                      }}
+                      title=" 喜欢"
+                    >
+                      👍
+                    </button>
+                    <button
+                      className={`w-9 h-9 rounded-full flex items-center justify-center text-lg transition ${
+                        isMastered ? 'bg-purple-100 text-purple-600' : 'hover:bg-purple-50 text-friends-coffee/60'
+                      }`}
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        toggleMastered(card.id)
+                        onMastered(card.id)
+                      }}
+                      title="🧬 刻进 DNA（已掌握，不再复习）"
+                    >
+                      🧬
+                    </button>
+                    <button
+                      className={`w-9 h-9 rounded-full flex items-center justify-center text-lg transition ${
+                        isDisliked ? 'bg-red-100 text-red-600' : 'hover:bg-red-50 text-friends-coffee/60'
+                      }`}
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        toggleDislike(card.id)
+                        onDislike(card.id)
+                      }}
+                      title=" 不喜欢（不再复习）"
+                    >
+                      👎
+                    </button>
+                  </div>
                 </div>
 
                 <div className={`${clozeFontSize} font-semibold text-friends-sofa leading-snug flex-1 flex items-start gap-2`} style={{ columnCount: 1 }}>
@@ -437,7 +564,7 @@ export default function FlashcardView({
                                   </button>
                                 </span>
                               )
-                              : <span key={i}>{p}</span>
+                              : <SentenceWithLinks key={i} text={p} wordMap={wordMap} onWordClick={onWordClick} highlightWord={card.target_word} />
                           )}
                         </>
                       )
@@ -740,9 +867,9 @@ export default function FlashcardView({
                       🔊
                     </button>
                   </div>
-                  {card.translation && (
+                  {card.sentence_translation && (
                     <div className="mt-2 text-base text-friends-coffee/90">
-                       {card.translation}
+                       {card.sentence_translation}
                     </div>
                   )}
                 </div>
@@ -766,7 +893,7 @@ export default function FlashcardView({
                   )}
                   <div className="flex items-start gap-2">
                     <div className={`${backFontSize} text-friends-sofa font-medium leading-relaxed border-y border-friends-perk/30 py-2 flex-1`} style={{ columnCount: 1 }}>
-                      {highlightWord(card.sentence_full, card.target_word)}
+                      <SentenceWithLinks text={card.sentence_full} wordMap={wordMap} onWordClick={onWordClick} highlightWord={card.target_word} />
                     </div>
                     <button
                       onClick={(e) => {
@@ -821,7 +948,7 @@ export default function FlashcardView({
                       return (
                       <div key={idx} className="border-l-2 border-friends-perk/30 pl-3">
                         <div className="text-sm text-friends-sofa font-medium leading-relaxed" style={{ columnCount: 1 }}>
-                          {highlightWord(sentenceText, card.target_word)}
+                          <SentenceWithLinks text={sentenceText} wordMap={wordMap} onWordClick={onWordClick} highlightWord={card.target_word} />
                         </div>
                         {ctx.chinese && (
                           <div className="text-xs text-friends-perk/80 mt-1">

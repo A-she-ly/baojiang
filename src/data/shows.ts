@@ -63,8 +63,8 @@ export const SHOWS: ShowDefinition[] = [
     episodes: [
       {
         episodeId: 'S3E01',
-        title: 'S3E01 — 名词分类',
-        description: '第三季第一集台词中提取的名词闪卡，每张卡背面展示台词上下文。',
+        title: 'S3E01 — 名词和动词分类',
+        description: '第三季第一集台词中提取的名词和动词闪卡，每张卡背面展示台词上下文和词源学拆分。',
         hasCards: true,
       },
     ],

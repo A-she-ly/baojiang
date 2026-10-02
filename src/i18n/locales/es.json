@@ -1,181 +1,632 @@
 {
   "app": {
-    "name": { "main": "BaoJiang English", "zh": "包浆英语" },
-    "subtitle": { "main": "Domina idiomas a través de tus series favoritas", "zh": "跟着你爱看的美剧学语言" },
-    "loading": { "main": "Preparando café, cargando tarjetas…", "zh": "泡杯咖啡，卡片加载中…" },
-    "footer": { "main": "Hecho con ☕ en Central Perk · BaoJiang English", "zh": "在 Central Perk 用 ☕ 制作 · 包浆英语" }
+    "name": {
+      "main": "BaoJiang English",
+      "zh": "包浆英语"
+    },
+    "subtitle": {
+      "main": "Domina idiomas a través de tus series favoritas",
+      "zh": "跟着你爱看的美剧学语言"
+    },
+    "loading": {
+      "main": "Preparando café, cargando tarjetas…",
+      "zh": "泡杯咖啡，卡片加载中…"
+    },
+    "footer": {
+      "main": "Hecho con ☕ en Central Perk · BaoJiang English",
+      "zh": "在 Central Perk 用 ☕ 制作 · 包浆英语"
+    }
   },
   "nav": {
-    "backHome": { "main": "← Volver al inicio", "zh": "← 返回首页" },
-    "home": { "main": "Volver al inicio", "zh": "返回首页" },
-    "changeShow": { "main": "Cambiar serie", "zh": "换一部剧" }
+    "backHome": {
+      "main": "← Volver al inicio",
+      "zh": "← 返回首页"
+    },
+    "home": {
+      "main": "Volver al inicio",
+      "zh": "返回首页"
+    },
+    "changeShow": {
+      "main": "Cambiar serie",
+      "zh": "换一部剧"
+    }
   },
   "show": {
-    "title": { "main": "Elige tu serie", "zh": "选择你要学的剧" },
-    "subtitle": { "main": "Selecciona una serie para empezar a aprender", "zh": "选一部剧，开始边看边学" },
-    "episodes": { "main": "Episodios", "zh": "集" },
-    "comingSoon": { "main": "Próximamente", "zh": "即将上线" },
-    "comingSoonDesc": { "main": "Las tarjetas de esta serie están en preparación. ¡Mantente atento!", "zh": "这部剧的闪卡正在制作中，敬请期待！" },
-    "selectEpisode": { "main": "Selecciona un episodio para comenzar", "zh": "选择一集开始学习" },
-    "availableEpisodes": { "main": "{{count}} episodio(s) disponible(s)", "zh": "共 {{count}} 集" },
-    "language": { "main": "Idioma", "zh": "语言" },
-    "english": { "main": "Inglés", "zh": "英语" },
-    "spanish": { "main": "Español", "zh": "西班牙语" }
+    "title": {
+      "main": "Elige tu serie",
+      "zh": "选择你要学的剧"
+    },
+    "subtitle": {
+      "main": "Selecciona una serie para empezar a aprender",
+      "zh": "选一部剧，开始边看边学"
+    },
+    "episodes": {
+      "main": "Episodios",
+      "zh": "集"
+    },
+    "comingSoon": {
+      "main": "Próximamente",
+      "zh": "即将上线"
+    },
+    "comingSoonDesc": {
+      "main": "Las tarjetas de esta serie están en preparación. ¡Mantente atento!",
+      "zh": "这部剧的闪卡正在制作中，敬请期待！"
+    },
+    "selectEpisode": {
+      "main": "Selecciona un episodio para comenzar",
+      "zh": "选择一集开始学习"
+    },
+    "availableEpisodes": {
+      "main": "{{count}} episodio(s) disponible(s)",
+      "zh": "共 {{count}} 集"
+    },
+    "language": {
+      "main": "Idioma",
+      "zh": "语言"
+    },
+    "english": {
+      "main": "Inglés",
+      "zh": "英语"
+    },
+    "spanish": {
+      "main": "Español",
+      "zh": "西班牙语"
+    }
   },
   "shows": {
     "friends": {
-      "name": { "main": "Friends", "zh": "老友记" },
-      "description": { "main": "Aprende inglés cotidiano con la icónica sitcom sobre seis amigos que navegan la vida y el amor en Nueva York.", "zh": "通过这部经典情景喜剧，跟着六位好友在纽约的生活与爱情学地道日常英语。" }
+      "name": {
+        "main": "Friends",
+        "zh": "老友记"
+      },
+      "description": {
+        "main": "Aprende inglés cotidiano con la icónica sitcom sobre seis amigos que navegan la vida y el amor en Nueva York.",
+        "zh": "通过这部经典情景喜剧，跟着六位好友在纽约的生活与爱情学地道日常英语。"
+      }
     },
     "modern-family": {
-      "name": { "main": "Modern Family", "zh": "摩登家庭" },
-      "description": { "main": "Domina el inglés contemporáneo con las historias humorísticas de tres familias diversas pero interconectadas.", "zh": "在三个风格迥异却又紧密相连的家庭的幽默故事中，掌握当代实用英语。" }
+      "name": {
+        "main": "Modern Family",
+        "zh": "摩登家庭"
+      },
+      "description": {
+        "main": "Domina el inglés contemporáneo con las historias humorísticas de tres familias diversas pero interconectadas.",
+        "zh": "在三个风格迥异却又紧密相连的家庭的幽默故事中，掌握当代实用英语。"
+      }
     },
     "transformers": {
-      "name": { "main": "Transformers", "zh": "变形金刚" },
-      "description": { "main": "Explora vocabulario de acción y inglés cinematográfico a través de la saga legendaria de ciencia ficción.", "zh": "在传奇科幻史诗中，学习动作场景词汇和电影级英语表达。" }
+      "name": {
+        "main": "Transformers",
+        "zh": "变形金刚"
+      },
+      "description": {
+        "main": "Explora vocabulario de acción y inglés cinematográfico a través de la saga legendaria de ciencia ficción.",
+        "zh": "在传奇科幻史诗中，学习动作场景词汇和电影级英语表达。"
+      }
     },
     "la-casa-de-papel": {
-      "name": { "main": "La Casa de Papel", "zh": "纸钞屋（银行大劫案）" },
-      "description": { "main": "Aprende español con la emocionante historia del Profesor y su equipo en sus ambiciosos atracos.", "zh": "跟随教授团队的惊天劫案，在紧张刺激中习得地道西班牙语。" }
+      "name": {
+        "main": "La Casa de Papel",
+        "zh": "纸钞屋（银行大劫案）"
+      },
+      "description": {
+        "main": "Aprende español con la emocionante historia del Profesor y su equipo en sus ambiciosos atracos.",
+        "zh": "跟随教授团队的惊天劫案，在紧张刺激中习得地道西班牙语。"
+      }
     },
     "7-vidas": {
-      "name": { "main": "7 Vidas", "zh": "七条命" },
-      "description": { "main": "Recoge español coloquial con el humor cotidiano e ingenioso de esta sitcom clásica española.", "zh": "在这部经典西班牙情景喜剧的机智日常中，轻松掌握口语化西班牙语。" }
+      "name": {
+        "main": "7 Vidas",
+        "zh": "七条命"
+      },
+      "description": {
+        "main": "Recoge español coloquial con el humor cotidiano e ingenioso de esta sitcom clásica española.",
+        "zh": "在这部经典西班牙情景喜剧的机智日常中，轻松掌握口语化西班牙语。"
+      }
     }
   },
   "home": {
-    "episode": { "main": "Episodio", "zh": "集" },
-    "totalCards": { "main": "Total tarjetas", "zh": "总闪卡" },
-    "toLearn": { "main": "Por aprender", "zh": "待学习" },
-    "learning": { "main": "Aprendiendo", "zh": "学习中" },
-    "mastered": { "main": "Dominado", "zh": "已掌握" },
-    "favorites": { "main": "Frases favoritas", "zh": "收藏金句" },
-    "filterTitle": { "main": "Elige dimensión del filtro", "zh": "选择闪卡分类维度" },
-    "filterDesc": { "main": "La fonética usa notación General American (GenAm); cada tarjeta destaca un punto clave de audición o pronunciación.", "zh": "音标采用美式英语（GenAm）标注，每张卡突出一个听辨或发音重点。" },
-    "filterAll": { "main": "Todo", "zh": "全部" },
-    "filterPos": { "main": "Categoría gramatical", "zh": "词性" },
-    "filterPronunciation": { "main": "Pronunciación", "zh": "发音重点" },
-    "filterCharacter": { "main": "Personaje", "zh": "角色" },
-    "filterScene": { "main": "Escena", "zh": "场景" },
-    "filterLevel": { "main": "Nivel", "zh": "难度" },
-    "filterTags": { "main": "Etiquetas", "zh": "主题标签" },
-    "currentFilter": { "main": "Filtro actual: ", "zh": "当前筛选：" },
-    "cardsCount": { "main": "{{count}} tarjetas", "zh": "{{count}} 张闪卡" },
-    "practiceCount": { "main": "{{count}} tarjetas listas para practicar, las revisiones vencidas tienen prioridad", "zh": "可练习 {{count}} 张，到期复习会优先安排" },
-    "startSession": { "main": "🚀 Iniciar sesión ({{count}})", "zh": " 开始本轮 ({{count}})" },
-    "studyAll": { "main": "Estudiar todo", "zh": "全部学习" },
-    "startLearning": { "main": "Empezar a aprender ({{count}} tarjetas)", "zh": "开始学习（{{count}} 张）" },
-    "allCaughtUp": { "main": "¡Todo al día! Vuelve más tarde para repasar.", "zh": "全部学完啦！等会儿再来复习吧～" },
-    "previewTitle": { "main": "Vista previa (primeras 12)", "zh": "闪卡预览（前 12 张）" },
-    "cards": { "main": "tarjetas", "zh": "张" },
-    "reviewPerfect": { "main": "¡Repasa estas palabras ya dominadas!", "zh": "复习这些已掌握的单词！" },
-    "reviewBumpy": { "main": "¡Sigue practicando estas palabras casi listas!", "zh": "继续练习这些差一点就记住的单词！" },
-    "startYourJourney": { "main": " ¿Listo para comenzar tu viaje? 🌟", "zh": "准备好开始你的学习之旅了吗？🌟" },
-    "noDataYet": { "main": "Aún no has aprendido ninguna palabra. ¡Haz clic en 'Iniciar sesión' abajo para comenzar!", "zh": "你还没有学习任何单词。点击下方的'开始本轮'按钮开始吧！" }
+    "episode": {
+      "main": "Episodio",
+      "zh": "集"
+    },
+    "totalCards": {
+      "main": "Total tarjetas",
+      "zh": "总闪卡"
+    },
+    "toLearn": {
+      "main": "Por aprender",
+      "zh": "待学习"
+    },
+    "learning": {
+      "main": "Aprendiendo",
+      "zh": "学习中"
+    },
+    "mastered": {
+      "main": "Dominado",
+      "zh": "已掌握"
+    },
+    "favorites": {
+      "main": "Frases favoritas",
+      "zh": "收藏金句"
+    },
+    "filterTitle": {
+      "main": "Elige dimensión del filtro",
+      "zh": "选择闪卡分类维度"
+    },
+    "filterDesc": {
+      "main": "La fonética usa notación General American (GenAm); cada tarjeta destaca un punto clave de audición o pronunciación.",
+      "zh": "音标采用美式英语（GenAm）标注，每张卡突出一个听辨或发音重点。"
+    },
+    "filterAll": {
+      "main": "Todo",
+      "zh": "全部"
+    },
+    "filterPos": {
+      "main": "Categoría gramatical",
+      "zh": "词性"
+    },
+    "filterPronunciation": {
+      "main": "Pronunciación",
+      "zh": "发音重点"
+    },
+    "filterCharacter": {
+      "main": "Personaje",
+      "zh": "角色"
+    },
+    "filterScene": {
+      "main": "Escena",
+      "zh": "场景"
+    },
+    "filterLevel": {
+      "main": "Nivel",
+      "zh": "难度"
+    },
+    "filterTags": {
+      "main": "Etiquetas",
+      "zh": "主题标签"
+    },
+    "currentFilter": {
+      "main": "Filtro actual: ",
+      "zh": "当前筛选："
+    },
+    "cardsCount": {
+      "main": "{{count}} tarjetas",
+      "zh": "{{count}} 张闪卡"
+    },
+    "practiceCount": {
+      "main": "{{count}} tarjetas listas para practicar, las revisiones vencidas tienen prioridad",
+      "zh": "可练习 {{count}} 张，到期复习会优先安排"
+    },
+    "blindSpots": {
+      "main": "🔍 {{count}} tarjetas nunca vistas — ¡tu zona ciega!",
+      "zh": "🔍 {{count}} 张从未见过 — 你的盲区词！"
+    },
+    "startSession": {
+      "main": "🚀 Iniciar sesión ({{count}})",
+      "zh": " 开始本轮 ({{count}})"
+    },
+    "studyAll": {
+      "main": "Estudiar todo",
+      "zh": "全部学习"
+    },
+    "startLearning": {
+      "main": "Empezar a aprender ({{count}} tarjetas)",
+      "zh": "开始学习（{{count}} 张）"
+    },
+    "allCaughtUp": {
+      "main": "¡Todo al día! Vuelve más tarde para repasar.",
+      "zh": "全部学完啦！等会儿再来复习吧～"
+    },
+    "previewTitle": {
+      "main": "Vista previa",
+      "zh": "闪卡预览"
+    },
+    "prevPage": {
+      "main": "Anterior",
+      "zh": "上一页"
+    },
+    "nextPage": {
+      "main": "Siguiente",
+      "zh": "下一页"
+    },
+    "cards": {
+      "main": "tarjetas",
+      "zh": "张"
+    },
+    "reviewPerfect": {
+      "main": "¡Repasa estas palabras ya dominadas!",
+      "zh": "复习这些已掌握的单词！"
+    },
+    "reviewBumpy": {
+      "main": "¡Sigue practicando estas palabras casi listas!",
+      "zh": "继续练习这些差一点就记住的单词！"
+    },
+    "blindSpotPreview": {
+      "main": "Zona ciega",
+      "zh": "盲区词预览"
+    },
+    "blindSpotPreviewDesc": {
+      "main": "Palabras nunca vistas — ¡descúbrelas!",
+      "zh": "从未见过的单词 — 来认识它们吧！"
+    },
+    "startYourJourney": {
+      "main": " ¿Listo para comenzar tu viaje? 🌟",
+      "zh": "准备好开始你的学习之旅了吗？🌟"
+    },
+    "noDataYet": {
+      "main": "Aún no has aprendido ninguna palabra. ¡Haz clic en 'Iniciar sesión' abajo para comenzar!",
+      "zh": "你还没有学习任何单词。点击下方的'开始本轮'按钮开始吧！"
+    },
+    "studyBlindSpots": {
+      "main": " Repasar zona ciega ({{count}})",
+      "zh": " 消灭盲区词 ({{count}})"
+    },
+    "studyFavorites": {
+      "main": " Repasar favoritas ({{count}})",
+      "zh": " 复习收藏 ({{count}})"
+    }
   },
   "pos": {
-    "n": { "main": "Sustantivo", "zh": "名词" },
-    "v": { "main": "Verbo", "zh": "动词" },
-    "adj": { "main": "Adjetivo", "zh": "形容词" },
-    "adv": { "main": "Adverbio", "zh": "副词" },
-    "phrase": { "main": "Frase", "zh": "短语" },
-    "phrasal": { "main": "Verbo frasal", "zh": "动词短语" },
-    "contraction": { "main": "Contracción", "zh": "缩读" }
+    "n": {
+      "main": "Sustantivo",
+      "zh": "名词"
+    },
+    "v": {
+      "main": "Verbo",
+      "zh": "动词"
+    },
+    "adj": {
+      "main": "Adjetivo",
+      "zh": "形容词"
+    },
+    "adv": {
+      "main": "Adverbio",
+      "zh": "副词"
+    },
+    "phrase": {
+      "main": "Frase",
+      "zh": "短语"
+    },
+    "phrasal": {
+      "main": "Verbo frasal",
+      "zh": "动词短语"
+    },
+    "contraction": {
+      "main": "Contracción",
+      "zh": "缩读"
+    }
   },
   "pronunciation": {
-    "flap_t": { "main": "Flap /ɾ/", "zh": "闪音 /ɾ/" },
-    "vowel_uh": { "main": "Vocal corta /ʌ/", "zh": "短元音 /ʌ/" },
-    "y_glide": { "main": "Glide /j/", "zh": "滑音 /j/" },
-    "vowel_ih": { "main": "Vocal corta /ɪ/", "zh": "短元音 /ɪ/" },
-    "r_colored": { "main": "R-colored /ɚ, ɝ/", "zh": "卷舌元音 /ɚ, ɝ/" },
-    "o_diphthong": { "main": "Diptongo /oʊ/", "zh": "双元音 /oʊ/" },
-    "long_e": { "main": "Vocal larga /iː/", "zh": "长元音 /iː/" },
-    "weak_forms": { "main": "Formas débiles y enlace", "zh": "弱读与连读" },
-    "vowel_ah": { "main": "Vocal corta /ɑ/", "zh": "短元音 /ɑ/" },
-    "vowel_ae": { "main": "Vocal corta /æ/", "zh": "短元音 /æ/" },
-    "vowel_eh": { "main": "Vocal corta /ɛ/", "zh": "短元音 /ɛ/" },
-    "schwa": { "main": "Schwa /ə/", "zh": "弱读 /ə/" }
+    "flap_t": {
+      "main": "Flap /ɾ/",
+      "zh": "闪音 /ɾ/"
+    },
+    "vowel_uh": {
+      "main": "Vocal corta /ʌ/",
+      "zh": "短元音 /ʌ/"
+    },
+    "y_glide": {
+      "main": "Glide /j/",
+      "zh": "滑音 /j/"
+    },
+    "vowel_ih": {
+      "main": "Vocal corta /ɪ/",
+      "zh": "短元音 /ɪ/"
+    },
+    "r_colored": {
+      "main": "R-colored /ɚ, ɝ/",
+      "zh": "卷舌元音 /ɚ, ɝ/"
+    },
+    "o_diphthong": {
+      "main": "Diptongo /oʊ/",
+      "zh": "双元音 /oʊ/"
+    },
+    "long_e": {
+      "main": "Vocal larga /iː/",
+      "zh": "长元音 /iː/"
+    },
+    "weak_forms": {
+      "main": "Formas débiles y enlace",
+      "zh": "弱读与连读"
+    },
+    "vowel_ah": {
+      "main": "Vocal corta /ɑ/",
+      "zh": "短元音 /ɑ/"
+    },
+    "vowel_ae": {
+      "main": "Vocal corta /æ/",
+      "zh": "短元音 /æ/"
+    },
+    "vowel_eh": {
+      "main": "Vocal corta /ɛ/",
+      "zh": "短元音 /ɛ/"
+    },
+    "schwa": {
+      "main": "Schwa /ə/",
+      "zh": "弱读 /ə/"
+    }
   },
   "card": {
-    "prev": { "main": "← Anterior", "zh": "← 上一张" },
-    "next": { "main": "Siguiente →", "zh": "下一张 →" },
-    "favorite": { "main": "Favorito", "zh": "收藏" },
-    "readSentence": { "main": "Leer oración", "zh": "朗读句子" },
-    "readWord": { "main": "Leer palabra", "zh": "朗读单词" },
-    "readExample": { "main": "Leer ejemplo", "zh": "朗读例句" },
-    "readLine": { "main": "Leer línea", "zh": "朗读台词" },
-    "lightHint": { "main": "💡 Pista", "zh": "💡 轻微提示" },
-    "giveAnswer": { "main": "🎯 Mostrar respuesta", "zh": "🎯 直接给答案" },
-    "collapseHint": { "main": "Ocultar pista", "zh": "收起提示" },
-    "tapToShow": { "main": "👆 Toca la tarjeta para ver la respuesta", "zh": "👆 点击卡片查看答案" },
-    "tapToHide": { "main": "👆 Toca la tarjeta para volver", "zh": "👆 点击卡片返回正面" },
-    "answer": { "main": "🎯 Respuesta", "zh": "🎯 答案" },
-    "dialogueLine": { "main": "Línea de {{character}}", "zh": "{{character}} 的台词" },
-    "exampleSentence": { "main": "📖 Oración de ejemplo", "zh": "📖 包浆例句" },
-    "exampleNote": { "main": "Oración de ejemplo, no es un diálogo", "zh": "示例句，非台词" },
-    "context": { "main": "Contexto", "zh": "上下文" },
-    "culturalNote": { "main": "💡 Nota cultural", "zh": "💡 包浆注解" },
-    "pronunciationFocus": { "main": "Pronunciación: {{label}}", "zh": "发音重点：{{label}}" },
-    "answerPlaceholder": { "main": "Escribe tu respuesta…", "zh": "输入你的答案…" },
-    "checkAnswer": { "main": "Comprobar", "zh": "检查" },
-    "showAnswer": { "main": "Mostrar respuesta", "zh": "看答案" },
-    "viewDetails": { "main": "Ver detalles →", "zh": "查看详情 →" }
+    "prev": {
+      "main": "← Anterior",
+      "zh": "← 上一张"
+    },
+    "next": {
+      "main": "Siguiente →",
+      "zh": "下一张 →"
+    },
+    "favorite": {
+      "main": "Favorito",
+      "zh": "收藏"
+    },
+    "readSentence": {
+      "main": "Leer oración",
+      "zh": "朗读句子"
+    },
+    "readWord": {
+      "main": "Leer palabra",
+      "zh": "朗读单词"
+    },
+    "readExample": {
+      "main": "Leer ejemplo",
+      "zh": "朗读例句"
+    },
+    "readLine": {
+      "main": "Leer línea",
+      "zh": "朗读台词"
+    },
+    "lightHint": {
+      "main": "💡 Pista",
+      "zh": "💡 轻微提示"
+    },
+    "giveAnswer": {
+      "main": "🎯 Mostrar respuesta",
+      "zh": "🎯 直接给答案"
+    },
+    "collapseHint": {
+      "main": "Ocultar pista",
+      "zh": "收起提示"
+    },
+    "tapToShow": {
+      "main": "👆 Toca la tarjeta para ver la respuesta",
+      "zh": "👆 点击卡片查看答案"
+    },
+    "tapToHide": {
+      "main": "👆 Toca la tarjeta para volver",
+      "zh": "👆 点击卡片返回正面"
+    },
+    "answer": {
+      "main": "🎯 Respuesta",
+      "zh": "🎯 答案"
+    },
+    "dialogueLine": {
+      "main": "Línea de {{character}}",
+      "zh": "{{character}} 的台词"
+    },
+    "exampleSentence": {
+      "main": "📖 Oración de ejemplo",
+      "zh": "📖 包浆例句"
+    },
+    "exampleNote": {
+      "main": "Oración de ejemplo, no es un diálogo",
+      "zh": "示例句，非台词"
+    },
+    "context": {
+      "main": "Contexto",
+      "zh": "上下文"
+    },
+    "culturalNote": {
+      "main": "💡 Nota cultural",
+      "zh": "💡 包浆注解"
+    },
+    "pronunciationFocus": {
+      "main": "Pronunciación: {{label}}",
+      "zh": "发音重点：{{label}}"
+    },
+    "answerPlaceholder": {
+      "main": "Escribe tu respuesta…",
+      "zh": "输入你的答案…"
+    },
+    "checkAnswer": {
+      "main": "Comprobar",
+      "zh": "检查"
+    },
+    "showAnswer": {
+      "main": "Mostrar respuesta",
+      "zh": "看答案"
+    },
+    "viewDetails": {
+      "main": "Ver detalles →",
+      "zh": "查看详情 →"
+    }
   },
   "rating": {
-    "again": { "main": "Otra vez", "zh": "还不会" },
-    "hard": { "main": "Difícil", "zh": "有点印象" },
-    "good": { "main": "Bien", "zh": "记住了" },
-    "easy": { "main": "Fácil", "zh": "太简单" },
-    "againTime": { "main": "10min", "zh": "10分钟" },
-    "hardTime": { "main": "1 día", "zh": "1天" },
-    "goodTime": { "main": "3 días", "zh": "3天" },
-    "easyTime": { "main": "7 días+", "zh": "7天+" },
-    "suffix": { "main": " después", "zh": "后再见" },
-    "autoScheduled": { "main": "Programado automáticamente", "zh": "已自动安排" }
+    "again": {
+      "main": "Otra vez",
+      "zh": "还不会"
+    },
+    "hard": {
+      "main": "Difícil",
+      "zh": "有点印象"
+    },
+    "good": {
+      "main": "Bien",
+      "zh": "记住了"
+    },
+    "easy": {
+      "main": "Fácil",
+      "zh": "太简单"
+    },
+    "againTime": {
+      "main": "10min",
+      "zh": "10分钟"
+    },
+    "hardTime": {
+      "main": "1 día",
+      "zh": "1天"
+    },
+    "goodTime": {
+      "main": "3 días",
+      "zh": "3天"
+    },
+    "easyTime": {
+      "main": "7 días+",
+      "zh": "7天+"
+    },
+    "suffix": {
+      "main": " después",
+      "zh": "后再见"
+    },
+    "autoScheduled": {
+      "main": "Programado automáticamente",
+      "zh": "已自动安排"
+    }
   },
   "session": {
-    "complete": { "main": "🎉 ¡Sesión completada!", "zh": " 本轮完成！" },
-    "completeSub": { "main": "¡Buen trabajo! Tu inglés está mejorando. ¡Hasta la próxima!", "zh": "今天的包浆已经烤上了，下次见面继续磨～" },
-    "empty": { "main": "Vacío", "zh": "空的" },
-    "perfect": { "main": "¡Perfecto!", "zh": "一把过" },
-    "perfectTime": { "main": "7 días después", "zh": "7 天后再巩固" },
-    "perfectMsg": { "main": "¡Perfecto! ¡Estas palabras ya son tuyas! ", "zh": "太棒了！这些词你已经掌握了！🎉" },
-    "bumpy": { "main": "Casi lo tienes", "zh": "小磕绊" },
-    "bumpyTime": { "main": "1-3 días después", "zh": "1-3 天后再复习" },
-    "bumpyMsg": { "main": "¡Tan cerca! ¡Una revisión más y estará grabado! 💪", "zh": "差一点！再复习一次就记住了！💪" },
-    "needsWork": { "main": "Necesita práctica", "zh": "需夯实" },
-    "needsWorkTime": { "main": "10 min - 1 día después", "zh": "10分钟-1天后再挑战" },
-    "needsWorkMsg": { "main": "¡No te preocupes! ¡La repetición es la madre del aprendizaje! 🔄", "zh": "别担心！重复是学习之母！🔄" },
-    "reviewNow": { "main": "Repasar ahora ({{count}} tarjetas)", "zh": "立即复习 ({{count}} 张)" },
-    "allPerfect": { "main": "¡Increíble! ¡Lo hiciste perfecto! 🌟", "zh": "太厉害了！全部一把过！🌟" },
-    "newChallenge": { "main": " ¡Acepta un nuevo desafío!", "zh": "🔥 接受新挑战！" },
-    "newChallengeDesc": { "main": "Estas palabras ya son tuyas. ¿Listo para las siguientes 7?", "zh": "这些词已经拿下了，准备好挑战下一批 7 个词了吗？" }
+    "complete": {
+      "main": "🎉 ¡Sesión completada!",
+      "zh": " 本轮完成！"
+    },
+    "completeSub": {
+      "main": "¡Buen trabajo! Tu inglés está mejorando. ¡Hasta la próxima!",
+      "zh": "今天的包浆已经烤上了，下次见面继续磨～"
+    },
+    "empty": {
+      "main": "Vacío",
+      "zh": "空的"
+    },
+    "perfect": {
+      "main": "¡Perfecto!",
+      "zh": "一把过"
+    },
+    "perfectTime": {
+      "main": "7 días después",
+      "zh": "7 天后再巩固"
+    },
+    "perfectMsg": {
+      "main": "¡Perfecto! ¡Estas palabras ya son tuyas! ",
+      "zh": "太棒了！这些词你已经掌握了！🎉"
+    },
+    "bumpy": {
+      "main": "Casi lo tienes",
+      "zh": "小磕绊"
+    },
+    "bumpyTime": {
+      "main": "1-3 días después",
+      "zh": "1-3 天后再复习"
+    },
+    "bumpyMsg": {
+      "main": "¡Tan cerca! ¡Una revisión más y estará grabado! 💪",
+      "zh": "差一点！再复习一次就记住了！💪"
+    },
+    "needsWork": {
+      "main": "Necesita práctica",
+      "zh": "需夯实"
+    },
+    "needsWorkTime": {
+      "main": "10 min - 1 día después",
+      "zh": "10分钟-1天后再挑战"
+    },
+    "needsWorkMsg": {
+      "main": "¡No te preocupes! ¡La repetición es la madre del aprendizaje! 🔄",
+      "zh": "别担心！重复是学习之母！🔄"
+    },
+    "reviewNow": {
+      "main": "Repasar ahora ({{count}} tarjetas)",
+      "zh": "立即复习 ({{count}} 张)"
+    },
+    "allPerfect": {
+      "main": "¡Increíble! ¡Lo hiciste perfecto! 🌟",
+      "zh": "太厉害了！全部一把过！🌟"
+    },
+    "newChallenge": {
+      "main": " ¡Acepta un nuevo desafío!",
+      "zh": "🔥 接受新挑战！"
+    },
+    "newChallengeDesc": {
+      "main": "Estas palabras ya son tuyas. ¿Listo para las siguientes 7?",
+      "zh": "这些词已经拿下了，准备好挑战下一批 7 个词了吗？"
+    }
   },
   "feedback": {
     "correct": {
-      "youRock": { "main": "¡Eres genial! ", "zh": "太棒了！" },
-      "nailedIt": { "main": "¡Lo clavaste! ", "zh": "搞定！" },
-      "spotOn": { "main": "¡Exacto! ✨", "zh": "完全正确！✨" },
-      "perfect": { "main": "¡Perfecto! ", "zh": "完美！" },
-      "brilliant": { "main": "¡Brillante! ", "zh": "精彩！" },
-      "thatsRight": { "main": "¡Correcto! 🎉", "zh": "答对了！🎉" },
-      "youGotIt": { "main": "¡Lo lograste! ", "zh": "你做到了！" },
-      "excellent": { "main": "¡Excelente! 👏", "zh": "优秀！👏" },
-      "amazing": { "main": "¡Increíble! ", "zh": "太厉害了！" },
-      "rightOn": { "main": "¡Así se hace! 💪", "zh": "就是这样！💪" }
+      "youRock": {
+        "main": "¡Eres genial! ",
+        "zh": "太棒了！"
+      },
+      "nailedIt": {
+        "main": "¡Lo clavaste! ",
+        "zh": "搞定！"
+      },
+      "spotOn": {
+        "main": "¡Exacto! ✨",
+        "zh": "完全正确！✨"
+      },
+      "perfect": {
+        "main": "¡Perfecto! ",
+        "zh": "完美！"
+      },
+      "brilliant": {
+        "main": "¡Brillante! ",
+        "zh": "精彩！"
+      },
+      "thatsRight": {
+        "main": "¡Correcto! 🎉",
+        "zh": "答对了！🎉"
+      },
+      "youGotIt": {
+        "main": "¡Lo lograste! ",
+        "zh": "你做到了！"
+      },
+      "excellent": {
+        "main": "¡Excelente! 👏",
+        "zh": "优秀！👏"
+      },
+      "amazing": {
+        "main": "¡Increíble! ",
+        "zh": "太厉害了！"
+      },
+      "rightOn": {
+        "main": "¡Así se hace! 💪",
+        "zh": "就是这样！💪"
+      }
     },
     "almost": {
-      "almostThere": { "main": "¡Casi lo tienes! 💪", "zh": "差一点点！💪" },
-      "soClose": { "main": "¡Tan cerca! ", "zh": "就差一点！" },
-      "justABitMore": { "main": "¡Un poco más! ✨", "zh": "再努把力！✨" },
-      "onFire": { "main": "¡Estás en racha, sigue así! ", "zh": "状态火热，继续！" }
+      "almostThere": {
+        "main": "¡Casi lo tienes! 💪",
+        "zh": "差一点点！💪"
+      },
+      "soClose": {
+        "main": "¡Tan cerca! ",
+        "zh": "就差一点！"
+      },
+      "justABitMore": {
+        "main": "¡Un poco más! ✨",
+        "zh": "再努把力！✨"
+      },
+      "onFire": {
+        "main": "¡Estás en racha, sigue así! ",
+        "zh": "状态火热，继续！"
+      }
     },
     "notQuite": {
-      "notQuite": { "main": "No exactamente. Inténtalo de nuevo", "zh": "不太对，再想想" },
-      "keepGoing": { "main": "¡Sigue intentando! 🤔", "zh": "别放弃，继续试！🤔" },
-      "notTheRightWord": { "main": "No es la palabra correcta, ¡prueba otra vez! 💭", "zh": "词不对，再试试！💭" },
-      "giveItAnotherShot": { "main": "Mmm, no exactamente. ¡Dale otra oportunidad! ", "zh": "嗯，不太对。再来一次！" }
+      "notQuite": {
+        "main": "No exactamente. Inténtalo de nuevo",
+        "zh": "不太对，再想想"
+      },
+      "keepGoing": {
+        "main": "¡Sigue intentando! 🤔",
+        "zh": "别放弃，继续试！🤔"
+      },
+      "notTheRightWord": {
+        "main": "No es la palabra correcta, ¡prueba otra vez! 💭",
+        "zh": "词不对，再试试！💭"
+      },
+      "giveItAnotherShot": {
+        "main": "Mmm, no exactamente. ¡Dale otra oportunidad! ",
+        "zh": "嗯，不太对。再来一次！"
+      }
     }
   }
 }

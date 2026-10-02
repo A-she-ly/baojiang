@@ -73,6 +73,8 @@ export default function App() {
   const setView = useStore((s) => s.setView)
   const rateCard = useStore((s) => s.rateCard)
   const allCards = useStore((s) => s.cards)
+  const disliked = useStore((s) => s.disliked)
+  const mastered = useStore((s) => s.mastered)
 
   const savedSession = useMemo(() => loadSession(), [])
   const [ready, setReady] = useState(false)
@@ -146,6 +148,34 @@ export default function App() {
   const episodeKey = selectedShowId && selectedEpisodeId ? `${selectedShowId}:${selectedEpisodeId}` : null
   const episodeData = episodeKey ? EPISODE_DATA[episodeKey] : null
   const selectedEpisode = selectedShow?.episodes.find((e) => e.episodeId === selectedEpisodeId)
+
+  // Build word map from all episode cards for clickable word links
+  const wordMap = useMemo(() => {
+    const map = new Map<string, string>()
+    const cards = episodeData?.cards || []
+    for (const card of cards) {
+      // Normalize: lowercase + strip accents (same as FlashcardView's normalizeWord)
+      const word = card.target_word.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      // Add base form
+      if (!map.has(word)) map.set(word, card.id)
+      // Add plural variants
+      if (word.endsWith('s')) {
+        const singular = word.endsWith('es') && word.length > 3 ? word.slice(0, -2) : word.slice(0, -1)
+        if (singular && !map.has(singular)) map.set(singular, card.id)
+      } else {
+        const plural = word.endsWith('z') ? word.slice(0, -1) + 'ces' : word + 's'
+        if (!map.has(plural)) map.set(plural, card.id)
+      }
+    }
+    return map
+  }, [episodeData])
+
+  const handleWordClick = (cardId: string) => {
+    // Create a new study session with just this card
+    setView({ name: 'study', queueIds: [cardId] })
+    setQueueIndex(0)
+    setSessionCounter((c) => c + 1)  // Force remount
+  }
 
   function handleSelectShow(showId: string) {
     const show = SHOW_MAP[showId]
@@ -336,6 +366,54 @@ export default function App() {
             onPrev={() => {
               setQueueIndex((i) => Math.max(0, i - 1))
             }}
+            onDislike={(cardId) => {
+              // Remove disliked card from queue and add a replacement
+              const newQueueIds = view.queueIds.filter((id) => id !== cardId)
+              
+              // Find a replacement card from episode cards
+              const episodeCards = episodeData?.cards || []
+              const currentQueueSet = new Set(newQueueIds)
+              const replacement = episodeCards.find(
+                (c) => !currentQueueSet.has(c.id) && !disliked.has(c.id) && !mastered.has(c.id)
+              )
+              
+              if (replacement) {
+                newQueueIds.push(replacement.id)
+              }
+              
+              // Update the view with new queue
+              setView({ name: 'study', queueIds: newQueueIds })
+              
+              // Adjust queue index if needed
+              if (queueIndex >= newQueueIds.length) {
+                setQueueIndex(Math.max(0, newQueueIds.length - 1))
+              }
+            }}
+            onMastered={(cardId) => {
+              // Remove mastered card from queue and add a replacement
+              const newQueueIds = view.queueIds.filter((id) => id !== cardId)
+              
+              // Find a replacement card from episode cards
+              const episodeCards = episodeData?.cards || []
+              const currentQueueSet = new Set(newQueueIds)
+              const replacement = episodeCards.find(
+                (c) => !currentQueueSet.has(c.id) && !disliked.has(c.id) && !mastered.has(c.id)
+              )
+              
+              if (replacement) {
+                newQueueIds.push(replacement.id)
+              }
+              
+              // Update the view with new queue
+              setView({ name: 'study', queueIds: newQueueIds })
+              
+              // Adjust queue index if needed
+              if (queueIndex >= newQueueIds.length) {
+                setQueueIndex(Math.max(0, newQueueIds.length - 1))
+              }
+            }}
+            wordMap={wordMap}
+            onWordClick={handleWordClick}
           />
         ) : (
           <div className="text-center py-20 text-friends-coffee">
@@ -456,9 +534,10 @@ export default function App() {
                     </div>
                     <button
                       onClick={() => {
-                        // Get truly new cards: not yet learned (no SRS entry or not in 'review' status)
+                        // Get truly new cards: not mastered, not disliked, not yet reviewed
                         const newCards = episodeData.cards
                           .filter((c) => {
+                            if (mastered.has(c.id) || disliked.has(c.id)) return false
                             const srsState = srs[c.id]
                             return !srsState || srsState.status !== 'review'
                           })

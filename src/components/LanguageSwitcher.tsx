@@ -29,12 +29,12 @@ export default function LanguageSwitcher() {
     <div ref={ref} className="relative inline-block">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/20 backdrop-blur border border-white/30 text-white text-sm font-medium hover:bg-white/30 transition-all"
+        className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gray-100 backdrop-blur border border-gray-300 text-gray-800 text-sm font-medium hover:bg-gray-200 transition-all"
         title="Language / 语言"
       >
         <span>{currentLang.flag}</span>
         <span className="hidden sm:inline">{currentLang.label}</span>
-        <svg className="w-3.5 h-3.5 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-3.5 h-3.5 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
@@ -48,7 +48,7 @@ export default function LanguageSwitcher() {
               className={`w-full flex items-center gap-2.5 px-4 py-2.5 text-sm transition-colors ${
                 i18n.language === lang.code
                   ? 'bg-friends-perk/15 text-friends-sofa font-semibold'
-                  : 'text-friends-sofa/80 hover:bg-friends-cream'
+                  : 'text-gray-700 hover:bg-friends-cream'
               }`}
             >
               <span className="text-base">{lang.flag}</span>

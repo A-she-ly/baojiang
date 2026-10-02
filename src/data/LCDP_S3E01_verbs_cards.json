@@ -1,0 +1,702 @@
+[
+  {
+    "id": "LCDP_S3E01_V001",
+    "episode": "S3E01",
+    "scene_id": "verb_001",
+    "line_index": 1,
+    "character": "S3E01",
+    "target_word": "soy",
+    "ipa": "/ˈsoi/",
+    "pos": "v. soy",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No, yo no ___ ningún héroe.",
+    "sentence_full": "No, yo no soy ningún héroe.",
+    "translation": "是；存在",
+    "sentence_translation": "不 你们错了 我不是英雄",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "ser-",
+        "origin": "动词原形 ser",
+        "meaning": "是；存在"
+      },
+      {
+        "part": "-oy",
+        "origin": "动词变位后缀",
+        "meaning": "第一人称单数现在时（不规则）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V002",
+    "episode": "S3E01",
+    "scene_id": "verb_002",
+    "line_index": 2,
+    "character": "S3E01",
+    "target_word": "fui",
+    "ipa": "/ˈfui/",
+    "pos": "v. fui",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Yo ___ un rehén. Pero todos nosotros hemos sido rehenes de algo.",
+    "sentence_full": "Yo fui un rehén. Pero todos nosotros hemos sido rehenes de algo.",
+    "translation": "去；走",
+    "sentence_translation": "我曾是人质 但从某种意义上说 我们都是人质",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "ir-",
+        "origin": "动词原形 ir",
+        "meaning": "去；走"
+      },
+      {
+        "part": "-fui",
+        "origin": "动词变位后缀",
+        "meaning": "第一人称单数简单过去时（不规则）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V003",
+    "episode": "S3E01",
+    "scene_id": "verb_003",
+    "line_index": 3,
+    "character": "S3E01",
+    "target_word": "habrá",
+    "ipa": "/a.ˈbɾa/",
+    "pos": "v. habrá",
+    "level": "A2",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "pienso qué ___ sido de mi pobre hijo.",
+    "sentence_full": "pienso qué habrá sido de mi pobre hijo.",
+    "translation": "有（助动词）",
+    "sentence_translation": "我醒来都会想我儿子遭遇了什么",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "habr-",
+        "origin": "动词原形 haber",
+        "meaning": "有（助动词）"
+      },
+      {
+        "part": "-á",
+        "origin": "动词变位后缀",
+        "meaning": "第三人称单数简单将来时（不规则）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V004",
+    "episode": "S3E01",
+    "scene_id": "verb_004",
+    "line_index": 4,
+    "character": "S3E01",
+    "target_word": "tuvo",
+    "ipa": "/ˈtu.bo/",
+    "pos": "v. tuvo",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Soy un hombre normal y corriente que ___ el valor suficiente",
+    "sentence_full": "Soy un hombre normal y corriente que tuvo el valor suficiente",
+    "translation": "有；拥有",
+    "sentence_translation": "我只是个足够有勇气",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "tener-",
+        "origin": "动词原形 tener",
+        "meaning": "有；拥有"
+      },
+      {
+        "part": "-uvo",
+        "origin": "动词变位后缀",
+        "meaning": "第三人称单数简单过去时（不规则）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V005",
+    "episode": "S3E01",
+    "scene_id": "verb_005",
+    "line_index": 5,
+    "character": "S3E01",
+    "target_word": "puedo",
+    "ipa": "/ˈpue.do/",
+    "pos": "v. puedo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Y por eso, por eso hoy ___ estar aquí,",
+    "sentence_full": "Y por eso, por eso hoy puedo estar aquí,",
+    "translation": "能够；可以",
+    "sentence_translation": "所以…所以我今天才能在这里",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "poder-",
+        "origin": "动词原形 poder",
+        "meaning": "能够；可以"
+      },
+      {
+        "part": "-uedo",
+        "origin": "动词变位后缀",
+        "meaning": "第一人称单数现在时（不规则）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V006",
+    "episode": "S3E01",
+    "scene_id": "verb_006",
+    "line_index": 6,
+    "character": "S3E01",
+    "target_word": "hace",
+    "ipa": "/ˈa.ke/",
+    "pos": "v. hace",
+    "level": "A2",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Desde ___ dos años y medio, muchos me llaman héroe.",
+    "sentence_full": "Desde hace dos años y medio, muchos me llaman héroe.",
+    "translation": "做；制造",
+    "sentence_translation": "过去两年半里 你们很多人都叫我英雄",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "hacer-",
+        "origin": "动词原形 hacer",
+        "meaning": "做；制造"
+      },
+      {
+        "part": "-ace",
+        "origin": "动词变位后缀",
+        "meaning": "第三人称单数现在时"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V007",
+    "episode": "S3E01",
+    "scene_id": "verb_007",
+    "line_index": 7,
+    "character": "S3E01",
+    "target_word": "estaré",
+    "ipa": "/e.sta.ˈɾe/",
+    "pos": "v. estaré",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No saber dónde ___ mañana.",
+    "sentence_full": "No saber dónde estaré mañana.",
+    "translation": "是；处于；在",
+    "sentence_translation": "我想过那种充满不确定的生活",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "estar-",
+        "origin": "动词原形 estar",
+        "meaning": "是；处于；在"
+      },
+      {
+        "part": "-é",
+        "origin": "动词变位后缀",
+        "meaning": "第一人称单数简单将来时"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V008",
+    "episode": "S3E01",
+    "scene_id": "verb_008",
+    "line_index": 8,
+    "character": "S3E01",
+    "target_word": "quería",
+    "ipa": "/kue.ˈɾia/",
+    "pos": "v. quería",
+    "level": "A2",
+    "pronunciation_focus": "gl_gu",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Sin embargo, él me arrebató lo que yo más ___.",
+    "sentence_full": "Sin embargo, él me arrebató lo que yo más quería.",
+    "translation": "想要；爱",
+    "sentence_translation": "但是 作为交换 他带走了我的最爱",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "querer-",
+        "origin": "动词原形 querer",
+        "meaning": "想要；爱"
+      },
+      {
+        "part": "-ía",
+        "origin": "动词变位后缀",
+        "meaning": "第一/三人称单数过去未完成时"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V009",
+    "episode": "S3E01",
+    "scene_id": "verb_009",
+    "line_index": 9,
+    "character": "S3E01",
+    "target_word": "sabes",
+    "ipa": "/ˈsa.bes/",
+    "pos": "v. sabes",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¿___ algo de Río?",
+    "sentence_full": "¿Sabes algo de Río?",
+    "translation": "知道；懂得",
+    "sentence_translation": "里约给你打电话了吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "saber-",
+        "origin": "动词原形 saber",
+        "meaning": "知道；懂得"
+      },
+      {
+        "part": "-es",
+        "origin": "动词变位后缀",
+        "meaning": "第二人称单数现在时"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V010",
+    "episode": "S3E01",
+    "scene_id": "verb_010",
+    "line_index": 10,
+    "character": "S3E01",
+    "target_word": "necesitas",
+    "ipa": "/ne.ke.ˈsi.tas/",
+    "pos": "v. necesitas",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ cambiar de aires, ¿no?",
+    "sentence_full": "Necesitas cambiar de aires, ¿no?",
+    "translation": "需要",
+    "sentence_translation": "你想换个环境 是不是？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "necesitar-",
+        "origin": "动词原形 necesitar",
+        "meaning": "需要"
+      },
+      {
+        "part": "-as",
+        "origin": "动词变位后缀",
+        "meaning": "第二人称单数现在时"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V011",
+    "episode": "S3E01",
+    "scene_id": "verb_011",
+    "line_index": 11,
+    "character": "S3E01",
+    "target_word": "pasan",
+    "ipa": "/ˈpa.san/",
+    "pos": "v. pasan",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "tres días se me ___ volando.",
+    "sentence_full": "tres días se me pasan volando.",
+    "translation": "经过；发生",
+    "sentence_translation": "三天转瞬即逝",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "pasar-",
+        "origin": "动词原形 pasar",
+        "meaning": "经过；发生"
+      },
+      {
+        "part": "-an",
+        "origin": "动词变位后缀",
+        "meaning": "第三人称复数现在时"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V012",
+    "episode": "S3E01",
+    "scene_id": "verb_012",
+    "line_index": 12,
+    "character": "S3E01",
+    "target_word": "vemos",
+    "ipa": "/ˈbe.mos/",
+    "pos": "v. vemos",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No ___ al objetivo.",
+    "sentence_full": "No vemos al objetivo.",
+    "translation": "看见",
+    "sentence_translation": "飞鹰呼叫猎狐一号 我们看不到目标",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "ver-",
+        "origin": "动词原形 ver",
+        "meaning": "看见"
+      },
+      {
+        "part": "-emos",
+        "origin": "动词变位后缀",
+        "meaning": "第一人称复数现在时"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V013",
+    "episode": "S3E01",
+    "scene_id": "verb_013",
+    "line_index": 13,
+    "character": "S3E01",
+    "target_word": "den",
+    "ipa": "/ˈden/",
+    "pos": "v. den",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¡Que te ___ por el culo, amigo! ...pero frescas.",
+    "sentence_full": "¡Que te den por el culo, amigo! ...pero frescas.",
+    "translation": "给",
+    "sentence_translation": "去你娘的！去你的烂香蕉！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "dar-",
+        "origin": "动词原形 dar",
+        "meaning": "给"
+      },
+      {
+        "part": "-en",
+        "origin": "动词变位后缀",
+        "meaning": "第一/三人称复数现在虚拟式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V014",
+    "episode": "S3E01",
+    "scene_id": "verb_014",
+    "line_index": 14,
+    "character": "S3E01",
+    "target_word": "vendrá",
+    "ipa": "/be.ˈndɾa/",
+    "pos": "v. vendrá",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Una aventura nos ___ bien.",
+    "sentence_full": "Una aventura nos vendrá bien.",
+    "translation": "来",
+    "sentence_translation": "冒险对我们俩都有好处",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "vendr-",
+        "origin": "动词原形 venir",
+        "meaning": "来"
+      },
+      {
+        "part": "-á",
+        "origin": "动词变位后缀",
+        "meaning": "第三人称单数简单将来时（不规则）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V015",
+    "episode": "S3E01",
+    "scene_id": "verb_015",
+    "line_index": 15,
+    "character": "S3E01",
+    "target_word": "pienso",
+    "ipa": "/ˈpie.nso/",
+    "pos": "v. pienso",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ qué habrá sido de mi pobre hijo.",
+    "sentence_full": "pienso qué habrá sido de mi pobre hijo.",
+    "translation": "想；认为",
+    "sentence_translation": "我醒来都会想我儿子遭遇了什么",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "pensar-",
+        "origin": "动词原形 pensar",
+        "meaning": "想；认为"
+      },
+      {
+        "part": "-ienso",
+        "origin": "动词变位后缀",
+        "meaning": "第一人称单数现在时（元音变换 e→ie）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V016",
+    "episode": "S3E01",
+    "scene_id": "verb_016",
+    "line_index": 16,
+    "character": "S3E01",
+    "target_word": "entiendo",
+    "ipa": "/e.ˈntie.ndo/",
+    "pos": "v. entiendo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Te ___.",
+    "sentence_full": "Te entiendo.",
+    "translation": "理解；懂",
+    "sentence_translation": "我懂你的意思",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "entender-",
+        "origin": "动词原形 entender",
+        "meaning": "理解；懂"
+      },
+      {
+        "part": "-iendo",
+        "origin": "动词变位后缀",
+        "meaning": "第一人称单数现在时（元音变换 e→ie）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V017",
+    "episode": "S3E01",
+    "scene_id": "verb_017",
+    "line_index": 17,
+    "character": "S3E01",
+    "target_word": "dejan",
+    "ipa": "/ˈde.xan/",
+    "pos": "v. dejan",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "La vida se pierde cuando se ___ de tomar decisiones,",
+    "sentence_full": "La vida se pierde cuando se dejan de tomar decisiones,",
+    "translation": "让；留下；离开",
+    "sentence_translation": "如果我们不下定决心 毫无目标",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "dejar-",
+        "origin": "动词原形 dejar",
+        "meaning": "让；留下；离开"
+      },
+      {
+        "part": "-an",
+        "origin": "动词变位后缀",
+        "meaning": "第三人称复数现在时"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V018",
+    "episode": "S3E01",
+    "scene_id": "verb_018",
+    "line_index": 18,
+    "character": "S3E01",
+    "target_word": "viviendo",
+    "ipa": "/bi.ˈbie.ndo/",
+    "pos": "v. viviendo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Llevo más de dos años ___ en una película romántica.",
+    "sentence_full": "Llevo más de dos años viviendo en una película romántica.",
+    "translation": "生活；住",
+    "sentence_translation": "过去两年多里 我的生活就像爱情片",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "vivir-",
+        "origin": "动词原形 vivir",
+        "meaning": "生活；住"
+      },
+      {
+        "part": "-viviendo",
+        "origin": "动词变位后缀",
+        "meaning": "副动词"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V019",
+    "episode": "S3E01",
+    "scene_id": "verb_019",
+    "line_index": 19,
+    "character": "S3E01",
+    "target_word": "digamos",
+    "ipa": "/di.ˈga.mos/",
+    "pos": "v. digamos",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ que he cambiado de bando.",
+    "sentence_full": "Digamos que he cambiado de bando.",
+    "translation": "说；告诉",
+    "sentence_translation": "这么说吧 我转变了立场",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "decir-",
+        "origin": "动词原形 decir",
+        "meaning": "说；告诉"
+      },
+      {
+        "part": "-gamos",
+        "origin": "动词变位后缀",
+        "meaning": "第一人称复数现在虚拟式（不规则）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V020",
+    "episode": "S3E01",
+    "scene_id": "verb_020",
+    "line_index": 20,
+    "character": "S3E01",
+    "target_word": "llaman",
+    "ipa": "/ˈlla.man/",
+    "pos": "v. llaman",
+    "level": "A2",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Desde hace dos años y medio, muchos me ___ héroe.",
+    "sentence_full": "Desde hace dos años y medio, muchos me llaman héroe.",
+    "translation": "叫；打电话",
+    "sentence_translation": "过去两年半里 你们很多人都叫我英雄",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "llamar-",
+        "origin": "动词原形 llamar",
+        "meaning": "叫；打电话"
+      },
+      {
+        "part": "-an",
+        "origin": "动词变位后缀",
+        "meaning": "第三人称复数现在时"
+      }
+    ]
+  }
+]
