@@ -1,0 +1,21 @@
+{
+  "episode": "S3E07",
+  "title": "S3E07 — 词性分类闪卡",
+  "title_cn": "S3E07 — 词性分类闪卡",
+  "description": "第三季第七集台词中提取的闪卡，按词性分类（名词210、动词57、形容词25、副词22）。",
+  "show": "la-casa-de-papel",
+  "language": "es",
+  "total_cards": 314,
+  "pos_distribution": {
+    "verbs": 57,
+    "nouns": 210,
+    "adverbs": 22,
+    "adjectives": 25
+  },
+  "scenes_count": 1,
+  "dialogue_lines_count": 314,
+  "characters": [
+    "S3E07"
+  ],
+  "scenes_summary": []
+}

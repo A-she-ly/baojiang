@@ -76,7 +76,7 @@ async def edge_tts_stream(text: str, voice: str = EDGE_VOICE_ES) -> bytes:
 YOUDAO_URL = "https://dict.youdao.com/dictvoice"
 
 
-async def youdao_tts_stream(text: str, tts_type: int = 2) -> bytes:
+async def youdao_tts_stream(text: str, tts_type: int = 0) -> bytes:
     """Fetch TTS audio from Youdao Dict Voice API."""
     async with aiohttp.ClientSession() as session:
         params = {"type": str(tts_type), "audio": text}
@@ -95,7 +95,7 @@ async def handle_tts(request: web.Request) -> web.Response:
     """
     text = request.query.get("text", "").strip()
     lang = request.query.get("lang", "es").strip().lower()
-    tts_type = request.query.get("type", "2").strip()
+    tts_type = request.query.get("type", "0").strip()
 
     if not text:
         return web.Response(text="Missing 'text' parameter", status=400)
@@ -172,8 +172,8 @@ def main() -> None:
     app.router.add_options("/api/tts", handle_options)
 
     print(f"🔊 TTS Proxy Server starting on http://localhost:{port}")
-    print(f"   Spanish → Edge TTS ({EDGE_VOICE_ES})")
-    print(f"   English → Youdao Dict Voice")
+    print(f"   Spanish �?Edge TTS ({EDGE_VOICE_ES})")
+    print(f"   English �?Youdao Dict Voice")
     print(f"   Endpoint: GET /api/tts?text=<text>&lang=<es|en>")
     
     proxy = os.environ.get("HTTP_PROXY") or os.environ.get("HTTPS_PROXY") or _detect_clash_proxy()
@@ -186,7 +186,7 @@ def main() -> None:
         print(f"   Set HTTP_PROXY or install Clash Verge for auto-detection.")
 
     if edge_tts is None:
-        print("   ⚠️  edge-tts NOT installed — Spanish TTS unavailable!")
+        print("   ⚠️  edge-tts NOT installed �?Spanish TTS unavailable!")
         print("   Install with: pip install edge-tts")
 
     web.run_app(app, host="0.0.0.0", port=port, print=None)

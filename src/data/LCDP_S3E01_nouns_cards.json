@@ -11261,5 +11261,3364 @@
         "meaning": "第三人称复数现在时"
       }
     ]
+  },
+  {
+    "id": "LCDP_S3E01_301",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_001",
+    "line_index": 1,
+    "character": "S3E01",
+    "target_word": "Acabamos",
+    "ipa": "/a.ka.ˈba.mos/",
+    "pos": "v. Acabamos",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ de entrar en aguas internacionales.",
+    "sentence_full": "Acabamos de entrar en aguas internacionales.",
+    "translation": "完成（原形: acabar）",
+    "sentence_translation": "我们进入了国际海域",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "acabar-",
+        "origin": "动词原形 acabar",
+        "meaning": "完成"
+      },
+      {
+        "part": "Acabamos",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_302",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_002",
+    "line_index": 2,
+    "character": "S3E01",
+    "target_word": "apareció",
+    "ipa": "/a.pa.ɾe.θi.ˈó/",
+    "pos": "v. apareció",
+    "level": "B1",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "...___ mi ángel de la guarda.",
+    "sentence_full": "...apareció mi ángel de la guarda.",
+    "translation": "出现（原形: aparecer）",
+    "sentence_translation": "…我的守护天使终于出现了",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "aparecer-",
+        "origin": "动词原形 aparecer",
+        "meaning": "出现"
+      },
+      {
+        "part": "apareció",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_303",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_003",
+    "line_index": 3,
+    "character": "S3E01",
+    "target_word": "arreglamos",
+    "ipa": "/a.re.ˈgla.mos/",
+    "pos": "v. arreglamos",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Y lo ___.",
+    "sentence_full": "Y lo arreglamos.",
+    "translation": "修理（原形: arreglar）",
+    "sentence_translation": "我们解决了问题",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "arreglar-",
+        "origin": "动词原形 arreglar",
+        "meaning": "修理"
+      },
+      {
+        "part": "arreglamos",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_304",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_004",
+    "line_index": 4,
+    "character": "S3E01",
+    "target_word": "ataqué",
+    "ipa": "/a.ta.ˈké/",
+    "pos": "v. ataqué",
+    "level": "B1",
+    "pronunciation_focus": "gl_gu",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Yo ___ a ese tal Denver",
+    "sentence_full": "Yo ataqué a ese tal Denver",
+    "translation": "攻击（原形: atacar）",
+    "sentence_translation": "我控诉那个叫丹佛的人",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "atacar-",
+        "origin": "动词原形 atacar",
+        "meaning": "攻击"
+      },
+      {
+        "part": "ataqué",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_305",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_005",
+    "line_index": 5,
+    "character": "S3E01",
+    "target_word": "Busco, buscando",
+    "ipa": "/bus.ko .bus.ˈkan.do/",
+    "pos": "v. Busco, buscando",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Busco a mi transportador.",
+    "sentence_full": "Busco a mi transportador.",
+    "translation": "寻找（原形: buscar）",
+    "sentence_translation": "我找我的承运人",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "buscar-",
+        "origin": "动词原形 buscar",
+        "meaning": "寻找"
+      },
+      {
+        "part": "Busco, buscando",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_306",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_006",
+    "line_index": 6,
+    "character": "S3E01",
+    "target_word": "caen, caído",
+    "ipa": "/ka.en. ka.ˈí.do/",
+    "pos": "v. caen, caído",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "A algunas personas, esos secuestradores les caen simpáticos.",
+    "sentence_full": "A algunas personas, esos secuestradores les caen simpáticos.",
+    "translation": "落下（原形: caer）",
+    "sentence_translation": "有人喜欢那些绑匪",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "caer-",
+        "origin": "动词原形 caer",
+        "meaning": "落下"
+      },
+      {
+        "part": "caen, caído",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_307",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_007",
+    "line_index": 7,
+    "character": "S3E01",
+    "target_word": "cambia, cambiado",
+    "ipa": "/kam.bia .kam.ˈbia.do/",
+    "pos": "v. cambia, cambiado",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Digamos que he cambiado de bando.",
+    "sentence_full": "Digamos que he cambiado de bando.",
+    "translation": "改变（原形: cambiar）",
+    "sentence_translation": "这么说吧 我转变了立场",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "cambiar-",
+        "origin": "动词原形 cambiar",
+        "meaning": "改变"
+      },
+      {
+        "part": "cambia, cambiado",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_308",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_008",
+    "line_index": 8,
+    "character": "S3E01",
+    "target_word": "casado",
+    "ipa": "/ka.ˈsa.do/",
+    "pos": "v. casado",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¡Señora! Que nos hemos ___",
+    "sentence_full": "¡Señora! Que nos hemos casado",
+    "translation": "结婚（原形: casar）",
+    "sentence_translation": "你可以叫她\"夫人\"！我们结婚了！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "casar-",
+        "origin": "动词原形 casar",
+        "meaning": "结婚"
+      },
+      {
+        "part": "casado",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_309",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_009",
+    "line_index": 9,
+    "character": "S3E01",
+    "target_word": "comienzan",
+    "ipa": "/ko.ˈmien.θan/",
+    "pos": "v. comienzan",
+    "level": "B2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "las guerras ___ con bombardeos.",
+    "sentence_full": "las guerras comienzan con bombardeos.",
+    "translation": "开始（原形: comenzar）",
+    "sentence_translation": "战争始于炸弹",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "comenzar-",
+        "origin": "动词原形 comenzar",
+        "meaning": "开始"
+      },
+      {
+        "part": "comienzan",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_310",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_010",
+    "line_index": 10,
+    "character": "S3E01",
+    "target_word": "comiendo",
+    "ipa": "/ko.ˈmien.do/",
+    "pos": "v. comiendo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Pues aquí. Tres diitas ___ techo en esta puñetera isla.",
+    "sentence_full": "Pues aquí. Tres diitas comiendo techo en esta puñetera isla.",
+    "translation": "吃（原形: comer）",
+    "sentence_translation": "我这三天在这个破岛上 看着时间一分一秒流逝",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "comer-",
+        "origin": "动词原形 comer",
+        "meaning": "吃"
+      },
+      {
+        "part": "comiendo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_311",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_011",
+    "line_index": 11,
+    "character": "S3E01",
+    "target_word": "compré, compró",
+    "ipa": "/kom.ˈpɾé .kom.pɾó/",
+    "pos": "v. compré, compró",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Es un teléfono satelital. Lo compré en el mercado negro con Helsinki.",
+    "sentence_full": "Es un teléfono satelital. Lo compré en el mercado negro con Helsinki.",
+    "translation": "买（原形: comprar）",
+    "sentence_translation": "这是卫星电话 我和赫尔辛基一起在黑市上买的",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "comprar-",
+        "origin": "动词原形 comprar",
+        "meaning": "买"
+      },
+      {
+        "part": "compré, compró",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_312",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_012",
+    "line_index": 12,
+    "character": "S3E01",
+    "target_word": "conseguido",
+    "ipa": "/kon.ˈseg.do/",
+    "pos": "v. conseguido",
+    "level": "A2",
+    "pronunciation_focus": "gl_gu",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Hemos ___ escapar, pero ahora viene lo más difícil.",
+    "sentence_full": "Hemos conseguido escapar, pero ahora viene lo más difícil.",
+    "translation": "获得（原形: conseguir）",
+    "sentence_translation": "我们虽然成功脱身 但现在最严峻的问题刚刚到来",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "conseguir-",
+        "origin": "动词原形 conseguir",
+        "meaning": "获得"
+      },
+      {
+        "part": "conseguido",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_313",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_013",
+    "line_index": 13,
+    "character": "S3E01",
+    "target_word": "considerado",
+    "ipa": "/kon.si.de.ˈɾa.do/",
+    "pos": "v. considerado",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¿Un terrorista puede ser acaso ___ un héroe?",
+    "sentence_full": "¿Un terrorista puede ser acaso considerado un héroe?",
+    "translation": "考虑（原形: considerar）",
+    "sentence_translation": "恐怖分子怎么能被当做英雄？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "considerar-",
+        "origin": "动词原形 considerar",
+        "meaning": "考虑"
+      },
+      {
+        "part": "considerado",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_314",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_014",
+    "line_index": 14,
+    "character": "S3E01",
+    "target_word": "contado",
+    "ipa": "/kon.ˈta.do/",
+    "pos": "v. contado",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "...¿qué les has ___?",
+    "sentence_full": "...¿qué les has contado?",
+    "translation": "数/讲述（原形: contar）",
+    "sentence_translation": "你是怎么跟他们说的?",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "contar-",
+        "origin": "动词原形 contar",
+        "meaning": "数/讲述"
+      },
+      {
+        "part": "contado",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_315",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_015",
+    "line_index": 15,
+    "character": "S3E01",
+    "target_word": "Corre, Corría",
+    "ipa": "/ko.re .ko.ˈrí.a/",
+    "pos": "v. Corre, Corría",
+    "level": "A2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¡Corre, Tokio! ¡Nos han pillado!",
+    "sentence_full": "¡Corre, Tokio! ¡Nos han pillado!",
+    "translation": "跑（原形: correr）",
+    "sentence_translation": "快跑 东京！他们找到我们了",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "correr-",
+        "origin": "动词原形 correr",
+        "meaning": "跑"
+      },
+      {
+        "part": "Corre, Corría",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_316",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_016",
+    "line_index": 16,
+    "character": "S3E01",
+    "target_word": "Creo, creyeron",
+    "ipa": "/θɾe.o .θɾe.ˈʝe.ɾon/",
+    "pos": "v. Creo, creyeron",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Creo que nunca me he alegrado tanto de ver a alguien.",
+    "sentence_full": "Creo que nunca me he alegrado tanto de ver a alguien.",
+    "translation": "相信（原形: creer）",
+    "sentence_translation": "我见到你最开心了",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "creer-",
+        "origin": "动词原形 creer",
+        "meaning": "相信"
+      },
+      {
+        "part": "Creo, creyeron",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_317",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_017",
+    "line_index": 17,
+    "character": "S3E01",
+    "target_word": "Cuidado",
+    "ipa": "/kui.ˈda.do/",
+    "pos": "v. Cuidado",
+    "level": "B2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ con la cabeza.",
+    "sentence_full": "Cuidado con la cabeza.",
+    "translation": "照顾（原形: cuidar）",
+    "sentence_translation": "当心头",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "cuidar-",
+        "origin": "动词原形 cuidar",
+        "meaning": "照顾"
+      },
+      {
+        "part": "Cuidado",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_318",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_018",
+    "line_index": 18,
+    "character": "S3E01",
+    "target_word": "Di, da, dado, dando, den, dieron, dio",
+    "ipa": "/di .da .da.do .dan.do .den. die.ˈɾon. dio/",
+    "pos": "v. Di, da, dado, dando, den, dieron, dio",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¡Que te den por el culo, amigo! ...pero frescas.",
+    "sentence_full": "¡Que te den por el culo, amigo! ...pero frescas.",
+    "translation": "给（原形: dar）",
+    "sentence_translation": "去你娘的！去你的烂香蕉！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "dar-",
+        "origin": "动词原形 dar",
+        "meaning": "给"
+      },
+      {
+        "part": "Di, da, dado, dando, den, dieron, dio",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_319",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_019",
+    "line_index": 19,
+    "character": "S3E01",
+    "target_word": "debe",
+    "ipa": "/ˈde.be/",
+    "pos": "v. debe",
+    "level": "B2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¡Que usted me ___ la puta vida!",
+    "sentence_full": "¡Que usted me debe la puta vida!",
+    "translation": "应该（原形: deber）",
+    "sentence_translation": "你应该让我好好生活!",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "deber-",
+        "origin": "动词原形 deber",
+        "meaning": "应该"
+      },
+      {
+        "part": "debe",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_320",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_020",
+    "line_index": 20,
+    "character": "S3E01",
+    "target_word": "Digamos, dice, dicen, dicho",
+    "ipa": "/di.ga.mos. di.θe .di.θen.ˈ di.tʃo/",
+    "pos": "v. Digamos, dice, dicen, dicho",
+    "level": "A2",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Digamos que he cambiado de bando.",
+    "sentence_full": "Digamos que he cambiado de bando.",
+    "translation": "说（原形: decir）",
+    "sentence_translation": "这么说吧 我转变了立场",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "decir-",
+        "origin": "动词原形 decir",
+        "meaning": "说"
+      },
+      {
+        "part": "Digamos, dice, dicen, dicho",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_321",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_021",
+    "line_index": 21,
+    "character": "S3E01",
+    "target_word": "Deja, dejamos, dejan, dejaron",
+    "ipa": "/de.xa .de.xa.mos. de.xan. de.ˈxa.ɾon/",
+    "pos": "v. Deja, dejamos, dejan, dejaron",
+    "level": "A2",
+    "pronunciation_focus": "j_sound",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "La vida se pierde cuando se dejan de tomar decisiones,",
+    "sentence_full": "La vida se pierde cuando se dejan de tomar decisiones,",
+    "translation": "让/留下（原形: dejar）",
+    "sentence_translation": "如果我们不下定决心 毫无目标",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "dejar-",
+        "origin": "动词原形 dejar",
+        "meaning": "让/留下"
+      },
+      {
+        "part": "Deja, dejamos, dejan, dejaron",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_322",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_022",
+    "line_index": 22,
+    "character": "S3E01",
+    "target_word": "durmiendo",
+    "ipa": "/duɾ.ˈmien.do/",
+    "pos": "v. durmiendo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Andrés, ¿estás ___ en una celda?",
+    "sentence_full": "Andrés, ¿estás durmiendo en una celda?",
+    "translation": "睡觉（原形: dormir）",
+    "sentence_translation": "安德鲁斯 你睡在牢房里吗?",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "dormir-",
+        "origin": "动词原形 dormir",
+        "meaning": "睡觉"
+      },
+      {
+        "part": "durmiendo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_323",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_023",
+    "line_index": 23,
+    "character": "S3E01",
+    "target_word": "Elige",
+    "ipa": "/e.ˈli.xe/",
+    "pos": "v. Elige",
+    "level": "B2",
+    "pronunciation_focus": "j_sound",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ una ciudad",
+    "sentence_full": "Elige una ciudad",
+    "translation": "选择（原形: elegir）",
+    "sentence_translation": "那你选个城市吧",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "elegir-",
+        "origin": "动词原形 elegir",
+        "meaning": "选择"
+      },
+      {
+        "part": "Elige",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_324",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_024",
+    "line_index": 24,
+    "character": "S3E01",
+    "target_word": "Encontramos, encontrado, encuentro",
+    "ipa": "/en.kon.tɾa.mos. en.kon.tɾa.do. en.ˈkuen.tɾo/",
+    "pos": "v. Encontramos, encontrado, encuentro",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Bueno, y ahora, después de este entrañable encuentro,",
+    "sentence_full": "Bueno, y ahora, después de este entrañable encuentro,",
+    "translation": "找到（原形: encontrar）",
+    "sentence_translation": "亲切的团聚后",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "encontrar-",
+        "origin": "动词原形 encontrar",
+        "meaning": "找到"
+      },
+      {
+        "part": "Encontramos, encontrado, encuentro",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_325",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_025",
+    "line_index": 25,
+    "character": "S3E01",
+    "target_word": "Entiendes, Entiendo, entiende, entiendo",
+    "ipa": "/en.tien.des. en.tien.do. en.tien.de. en.ˈtien.do/",
+    "pos": "v. Entiendes, Entiendo, entiende, entiendo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Te entiendo.",
+    "sentence_full": "Te entiendo.",
+    "translation": "理解（原形: entender）",
+    "sentence_translation": "我懂你的意思",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "entender-",
+        "origin": "动词原形 entender",
+        "meaning": "理解"
+      },
+      {
+        "part": "Entiendes, Entiendo, entiende, entiendo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_326",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_026",
+    "line_index": 26,
+    "character": "S3E01",
+    "target_word": "Entra, entró",
+    "ipa": "/en.tɾa. en.ˈtɾó/",
+    "pos": "v. Entra, entró",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Entra en el templo. Te vendrán a buscar.",
+    "sentence_full": "Entra en el templo. Te vendrán a buscar.",
+    "translation": "进入（原形: entrar）",
+    "sentence_translation": "进去吧 他们会来找你的",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "entrar-",
+        "origin": "动词原形 entrar",
+        "meaning": "进入"
+      },
+      {
+        "part": "Entra, entró",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_327",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_027",
+    "line_index": 27,
+    "character": "S3E01",
+    "target_word": "escapas",
+    "ipa": "/es.ˈka.pas/",
+    "pos": "v. escapas",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "...te ___ de vez en cuando.",
+    "sentence_full": "...te escapas de vez en cuando.",
+    "translation": "逃跑（原形: escapar）",
+    "sentence_translation": "所以会时不时地去天堂休整",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "escapar-",
+        "origin": "动词原形 escapar",
+        "meaning": "逃跑"
+      },
+      {
+        "part": "escapas",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_328",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_028",
+    "line_index": 28,
+    "character": "S3E01",
+    "target_word": "escucha, escuchado",
+    "ipa": "/es.ku.tʃa. es.ku.ˈtʃa.do/",
+    "pos": "v. escucha, escuchado",
+    "level": "A2",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Ché, boludo, escucha, ¡felicitaciones!",
+    "sentence_full": "Ché, boludo, escucha, ¡felicitaciones!",
+    "translation": "听（原形: escuchar）",
+    "sentence_translation": "嘿 伙计 听我说 恭喜了",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "escuchar-",
+        "origin": "动词原形 escuchar",
+        "meaning": "听"
+      },
+      {
+        "part": "escucha, escuchado",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_029",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_029",
+    "line_index": 29,
+    "character": "S3E01",
+    "target_word": "espero",
+    "ipa": "/es.ˈpe.ɾo/",
+    "pos": "v. espero",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Lo único que ___",
+    "sentence_full": "Lo único que espero",
+    "translation": "等待/期望（原形: esperar）",
+    "sentence_translation": "我只希望…",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "esperar-",
+        "origin": "动词原形 esperar",
+        "meaning": "等待/期望"
+      },
+      {
+        "part": "espero",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_329",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_030",
+    "line_index": 30,
+    "character": "S3E01",
+    "target_word": "Estamos, Están, estaban, estamos, estaré, estuvo, estábamos, están",
+    "ipa": "/es.ta.mos. es.ˈtán. es.ta.ban. es.ta.mos. es.ta.ɾé. es.tu.bo. es.tá.ba.mos. es.tán/",
+    "pos": "v. Estamos, Están, estaban, estamos, estaré, estuvo, estábamos, están",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No saber dónde estaré mañana.",
+    "sentence_full": "No saber dónde estaré mañana.",
+    "translation": "在/处于（原形: estar）",
+    "sentence_translation": "我想过那种充满不确定的生活",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "estar-",
+        "origin": "动词原形 estar",
+        "meaning": "在/处于"
+      },
+      {
+        "part": "Estamos, Están, estaban, estamos, estaré, estuvo, estábamos, están",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_330",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_031",
+    "line_index": 31,
+    "character": "S3E01",
+    "target_word": "Había, Han, Hemos, ha, habrá, habría, habían, han, has, he, hemos",
+    "ipa": "/a.bí.a .ˈan. e.mos. a .a.bɾá .a.bɾí.a .a.bí.an. an. as. e .e.mos/",
+    "pos": "v. Había, Han, Hemos, ha, habrá, habría, habían, han, has, he, hemos",
+    "level": "A2",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Porque yo he cometido también mis errores.",
+    "sentence_full": "Porque yo he cometido también mis errores.",
+    "translation": "有(助动词)（原形: haber）",
+    "sentence_translation": "对 我也犯了错",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "haber-",
+        "origin": "动词原形 haber",
+        "meaning": "有(助动词)"
+      },
+      {
+        "part": "Había, Han, Hemos, ha, habrá, habría, habían, han, has, he, hemos",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_331",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_032",
+    "line_index": 32,
+    "character": "S3E01",
+    "target_word": "Hace, Haciendo, hace, hacemos, hacen, haciendo, hago, hará, harán, hicimos, hiciste, hizo",
+    "ipa": "/a.θe .a.θien.do .a.θe .a.θe.mos. a.θen. a.θien.do .a.go .a.ˈɾá .a.ɾán. i.θi.mos. i.θis.te .i.θo/",
+    "pos": "v. Hace, Haciendo, hace, hacemos, hacen, haciendo, hago, hará, harán, hicimos, hiciste, hizo",
+    "level": "A2",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Desde hace dos años y medio, muchos me llaman héroe.",
+    "sentence_full": "Desde hace dos años y medio, muchos me llaman héroe.",
+    "translation": "做（原形: hacer）",
+    "sentence_translation": "过去两年半里 你们很多人都叫我英雄",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "hacer-",
+        "origin": "动词原形 hacer",
+        "meaning": "做"
+      },
+      {
+        "part": "Hace, Haciendo, hace, hacemos, hacen, haciendo, hago, hará, harán, hicimos, hiciste, hizo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_332",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_033",
+    "line_index": 33,
+    "character": "S3E01",
+    "target_word": "imaginó",
+    "ipa": "/i.ma.xi.ˈnó/",
+    "pos": "v. imaginó",
+    "level": "B1",
+    "pronunciation_focus": "j_sound",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Lo que nunca ___ el Profesor",
+    "sentence_full": "Lo que nunca imaginó el Profesor",
+    "translation": "想象（原形: imaginar）",
+    "sentence_translation": "教授从未想到",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "imaginar-",
+        "origin": "动词原形 imaginar",
+        "meaning": "想象"
+      },
+      {
+        "part": "imaginó",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_333",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_034",
+    "line_index": 34,
+    "character": "S3E01",
+    "target_word": "importa",
+    "ipa": "/im.ˈpoɾ.ta/",
+    "pos": "v. importa",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "El único oro que ___.",
+    "sentence_full": "El único oro que importa.",
+    "translation": "重要（原形: importar）",
+    "sentence_translation": "最重要的黄金",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "importar-",
+        "origin": "动词原形 importar",
+        "meaning": "重要"
+      },
+      {
+        "part": "importa",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_334",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_035",
+    "line_index": 35,
+    "character": "S3E01",
+    "target_word": "Fue, Vamos, Vaya, fui, fuimos, ibas, iré, va, vais, vamos, vas, voy",
+    "ipa": "/fue .ba.mos. ba.ʝa .fui .fui.mos. i.bas. i.ˈɾé .ba .bais. ba.mos. bas. boʝ/",
+    "pos": "v. Fue, Vamos, Vaya, fui, fuimos, ibas, iré, va, vais, vamos, vas, voy",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Yo fui un rehén. Pero todos nosotros hemos sido rehenes de algo.",
+    "sentence_full": "Yo fui un rehén. Pero todos nosotros hemos sido rehenes de algo.",
+    "translation": "去（原形: ir）",
+    "sentence_translation": "我曾是人质 但从某种意义上说 我们都是人质",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "ir-",
+        "origin": "动词原形 ir",
+        "meaning": "去"
+      },
+      {
+        "part": "Fue, Vamos, Vaya, fui, fuimos, ibas, iré, va, vais, vamos, vas, voy",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_335",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_036",
+    "line_index": 36,
+    "character": "S3E01",
+    "target_word": "llamado, llaman, llamo",
+    "ipa": "/ʝa.ma.do .ʝa.man.ˈ ʝa.mo/",
+    "pos": "v. llamado, llaman, llamo",
+    "level": "A2",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Desde hace dos años y medio, muchos me llaman héroe.",
+    "sentence_full": "Desde hace dos años y medio, muchos me llaman héroe.",
+    "translation": "叫/打电话（原形: llamar）",
+    "sentence_translation": "过去两年半里 你们很多人都叫我英雄",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "llamar-",
+        "origin": "动词原形 llamar",
+        "meaning": "叫/打电话"
+      },
+      {
+        "part": "llamado, llaman, llamo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_336",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_037",
+    "line_index": 37,
+    "character": "S3E01",
+    "target_word": "llegó",
+    "ipa": "/ʝe.ˈgó/",
+    "pos": "v. llegó",
+    "level": "A2",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "La mía ___ antes Están pinchados.",
+    "sentence_full": "La mía llegó antes Están pinchados.",
+    "translation": "到达（原形: llegar）",
+    "sentence_translation": "他们更早确定了我的位置",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "llegar-",
+        "origin": "动词原形 llegar",
+        "meaning": "到达"
+      },
+      {
+        "part": "llegó",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_337",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_038",
+    "line_index": 38,
+    "character": "S3E01",
+    "target_word": "Lleva, Llevamos, Llevo",
+    "ipa": "/ʝe.ba .ʝe.ba.mos.ˈ ʝe.bo/",
+    "pos": "v. Lleva, Llevamos, Llevo",
+    "level": "A2",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Llevo más de dos años viviendo en una película romántica.",
+    "sentence_full": "Llevo más de dos años viviendo en una película romántica.",
+    "translation": "携带/穿（原形: llevar）",
+    "sentence_translation": "过去两年多里 我的生活就像爱情片",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "llevar-",
+        "origin": "动词原形 llevar",
+        "meaning": "携带/穿"
+      },
+      {
+        "part": "Lleva, Llevamos, Llevo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_338",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_039",
+    "line_index": 39,
+    "character": "S3E01",
+    "target_word": "matado, mates",
+    "ipa": "/ma.ta.do .ˈma.tes/",
+    "pos": "v. matado, mates",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "que no se ríen ni aunque los mates.",
+    "sentence_full": "que no se ríen ni aunque los mates.",
+    "translation": "杀（原形: matar）",
+    "sentence_translation": "他们不苟言笑 即便他们为了生存必须微笑！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "matar-",
+        "origin": "动词原形 matar",
+        "meaning": "杀"
+      },
+      {
+        "part": "matado, mates",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_339",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_040",
+    "line_index": 40,
+    "character": "S3E01",
+    "target_word": "Mira, miras, miró",
+    "ipa": "/mi.ɾa .mi.ɾas. mi.ˈɾó/",
+    "pos": "v. Mira, miras, miró",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "...a la que miras",
+    "sentence_full": "...a la que miras",
+    "translation": "看（原形: mirar）",
+    "sentence_translation": "这张脸",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "mirar-",
+        "origin": "动词原形 mirar",
+        "meaning": "看"
+      },
+      {
+        "part": "Mira, miras, miró",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_340",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_041",
+    "line_index": 41,
+    "character": "S3E01",
+    "target_word": "Necesitas, Necesito, necesita, necesitan, necesite",
+    "ipa": "/ne.θe.si.tas. ne.θe.si.to .ne.θe.si.ta .ne.θe.si.tan. ne.θe.ˈsi.te/",
+    "pos": "v. Necesitas, Necesito, necesita, necesitan, necesite",
+    "level": "A2",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Necesitas cambiar de aires, ¿no?",
+    "sentence_full": "Necesitas cambiar de aires, ¿no?",
+    "translation": "需要（原形: necesitar）",
+    "sentence_translation": "你想换个环境 是不是？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "necesitar-",
+        "origin": "动词原形 necesitar",
+        "meaning": "需要"
+      },
+      {
+        "part": "Necesitas, Necesito, necesita, necesitan, necesite",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_341",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_042",
+    "line_index": 42,
+    "character": "S3E01",
+    "target_word": "ocurrido",
+    "ipa": "/o.ku.ˈri.do/",
+    "pos": "v. ocurrido",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¿Y eso se te ha ___ ahora, viendo el amanecer?",
+    "sentence_full": "¿Y eso se te ha ocurrido ahora, viendo el amanecer?",
+    "translation": "发生（原形: ocurrir）",
+    "sentence_translation": "你是在看日落的时候想到的吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "ocurrir-",
+        "origin": "动词原形 ocurrir",
+        "meaning": "发生"
+      },
+      {
+        "part": "ocurrido",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_342",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_043",
+    "line_index": 43,
+    "character": "S3E01",
+    "target_word": "oyes",
+    "ipa": "/ˈo.ʝes/",
+    "pos": "v. oyes",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¿me ___?",
+    "sentence_full": "¿me oyes?",
+    "translation": "听见（原形: oír）",
+    "sentence_translation": "你在听吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "oír-",
+        "origin": "动词原形 oír",
+        "meaning": "听见"
+      },
+      {
+        "part": "oyes",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_343",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_044",
+    "line_index": 44,
+    "character": "S3E01",
+    "target_word": "pareces",
+    "ipa": "/pa.ˈɾe.θes/",
+    "pos": "v. pareces",
+    "level": "B2",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Que ___ un viajante.",
+    "sentence_full": "Que pareces un viajante.",
+    "translation": "似乎（原形: parecer）",
+    "sentence_translation": "你看起来像游客",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "parecer-",
+        "origin": "动词原形 parecer",
+        "meaning": "似乎"
+      },
+      {
+        "part": "pareces",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_344",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_045",
+    "line_index": 45,
+    "character": "S3E01",
+    "target_word": "pasa, pasado, pasan, pasará, pasé",
+    "ipa": "/pa.sa .pa.sa.do .pa.san. pa.sa.ˈɾá .pa.sé/",
+    "pos": "v. pasa, pasado, pasan, pasará, pasé",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "tres días se me pasan volando.",
+    "sentence_full": "tres días se me pasan volando.",
+    "translation": "经过/发生（原形: pasar）",
+    "sentence_translation": "三天转瞬即逝",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "pasar-",
+        "origin": "动词原形 pasar",
+        "meaning": "经过/发生"
+      },
+      {
+        "part": "pasa, pasado, pasan, pasará, pasé",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_345",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_046",
+    "line_index": 46,
+    "character": "S3E01",
+    "target_word": "pensaba, piensa, pienso",
+    "ipa": "/pen.sa.ba .pien.sa .ˈpien.so/",
+    "pos": "v. pensaba, piensa, pienso",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "pienso qué habrá sido de mi pobre hijo.",
+    "sentence_full": "pienso qué habrá sido de mi pobre hijo.",
+    "translation": "想（原形: pensar）",
+    "sentence_translation": "我醒来都会想我儿子遭遇了什么",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "pensar-",
+        "origin": "动词原形 pensar",
+        "meaning": "想"
+      },
+      {
+        "part": "pensaba, piensa, pienso",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_346",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_047",
+    "line_index": 47,
+    "character": "S3E01",
+    "target_word": "Perdí, perdí, pierde",
+    "ipa": "/peɾ.ˈdí .peɾ.dí .pieɾ.de/",
+    "pos": "v. Perdí, perdí, pierde",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "lo perdí absolutamente todo.",
+    "sentence_full": "lo perdí absolutamente todo.",
+    "translation": "丢失（原形: perder）",
+    "sentence_translation": "我失去了一切",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "perder-",
+        "origin": "动词原形 perder",
+        "meaning": "丢失"
+      },
+      {
+        "part": "Perdí, perdí, pierde",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_347",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_048",
+    "line_index": 48,
+    "character": "S3E01",
+    "target_word": "Perdona",
+    "ipa": "/peɾ.ˈdo.na/",
+    "pos": "v. Perdona",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ el retraso.",
+    "sentence_full": "Perdona el retraso.",
+    "translation": "原谅（原形: perdonar）",
+    "sentence_translation": "抱歉这么晚才打给你",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "perdonar-",
+        "origin": "动词原形 perdonar",
+        "meaning": "原谅"
+      },
+      {
+        "part": "Perdona",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_348",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_049",
+    "line_index": 49,
+    "character": "S3E01",
+    "target_word": "Puede, Puedo, podría, podían, pudieron, pudiste, puede, pueden, puedes, puedo",
+    "ipa": "/pue.de .pue.do .po.dɾí.ˈa .po.dí.an. pu.die.ɾon. pu.dis.te .pue.de .pue.den. pue.des. pue.do/",
+    "pos": "v. Puede, Puedo, podría, podían, pudieron, pudiste, puede, pueden, puedes, puedo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Y por eso, por eso hoy puedo estar aquí,",
+    "sentence_full": "Y por eso, por eso hoy puedo estar aquí,",
+    "translation": "能（原形: poder）",
+    "sentence_translation": "所以…所以我今天才能在这里",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "poder-",
+        "origin": "动词原形 poder",
+        "meaning": "能"
+      },
+      {
+        "part": "Puede, Puedo, podría, podían, pudieron, pudiste, puede, pueden, puedes, puedo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_349",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_050",
+    "line_index": 50,
+    "character": "S3E01",
+    "target_word": "ponen, pongan, puesto",
+    "ipa": "/po.nen. poŋ.gan.ˈ pues.to/",
+    "pos": "v. ponen, pongan, puesto",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "y que se nos pongan las pupilas como a unos putos mapaches.",
+    "sentence_full": "y que se nos pongan las pupilas como a unos putos mapaches.",
+    "translation": "放（原形: poner）",
+    "sentence_translation": "一直喝到两眼发直",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "poner-",
+        "origin": "动词原形 poner",
+        "meaning": "放"
+      },
+      {
+        "part": "ponen, pongan, puesto",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_350",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_051",
+    "line_index": 51,
+    "character": "S3E01",
+    "target_word": "pregunto",
+    "ipa": "/pɾe.ˈgun.to/",
+    "pos": "v. pregunto",
+    "level": "A2",
+    "pronunciation_focus": "gl_gu",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Y yo me ___: \"¿Es gracioso un criminal?\".",
+    "sentence_full": "Y yo me pregunto: \"¿Es gracioso un criminal?\".",
+    "translation": "问（原形: preguntar）",
+    "sentence_translation": "而我一直在想…罪犯有意思吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "preguntar-",
+        "origin": "动词原形 preguntar",
+        "meaning": "问"
+      },
+      {
+        "part": "pregunto",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_351",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_052",
+    "line_index": 52,
+    "character": "S3E01",
+    "target_word": "presento",
+    "ipa": "/pɾe.ˈsen.to/",
+    "pos": "v. presento",
+    "level": "B2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Te ___ a Tatiana.",
+    "sentence_full": "Te presento a Tatiana.",
+    "translation": "介绍（原形: presentar）",
+    "sentence_translation": "我向你介绍塔蒂亚娜",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "presentar-",
+        "origin": "动词原形 presentar",
+        "meaning": "介绍"
+      },
+      {
+        "part": "presento",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_352",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_053",
+    "line_index": 53,
+    "character": "S3E01",
+    "target_word": "queda, quedas",
+    "ipa": "/ˈkda .kdas/",
+    "pos": "v. queda, quedas",
+    "level": "B2",
+    "pronunciation_focus": "gl_gu",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Y a pesar de que este no es un lugar seguro, tú te quedas.",
+    "sentence_full": "Y a pesar de que este no es un lugar seguro, tú te quedas.",
+    "translation": "留下/剩下（原形: quedar）",
+    "sentence_translation": "即便这里不安全 你还是要留下来",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "quedar-",
+        "origin": "动词原形 quedar",
+        "meaning": "留下/剩下"
+      },
+      {
+        "part": "queda, quedas",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_353",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_054",
+    "line_index": 54,
+    "character": "S3E01",
+    "target_word": "Quieres, Quiero, queremos, querido, quería, quiere, quiero",
+    "ipa": "/ke.ɾes. ke.ɾo .kɾe.mos. kɾi.do .ˈkɾí.a .ke.ɾe .ke.ɾo/",
+    "pos": "v. Quieres, Quiero, queremos, querido, quería, quiere, quiero",
+    "level": "A2",
+    "pronunciation_focus": "gl_gu",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Sin embargo, él me arrebató lo que yo más quería.",
+    "sentence_full": "Sin embargo, él me arrebató lo que yo más quería.",
+    "translation": "想要（原形: querer）",
+    "sentence_translation": "但是 作为交换 他带走了我的最爱",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "querer-",
+        "origin": "动词原形 querer",
+        "meaning": "想要"
+      },
+      {
+        "part": "Quieres, Quiero, queremos, querido, quería, quiere, quiero",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_354",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_055",
+    "line_index": 55,
+    "character": "S3E01",
+    "target_word": "ríen",
+    "ipa": "/ˈrí.en/",
+    "pos": "v. ríen",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "que no se ___ ni aunque los mates.",
+    "sentence_full": "que no se ríen ni aunque los mates.",
+    "translation": "笑（原形: reír）",
+    "sentence_translation": "他们不苟言笑 即便他们为了生存必须微笑！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "reír-",
+        "origin": "动词原形 reír",
+        "meaning": "笑"
+      },
+      {
+        "part": "ríen",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_355",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_056",
+    "line_index": 56,
+    "character": "S3E01",
+    "target_word": "Robando, robando",
+    "ipa": "/ro.ban.do .ɾo.ˈban.do/",
+    "pos": "v. Robando, robando",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Robando. Es lo que sabemos hacer.",
+    "sentence_full": "Robando. Es lo que sabemos hacer.",
+    "translation": "偷（原形: robar）",
+    "sentence_translation": "通过抢劫 这是我们的专长",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "robar-",
+        "origin": "动词原形 robar",
+        "meaning": "偷"
+      },
+      {
+        "part": "Robando, robando",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_356",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_057",
+    "line_index": 57,
+    "character": "S3E01",
+    "target_word": "Sabes, sabemos, sabes, sabéis, sabía, sepamos",
+    "ipa": "/sa.bes. sa.be.mos. sa.bes. sa.bé.ˈis. sa.bí.a .se.pa.mos/",
+    "pos": "v. Sabes, sabemos, sabes, sabéis, sabía, sepamos",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¿Sabes algo de Río?",
+    "sentence_full": "¿Sabes algo de Río?",
+    "translation": "知道（原形: saber）",
+    "sentence_translation": "里约给你打电话了吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "saber-",
+        "origin": "动词原形 saber",
+        "meaning": "知道"
+      },
+      {
+        "part": "Sabes, sabemos, sabes, sabéis, sabía, sepamos",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_357",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_058",
+    "line_index": 58,
+    "character": "S3E01",
+    "target_word": "siguen",
+    "ipa": "/sign/",
+    "pos": "v. siguen",
+    "level": "A2",
+    "pronunciation_focus": "gl_gu",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "...___ escondiéndose en sus agujeros.",
+    "sentence_full": "...siguen escondiéndose en sus agujeros.",
+    "translation": "跟随/继续（原形: seguir）",
+    "sentence_translation": "依然躲在他们的洞里",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "seguir-",
+        "origin": "动词原形 seguir",
+        "meaning": "跟随/继续"
+      },
+      {
+        "part": "siguen",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_358",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_059",
+    "line_index": 59,
+    "character": "S3E01",
+    "target_word": "sentía, siento",
+    "ipa": "/sen.ˈtí.a .sien.to/",
+    "pos": "v. sentía, siento",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Así me sentía...",
+    "sentence_full": "Así me sentía...",
+    "translation": "感觉（原形: sentir）",
+    "sentence_translation": "脱身以后",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "sentir-",
+        "origin": "动词原形 sentir",
+        "meaning": "感觉"
+      },
+      {
+        "part": "sentía, siento",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_359",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_060",
+    "line_index": 60,
+    "character": "S3E01",
+    "target_word": "separamos, separó",
+    "ipa": "/se.pa.ɾa.mos. se.pa.ˈɾó/",
+    "pos": "v. separamos, separó",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Cuando nos separamos en dos barcos,",
+    "sentence_full": "Cuando nos separamos en dos barcos,",
+    "translation": "分开（原形: separar）",
+    "sentence_translation": "我们分开上两条船之前",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "separar-",
+        "origin": "动词原形 separar",
+        "meaning": "分开"
+      },
+      {
+        "part": "separamos, separó",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_360",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_061",
+    "line_index": 61,
+    "character": "S3E01",
+    "target_word": "Es, Seremos, Somos, Son, Soy, era, es, será, sido, somos, son, soy",
+    "ipa": "/es. se.ɾe.mos. so.mos. son. soʝ. e.ɾa. es. se.ˈɾá .si.do .so.mos. son. soʝ/",
+    "pos": "v. Es, Seremos, Somos, Son, Soy, era, es, será, sido, somos, son, soy",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No, yo no soy ningún héroe.",
+    "sentence_full": "No, yo no soy ningún héroe.",
+    "translation": "是（原形: ser）",
+    "sentence_translation": "不 你们错了 我不是英雄",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "ser-",
+        "origin": "动词原形 ser",
+        "meaning": "是"
+      },
+      {
+        "part": "Es, Seremos, Somos, Son, Soy, era, es, será, sido, somos, son, soy",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_361",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_062",
+    "line_index": 62,
+    "character": "S3E01",
+    "target_word": "Tengo, tendría, tenemos, tengo, tenía, tienen, tienes, tuvo",
+    "ipa": "/teŋ.go .ten.dɾí.ˈa .te.ne.mos. teŋ.go .te.ní.a .tie.nen. tie.nes. tu.bo/",
+    "pos": "v. Tengo, tendría, tenemos, tengo, tenía, tienen, tienes, tuvo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Soy un hombre normal y corriente que tuvo el valor suficiente",
+    "sentence_full": "Soy un hombre normal y corriente que tuvo el valor suficiente",
+    "translation": "有（原形: tener）",
+    "sentence_translation": "我只是个足够有勇气",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "tener-",
+        "origin": "动词原形 tener",
+        "meaning": "有"
+      },
+      {
+        "part": "Tengo, tendría, tenemos, tengo, tenía, tienen, tienes, tuvo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_362",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_063",
+    "line_index": 63,
+    "character": "S3E01",
+    "target_word": "terminas",
+    "ipa": "/teɾ.ˈmi.nas/",
+    "pos": "v. terminas",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "y ___ reformando un monasterio.",
+    "sentence_full": "y terminas reformando un monasterio.",
+    "translation": "结束（原形: terminar）",
+    "sentence_translation": "结果最后重修了一家修道院",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "terminar-",
+        "origin": "动词原形 terminar",
+        "meaning": "结束"
+      },
+      {
+        "part": "terminas",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_363",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_064",
+    "line_index": 64,
+    "character": "S3E01",
+    "target_word": "tomo",
+    "ipa": "/ˈto.mo/",
+    "pos": "v. tomo",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¡Yo ___ decisiones!",
+    "sentence_full": "¡Yo tomo decisiones!",
+    "translation": "拿/喝（原形: tomar）",
+    "sentence_translation": "我就下定了决心！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "tomar-",
+        "origin": "动词原形 tomar",
+        "meaning": "拿/喝"
+      },
+      {
+        "part": "tomo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_364",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_065",
+    "line_index": 65,
+    "character": "S3E01",
+    "target_word": "vendió",
+    "ipa": "/ben.di.ˈó/",
+    "pos": "v. vendió",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "pero el libio que los ___, no.",
+    "sentence_full": "pero el libio que los vendió, no.",
+    "translation": "卖（原形: vender）",
+    "sentence_translation": "不可靠的是那个利比亚卖家",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "vender-",
+        "origin": "动词原形 vender",
+        "meaning": "卖"
+      },
+      {
+        "part": "vendió",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_365",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_066",
+    "line_index": 66,
+    "character": "S3E01",
+    "target_word": "Venga, Vienes, vendrá, vendrán, venga, viene",
+    "ipa": "/beŋ.ga .bie.nes. ben.ˈdɾá .ben.dɾán. beŋ.ga .bie.ne/",
+    "pos": "v. Venga, Vienes, vendrá, vendrán, venga, viene",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Una aventura nos vendrá bien.",
+    "sentence_full": "Una aventura nos vendrá bien.",
+    "translation": "来（原形: venir）",
+    "sentence_translation": "冒险对我们俩都有好处",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "venir-",
+        "origin": "动词原形 venir",
+        "meaning": "来"
+      },
+      {
+        "part": "Venga, Vienes, vendrá, vendrán, venga, viene",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_366",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_067",
+    "line_index": 67,
+    "character": "S3E01",
+    "target_word": "Ve, ve, vea, vemos, ven, ves, viendo, viste",
+    "ipa": "/be .be .be.a .be.mos. ben. bes. bien.do .ˈbis.te/",
+    "pos": "v. Ve, ve, vea, vemos, ven, ves, viendo, viste",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No vemos al objetivo.",
+    "sentence_full": "No vemos al objetivo.",
+    "translation": "看（原形: ver）",
+    "sentence_translation": "飞鹰呼叫猎狐一号 我们看不到目标",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "ver-",
+        "origin": "动词原形 ver",
+        "meaning": "看"
+      },
+      {
+        "part": "Ve, ve, vea, vemos, ven, ves, viendo, viste",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_367",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_068",
+    "line_index": 68,
+    "character": "S3E01",
+    "target_word": "vives, viviendo, vivo",
+    "ipa": "/bi.bes. bi.bien.do .ˈbi.bo/",
+    "pos": "v. vives, viviendo, vivo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Llevo más de dos años viviendo en una película romántica.",
+    "sentence_full": "Llevo más de dos años viviendo en una película romántica.",
+    "translation": "生活（原形: vivir）",
+    "sentence_translation": "过去两年多里 我的生活就像爱情片",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "vivir-",
+        "origin": "动词原形 vivir",
+        "meaning": "生活"
+      },
+      {
+        "part": "vives, viviendo, vivo",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_368",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_069",
+    "line_index": 69,
+    "character": "S3E01",
+    "target_word": "vuelto",
+    "ipa": "/ˈbuel.to/",
+    "pos": "v. vuelto",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Se ha ___ a meter vestida en el agua.",
+    "sentence_full": "Se ha vuelto a meter vestida en el agua.",
+    "translation": "回来（原形: volver）",
+    "sentence_translation": "我妈妈又穿着衣服去海里了",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "etymology": [
+      {
+        "part": "volver-",
+        "origin": "动词原形 volver",
+        "meaning": "回来"
+      },
+      {
+        "part": "vuelto",
+        "origin": "动词变位后缀",
+        "meaning": "变位形式"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_369",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_070",
+    "line_index": 70,
+    "character": "S3E01",
+    "target_word": "bonita",
+    "ipa": "/bo.ˈni.ta/",
+    "pos": "adj. bonita",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Muy ___ la casa. - Se está en la gloria.",
+    "sentence_full": "Muy bonita la casa. - Se está en la gloria.",
+    "translation": "漂亮的",
+    "sentence_translation": "-你家真漂亮 -这里感觉就像天堂",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_370",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_071",
+    "line_index": 71,
+    "character": "S3E01",
+    "target_word": "Bueno",
+    "ipa": "/ˈbue.no/",
+    "pos": "adj. Bueno",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "___, y ahora, después de este entrañable encuentro,",
+    "sentence_full": "Bueno, y ahora, después de este entrañable encuentro,",
+    "translation": "好吧/那么（语气词）",
+    "sentence_translation": "好吧，那么现在，在这次亲切的团聚之后，",
+    "usage_note": "此处 Bueno 作语气词（Discourse Marker），用于引出新话题，相当于英语的 'Well,' 'Okay,' 或 'So'，而非形容词'好的'",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_371",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_072",
+    "line_index": 72,
+    "character": "S3E01",
+    "target_word": "Claro, claro",
+    "ipa": "/kla.ɾo .ˈkla.ɾo/",
+    "pos": "adj. Claro, claro",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Pues claro.",
+    "sentence_full": "Pues claro.",
+    "translation": "清楚的",
+    "sentence_translation": "当然 我想约会",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_372",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_073",
+    "line_index": 73,
+    "character": "S3E01",
+    "target_word": "corriente",
+    "ipa": "/ko.ˈrien.te/",
+    "pos": "adj. corriente",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Soy un hombre normal y ___ que tuvo el valor suficiente",
+    "sentence_full": "Soy un hombre normal y corriente que tuvo el valor suficiente",
+    "translation": "普通的",
+    "sentence_translation": "我只是个足够有勇气",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_373",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_074",
+    "line_index": 74,
+    "character": "S3E01",
+    "target_word": "difícil",
+    "ipa": "/di.ˈfí.θil/",
+    "pos": "adj. difícil",
+    "level": "B2",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Hemos conseguido escapar, pero ahora viene lo más ___.",
+    "sentence_full": "Hemos conseguido escapar, pero ahora viene lo más difícil.",
+    "translation": "困难的",
+    "sentence_translation": "我们虽然成功脱身 但现在最严峻的问题刚刚到来",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_374",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_075",
+    "line_index": 75,
+    "character": "S3E01",
+    "target_word": "débil",
+    "ipa": "/ˈdé.bil/",
+    "pos": "adj. débil",
+    "level": "B2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Y la capacidad de la Interpol será muy ___.",
+    "sentence_full": "Y la capacidad de la Interpol será muy débil.",
+    "translation": "虚弱的",
+    "sentence_translation": "所以国际刑警很难能找到你们",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_375",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_076",
+    "line_index": 76,
+    "character": "S3E01",
+    "target_word": "egoístas",
+    "ipa": "/e.go.ˈís.tas/",
+    "pos": "adj. egoístas",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Uno de esos ___, indeseables,",
+    "sentence_full": "Uno de esos egoístas, indeseables,",
+    "translation": "自私的",
+    "sentence_translation": "自私自利的无耻之徒",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_376",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_077",
+    "line_index": 77,
+    "character": "S3E01",
+    "target_word": "eléctricas",
+    "ipa": "/e.ˈléθ.tɾi.kas/",
+    "pos": "adj. eléctricas",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "...le esté dando descargas ___ colgado de los tobillos.",
+    "sentence_full": "...le esté dando descargas eléctricas colgado de los tobillos.",
+    "translation": "电的",
+    "sentence_translation": "把他倒挂起来电击他",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_377",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_078",
+    "line_index": 78,
+    "character": "S3E01",
+    "target_word": "feas",
+    "ipa": "/ˈfe.as/",
+    "pos": "adj. feas",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "tienen un patio trasero para jugar sucio si las cosas se ponen ___.",
+    "sentence_full": "tienen un patio trasero para jugar sucio si las cosas se ponen feas.",
+    "translation": "丑的",
+    "sentence_translation": "都有情况难以控制时 采用卑劣手段的地方",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_378",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_079",
+    "line_index": 79,
+    "character": "S3E01",
+    "target_word": "frescas",
+    "ipa": "/ˈfɾes.kas/",
+    "pos": "adj. frescas",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "¡Que te den por el culo, amigo! ...pero ___.",
+    "sentence_full": "¡Que te den por el culo, amigo! ...pero frescas.",
+    "translation": "新鲜的",
+    "sentence_translation": "去你娘的！去你的烂香蕉！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_379",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_080",
+    "line_index": 80,
+    "character": "S3E01",
+    "target_word": "grande",
+    "ipa": "/ˈgɾan.de/",
+    "pos": "adj. grande",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Es la noticia más ___ que podría dar el Gobierno.",
+    "sentence_full": "Es la noticia más grande que podría dar el Gobierno.",
+    "translation": "大的",
+    "sentence_translation": "这是政府可以公布的大新闻",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_380",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_081",
+    "line_index": 81,
+    "character": "S3E01",
+    "target_word": "gris",
+    "ipa": "/xɾis/",
+    "pos": "adj. gris",
+    "level": "B2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Es la hostia si vives en tu vida ___,",
+    "sentence_full": "Es la hostia si vives en tu vida gris,",
+    "translation": "灰色的",
+    "sentence_translation": "人们因为生活太单调 四处都是交通堵塞…",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_381",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_082",
+    "line_index": 82,
+    "character": "S3E01",
+    "target_word": "infieles",
+    "ipa": "/in.ˈfie.les/",
+    "pos": "adj. infieles",
+    "level": "B2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Sí, he sido uno de esos hombres ___.",
+    "sentence_full": "Sí, he sido uno de esos hombres infieles.",
+    "translation": "不忠的",
+    "sentence_translation": "我也是不忠诚的人",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_382",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_083",
+    "line_index": 83,
+    "character": "S3E01",
+    "target_word": "internacionales",
+    "ipa": "/in.teɾ.na.θio.ˈna.les/",
+    "pos": "adj. internacionales",
+    "level": "B2",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Acabamos de entrar en aguas ___.",
+    "sentence_full": "Acabamos de entrar en aguas internacionales.",
+    "translation": "国际的",
+    "sentence_translation": "我们进入了国际海域",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_383",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_084",
+    "line_index": 84,
+    "character": "S3E01",
+    "target_word": "Libre, libres",
+    "ipa": "/li.bɾe .ˈli.bɾes/",
+    "pos": "adj. Libre, libres",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Libre, adelante.",
+    "sentence_full": "Libre, adelante.",
+    "translation": "自由的",
+    "sentence_translation": "安全 继续前进",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_384",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_085",
+    "line_index": 85,
+    "character": "S3E01",
+    "target_word": "Mejor, mejor",
+    "ipa": "/me.xoɾ. me.ˈxoɾ/",
+    "pos": "adj. Mejor, mejor",
+    "level": "B2",
+    "pronunciation_focus": "j_sound",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Mejor piensa que es para siempre.",
+    "sentence_full": "Mejor piensa que es para siempre.",
+    "translation": "更好的",
+    "sentence_translation": "最好还是当做永远吧",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_385",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_086",
+    "line_index": 86,
+    "character": "S3E01",
+    "target_word": "negro",
+    "ipa": "/ˈŋe.gɾo/",
+    "pos": "adj. negro",
+    "level": "B2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Es un teléfono satelital. Lo compré en el mercado ___ con Helsinki.",
+    "sentence_full": "Es un teléfono satelital. Lo compré en el mercado negro con Helsinki.",
+    "translation": "黑的",
+    "sentence_translation": "这是卫星电话 我和赫尔辛基一起在黑市上买的",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_386",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_087",
+    "line_index": 87,
+    "character": "S3E01",
+    "target_word": "normal",
+    "ipa": "/noɾ.ˈmal/",
+    "pos": "adj. normal",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Soy un hombre ___ y corriente que tuvo el valor suficiente",
+    "sentence_full": "Soy un hombre normal y corriente que tuvo el valor suficiente",
+    "translation": "正常的",
+    "sentence_translation": "我只是个足够有勇气",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_387",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_088",
+    "line_index": 88,
+    "character": "S3E01",
+    "target_word": "nueva",
+    "ipa": "/ˈnue.ba/",
+    "pos": "adj. nueva",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "pero hay gente ___ y conviene recordarlas.",
+    "sentence_full": "pero hay gente nueva y conviene recordarlas.",
+    "translation": "新的",
+    "sentence_translation": "但因为有新人加入 我们还是再强调一遍",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_388",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_089",
+    "line_index": 89,
+    "character": "S3E01",
+    "target_word": "peor",
+    "ipa": "/pe.ˈoɾ/",
+    "pos": "adj. peor",
+    "level": "B2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "El ___ acento argentino que he escuchado en mi vida.",
+    "sentence_full": "El peor acento argentino que he escuchado en mi vida.",
+    "translation": "更差的",
+    "sentence_translation": "这是我听过的 最难听的阿根廷口音 真的",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_389",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_090",
+    "line_index": 90,
+    "character": "S3E01",
+    "target_word": "perfectos",
+    "ipa": "/peɾ.ˈfek.tos/",
+    "pos": "adj. perfectos",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Tranquilo, ni nos cruzamos. Son los vecinos ___.",
+    "sentence_full": "Tranquilo, ni nos cruzamos. Son los vecinos perfectos.",
+    "translation": "完美的",
+    "sentence_translation": "别担心 我们不会有交集的 他们是完美的邻居",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_390",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_091",
+    "line_index": 91,
+    "character": "S3E01",
+    "target_word": "pobre",
+    "ipa": "/ˈpo.bɾe/",
+    "pos": "adj. pobre",
+    "level": "B2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "pienso qué habrá sido de mi ___ hijo.",
+    "sentence_full": "pienso qué habrá sido de mi pobre hijo.",
+    "translation": "穷的",
+    "sentence_translation": "我醒来都会想我儿子遭遇了什么",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_391",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_092",
+    "line_index": 92,
+    "character": "S3E01",
+    "target_word": "Primero, primero, primeros",
+    "ipa": "/pɾi.me.ɾo .pɾi.me.ɾo .pɾi.ˈme.ɾos/",
+    "pos": "adj. Primero, primero, primeros",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Tal vez. Pero gracias a eso, pudieron escapar los primeros rehenes.",
+    "sentence_full": "Tal vez. Pero gracias a eso, pudieron escapar los primeros rehenes.",
+    "translation": "第一的",
+    "sentence_translation": "或许吧 但第一批人质因此得以逃走",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_392",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_093",
+    "line_index": 93,
+    "character": "S3E01",
+    "target_word": "redonda",
+    "ipa": "/re.ˈdon.da/",
+    "pos": "adj. redonda",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "con unas tijeras de punta ___.",
+    "sentence_full": "con unas tijeras de punta redonda.",
+    "translation": "圆的",
+    "sentence_translation": "手持一把钝剪刀威胁我",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_393",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_094",
+    "line_index": 94,
+    "character": "S3E01",
+    "target_word": "rica, ricos",
+    "ipa": "/ri.ka .ˈɾi.kos/",
+    "pos": "adj. rica, ricos",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "¡Di que sí! - ¡Somos ricos!",
+    "sentence_full": "¡Di que sí! - ¡Somos ricos!",
+    "translation": "富有的",
+    "sentence_translation": "-太棒了！ -我们有钱了！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_394",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_095",
+    "line_index": 95,
+    "character": "S3E01",
+    "target_word": "romántica",
+    "ipa": "/ro.ˈmán.ti.ka/",
+    "pos": "adj. romántica",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Llevo más de dos años viviendo en una película ___.",
+    "sentence_full": "Llevo más de dos años viviendo en una película romántica.",
+    "translation": "浪漫的",
+    "sentence_translation": "过去两年多里 我的生活就像爱情片",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_395",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_096",
+    "line_index": 96,
+    "character": "S3E01",
+    "target_word": "rápido",
+    "ipa": "/ˈrá.pi.do/",
+    "pos": "adj. rápido",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Se pasan tan ___ que te olvidas de lo único que tienes que hacer.",
+    "sentence_full": "Se pasan tan rápido que te olvidas de lo único que tienes que hacer.",
+    "translation": "快的",
+    "sentence_translation": "快到让你忘了唯一要做的重要之事",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_396",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_097",
+    "line_index": 97,
+    "character": "S3E01",
+    "target_word": "salvajes",
+    "ipa": "/sal.ˈba.xes/",
+    "pos": "adj. salvajes",
+    "level": "B2",
+    "pronunciation_focus": "j_sound",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Desnudos, ___,",
+    "sentence_full": "Desnudos, salvajes,",
+    "translation": "野生的",
+    "sentence_translation": "虽不着衣衫 远离人烟…",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_397",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_098",
+    "line_index": 98,
+    "character": "S3E01",
+    "target_word": "segura, seguro, seguros",
+    "ipa": "/se.gu.ɾa .se.gu.ɾo .se.ˈgu.ɾos/",
+    "pos": "adj. segura, seguro, seguros",
+    "level": "B1",
+    "pronunciation_focus": "gl_gu",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "El teléfono era seguro,",
+    "sentence_full": "El teléfono era seguro,",
+    "translation": "安全的",
+    "sentence_translation": "电话很可靠",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_398",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_099",
+    "line_index": 99,
+    "character": "S3E01",
+    "target_word": "sucio",
+    "ipa": "/ˈsu.θio/",
+    "pos": "adj. sucio",
+    "level": "B2",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "tienen un patio trasero para jugar ___ si las cosas se ponen feas.",
+    "sentence_full": "tienen un patio trasero para jugar sucio si las cosas se ponen feas.",
+    "translation": "脏的",
+    "sentence_translation": "都有情况难以控制时 采用卑劣手段的地方",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_399",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_100",
+    "line_index": 100,
+    "character": "S3E01",
+    "target_word": "vivo",
+    "ipa": "/ˈbi.bo/",
+    "pos": "adj. vivo",
+    "level": "B2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Mantenerse ___.",
+    "sentence_full": "Mantenerse vivo.",
+    "translation": "活着的",
+    "sentence_translation": "生存",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_400",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_101",
+    "line_index": 101,
+    "character": "S3E01",
+    "target_word": "absolutamente",
+    "ipa": "/ab.so.lu.ta.ˈmen.te/",
+    "pos": "adv. absolutamente",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "lo perdí ___ todo.",
+    "sentence_full": "lo perdí absolutamente todo.",
+    "translation": "绝对地",
+    "sentence_translation": "我失去了一切",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_401",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_102",
+    "line_index": 102,
+    "character": "S3E01",
+    "target_word": "acaso",
+    "ipa": "/a.ˈka.so/",
+    "pos": "adv. acaso",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "¿Un terrorista puede ser ___ considerado un héroe?",
+    "sentence_full": "¿Un terrorista puede ser acaso considerado un héroe?",
+    "translation": "也许",
+    "sentence_translation": "恐怖分子怎么能被当做英雄？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_402",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_103",
+    "line_index": 103,
+    "character": "S3E01",
+    "target_word": "adelante",
+    "ipa": "/a.de.ˈlan.te/",
+    "pos": "adv. adelante",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "Libre, ___.",
+    "sentence_full": "Libre, adelante.",
+    "translation": "向前",
+    "sentence_translation": "安全 继续前进",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_403",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_104",
+    "line_index": 104,
+    "character": "S3E01",
+    "target_word": "Además",
+    "ipa": "/a.de.ˈmás/",
+    "pos": "adv. Además",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "___, tienen voto de silencio.",
+    "sentence_full": "Además, tienen voto de silencio.",
+    "translation": "此外",
+    "sentence_translation": "而且 他们信奉安宁",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_404",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_105",
+    "line_index": 105,
+    "character": "S3E01",
+    "target_word": "antes",
+    "ipa": "/ˈan.tes/",
+    "pos": "adv. antes",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "La mía llegó ___ Están pinchados.",
+    "sentence_full": "La mía llegó antes Están pinchados.",
+    "translation": "之前",
+    "sentence_translation": "他们更早确定了我的位置",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_405",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_106",
+    "line_index": 106,
+    "character": "S3E01",
+    "target_word": "atrás",
+    "ipa": "/a.ˈtɾás/",
+    "pos": "adv. atrás",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "De ___. En el camión que introduce las bobinas.",
+    "sentence_full": "De atrás. En el camión que introduce las bobinas.",
+    "translation": "向后",
+    "sentence_translation": "后门 通过运筒管的卡车",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_406",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_107",
+    "line_index": 107,
+    "character": "S3E01",
+    "target_word": "Bastante",
+    "ipa": "/bas.ˈtan.te/",
+    "pos": "adv. Bastante",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "___ ha durado.",
+    "sentence_full": "Bastante ha durado.",
+    "translation": "相当",
+    "sentence_translation": "已经很久了",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_407",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_108",
+    "line_index": 108,
+    "character": "S3E01",
+    "target_word": "Después, después",
+    "ipa": "/des.pu.és.ˈ des.pu.és/",
+    "pos": "adv. Después, después",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "Menos de un minuto después...",
+    "sentence_full": "Menos de un minuto después...",
+    "translation": "以后",
+    "sentence_translation": "不到一分钟后",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_408",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_109",
+    "line_index": 109,
+    "character": "S3E01",
+    "target_word": "juntos",
+    "ipa": "/ˈxun.tos/",
+    "pos": "adv. juntos",
+    "level": "B2",
+    "pronunciation_focus": "j_sound",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "Entiendo que Helsinki y tú vais ___.",
+    "sentence_full": "Entiendo que Helsinki y tú vais juntos.",
+    "translation": "一起",
+    "sentence_translation": "我想你和赫尔辛基应该会在一起",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S3E01_409",
+    "episode": "S3E01",
+    "scene_id": "line_vocab_110",
+    "line_index": 110,
+    "character": "S3E01",
+    "target_word": "Tardé, tarde",
+    "ipa": "/taɾ.ˈdé .taɾ.de/",
+    "pos": "adv. Tardé, tarde",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "Tardé 11 días en llegar al templo donde me dejaron.",
+    "sentence_full": "Tardé 11 días en llegar al templo donde me dejaron.",
+    "translation": "晚",
+    "sentence_translation": "我用了11天才到那座寺庙 承运人把我留在了那里",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
   }
 ]

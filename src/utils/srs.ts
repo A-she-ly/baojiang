@@ -25,12 +25,13 @@ export function scheduleNext(
     lapses: 0,
   }
 
-  let { interval, easeFactor, reps, lapses, status } = base
+  let { interval, easeFactor, reps, lapses, status, totalErrors = 0 } = base
 
   reps += 1
 
   if (rating === 'again') {
     lapses += 1
+    totalErrors += 1
     status = 'learning'
     interval = 0 // show again in ~10 minutes
     easeFactor = Math.max(1.3, easeFactor - 0.2)
@@ -39,6 +40,7 @@ export function scheduleNext(
     else if (status === 'learning' && reps >= 2) status = 'review'
 
     if (rating === 'hard') {
+      totalErrors += 1
       easeFactor = Math.max(1.3, easeFactor - 0.15)
       interval = interval === 0 ? 1 : Math.max(1, Math.round(interval * 1.2))
     } else if (rating === 'good') {
@@ -62,6 +64,7 @@ export function scheduleNext(
     dueAt,
     reps,
     lapses,
+    totalErrors,
     lastRating: rating,
   }
 }

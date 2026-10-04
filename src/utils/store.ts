@@ -8,6 +8,8 @@ const LS_KEYS = {
   disliked: 'bjy_disliked_v1',
   mastered: 'bjy_mastered_v1',
   seen: 'bjy_seen_v1',
+  userCards: 'bjy_user_cards_v1',
+  mnemonics: 'bjy_mnemonics_v1',
   settings: 'bjy_settings_v1',
   view: 'bjy_view_v1',
 }
@@ -19,11 +21,13 @@ type View =
 
 interface Store {
   cards: Flashcard[]
+  userCards: Flashcard[]
   srs: SrsState
   favorites: Set<string>
   disliked: Set<string>
   mastered: Set<string>
   seen: Set<string>
+  mnemonics: Record<string, string[]>
   view: View
   load: (cards: Flashcard[]) => void
   hydrate: () => void
@@ -33,6 +37,9 @@ interface Store {
   toggleDislike: (id: string) => void
   toggleMastered: (id: string) => void
   markSeen: (id: string) => void
+  addUserCard: (card: Flashcard) => void
+  addMnemonic: (cardId: string, text: string) => void
+  removeMnemonic: (cardId: string, index: number) => void
 }
 
 function loadLS<T>(key: string, fallback: T): T {
@@ -47,11 +54,13 @@ function loadLS<T>(key: string, fallback: T): T {
 
 export const useStore = create<Store>((set, get) => ({
   cards: [],
+  userCards: [],
   srs: {},
   favorites: new Set(),
   disliked: new Set(),
   mastered: new Set(),
   seen: new Set(),
+  mnemonics: {},
   view: { name: 'home' },
 
   load(cards) {
@@ -64,8 +73,10 @@ export const useStore = create<Store>((set, get) => ({
     const dislikedArr = loadLS<string[]>(LS_KEYS.disliked, [])
     const masteredArr = loadLS<string[]>(LS_KEYS.mastered, [])
     const seenArr = loadLS<string[]>(LS_KEYS.seen, [])
+    const userCardsArr = loadLS<Flashcard[]>(LS_KEYS.userCards, [])
+    const mnemonics = loadLS<Record<string, string[]>>(LS_KEYS.mnemonics, {})
     const savedView = loadLS<View>(LS_KEYS.view, { name: 'home' as const })
-    set({ srs, favorites: new Set(favArr), disliked: new Set(dislikedArr), mastered: new Set(masteredArr), seen: new Set(seenArr), view: savedView })
+    set({ srs, favorites: new Set(favArr), disliked: new Set(dislikedArr), mastered: new Set(masteredArr), seen: new Set(seenArr), userCards: userCardsArr, mnemonics, view: savedView })
   },
 
   setView(view) {
@@ -112,5 +123,29 @@ export const useStore = create<Store>((set, get) => ({
     next.add(id)
     localStorage.setItem(LS_KEYS.seen, JSON.stringify([...next]))
     set({ seen: next })
+  },
+
+  addUserCard(card) {
+    const userCards = [...get().userCards, card]
+    localStorage.setItem(LS_KEYS.userCards, JSON.stringify(userCards))
+    set({ userCards })
+  },
+
+  addMnemonic(cardId, text) {
+    const mnemonics = { ...get().mnemonics }
+    if (!mnemonics[cardId]) mnemonics[cardId] = []
+    mnemonics[cardId] = [...mnemonics[cardId], text]
+    localStorage.setItem(LS_KEYS.mnemonics, JSON.stringify(mnemonics))
+    set({ mnemonics })
+  },
+
+  removeMnemonic(cardId, index) {
+    const mnemonics = { ...get().mnemonics }
+    if (mnemonics[cardId]) {
+      mnemonics[cardId] = mnemonics[cardId].filter((_, i) => i !== index)
+      if (mnemonics[cardId].length === 0) delete mnemonics[cardId]
+    }
+    localStorage.setItem(LS_KEYS.mnemonics, JSON.stringify(mnemonics))
+    set({ mnemonics })
   },
 }))

@@ -155,8 +155,8 @@
       "zh": "选择闪卡分类维度"
     },
     "filterDesc": {
-      "main": "Phonetics use General American (GenAm) notation; each card highlights one key listening or pronunciation focus.",
-      "zh": "音标采用美式英语（GenAm）标注，每张卡突出一个听辨或发音重点。"
+      "main": "Phonetics use IPA notation; each card highlights one key listening or pronunciation focus.",
+      "zh": "音标采用国际音标（IPA）标注，每张卡突出一个听辨或发音重点。"
     },
     "filterAll": {
       "main": "All",
@@ -165,6 +165,10 @@
     "filterPos": {
       "main": "Part of Speech",
       "zh": "词性"
+    },
+    "filterEpisode": {
+      "main": "Episode",
+      "zh": "剧集"
     },
     "filterPronunciation": {
       "main": "Pronunciation",
@@ -242,6 +246,14 @@
       "main": "Keep practicing these almost-there words!",
       "zh": "继续练习这些差一点就记住的单词！"
     },
+    "needsWork": {
+      "main": "Needs Consolidation",
+      "zh": "需要巩固"
+    },
+    "needsWorkDesc": {
+      "main": "Words with 5+ errors — strengthen them!",
+      "zh": "出错 5 次以上的单词 — 加强巩固！"
+    },
     "blindSpotPreview": {
       "main": "Blind Spots",
       "zh": "盲区词预览"
@@ -249,6 +261,22 @@
     "blindSpotPreviewDesc": {
       "main": "Words never seen — discover them!",
       "zh": "从未见过的单词 — 来认识它们吧！"
+    },
+    "favoritesPreview": {
+      "main": "Favorites",
+      "zh": "收藏闪卡"
+    },
+    "favoritesPreviewDesc": {
+      "main": "Your favorite words — review them!",
+      "zh": "你收藏的单词 — 来复习吧！"
+    },
+    "masteredPreview": {
+      "main": "Ya lo sé",
+      "zh": "已掌握"
+    },
+    "masteredPreviewDesc": {
+      "main": "Words you've mastered — review them!",
+      "zh": "你已掌握的单词 — 来回顾吧！"
     },
     "startYourJourney": {
       "main": " Ready to start your journey? 🌟",

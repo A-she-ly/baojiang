@@ -155,8 +155,8 @@
       "zh": "选择闪卡分类维度"
     },
     "filterDesc": {
-      "main": "La fonética usa notación General American (GenAm); cada tarjeta destaca un punto clave de audición o pronunciación.",
-      "zh": "音标采用美式英语（GenAm）标注，每张卡突出一个听辨或发音重点。"
+      "main": "La fonética usa notación IPA; cada tarjeta destaca un punto clave de audición o pronunciación.",
+      "zh": "音标采用国际音标（IPA）标注，每张卡突出一个听辨或发音重点。"
     },
     "filterAll": {
       "main": "Todo",
@@ -165,6 +165,10 @@
     "filterPos": {
       "main": "Categoría gramatical",
       "zh": "词性"
+    },
+    "filterEpisode": {
+      "main": "Episodio",
+      "zh": "剧集"
     },
     "filterPronunciation": {
       "main": "Pronunciación",
@@ -242,6 +246,14 @@
       "main": "¡Sigue practicando estas palabras casi listas!",
       "zh": "继续练习这些差一点就记住的单词！"
     },
+    "needsWork": {
+      "main": "Necesita consolidación",
+      "zh": "需要巩固"
+    },
+    "needsWorkDesc": {
+      "main": "Palabras con 5+ errores — ¡refuérzalas!",
+      "zh": "出错 5 次以上的单词 — 加强巩固！"
+    },
     "blindSpotPreview": {
       "main": "Zona ciega",
       "zh": "盲区词预览"
@@ -249,6 +261,22 @@
     "blindSpotPreviewDesc": {
       "main": "Palabras nunca vistas — ¡descúbrelas!",
       "zh": "从未见过的单词 — 来认识它们吧！"
+    },
+    "favoritesPreview": {
+      "main": "Favoritas",
+      "zh": "收藏闪卡"
+    },
+    "favoritesPreviewDesc": {
+      "main": "Tus palabras favoritas — ¡repásalas!",
+      "zh": "你收藏的单词 — 来复习吧！"
+    },
+    "masteredPreview": {
+      "main": "Ya lo sé",
+      "zh": "已掌握"
+    },
+    "masteredPreviewDesc": {
+      "main": "Palabras que ya dominas — ¡revísalas!",
+      "zh": "你已掌握的单词 — 来回顾吧！"
     },
     "startYourJourney": {
       "main": " ¿Listo para comenzar tu viaje? 🌟",

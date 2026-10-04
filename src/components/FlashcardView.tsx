@@ -4,6 +4,7 @@ import BilingualText, { Bi } from './BilingualText'
 import type { Flashcard, SrsRating } from '../data/types'
 import { useStore } from '../utils/store'
 import { autoRateFromAttempts } from '../utils/srs'
+import { playTTS as playTTSUtil, stopTTS } from '../utils/tts'
 
 const LEVEL_COLORS: Record<Flashcard['level'], string> = {
   A1: 'bg-green-100 text-green-800',
@@ -39,6 +40,7 @@ interface Props {
   onDislike: (cardId: string) => void
   onMastered: (cardId: string) => void
   onWordClick: (cardId: string) => void
+  onCreateCard?: (selectedText: string) => void
   wordMap: Map<string, string>
   progress: { current: number; total: number }
 }
@@ -154,12 +156,18 @@ export default function FlashcardView({
   onMastered,
   progress,
   onWordClick,
+  onCreateCard,
   wordMap,
 }: Props) {
   const { t } = useTranslation()
   const [flipped, setFlipped] = useState(false)
   const [hintLevel, setHintLevel] = useState<'none' | 'light' | 'full'>('none')
   const [isPlaying, setIsPlaying] = useState(false)
+  const [ttsError, setTtsError] = useState<string | null>(null)
+
+  // Text selection state for creating new cards
+  const [selectionPopup, setSelectionPopup] = useState<{ text: string; x: number; y: number } | null>(null)
+  const cardAreaRef = useRef<HTMLDivElement>(null)
   const favorites = useStore((s) => s.favorites)
   const toggleFavorite = useStore((s) => s.toggleFavorite)
   const disliked = useStore((s) => s.disliked)
@@ -167,6 +175,9 @@ export default function FlashcardView({
   const mastered = useStore((s) => s.mastered)
   const toggleMastered = useStore((s) => s.toggleMastered)
   const markSeen = useStore((s) => s.markSeen)
+  const mnemonics = useStore((s) => s.mnemonics)
+  const addMnemonic = useStore((s) => s.addMnemonic)
+  const removeMnemonic = useStore((s) => s.removeMnemonic)
   const isFav = favorites.has(card.id)
   const isDisliked = disliked.has(card.id)
   const isMastered = mastered.has(card.id)
@@ -176,6 +187,39 @@ export default function FlashcardView({
     markSeen(card.id)
   }, [card.id, markSeen])
 
+  // Clear selection popup when card changes
+  useEffect(() => {
+    setSelectionPopup(null)
+  }, [card.id])
+
+  // Text selection detection
+  useEffect(() => {
+    const handleMouseUp = () => {
+      const sel = window.getSelection()
+      const text = sel?.toString().trim()
+      if (text && text.length > 0 && text.length < 50 && cardAreaRef.current?.contains(sel?.anchorNode ?? null)) {
+        const range = sel?.getRangeAt(0)
+        if (range) {
+          const rect = range.getBoundingClientRect()
+          setSelectionPopup({
+            text,
+            x: rect.left + rect.width / 2,
+            y: rect.top - 10,
+          })
+        }
+      }
+    }
+    const handleMouseDown = () => {
+      setSelectionPopup(null)
+    }
+    document.addEventListener('mouseup', handleMouseUp)
+    document.addEventListener('mousedown', handleMouseDown)
+    return () => {
+      document.removeEventListener('mouseup', handleMouseUp)
+      document.removeEventListener('mousedown', handleMouseDown)
+    }
+  }, [])
+
   // --- Quiz / answer input state ---
   const [userAnswer, setUserAnswer] = useState('')
   const [answerState, setAnswerState] = useState<'idle' | 'correct' | 'wrong' | 'revealed'>('idle')
@@ -184,6 +228,11 @@ export default function FlashcardView({
   const [autoRating, setAutoRating] = useState<SrsRating | null>(null)
   const [cardRated, setCardRated] = useState(false)  // Prevent double-counting
   const inputRef = useRef<HTMLInputElement>(null)
+
+  // Mnemonic input state
+  const [mnemonicInput, setMnemonicInput] = useState('')
+  const [showMnemonicInput, setShowMnemonicInput] = useState(false)
+  const cardMnemonics = mnemonics[card.id] || []
 
   // Focus input when card changes OR when flipping back to front
   useEffect(() => {
@@ -212,54 +261,18 @@ export default function FlashcardView({
   // Pronunciation focus label (main text only for badge)
   const pronLabel = (t(`pronunciation.${card.pronunciation_focus}`, { returnObjects: true }) as { main?: string })?.main ?? card.pronunciation_focus
 
-  // Preload speech voices
-  useEffect(() => {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.getVoices()
-      window.speechSynthesis.onvoiceschanged = () => {
-        window.speechSynthesis.getVoices()
-      }
-    }
-  }, [])
-
-  function playTTS(text: string) {
+  // TTS wrapper
+  const ttsLang = card.id.startsWith('LCDP_') ? 'es' as const : 'en' as const
+  function handlePlay(text: string) {
     if (isPlaying) {
-      window.speechSynthesis.cancel()
+      stopTTS()
       setIsPlaying(false)
       return
     }
-    const cleanText = text.replace(/\*|\(.*?\)/g, '').trim()
-    if (!cleanText) return
-
-    const isSpanish = card.id.startsWith('LCDP_')
-    const lang = isSpanish ? 'es' : 'en'
-    const encoded = encodeURIComponent(cleanText)
-    const audio = new Audio(`/api/tts?text=${encoded}&lang=${lang}`)
-    audio.onplay = () => setIsPlaying(true)
-    audio.onended = () => setIsPlaying(false)
-    audio.onerror = () => playBrowserTTS(cleanText)
-    audio.play().catch(() => playBrowserTTS(cleanText))
-  }
-
-  function playBrowserTTS(text: string) {
-    const utterance = new SpeechSynthesisUtterance(text)
-    // Detect language from card ID prefix
-    const isSpanish = card.id.startsWith('LCDP_')
-    utterance.lang = isSpanish ? 'es-ES' : 'en-US'
-    utterance.rate = 0.9
-    const voices = window.speechSynthesis.getVoices()
-    const targetLang = isSpanish ? 'es' : 'en'
-    const langVoices = voices.filter((v) => v.lang.startsWith(targetLang))
-    const preferred =
-      langVoices.find((v) => v.name.includes('Microsoft') && v.name.includes('Online')) ||
-      langVoices.find((v) => v.name.includes('Google')) ||
-      langVoices.find((v) => v.name.includes('Microsoft')) ||
-      langVoices[0]
-    if (preferred) utterance.voice = preferred
-    utterance.onstart = () => setIsPlaying(true)
-    utterance.onend = () => setIsPlaying(false)
-    utterance.onerror = () => setIsPlaying(false)
-    window.speechSynthesis.speak(utterance)
+    playTTSUtil(text, ttsLang, () => setIsPlaying(true), () => setIsPlaying(false), (msg) => {
+      setTtsError(msg)
+      setTimeout(() => setTtsError(null), 5000)
+    })
   }
 
   const avatar = CHAR_AVATAR[card.character] ?? ''
@@ -407,7 +420,7 @@ export default function FlashcardView({
   }
 
   return (
-    <div className="w-full max-w-2xl mx-auto px-4 py-6">
+    <div ref={cardAreaRef} className="w-full max-w-2xl mx-auto px-4 py-6 relative">
       {/* Header */}
       <div className="flex items-center justify-between mb-4 text-sm text-friends-sofa/80">
         <div className="flex items-center gap-2">
@@ -434,7 +447,7 @@ export default function FlashcardView({
             {card.level}
           </span>
           <span
-            title={t('card.pronunciationFocus', { label: pronLabel, returnObjects: true }) as any}
+            title={t('card.pronunciationFocus.main', { label: pronLabel })}
             className="px-2.5 py-0.5 rounded-full bg-white/70 border border-friends-coffee/30 text-xs font-medium"
           >
             {pronLabel}
@@ -457,6 +470,10 @@ export default function FlashcardView({
           <div
             className="card-face front paper-texture cursor-pointer"
             onClick={() => {
+              // Don't flip if user is selecting text (for creating cards)
+              const sel = window.getSelection()
+              if (sel && sel.toString().trim()) return
+
               if (!cardRated && answerState !== 'correct' && answerState !== 'revealed') {
                 // Peeking at back = revealed the answer, but still allow answering
                 const rating = autoRateFromAttempts(attempts, feedbackLevel, true)
@@ -555,7 +572,7 @@ export default function FlashcardView({
                                   <button
                                     onClick={(e) => {
                                       e.stopPropagation()
-                                      playTTS(card.target_word)
+                                      handlePlay(card.target_word)
                                     }}
                                     className="w-6 h-6 rounded-full flex items-center justify-center transition text-sm bg-friends-accent/15 text-friends-accent hover:bg-friends-accent/30"
                                     title={`播放单词: ${card.target_word}`}
@@ -573,19 +590,14 @@ export default function FlashcardView({
                   <button
                     onClick={(e) => {
                       e.stopPropagation()
-                      if (isPlaying) {
-                        window.speechSynthesis.cancel()
-                        setIsPlaying(false)
-                      } else {
-                        playTTS(card.sentence_full)
-                      }
+                      handlePlay(card.sentence_full)
                     }}
                     className={`mt-1 flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition text-base ${
                       isPlaying
                         ? 'bg-friends-perk text-white animate-pulse'
                         : 'bg-friends-perk/15 text-friends-perk hover:bg-friends-perk/30'
                     }`}
-                    title={t('card.readSentence', { returnObjects: true }) as any}
+                    title={t('card.readSentence.main')}
                   >
                     🔊
                   </button>
@@ -744,7 +756,12 @@ export default function FlashcardView({
           {/* BACK */}
           <div
             className="card-face back paper-texture cursor-pointer"
-            onClick={() => setFlipped(false)}
+            onClick={() => {
+              // Don't flip if user is selecting text (for creating cards)
+              const sel = window.getSelection()
+              if (sel && sel.toString().trim()) return
+              setFlipped(false)
+            }}
           >
             <div className="h-full w-full flex flex-col p-5 sm:p-7 gap-4 overflow-y-auto">
               {/* Target word */}
@@ -756,6 +773,18 @@ export default function FlashcardView({
                     </div>
                     {card.translation && (
                       <div className="mt-1 text-lg text-friends-perk font-medium">{card.translation}</div>
+                    )}
+
+                    {/* Usage note for discourse markers and special usage */}
+                    {(card as any).usage_note && (
+                      <div className="mt-2 bg-amber-50 rounded-lg p-3 border-l-4 border-amber-400">
+                        <div className="text-xs uppercase tracking-wide text-amber-700 font-bold mb-1">
+                          💡 用法提示
+                        </div>
+                        <div className="text-sm text-amber-900 leading-relaxed">
+                          {(card as any).usage_note}
+                        </div>
+                      </div>
                     )}
 
                     {/* Etymology breakdown */}
@@ -797,19 +826,14 @@ export default function FlashcardView({
                   <button
                     onClick={(e) => {
                       e.stopPropagation()
-                      if (isPlaying) {
-                        window.speechSynthesis.cancel()
-                        setIsPlaying(false)
-                      } else {
-                        playTTS(card.target_word)
-                      }
+                      handlePlay(card.target_word)
                     }}
                     className={`mt-1 flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition text-lg ${
                       isPlaying
                         ? 'bg-friends-perk text-white animate-pulse'
                         : 'bg-friends-perk/15 text-friends-perk hover:bg-friends-perk/30'
                     }`}
-                    title={t('card.readWord', { returnObjects: true }) as any}
+                    title={t('card.readWord.main')}
                   >
                     🔊
                   </button>
@@ -850,19 +874,14 @@ export default function FlashcardView({
                     <button
                       onClick={(e) => {
                         e.stopPropagation()
-                        if (isPlaying) {
-                          window.speechSynthesis.cancel()
-                          setIsPlaying(false)
-                        } else {
-                          playTTS(card.sentence_full)
-                        }
+                        handlePlay(card.sentence_full)
                       }}
                       className={`mt-0.5 flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition text-lg ${
                         isPlaying
                           ? 'bg-friends-perk text-white animate-pulse'
                           : 'bg-friends-perk/15 text-friends-perk hover:bg-friends-perk/30'
                       }`}
-                      title={t('card.readExample', { returnObjects: true }) as any}
+                      title={t('card.readExample.main')}
                     >
                       🔊
                     </button>
@@ -898,19 +917,14 @@ export default function FlashcardView({
                     <button
                       onClick={(e) => {
                         e.stopPropagation()
-                        if (isPlaying) {
-                          window.speechSynthesis.cancel()
-                          setIsPlaying(false)
-                        } else {
-                          playTTS(card.sentence_full)
-                        }
+                        handlePlay(card.sentence_full)
                       }}
                       className={`mt-2 flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition text-lg ${
                         isPlaying
                           ? 'bg-friends-perk text-white animate-pulse'
                           : 'bg-friends-perk/15 text-friends-perk hover:bg-friends-perk/30'
                       }`}
-                      title={t('card.readLine', { returnObjects: true }) as any}
+                      title={t('card.readLine.main')}
                     >
                       {isPlaying ? '' : '🔊'}
                     </button>
@@ -974,6 +988,90 @@ export default function FlashcardView({
                 </div>
               )}
 
+              {/* Memory associations / Mnemonics */}
+              <div className="bg-violet-50/80 rounded-xl p-4 border border-violet-200">
+                <div className="flex items-center justify-between mb-2">
+                  <div className="text-xs uppercase tracking-wide text-violet-700 font-bold flex items-center gap-1">
+                    🧠 记忆联想
+                  </div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      setShowMnemonicInput(!showMnemonicInput)
+                    }}
+                    className="text-xs text-violet-600 hover:text-violet-800 font-medium transition"
+                  >
+                    {showMnemonicInput ? '收起' : '+ 添加'}
+                  </button>
+                </div>
+
+                {/* Existing mnemonics */}
+                {cardMnemonics.length > 0 && (
+                  <div className="space-y-2 mb-2">
+                    {cardMnemonics.map((m, i) => (
+                      <div key={i} className="flex items-start gap-2 text-sm text-violet-900 bg-white/60 rounded-lg px-3 py-2">
+                        <span className="flex-1 leading-relaxed">{m}</span>
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            removeMnemonic(card.id, i)
+                          }}
+                          className="text-violet-400 hover:text-red-500 transition text-xs flex-shrink-0 mt-0.5"
+                          title="删除"
+                        >
+                          ✕
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {/* Input form */}
+                {showMnemonicInput && (
+                  <div className="mt-2" onMouseDown={(e) => e.stopPropagation()} onClick={(e) => e.stopPropagation()}>
+                    <textarea
+                      value={mnemonicInput}
+                      onChange={(e) => setMnemonicInput(e.target.value)}
+                      placeholder="例如：feas → fear（恐惧），恐惧是丑陋的"
+                      className="w-full px-3 py-2 text-sm rounded-lg border border-violet-200 bg-white focus:outline-none focus:ring-2 focus:ring-violet-400 resize-none"
+                      rows={2}
+                      onMouseDown={(e) => e.stopPropagation()}
+                      onClick={(e) => e.stopPropagation()}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' && !e.shiftKey) {
+                          e.preventDefault()
+                          if (mnemonicInput.trim()) {
+                            addMnemonic(card.id, mnemonicInput.trim())
+                            setMnemonicInput('')
+                          }
+                        }
+                      }}
+                    />
+                    <div className="flex justify-end mt-1.5">
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          if (mnemonicInput.trim()) {
+                            addMnemonic(card.id, mnemonicInput.trim())
+                            setMnemonicInput('')
+                          }
+                        }}
+                        disabled={!mnemonicInput.trim()}
+                        className="px-3 py-1 text-xs rounded-lg bg-violet-600 text-white font-medium hover:bg-violet-700 transition disabled:opacity-40 disabled:pointer-events-none"
+                      >
+                        保存
+                      </button>
+                    </div>
+                  </div>
+                )}
+
+                {cardMnemonics.length === 0 && !showMnemonicInput && (
+                  <div className="text-xs text-violet-500 italic">
+                    点击“+ 添加”记录你的记忆联想，帮助加深印象
+                  </div>
+                )}
+              </div>
+
               <div className="mt-auto pt-2 text-center text-xs text-friends-coffee/70">
                 <Bi i18nKey="card.tapToHide" />
               </div>
@@ -981,6 +1079,35 @@ export default function FlashcardView({
           </div>
         </div>
       </div>
+
+      {/* Floating "Create Card" button on text selection */}
+      {selectionPopup && onCreateCard && (
+        <div
+          className="fixed z-50 transform -translate-x-1/2 -translate-y-full"
+          style={{ left: selectionPopup.x, top: selectionPopup.y }}
+          onMouseDown={(e) => e.stopPropagation()}
+        >
+          <button
+            onClick={(e) => {
+              e.stopPropagation()
+              onCreateCard(selectionPopup.text)
+              setSelectionPopup(null)
+              window.getSelection()?.removeAllRanges()
+            }}
+            className="px-3 py-1.5 rounded-lg bg-friends-perk text-white text-xs font-semibold shadow-lg hover:bg-friends-perk/90 transition-all whitespace-nowrap animate-bounce"
+          >
+            ✨ Crear tarjeta / 创建闪卡
+          </button>
+          <div className="w-2 h-2 bg-friends-perk transform rotate-45 mx-auto -mt-1" />
+        </div>
+      )}
+
+      {/* TTS error toast */}
+      {ttsError && (
+        <div className="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-5 py-3 bg-red-500 text-white text-sm rounded-xl shadow-lg animate-pulse">
+          {ttsError}
+        </div>
+      )}
     </div>
   )
 }

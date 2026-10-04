@@ -120,6 +120,7 @@ export interface SrsState {
     dueAt: number // timestamp ms
     reps: number
     lapses: number
+    totalErrors?: number // cumulative hard + again count
     lastRating?: SrsRating
   }
 }

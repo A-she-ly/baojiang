@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import FlashcardView from './components/FlashcardView'
 import Home from './components/Home'
 import ShowSelector from './components/ShowSelector'
+import CreateCardModal from './components/CreateCardModal'
 import BilingualText, { Bi } from './components/BilingualText'
 import { useStore } from './utils/store'
 import type { EpisodeMetadata, Flashcard, SrsRating, SrsState } from './data/types'
@@ -20,6 +21,10 @@ import friendsNounsCards from './data/Friends_S01E01_nouns_cards.json'
 import friendsNounsMeta from './data/Friends_S01E01_nouns_metadata.json'
 import lcdpNounsCards from './data/LCDP_S3E01_nouns_cards.json'
 import lcdpNounsMeta from './data/LCDP_S3E01_nouns_metadata.json'
+import lcdpS3E05Cards from './data/LCDP_S3E05_cards.json'
+import lcdpS3E05Meta from './data/LCDP_S3E05_metadata.json'
+import lcdpS3E07Cards from './data/LCDP_S3E07_cards.json'
+import lcdpS3E07Meta from './data/LCDP_S3E07_metadata.json'
 
 const friendsCardsData = friendsCards as Flashcard[]
 const friendsMetaData = friendsMeta as EpisodeMetadata
@@ -44,11 +49,17 @@ const friendsNounsCardsData = filterNameCards(friendsNounsCards as Flashcard[])
 const friendsNounsMetaData = friendsNounsMeta as EpisodeMetadata
 const lcdpNounsCardsData = filterNameCards(lcdpNounsCards as Flashcard[])
 const lcdpNounsMetaData = lcdpNounsMeta as EpisodeMetadata
+const lcdpS3E05CardsData = filterNameCards(lcdpS3E05Cards as Flashcard[])
+const lcdpS3E05MetaData = lcdpS3E05Meta as EpisodeMetadata
+const lcdpS3E07CardsData = filterNameCards(lcdpS3E07Cards as Flashcard[])
+const lcdpS3E07MetaData = lcdpS3E07Meta as EpisodeMetadata
 
 /** Map of "showId:episodeId" → { cards, metadata } */
 const EPISODE_DATA: Record<string, { cards: Flashcard[]; metadata: EpisodeMetadata }> = {
   'friends:S01E01-NOUNS': { cards: friendsNounsCardsData, metadata: friendsNounsMetaData },
   'la-casa-de-papel:S3E01': { cards: lcdpNounsCardsData, metadata: lcdpNounsMetaData },
+  'la-casa-de-papel:S3E05': { cards: lcdpS3E05CardsData, metadata: lcdpS3E05MetaData },
+  'la-casa-de-papel:S3E07': { cards: lcdpS3E07CardsData, metadata: lcdpS3E07MetaData },
 }
 
 const LS_SESSION_KEY = 'bjy_session_v1'
@@ -73,6 +84,8 @@ export default function App() {
   const setView = useStore((s) => s.setView)
   const rateCard = useStore((s) => s.rateCard)
   const allCards = useStore((s) => s.cards)
+  const userCards = useStore((s) => s.userCards)
+  const addUserCard = useStore((s) => s.addUserCard)
   const disliked = useStore((s) => s.disliked)
   const mastered = useStore((s) => s.mastered)
 
@@ -80,6 +93,11 @@ export default function App() {
   const [ready, setReady] = useState(false)
   const [selectedShowId, setSelectedShowId] = useState<string | null>(savedSession.showId)
   const [selectedEpisodeId, setSelectedEpisodeId] = useState<string | null>(savedSession.episodeId)
+
+  // Filter state - lifted to App to persist across view changes
+  const [selectedFilter, setSelectedFilter] = useState<string>('pos')
+  const [selectedValue, setSelectedValue] = useState<string | null>(null)
+  const [selectedFilterEpisode, setSelectedFilterEpisode] = useState<string | null>(null)
 
   useEffect(() => {
     hydrate()
@@ -115,15 +133,28 @@ export default function App() {
     }
   }, [selectedShowId, selectedEpisodeId])
 
-  // Load cards when episode is selected
+  // Load cards from ALL episodes of the current show (merge with user cards)
   useEffect(() => {
     if (!selectedShowId || !selectedEpisodeId) return
-    const key = `${selectedShowId}:${selectedEpisodeId}`
-    const data = EPISODE_DATA[key]
-    if (data) {
-      load(data.cards)
+    const show = SHOW_MAP[selectedShowId]
+    if (!show) return
+
+    // Collect cards from all episodes that have data
+    const allEpisodeCards: Flashcard[] = []
+    for (const ep of show.episodes) {
+      const key = `${selectedShowId}:${ep.episodeId}`
+      const data = EPISODE_DATA[key]
+      if (data) {
+        allEpisodeCards.push(...data.cards)
+      }
     }
-  }, [selectedShowId, selectedEpisodeId, load])
+
+    if (allEpisodeCards.length > 0) {
+      // Merge episode cards with user-created cards
+      const merged = [...allEpisodeCards, ...userCards.filter((c) => !allEpisodeCards.some((ec) => ec.id === c.id))]
+      load(merged)
+    }
+  }, [selectedShowId, selectedEpisodeId, load, userCards])
 
   const queueCards = useMemo(() => {
     if (view.name !== 'study') return []
@@ -135,12 +166,26 @@ export default function App() {
   const [sessionCompleted, setSessionCompleted] = useState(false)
   const [sessionStats, setSessionStats] = useState<SessionStats>({ perfect: [], bumpy: [], needsWork: [] })
   const [sessionCounter, setSessionCounter] = useState(0)  // Force remount on new session
+  const [parentSession, setParentSession] = useState<{ queueIds: string[]; queueIndex: number } | null>(null)
+  const isRestoringParentRef = useRef(false)  // Use ref to avoid effect timing issues
   const srs = useStore((s) => s.srs)
 
+  // Create card modal state
+  const [createCardModal, setCreateCardModal] = useState<{ selectedText: string; currentCard: Flashcard } | null>(null)
+
   useEffect(() => {
+    // Skip reset when restoring from parent session (word jump)
+    if (isRestoringParentRef.current) {
+      isRestoringParentRef.current = false
+      return
+    }
     setQueueIndex(0)
     setSessionCompleted(false)
     setSessionStats({ perfect: [], bumpy: [], needsWork: [] })
+    // Clear parent session when view changes (unless it's a word jump)
+    if (view.name !== 'study' || view.queueIds.length !== 1) {
+      setParentSession(null)
+    }
   }, [view])
 
   // Current show & episode info
@@ -171,6 +216,10 @@ export default function App() {
   }, [episodeData])
 
   const handleWordClick = (cardId: string) => {
+    // Save current session state before jumping to word card
+    if (view.name === 'study') {
+      setParentSession({ queueIds: view.queueIds, queueIndex })
+    }
     // Create a new study session with just this card
     setView({ name: 'study', queueIds: [cardId] })
     setQueueIndex(0)
@@ -358,7 +407,18 @@ export default function App() {
             canGoPrev={queueIndex > 0}
             progress={{ current: queueIndex + 1, total: queueCards.length }}
             onCardComplete={handleCardComplete}
-            onSessionComplete={() => setSessionCompleted(true)}
+            onSessionComplete={() => {
+              if (parentSession) {
+                // Restore parent session after word jump
+                isRestoringParentRef.current = true  // Use ref to avoid effect timing issues
+                setView({ name: 'study', queueIds: parentSession.queueIds })
+                setQueueIndex(parentSession.queueIndex)
+                setParentSession(null)
+                setSessionCounter((c) => c + 1)
+              } else {
+                setSessionCompleted(true)
+              }
+            }}
             onRate={(r) => rateCard(current.id, r)}
             onNext={() => {
               setQueueIndex((i) => Math.min(queueCards.length - 1, i + 1))
@@ -370,10 +430,9 @@ export default function App() {
               // Remove disliked card from queue and add a replacement
               const newQueueIds = view.queueIds.filter((id) => id !== cardId)
               
-              // Find a replacement card from episode cards
-              const episodeCards = episodeData?.cards || []
+              // Find a replacement card from all available cards
               const currentQueueSet = new Set(newQueueIds)
-              const replacement = episodeCards.find(
+              const replacement = allCards.find(
                 (c) => !currentQueueSet.has(c.id) && !disliked.has(c.id) && !mastered.has(c.id)
               )
               
@@ -393,10 +452,9 @@ export default function App() {
               // Remove mastered card from queue and add a replacement
               const newQueueIds = view.queueIds.filter((id) => id !== cardId)
               
-              // Find a replacement card from episode cards
-              const episodeCards = episodeData?.cards || []
+              // Find a replacement card from all available cards
               const currentQueueSet = new Set(newQueueIds)
-              const replacement = episodeCards.find(
+              const replacement = allCards.find(
                 (c) => !currentQueueSet.has(c.id) && !disliked.has(c.id) && !mastered.has(c.id)
               )
               
@@ -414,6 +472,9 @@ export default function App() {
             }}
             wordMap={wordMap}
             onWordClick={handleWordClick}
+            onCreateCard={(selectedText) => {
+              setCreateCardModal({ selectedText, currentCard: current })
+            }}
           />
         ) : (
           <div className="text-center py-20 text-friends-coffee">
@@ -534,14 +595,35 @@ export default function App() {
                     </div>
                     <button
                       onClick={() => {
-                        // Get truly new cards: not mastered, not disliked, not yet reviewed
-                        const newCards = episodeData.cards
-                          .filter((c) => {
-                            if (mastered.has(c.id) || disliked.has(c.id)) return false
-                            const srsState = srs[c.id]
-                            return !srsState || srsState.status !== 'review'
-                          })
-                          .slice(0, 7)
+                        const SESSION_SIZE = 7
+                        const allCards = episodeData.cards || []
+
+                        // Step 1: Blind spot cards (never seen, no SRS record)
+                        const blindSpotCards = allCards.filter((c) =>
+                          !mastered.has(c.id) && !disliked.has(c.id) && !srs[c.id]
+                        )
+
+                        // Step 2: Remaining cards (not mastered/disliked, not blind spots, not in review)
+                        const remainingCards = allCards.filter((c) => {
+                          if (mastered.has(c.id) || disliked.has(c.id)) return false
+                          if (blindSpotCards.some((b) => b.id === c.id)) return false
+                          const srsState = srs[c.id]
+                          return !srsState || srsState.status !== 'review'
+                        })
+
+                        // Sort remaining by error rate (lapses descending)
+                        remainingCards.sort((a, b) => {
+                          const aLapses = srs[a.id]?.lapses ?? 0
+                          const bLapses = srs[b.id]?.lapses ?? 0
+                          return bLapses - aLapses
+                        })
+
+                        // Combine: blind spots first, then highest error rate cards
+                        const newCards = [
+                          ...blindSpotCards,
+                          ...remainingCards,
+                        ].slice(0, SESSION_SIZE)
+
                         if (newCards.length > 0) {
                           setSessionStats({ perfect: [], bumpy: [], needsWork: [] })
                           setSessionCompleted(false)
@@ -570,18 +652,40 @@ export default function App() {
             </div>
           </div>
         )}
+
+        {/* Create Card Modal */}
+        {createCardModal && (
+          <CreateCardModal
+            selectedText={createCardModal.selectedText}
+            currentCard={createCardModal.currentCard}
+            allCards={allCards}
+            onClose={() => setCreateCardModal(null)}
+            onSave={(newCard) => {
+              addUserCard(newCard as Flashcard)
+              setCreateCardModal(null)
+            }}
+          />
+        )}
       </div>
     )
   }
 
   // Home view with episode data
+  const showEpisodes = selectedShow?.episodes || []
   return (
     <Home
       cards={allCards.length ? allCards : episodeData.cards}
       metadata={episodeData.metadata}
       show={selectedShow}
       episode={selectedEpisode}
+      showEpisodes={showEpisodes}
       onStart={(queueIds) => setView({ name: 'study', queueIds })}
+      selectedFilter={selectedFilter}
+      setSelectedFilter={setSelectedFilter}
+      selectedValue={selectedValue}
+      setSelectedValue={setSelectedValue}
+      selectedEpisode={selectedFilterEpisode}
+      setSelectedEpisode={setSelectedFilterEpisode}
     />
   )
 }

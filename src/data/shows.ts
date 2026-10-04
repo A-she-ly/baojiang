@@ -67,6 +67,18 @@ export const SHOWS: ShowDefinition[] = [
         description: '第三季第一集台词中提取的名词和动词闪卡，每张卡背面展示台词上下文和词源学拆分。',
         hasCards: true,
       },
+      {
+        episodeId: 'S3E05',
+        title: 'S3E05 — 词性分类闪卡',
+        description: '第三季第五集台词中提取的闪卡，按词性分类（名词、动词、形容词、副词）。',
+        hasCards: true,
+      },
+      {
+        episodeId: 'S3E07',
+        title: 'S3E07 — 词性分类闪卡',
+        description: '第三季第七集台词中提取的闪卡，按词性分类（名词、动词、副词）。',
+        hasCards: true,
+      },
     ],
   },
   {
