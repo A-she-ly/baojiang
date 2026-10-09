@@ -3241,7 +3241,7 @@
     "context_examples": [
       {
         "espanol": "Y hoy en día, al despertar cada mañana,",
-        "chinese": "如今 每天早上",
+        "chinese": "如今，每天早上醒来时，",
         "seq": 30
       },
       {
@@ -6016,7 +6016,7 @@
     "sentence_cloze": "Y hoy en día, al despertar cada ___,",
     "sentence_full": "Y hoy en día, al despertar cada mañana,",
     "translation": "明天",
-    "sentence_translation": "如今 每天早上",
+    "sentence_translation": "如今，每天早上醒来时，",
     "cultural_note": "",
     "screenshot": "",
     "frequency_rank": null,
@@ -6024,7 +6024,7 @@
     "context_examples": [
       {
         "espanol": "Y hoy en día, al despertar cada mañana,",
-        "chinese": "如今 每天早上",
+        "chinese": "如今，每天早上醒来时，",
         "seq": 30
       },
       {
@@ -11259,6 +11259,41 @@
         "part": "-an",
         "origin": "动词变位后缀",
         "meaning": "第三人称复数现在时"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S3E01_V021",
+    "episode": "S3E01",
+    "scene_id": "verb_021",
+    "line_index": 21,
+    "character": "S3E01",
+    "target_word": "vuelvas",
+    "ipa": "/ˈbuel.βas/",
+    "pos": "v. vuelvas",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No te ___.",
+    "sentence_full": "No te vuelvas.",
+    "translation": "转身；回头（动词 volver/volverse 的第二人称单数现在虚拟式）",
+    "sentence_translation": "你别回头。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "volv-",
+        "origin": "动词原形 volver / volverse",
+        "meaning": "转身；回头；返回"
+      },
+      {
+        "part": "-uas",
+        "origin": "动词变位后缀",
+        "meaning": "第二人称单数现在虚拟式（tú）"
       }
     ]
   },

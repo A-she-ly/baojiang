@@ -1,0 +1,1506 @@
+[
+  {
+    "id": "GRAMMAR_subject_pronouns",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 0,
+    "character": "",
+    "target_word": "没有存在感的你我他",
+    "ipa": "",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "代词",
+      "主格人称代词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "主格人称代词：yo, tú, él/ella, nosotros, vosotros, ellos",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "主格人称代词",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写每个西班牙语人称代词对应的中文：</p><table class=\"grammar-quiz-table\"><thead><tr><th>人称</th><th>单数</th><th>复数</th></tr></thead><tbody><tr><td><b>第一人称</b></td><td><b>yo</b> <input type=\"text\" class=\"grammar-input\" data-answer=\"我\" placeholder=\"中文...\"/></td><td><b>nosotros / nosotras</b> <input type=\"text\" class=\"grammar-input\" data-answer=\"我们\" placeholder=\"中文...\"/></td></tr><tr><td><b>第二人称（非正式）</b></td><td><b>tú</b> <input type=\"text\" class=\"grammar-input\" data-answer=\"你\" placeholder=\"中文...\"/></td><td><b>vosotros / vosotras</b> <input type=\"text\" class=\"grammar-input\" data-answer=\"你们\" placeholder=\"中文...\"/></td></tr><tr><td><b>第二人称（正式）</b></td><td><b>usted</b> <input type=\"text\" class=\"grammar-input\" data-answer=\"您\" placeholder=\"中文...\"/></td><td><b>ustedes</b> <input type=\"text\" class=\"grammar-input\" data-answer=\"您们/你们\" placeholder=\"中文...\"/></td></tr><tr><td><b>第三人称</b></td><td><b>él / ella</b> <input type=\"text\" class=\"grammar-input\" data-answer=\"他/她\" placeholder=\"中文...\"/></td><td><b>ellos / ellas</b> <input type=\"text\" class=\"grammar-input\" data-answer=\"他们/她们\" placeholder=\"中文...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><p class=\"grammar-intro\">西班牙语的<b>主格人称代词</b>（也就是“我、你、他、我们、你们、他们”）非常好理解。</p><p class=\"grammar-summary\">用一句话总结：它们就是动作的<b>“发起者”</b>，但在西语里，它们非常<b>“没存在感”</b>，经常被省略。</p><p class=\"grammar-desc\">下面给你通俗地拆解一下：</p><h3>核心表格（谁在做事？）</h3><table class=\"grammar-table\"><thead><tr><th>人称</th><th>单数</th><th>复数</th></tr></thead><tbody><tr><td><b>第一人称</b></td><td><b>yo</b> (我)</td><td><b>nosotros / nosotras</b> (我们)</td></tr><tr><td><b>第二人称（非正式）</b></td><td><b>tú</b> (你)</td><td><b>vosotros / vosotras</b> (你们) <i>【仅限西班牙】</i></td></tr><tr><td><b>第二人称（正式）</b></td><td><b>usted</b> (您)</td><td><b>ustedes</b> (您们 / 你们) <i>【拉美通用】</i></td></tr><tr><td><b>第三人称</b></td><td><b>él</b> (他) / <b>ella</b> (她)</td><td><b>ellos</b> (他们) / <b>ellas</b> (她们)</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 关键记忆点：</b><ul><li>西语动词变位已经包含了人称信息，所以代词经常<b>省略</b>。例如：<code>Hablo español</code> = 我说西语（不需要说 Yo）</li><li><b>nosotros</b>（全男或混合）vs <b>nosotras</b>（全女）——西语有阴阳性之分</li><li><b>vosotros</b> 只在西班牙用，拉美用 <b>ustedes</b> 代替</li><li><b>usted / ustedes</b> 是正式称呼，动词用第三人称变位</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "yo",
+        "origin": "拉丁语 ego",
+        "meaning": "我（ego 脱落 e- → yo）"
+      },
+      {
+        "part": "tú",
+        "origin": "拉丁语 tū",
+        "meaning": "你（直接继承）"
+      },
+      {
+        "part": "él/ella",
+        "origin": "拉丁语 ille/illa",
+        "meaning": "那个（指示代词演变为人称代词）"
+      },
+      {
+        "part": "nosotros",
+        "origin": "拉丁语 nōs + otros",
+        "meaning": "我们 + 其他（nōs 我们 + otros 其他）"
+      },
+      {
+        "part": "vosotros",
+        "origin": "拉丁语 vōs + otros",
+        "meaning": "你们 + 其他（vōs 你们 + otros 其他）"
+      },
+      {
+        "part": "ellos/ellas",
+        "origin": "拉丁语 illi/illae",
+        "meaning": "那些（指示代词复数）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_ser_presente",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 1,
+    "character": "",
+    "target_word": "ser · 陈述式现在时",
+    "ipa": "",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "动词变位",
+      "ser",
+      "现在时"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "ser 的陈述式现在时变位：soy, eres, es, somos, sois, son",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "ser · 陈述式现在时",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">填写 ser 在陈述式现在时的变位：</p><table class=\"grammar-quiz-table\"><thead><tr><th>人称</th><th>变位</th><th>中文</th></tr></thead><tbody><tr><td><b>yo</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"soy\" placeholder=\"...\"/></td><td>我是</td></tr><tr><td><b>tú</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"eres\" placeholder=\"...\"/></td><td>你是</td></tr><tr><td><b>él/ella/usted</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"es\" placeholder=\"...\"/></td><td>他/她/您是</td></tr><tr><td><b>nosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"somos\" placeholder=\"...\"/></td><td>我们是</td></tr><tr><td><b>vosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"sois\" placeholder=\"...\"/></td><td>你们是</td></tr><tr><td><b>ellos/ellas/ustedes</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"son\" placeholder=\"...\"/></td><td>他们/她们/您们是</td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><p class=\"grammar-intro\"><b>ser</b>（是）和 <b>estar</b>（处于）并列为西班牙语最基础、<b>也最不规则</b>的两个动词。</p><p class=\"grammar-summary\">ser 的变位之所以重要，是因为它<b>太常用</b>，而且极度不规则，几乎全靠死记硬背，但好在每个时态的规律都比较固定。</p><h3>1. 陈述式现在时（最常用，必须秒懂）</h3><table class=\"grammar-table\"><thead><tr><th>人称</th><th>变位</th><th>中文</th></tr></thead><tbody><tr><td>yo</td><td><b>soy</b></td><td>我是</td></tr><tr><td>tú</td><td><b>eres</b></td><td>你是</td></tr><tr><td>él/ella/usted</td><td><b>es</b></td><td>他/她/您是</td></tr><tr><td>nosotros/as</td><td><b>somos</b></td><td>我们是</td></tr><tr><td>vosotros/as</td><td><b>sois</b></td><td>你们是 (仅西班牙)</td></tr><tr><td>ellos/ellas/ustedes</td><td><b>son</b></td><td>他们/她们/您们是</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 开发者提示：</b><ul><li>注意 <code>es</code>。在现在时里，<code>yo</code> 的形式是 <code>soy</code>，非常特殊</li><li><code>vosotros</code> 是 <code>sois</code>，也是唯一带 <code>-is</code> 结尾的</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "soy",
+        "origin": "拉丁语 sum",
+        "meaning": "我是（sum → soy，高度不规则）"
+      },
+      {
+        "part": "eres",
+        "origin": "拉丁语 es",
+        "meaning": "你是（es + -s 第二人称标记）"
+      },
+      {
+        "part": "es",
+        "origin": "拉丁语 est",
+        "meaning": "他/她是（est 脱落 t）"
+      },
+      {
+        "part": "somos",
+        "origin": "拉丁语 sumus",
+        "meaning": "我们是（sumus → somos）"
+      },
+      {
+        "part": "sois",
+        "origin": "拉丁语 estis",
+        "meaning": "你们是（estis → sois，唯一 -is 结尾）"
+      },
+      {
+        "part": "son",
+        "origin": "拉丁语 sunt",
+        "meaning": "他们是（sunt 脱落 u）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_ser_pretérito",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 2,
+    "character": "",
+    "target_word": "ser · 简单过去时",
+    "ipa": "",
+    "pos": "grammar",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "动词变位",
+      "ser",
+      "过去时"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "ser 的简单过去时变位：fui, fuiste, fue, fuimos, fuisteis, fueron",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "ser · 简单过去时",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">填写 ser 在简单过去时的变位：</p><table class=\"grammar-quiz-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td><b>yo</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"fui\" placeholder=\"...\"/></td></tr><tr><td><b>tú</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"fuiste\" placeholder=\"...\"/></td></tr><tr><td><b>él/ella/usted</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"fue\" placeholder=\"...\"/></td></tr><tr><td><b>nosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"fuimos\" placeholder=\"...\"/></td></tr><tr><td><b>vosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"fuisteis\" placeholder=\"...\"/></td></tr><tr><td><b>ellos/ellas/ustedes</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"fueron\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>2. 简单过去时（讲故事、叙述过去发生的事）</h3><table class=\"grammar-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td>yo</td><td><b>fui</b></td></tr><tr><td>tú</td><td><b>fuiste</b></td></tr><tr><td>él/ella/usted</td><td><b>fue</b></td></tr><tr><td>nosotros/as</td><td><b>fuimos</b></td></tr><tr><td>vosotros/as</td><td><b>fuisteis</b></td></tr><tr><td>ellos/ellas/ustedes</td><td><b>fueron</b></td></tr></tbody></table><div class=\"grammar-tip\"><b>⚠️ 巨大坑点：</b><ul><li>ser 的简单过去时和动词 <b>ir</b>（去）的简单过去时<b>一模一样</b>！</li><li>比如 <code>Fui a Madrid</code> 可以是“我去了马德里”(ir)，也可以是“我曾在马德里”(ser)。<b>只能靠上下文判断</b>。</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "fui/fuiste/fue...",
+        "origin": "拉丁语 fui/fuisti/fuit",
+        "meaning": "简单过去时词根 fu-（与 ir 共用）"
+      },
+      {
+        "part": "-i/-iste/-o...",
+        "origin": "拉丁语完成时后缀",
+        "meaning": "第一/二/三人称标记"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_ser_imperfecto",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 3,
+    "character": "",
+    "target_word": "ser · 未完成过去时",
+    "ipa": "",
+    "pos": "grammar",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "动词变位",
+      "ser",
+      "过去时"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "ser 的未完成过去时变位：era, eras, era, éramos, erais, eran",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "ser · 未完成过去时",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">填写 ser 在未完成过去时的变位：</p><table class=\"grammar-quiz-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td><b>yo</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"era\" placeholder=\"...\"/></td></tr><tr><td><b>tú</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"eras\" placeholder=\"...\"/></td></tr><tr><td><b>él/ella/usted</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"era\" placeholder=\"...\"/></td></tr><tr><td><b>nosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"éramos\" placeholder=\"...\"/></td></tr><tr><td><b>vosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"erais\" placeholder=\"...\"/></td></tr><tr><td><b>ellos/ellas/ustedes</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"eran\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>3. 未完成过去时（描述过去的状态、背景）</h3><table class=\"grammar-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td>yo</td><td><b>era</b></td></tr><tr><td>tú</td><td><b>eras</b></td></tr><tr><td>él/ella/usted</td><td><b>era</b></td></tr><tr><td>nosotros/as</td><td><b>éramos</b></td></tr><tr><td>vosotros/as</td><td><b>erais</b></td></tr><tr><td>ellos/ellas/ustedes</td><td><b>eran</b></td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 注意重音：</b><ul><li><code>nosotros</code> 形式是 <code>éramos</code>，带重音符号（Esdrújula，符合你之前总结的规则三）</li><li><code>vosotros</code> 是 <code>erais</code>，<b>没有重音</b></li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "era/eras/eran",
+        "origin": "拉丁语 eram/eras/erant",
+        "meaning": "未完成过去时词根 er-"
+      },
+      {
+        "part": "-áramos",
+        "origin": "拉丁语 eramus",
+        "meaning": "第一人称复数（带重音，Esdrújula）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_ser_futuro",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 4,
+    "character": "",
+    "target_word": "ser · 简单将来时",
+    "ipa": "",
+    "pos": "grammar",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "动词变位",
+      "ser",
+      "将来时"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "ser 的简单将来时变位：seré, serás, será, seremos, seréis, serán",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "ser · 简单将来时",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">填写 ser 在简单将来时的变位：</p><table class=\"grammar-quiz-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td><b>yo</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"seré\" placeholder=\"...\"/></td></tr><tr><td><b>tú</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"serás\" placeholder=\"...\"/></td></tr><tr><td><b>él/ella/usted</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"será\" placeholder=\"...\"/></td></tr><tr><td><b>nosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"seremos\" placeholder=\"...\"/></td></tr><tr><td><b>vosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"seréis\" placeholder=\"...\"/></td></tr><tr><td><b>ellos/ellas/ustedes</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"serán\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>4. 简单将来时（“我将会是”）</h3><table class=\"grammar-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td>yo</td><td><b>seré</b></td></tr><tr><td>tú</td><td><b>serás</b></td></tr><tr><td>él/ella/usted</td><td><b>será</b></td></tr><tr><td>nosotros/as</td><td><b>seremos</b></td></tr><tr><td>vosotros/as</td><td><b>seréis</b></td></tr><tr><td>ellos/ellas/ustedes</td><td><b>serán</b></td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 规律：</b><ul><li>将来时是 ser 最规则的时态之一！直接在原形 <code>ser-</code> 后加标准结尾</li><li>所有重音都在结尾上（除 nosotros 外）</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "ser-",
+        "origin": "拉丁语 esse",
+        "meaning": "动词原形词根（规则变化基础）"
+      },
+      {
+        "part": "-é/-ás/-á...",
+        "origin": "拉丁语将来时后缀",
+        "meaning": "标准将来时人称标记"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_ser_subjuntivo",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 5,
+    "character": "",
+    "target_word": "ser · 虚拟式现在时",
+    "ipa": "",
+    "pos": "grammar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "动词变位",
+      "ser",
+      "虚拟式"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "ser 的虚拟式现在时变位：sea, seas, sea, seamos, seáis, sean",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "ser · 虚拟式现在时",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">填写 ser 在虚拟式现在时的变位：</p><table class=\"grammar-quiz-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td><b>yo</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"sea\" placeholder=\"...\"/></td></tr><tr><td><b>tú</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"seas\" placeholder=\"...\"/></td></tr><tr><td><b>él/ella/usted</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"sea\" placeholder=\"...\"/></td></tr><tr><td><b>nosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"seamos\" placeholder=\"...\"/></td></tr><tr><td><b>vosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"seáis\" placeholder=\"...\"/></td></tr><tr><td><b>ellos/ellas/ustedes</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"sean\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>5. 虚拟式现在时（表达愿望、怀疑、否定命令）</h3><table class=\"grammar-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td>yo</td><td><b>sea</b></td></tr><tr><td>tú</td><td><b>seas</b></td></tr><tr><td>él/ella/usted</td><td><b>sea</b></td></tr><tr><td>nosotros/as</td><td><b>seamos</b></td></tr><tr><td>vosotros/as</td><td><b>seáis</b></td></tr><tr><td>ellos/ellas/ustedes</td><td><b>sean</b></td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 极其不规则：</b><ul><li>词根变成了 <code>se-</code>，完全不像 ser</li><li><code>sea</code> 和 <code>seas</code> 在口语里非常高频，比如 <code>No creo que sea...</code>（我不觉得那是...）</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "sea/seas/sean",
+        "origin": "拉丁语 sim/sis/sint",
+        "meaning": "虚拟式词根 se-（完全替换 ser-）"
+      },
+      {
+        "part": "seamos/seáis",
+        "origin": "拉丁语 simus/sitis",
+        "meaning": "虚拟式复数形式"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_ser_imperativo",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 6,
+    "character": "",
+    "target_word": "ser · 命令式",
+    "ipa": "",
+    "pos": "grammar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "动词变位",
+      "ser",
+      "命令式"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "ser 的命令式变位：sé, sea, seamos, sed, sean",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "ser · 命令式",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">填写 ser 在命令式的变位：</p><table class=\"grammar-quiz-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td><b>tú</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"sé\" placeholder=\"...\"/></td></tr><tr><td><b>usted</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"sea\" placeholder=\"...\"/></td></tr><tr><td><b>nosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"seamos\" placeholder=\"...\"/></td></tr><tr><td><b>vosotros/as</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"sed\" placeholder=\"...\"/></td></tr><tr><td><b>ustedes</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"sean\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>6. 命令式（直接命令）</h3><table class=\"grammar-table\"><thead><tr><th>人称</th><th>变位</th></tr></thead><tbody><tr><td>tú</td><td><b>sé</b></td><td>(“你要乖/你要当...”)</td></tr><tr><td>usted</td><td><b>sea</b></td></tr><tr><td>nosotros/as</td><td><b>seamos</b></td></tr><tr><td>vosotros/as</td><td><b>sed</b></td></tr><tr><td>ustedes</td><td><b>sean</b></td></tr></tbody></table><div class=\"grammar-tip\"><b>⚠️ 注意：</b><ul><li><code>tú</code> 的命令式是 <code>sé</code>（带重音符号，区分 <code>se</code> 自身代词）</li><li><code>vosotros</code> 的命令式是 <code>sed</code>（极其特殊，不规则）</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "sé",
+        "origin": "拉丁语 es",
+        "meaning": "命令式 tú（带重音区分 se 代词）"
+      },
+      {
+        "part": "sed",
+        "origin": "拉丁语 este",
+        "meaning": "命令式 vosotros（极其特殊）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_article_un",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 10,
+    "character": "",
+    "target_word": "un",
+    "ipa": "/un/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "语法",
+      "冠词",
+      "不定冠词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "不定冠词：一个（阳性单数）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "不定冠词 · un",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 un 的中文含义和用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>词性数</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"阳性单数\" placeholder=\"...\"/></td></tr><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"一个\" placeholder=\"...\"/></td></tr><tr><td><b>例句</b></td><td><b>un libro</b> = <input type=\"text\" class=\"grammar-input\" data-answer=\"一本书\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>不定冠词 · un</h3><p class=\"grammar-intro\"><b>un</b> 是西班牙语的<b>不定冠词</b>，用于阳性单数名词前，相当于英语的 <b>a/an</b>。</p><table class=\"grammar-table\"><tbody><tr><td><b>词性数</b></td><td>阳性单数</td></tr><tr><td><b>中文</b></td><td>一个</td></tr><tr><td><b>例句</b></td><td><code>un libro</code> = 一本书</td></tr><tr><td><b>例句</b></td><td><code>un chico</code> = 一个男孩</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 用法说明：</b><ul><li>用于<b>泛指</b>某个不特定的事物：<code>un libro</code> = 一本书（任意一本）</li><li>名词是阳性单数时用 un，如 <code>libro</code>、<code>chico</code>、<code>coche</code></li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "un",
+        "origin": "拉丁语 unus",
+        "meaning": "一（unus 脱落 -us → un）"
+      },
+      {
+        "part": "-a/-os/-as",
+        "origin": "性数后缀",
+        "meaning": "una（阴性）/unos（阳复）/unas（阴复）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_article_una",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 11,
+    "character": "",
+    "target_word": "una",
+    "ipa": "/ˈu.na/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "语法",
+      "冠词",
+      "不定冠词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "不定冠词：一个（阴性单数）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "不定冠词 · una",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 una 的中文含义和用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>词性数</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"阴性单数\" placeholder=\"...\"/></td></tr><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"一个\" placeholder=\"...\"/></td></tr><tr><td><b>例句</b></td><td><b>una mesa</b> = <input type=\"text\" class=\"grammar-input\" data-answer=\"一张桌子\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>不定冠词 · una</h3><p class=\"grammar-intro\"><b>una</b> 是西班牙语的<b>不定冠词</b>，用于阴性单数名词前，相当于英语的 <b>a/an</b>。</p><table class=\"grammar-table\"><tbody><tr><td><b>词性数</b></td><td>阴性单数</td></tr><tr><td><b>中文</b></td><td>一个</td></tr><tr><td><b>例句</b></td><td><code>una mesa</code> = 一张桌子</td></tr><tr><td><b>例句</b></td><td><code>una chica</code> = 一个女孩</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 用法说明：</b><ul><li>名词是阴性单数时用 una，如 <code>mesa</code>、<code>chica</code>、<code>casa</code></li><li>和 un 的区别只在于性别：un 配阳性，una 配阴性</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "un-",
+        "origin": "拉丁语 unus",
+        "meaning": "一（词根）"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性标记",
+        "meaning": "阴性单数后缀"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_article_unos",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 12,
+    "character": "",
+    "target_word": "unos",
+    "ipa": "/ˈu.nos/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "语法",
+      "冠词",
+      "不定冠词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "不定冠词：一些/几个（阳性复数）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "不定冠词 · unos",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 unos 的中文含义和用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>词性数</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"阳性复数\" placeholder=\"...\"/></td></tr><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"一些/几个\" placeholder=\"...\"/></td></tr><tr><td><b>例句</b></td><td><b>unos libros</b> = <input type=\"text\" class=\"grammar-input\" data-answer=\"一些书\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>不定冠词 · unos</h3><p class=\"grammar-intro\"><b>unos</b> 是 un 的<b>复数形式</b>，用于阳性复数名词前，相当于英语的 <b>some</b>。</p><table class=\"grammar-table\"><tbody><tr><td><b>词性数</b></td><td>阳性复数</td></tr><tr><td><b>中文</b></td><td>一些 / 几个</td></tr><tr><td><b>例句</b></td><td><code>unos libros</code> = 一些书</td></tr><tr><td><b>例句</b></td><td><code>unos chicos</code> = 几个男孩</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 用法说明：</b><ul><li>unos 是 un 的复数，名词也要变复数：un libro → unos libros</li><li>英语复数常省略冠词（I like dogs），但西语不能省</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "un-",
+        "origin": "拉丁语 unus",
+        "meaning": "一（词根）"
+      },
+      {
+        "part": "-os",
+        "origin": "阳性复数标记",
+        "meaning": "阳性复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_article_unas",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 13,
+    "character": "",
+    "target_word": "unas",
+    "ipa": "/ˈu.nas/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "语法",
+      "冠词",
+      "不定冠词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "不定冠词：一些/几个（阴性复数）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "不定冠词 · unas",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 unas 的中文含义和用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>词性数</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"阴性复数\" placeholder=\"...\"/></td></tr><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"一些/几个\" placeholder=\"...\"/></td></tr><tr><td><b>例句</b></td><td><b>unas mesas</b> = <input type=\"text\" class=\"grammar-input\" data-answer=\"一些桌子\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>不定冠词 · unas</h3><p class=\"grammar-intro\"><b>unas</b> 是 una 的<b>复数形式</b>，用于阴性复数名词前，相当于英语的 <b>some</b>。</p><table class=\"grammar-table\"><tbody><tr><td><b>词性数</b></td><td>阴性复数</td></tr><tr><td><b>中文</b></td><td>一些 / 几个</td></tr><tr><td><b>例句</b></td><td><code>unas mesas</code> = 一些桌子</td></tr><tr><td><b>例句</b></td><td><code>unas chicas</code> = 几个女孩</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 用法说明：</b><ul><li>unas 是 una 的复数，名词也要变复数：una mesa → unas mesas</li><li>四个不定冠词全家福：un(阳单) → una(阴单) → unos(阳复) → unas(阴复)</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "un-",
+        "origin": "拉丁语 unus",
+        "meaning": "一（词根）"
+      },
+      {
+        "part": "-as",
+        "origin": "阴性复数标记",
+        "meaning": "阴性复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_article_el",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 14,
+    "character": "",
+    "target_word": "el",
+    "ipa": "/el/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "语法",
+      "冠词",
+      "定冠词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "定冠词：这个/那个（阳性单数）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "定冠词 · el",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 el 的中文含义和用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>词性数</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"阳性单数\" placeholder=\"...\"/></td></tr><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"这个/那个\" placeholder=\"...\"/></td></tr><tr><td><b>例句</b></td><td><b>el libro</b> = <input type=\"text\" class=\"grammar-input\" data-answer=\"这本书/那本书\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>定冠词 · el</h3><p class=\"grammar-intro\"><b>el</b> 是西班牙语的<b>定冠词</b>，用于阳性单数名词前，相当于英语的 <b>the</b>。</p><table class=\"grammar-table\"><tbody><tr><td><b>词性数</b></td><td>阳性单数</td></tr><tr><td><b>中文</b></td><td>这个 / 那个</td></tr><tr><td><b>例句</b></td><td><code>el libro</code> = 这本书</td></tr><tr><td><b>例句</b></td><td><code>el chico</code> = 那个男孩</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 用法说明：</b><ul><li>定冠词表示<b>特指</b>，指向明确的事物：<code>el libro</code> = 那本（特定的）书</li><li><b>缩合规则</b>：<code>a + el → al</code>，<code>de + el → del</code>（必须缩合！）</li><li>注意：<code>a + la</code> 不缩合，永远是 <code>a la</code></li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "el",
+        "origin": "拉丁语 ille",
+        "meaning": "那个（指示代词弱化→定冠词）"
+      },
+      {
+        "part": "al/del",
+        "origin": "a/de + el",
+        "meaning": "缩合形式（必须缩合！）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_article_la",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 15,
+    "character": "",
+    "target_word": "la",
+    "ipa": "/la/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "冠词",
+      "定冠词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "定冠词：这个/那个（阴性单数）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "定冠词 · la",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 la 的中文含义和用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>词性数</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"阴性单数\" placeholder=\"...\"/></td></tr><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"这个/那个\" placeholder=\"...\"/></td></tr><tr><td><b>例句</b></td><td><b>la mesa</b> = <input type=\"text\" class=\"grammar-input\" data-answer=\"这张桌子/那张桌子\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>定冠词 · la</h3><p class=\"grammar-intro\"><b>la</b> 是西班牙语的<b>定冠词</b>，用于阴性单数名词前，相当于英语的 <b>the</b>。</p><table class=\"grammar-table\"><tbody><tr><td><b>词性数</b></td><td>阴性单数</td></tr><tr><td><b>中文</b></td><td>这个 / 那个</td></tr><tr><td><b>例句</b></td><td><code>la mesa</code> = 这张桌子</td></tr><tr><td><b>例句</b></td><td><code>la chica</code> = 那个女孩</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 用法说明：</b><ul><li>名词是阴性单数时用 la，如 <code>mesa</code>、<code>casa</code>、<code>chica</code></li><li><b>定冠词泛指用法</b>（英语没有）：<code>Me gustan los perros</code> = 我喜欢狗（泛指，必须加定冠词）</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "la",
+        "origin": "拉丁语 illa",
+        "meaning": "那个（阴性指示代词弱化）"
+      },
+      {
+        "part": "泛指定冠词",
+        "origin": "西语特有用法",
+        "meaning": "Me gustan los perros（英语不加 the）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_article_los",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 16,
+    "character": "",
+    "target_word": "los",
+    "ipa": "/los/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "语法",
+      "冠词",
+      "定冠词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "定冠词：这些/那些（阳性复数）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "定冠词 · los",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 los 的中文含义和用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>词性数</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"阳性复数\" placeholder=\"...\"/></td></tr><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"这些/那些\" placeholder=\"...\"/></td></tr><tr><td><b>例句</b></td><td><b>los libros</b> = <input type=\"text\" class=\"grammar-input\" data-answer=\"这些书/那些书\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>定冠词 · los</h3><p class=\"grammar-intro\"><b>los</b> 是 el 的<b>复数形式</b>，用于阳性复数名词前，相当于英语的 <b>the</b>（复数）。</p><table class=\"grammar-table\"><tbody><tr><td><b>词性数</b></td><td>阳性复数</td></tr><tr><td><b>中文</b></td><td>这些 / 那些</td></tr><tr><td><b>例句</b></td><td><code>los libros</code> = 这些书</td></tr><tr><td><b>例句</b></td><td><code>los chicos</code> = 那些男孩</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 用法说明：</b><ul><li>los 是 el 的复数，名词也要变复数：el libro → los libros</li><li><b>泛指用法</b>：<code>Me gustan los perros</code> = 我喜欢狗（西语必须加定冠词，英语不加）</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "los",
+        "origin": "拉丁语 illi",
+        "meaning": "那些（阳性复数指示代词）"
+      },
+      {
+        "part": "-os",
+        "origin": "阳性复数标记",
+        "meaning": "与名词复数一致"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_article_las",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 17,
+    "character": "",
+    "target_word": "las",
+    "ipa": "/las/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "冠词",
+      "定冠词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "定冠词：这些/那些（阴性复数）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "定冠词 · las",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 las 的中文含义和用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>词性数</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"阴性复数\" placeholder=\"...\"/></td></tr><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"这些/那些\" placeholder=\"...\"/></td></tr><tr><td><b>例句</b></td><td><b>las mesas</b> = <input type=\"text\" class=\"grammar-input\" data-answer=\"这些桌子/那些桌子\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>定冠词 · las</h3><p class=\"grammar-intro\"><b>las</b> 是 la 的<b>复数形式</b>，用于阴性复数名词前，相当于英语的 <b>the</b>（复数）。</p><table class=\"grammar-table\"><tbody><tr><td><b>词性数</b></td><td>阴性复数</td></tr><tr><td><b>中文</b></td><td>这些 / 那些</td></tr><tr><td><b>例句</b></td><td><code>las mesas</code> = 这些桌子</td></tr><tr><td><b>例句</b></td><td><code>las chicas</code> = 那些女孩</td></tr></tbody></table><div class=\"grammar-tip\"><b>💡 用法说明：</b><ul><li>las 是 la 的复数，名词也要变复数：la mesa → las mesas</li><li>四个定冠词全家福：el(阳单) → la(阴单) → los(阳复) → las(阴复)</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "las",
+        "origin": "拉丁语 illae",
+        "meaning": "那些（阴性复数指示代词）"
+      },
+      {
+        "part": "-as",
+        "origin": "阴性复数标记",
+        "meaning": "与名词复数一致"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_preposition_de",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 20,
+    "character": "",
+    "target_word": "de",
+    "ipa": "/de/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "语法",
+      "前置词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "前置词 de：所属/材料/来源/主题（相当于英语 's/of/from）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "前置词 · de",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 de 的四大用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>1. 所属</b></td><td>el libro <b>de</b> Juan = <input type=\"text\" class=\"grammar-input\" data-answer=\"胡安的书\" placeholder=\"...\"/></td></tr><tr><td><b>2. 材料</b></td><td>mesa <b>de</b> madera = <input type=\"text\" class=\"grammar-input\" data-answer=\"木桌\" placeholder=\"...\"/></td></tr><tr><td><b>3. 来源</b></td><td>Soy <b>de</b> China = <input type=\"text\" class=\"grammar-input\" data-answer=\"我来自中国\" placeholder=\"...\"/></td></tr><tr><td><b>4. 主题</b></td><td>un libro <b>de</b> historia = <input type=\"text\" class=\"grammar-input\" data-answer=\"一本关于历史的书\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>前置词 · de 的四大核心重点</h3><h4>1. 所属与材料（相当于英语 's / of / from）</h4><table class=\"grammar-table\"><tbody><tr><td><b>所属</b></td><td>el libro <b>de</b> Juan（胡安的书），la casa <b>de</b> mi madre（我妈妈的家）</td></tr><tr><td><b>材料</b></td><td>mesa <b>de</b> madera（木桌），vaso <b>de</b> cristal（玻璃杯）</td></tr><tr><td><b>来源</b></td><td>Soy <b>de</b> China（我来自中国），venir <b>de</b> la escuela（从学校来）</td></tr><tr><td><b>主题</b></td><td>un libro <b>de</b> historia（一本关于历史的书）</td></tr></tbody></table><h4>2. 致命缩合规则（必考、必错点！）</h4><div class=\"grammar-tip\"><b>⚠️ 缩合规则：</b><ul><li><code>de + el → del</code>（必须缩合！）Vengo <b>del</b> trabajo（我从公司来）</li><li><code>de + la / los / las</code> <b>不缩合</b>：Vengo <b>de la</b> escuela（我从学校来）</li></ul></div><h4>3. 时间与方式</h4><table class=\"grammar-table\"><tbody><tr><td><b>时间</b></td><td><b>de</b> 9 a 5（从9点到5点），<b>de</b> día（在白天），<b>de</b> noche（在晚上）</td></tr><tr><td><b>方式</b></td><td><b>de</b> pie（站着），<b>de</b> repente（突然）</td></tr></tbody></table><h4>4. 固定搭配（动词 + de）</h4><table class=\"grammar-table\"><tbody><tr><td>depender <b>de</b></td><td>取决于</td></tr><tr><td>acordarse <b>de</b></td><td>记得</td></tr><tr><td>olvidarse <b>de</b></td><td>忘记</td></tr><tr><td>tratar <b>de</b></td><td>试图</td></tr><tr><td>dejar <b>de</b></td><td>停止</td></tr></tbody></table><h4>5. 比较级里的坑</h4><div class=\"grammar-tip\"><b>⚠️ 区分：</b><ul><li>比较“性质”：más alto <b>que</b>（比...高，用 que）</li><li>比较“数字/数量”：más <b>de</b> 10 euros（超过10欧元，用 de）</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "de",
+        "origin": "拉丁语 de",
+        "meaning": "从（直接继承，表示来源/所属）"
+      },
+      {
+        "part": "del",
+        "origin": "de + el 缩合",
+        "meaning": "必须缩合！区分 de la（不缩合）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_preposition_en",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 21,
+    "character": "",
+    "target_word": "en",
+    "ipa": "/en/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "语法",
+      "前置词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "前置词 en：地点/时间/领域/方式（相当于英语 in/on/at）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "前置词 · en",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 en 的四大用法：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>1. 地点</b></td><td><b>en</b> casa = <input type=\"text\" class=\"grammar-input\" data-answer=\"在家\" placeholder=\"...\"/></td></tr><tr><td><b>2. 时间</b></td><td><b>en</b> 2026 = <input type=\"text\" class=\"grammar-input\" data-answer=\"在2026年\" placeholder=\"...\"/></td></tr><tr><td><b>3. 领域</b></td><td>experto <b>en</b> matemáticas = <input type=\"text\" class=\"grammar-input\" data-answer=\"数学专家\" placeholder=\"...\"/></td></tr><tr><td><b>4. 方式</b></td><td>hablar <b>en</b> español = <input type=\"text\" class=\"grammar-input\" data-answer=\"用西语说\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>前置词 · en 的四大核心重点</h3><h4>1. 地点与位置（相当于英语 in / on / at）</h4><table class=\"grammar-table\"><tbody><tr><td><b>地点</b></td><td><b>en</b> casa（在家），<b>en</b> el coche（在车里），<b>en</b> la mesa（在桌上）</td></tr><tr><td><b>交通工具</b></td><td><b>en</b> tren（坐火车），<b>en</b> avión（坐飞机）（特例：步行是 <b>a pie</b>）</td></tr></tbody></table><h4>2. 时间（强调“在...期间”或“在...之内”）</h4><table class=\"grammar-table\"><tbody><tr><td><b>年份/季节</b></td><td><b>en</b> 2026（在2026年），<b>en</b> verano（在夏天）</td></tr><tr><td><b>时间段</b></td><td><b>en</b> dos horas（在两小时内/后）</td></tr></tbody></table><h4>3. 领域与方式</h4><table class=\"grammar-table\"><tbody><tr><td><b>领域</b></td><td>experto <b>en</b> matemáticas（数学专家），pensar <b>en</b> ti（想着你）</td></tr><tr><td><b>方式</b></td><td>hablar <b>en</b> español（用西语说），<b>en</b> voz alta（大声地）</td></tr></tbody></table><h4>4. 固定搭配（动词 + en）</h4><table class=\"grammar-table\"><tbody><tr><td>pensar <b>en</b></td><td>想着</td></tr><tr><td>confiar <b>en</b></td><td>信任</td></tr><tr><td>tardar <b>en</b></td><td>花费时间做...</td></tr><tr><td>insistir <b>en</b></td><td>坚持</td></tr></tbody></table><h4>5. 注意：en 没有缩合！</h4><div class=\"grammar-tip\"><b>⚠️ 易错点：</b><ul><li><code>en + el</code> 永远是 <code>en el</code>，<b>绝对不要写成 enl</b>！这是学生极易犯的拼写错误</li><li>对比 de：de + el → del（必须缩合），en + el → en el（不缩合）</li></ul></div></div>",
+    "etymology": [
+      {
+        "part": "en",
+        "origin": "拉丁语 in",
+        "meaning": "在...里（拉丁语 in → 西语 en，音变）"
+      },
+      {
+        "part": "无缩合",
+        "origin": "西语规则",
+        "meaning": "en + el = en el（永远不缩合，区分 del）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_enero",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 30,
+    "character": "",
+    "target_word": "Enero",
+    "ipa": "/ˈe.ne.ɾo/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "一月（罗马双面神雅典斯 Janus，辞旧迎新）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Enero",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Enero 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"一月\" placeholder=\"...\"/></td></tr><tr><td><b>词源神话</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"雅典斯/Janus\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>1. Enero（一月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>一月</td></tr><tr><td><b>联想</b></td><td><b>罗马双面神雅典斯（Janus）</b>。他有两张脸，一张看过去，一张看未来。正如一月是辞旧迎新的月份。（英语 January 同源）</td></tr><tr><td><b>提示</b></td><td>首字母大写时表示月份，小写时是形容词“一月的”。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Enero",
+        "origin": "拉丁语 Januarius",
+        "meaning": "罗马双面神雅典斯（Janus）的月份"
+      },
+      {
+        "part": "Janus",
+        "origin": "罗马神话",
+        "meaning": "两面神，一面看过去，一面看未来"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_febrero",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 31,
+    "character": "",
+    "target_word": "Febrero",
+    "ipa": "/fe.ˈβɾ.e.ɾo/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "二月（古罗马净化节 Februalia，洗去晦气）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Febrero",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Febrero 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"二月\" placeholder=\"...\"/></td></tr><tr><td><b>词源节日</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"净化节/Februalia\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>2. Febrero（二月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>二月</td></tr><tr><td><b>联想</b></td><td><b>古罗马的“净化节”（Februalia）</b>。在这个月，人们会进行祭祀和净化仪式，洗去上一年的晦气。（英语 February 同源）</td></tr><tr><td><b>提示</b></td><td>注意拼写是 <code>febrero</code>，不是 <code>febrEro</code>。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Febrero",
+        "origin": "拉丁语 Februarius",
+        "meaning": "净化之月（februare 净化）"
+      },
+      {
+        "part": "Februalia",
+        "origin": "古罗马节日",
+        "meaning": "净化节，祭祀和洗去晦气"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_marzo",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 32,
+    "character": "",
+    "target_word": "Marzo",
+    "ipa": "/ˈmaɾ.θo/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "三月（战神玛尔斯 Mars，战事重启+万物复苏）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Marzo",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Marzo 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"三月\" placeholder=\"...\"/></td></tr><tr><td><b>词源神话</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"战神玛尔斯/Mars\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>3. Marzo（三月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>三月</td></tr><tr><td><b>联想</b></td><td><b>战神玛尔斯（Mars）</b>。三月是古罗马军队重启战事的月份，也是春回大地、万物复苏之时。（英语 March 同源）</td></tr><tr><td><b>提示</b></td><td>发音时注意 <code>z</code> 在西班牙是咬舌音 /θ/，在拉美是 /s/。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Marzo",
+        "origin": "拉丁语 Martius",
+        "meaning": "战神玛尔斯（Mars）的月份"
+      },
+      {
+        "part": "Mars",
+        "origin": "罗马神话",
+        "meaning": "战神，三月是军队重启战事的月份"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_abril",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 33,
+    "character": "",
+    "target_word": "Abril",
+    "ipa": "/a.ˈβɾil/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "四月（拉丁语 aperire 打开，花朵绽放）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Abril",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Abril 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"四月\" placeholder=\"...\"/></td></tr><tr><td><b>词源动词</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"打开/aperire\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>4. Abril（四月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>四月</td></tr><tr><td><b>联想</b></td><td><b>拉丁语“打开”（aperire）</b>。四月是春天“打开”花朵、万物绽放的月份。（英语 April 同源）</td></tr><tr><td><b>提示</b></td><td>重音在最后一个音节（Aguda），以 l 结尾，所以没有重音符号。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Abril",
+        "origin": "拉丁语 Aprilis",
+        "meaning": "打开之月（aperire 打开）"
+      },
+      {
+        "part": "aperire",
+        "origin": "拉丁语动词",
+        "meaning": "打开，四月是春天打开花朵的月份"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_mayo",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 34,
+    "character": "",
+    "target_word": "Mayo",
+    "ipa": "/ˈma.ʃo/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "五月（春天与生长女神迈亚 Maia，生机勃勃）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Mayo",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Mayo 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"五月\" placeholder=\"...\"/></td></tr><tr><td><b>词源女神</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"迈亚/Maia\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>5. Mayo（五月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>五月</td></tr><tr><td><b>联想</b></td><td><b>春天与生长女神迈亚（Maia）</b>。她是希腊神话中阿特拉斯的女儿，代表生机勃勃的五月。（英语 May 同源）</td></tr><tr><td><b>提示</b></td><td>同源词还有 <code>mayor</code>（更大的/年长的），可以联动记忆。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Mayo",
+        "origin": "拉丁语 Maius",
+        "meaning": "生长女神迈亚（Maia）的月份"
+      },
+      {
+        "part": "Maia",
+        "origin": "希腊神话",
+        "meaning": "春天与生长女神，阿特拉斯的女儿"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_junio",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 35,
+    "character": "",
+    "target_word": "Junio",
+    "ipa": "/ˈxu.njo/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "六月（婚姻与女性之神朱诺 Juno，结婚吉利）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Junio",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Junio 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"六月\" placeholder=\"...\"/></td></tr><tr><td><b>词源女神</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"朱诺/Juno\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>6. Junio（六月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>六月</td></tr><tr><td><b>联想</b></td><td><b>婚姻与女性之神朱诺（Juno）</b>。古罗马人认为六月是结婚最吉利的月份。（英语 June 同源）</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Junio",
+        "origin": "拉丁语 Junius",
+        "meaning": "婚姻与女性之神朱诺（Juno）的月份"
+      },
+      {
+        "part": "Juno",
+        "origin": "罗马神话",
+        "meaning": "罗马人认为六月是结婚最吉利的月份"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_julio",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 36,
+    "character": "",
+    "target_word": "Julio",
+    "ipa": "/ˈxu.ljo/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "七月（凯撒大帝 Julius Caesar，生日月份）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Julio",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Julio 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"七月\" placeholder=\"...\"/></td></tr><tr><td><b>词源人物</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"凯撒大帝/Julius Caesar\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>7. Julio（七月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>七月</td></tr><tr><td><b>联想</b></td><td><b>凯撒大帝（Julius Caesar）</b>。他的生日在这个月，古罗马元老院为了纪念他，用他的名字命名了七月。（英语 July 同源）</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Julio",
+        "origin": "拉丁语 Julius",
+        "meaning": "凯撒大帝（Julius Caesar）的名字"
+      },
+      {
+        "part": "Julius Caesar",
+        "origin": "历史人物",
+        "meaning": "生日在七月，元老院用他的名字命名"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_agosto",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 37,
+    "character": "",
+    "target_word": "Agosto",
+    "ipa": "/a.ˈɣos.to/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "八月（罗马皇帝奥古斯都 Augustus，与凯撒齐名）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Agosto",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Agosto 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"八月\" placeholder=\"...\"/></td></tr><tr><td><b>词源人物</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"奥古斯都/Augustus\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>8. Agosto（八月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>八月</td></tr><tr><td><b>联想</b></td><td><b>罗马帝国首位皇帝奥古斯都（Augustus）</b>。为了和凯撒齐名，他也用自己的名字命名了八月。（英语 August 同源）</td></tr><tr><td><b>提示</b></td><td>注意发音是 /a.ˈɣos.to/，中间 g 发擦音，不要读成“阿高斯托”。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Agosto",
+        "origin": "拉丁语 Augustus",
+        "meaning": "罗马帝国首位皇帝奥古斯都（Augustus）"
+      },
+      {
+        "part": "Augustus",
+        "origin": "历史人物",
+        "meaning": "为了和凯撒齐名，用自己的名字命名八月"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_septiembre",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 38,
+    "character": "",
+    "target_word": "Septiembre",
+    "ipa": "/sep.ˈtjem.bɾe/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "consonant_cluster",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "九月（拉丁语 septem 七，罗马历第七个月）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Septiembre",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Septiembre 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"九月\" placeholder=\"...\"/></td></tr><tr><td><b>词源数字</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"七/septem\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>9. Septiembre（九月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>九月</td></tr><tr><td><b>联想</b></td><td><b>拉丁语“七”（septem）</b>。古罗马历法最初只有10个月，三月是第一个月。所以九月其实是他们的第七个月。（英语 September 同源，sept- 词根也出现在 séptimo 第七）</td></tr><tr><td><b>提示</b></td><td>首字母大写。拼写是 <code>septiembre</code>（也可以写成 <code>setiembre</code>，但标准拼写首选 septiembre）。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Septiembre",
+        "origin": "拉丁语 September",
+        "meaning": "第七个月（septem 七）"
+      },
+      {
+        "part": "septem",
+        "origin": "拉丁语数词",
+        "meaning": "七，罗马历最初只有10个月，三月是第一个"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_octubre",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 39,
+    "character": "",
+    "target_word": "Octubre",
+    "ipa": "/ok.ˈtu.θɾe/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "consonant_cluster",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "十月（拉丁语 octo 八，罗马历第八个月）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Octubre",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Octubre 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"十月\" placeholder=\"...\"/></td></tr><tr><td><b>词源数字</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"八/octo\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>10. Octubre（十月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>十月</td></tr><tr><td><b>联想</b></td><td><b>拉丁语“八”（octo）</b>。罗马历法的第八个月。（英语 October 同源，词根同 <code>ocho</code> 八）</td></tr><tr><td><b>提示</b></td><td>不加重音符号。注意 c 的发音是 /k/。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Octubre",
+        "origin": "拉丁语 October",
+        "meaning": "第八个月（octo 八）"
+      },
+      {
+        "part": "octo",
+        "origin": "拉丁语数词",
+        "meaning": "八，词根同 ocho（八）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_noviembre",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 40,
+    "character": "",
+    "target_word": "Noviembre",
+    "ipa": "/no.ˈβjem.bɾe/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "十一月（拉丁语 novem 九，罗马历第九个月）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Noviembre",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Noviembre 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"十一月\" placeholder=\"...\"/></td></tr><tr><td><b>词源数字</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"九/novem\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>11. Noviembre（十一月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>十一月</td></tr><tr><td><b>联想</b></td><td><b>拉丁语“九”（novem）</b>。罗马历法的第九个月。（英语 November 同源，词根类似 <code>nueve</code> 九）</td></tr><tr><td><b>提示</b></td><td>同源词 <code>novato</code>（新手），可以辅助记忆。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Noviembre",
+        "origin": "拉丁语 November",
+        "meaning": "第九个月（novem 九）"
+      },
+      {
+        "part": "novem",
+        "origin": "拉丁语数词",
+        "meaning": "九，词根类似 nueve（九）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_month_diciembre",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 41,
+    "character": "",
+    "target_word": "Diciembre",
+    "ipa": "/di.ˈθjem.bɾe/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "语法",
+      "月份"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "十二月（拉丁语 decem 十，罗马历第十个月）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "月份 · Diciembre",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Diciembre 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"十二月\" placeholder=\"...\"/></td></tr><tr><td><b>词源数字</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"十/decem\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>12. Diciembre（十二月）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>十二月</td></tr><tr><td><b>联想</b></td><td><b>拉丁语“十”（decem）</b>。罗马历法的第十个月。（英语 December 同源，词根类似 <code>diez</code> 十）</td></tr><tr><td><b>提示</b></td><td>重音在倒数第二个音节 <code>ciem</code>（Llana），以元音 e 结尾，没有重音符号。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Diciembre",
+        "origin": "拉丁语 December",
+        "meaning": "第十个月（decem 十）"
+      },
+      {
+        "part": "decem",
+        "origin": "拉丁语数词",
+        "meaning": "十，词根类似 diez（十）"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_direction_norte",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 50,
+    "character": "",
+    "target_word": "Norte",
+    "ipa": "/ˈnoɾ.te/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "方位词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "北方（与英语 North 同源，北极星指引的方向）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "方位 · Norte",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Norte 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"北方\" placeholder=\"...\"/></td></tr><tr><td><b>同源词</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"North\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>1. Norte（北）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>北方</td></tr><tr><td><b>记忆联想</b></td><td>与英语 <b>North</b> 同源。两者都来自古日耳曼语。在早期航海图上，北方通常在正上方。你可以把它记作“北极星指引的方向”。</td></tr><tr><td><b>提示</b></td><td>它也可以表示“指南针”或“方向”。<code>perder el norte</code> = 失去方向/迷失自我。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Norte",
+        "origin": "古日耳曼语",
+        "meaning": "北方，与英语 North 同源"
+      },
+      {
+        "part": "航海传统",
+        "origin": "历史用法",
+        "meaning": "北方在航海图上通常在正上方"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_direction_sur",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 51,
+    "character": "",
+    "target_word": "Sur",
+    "ipa": "/suɾ/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "方位词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "南方（与英语 South 同源，联想南极 Polo Sur）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "方位 · Sur",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Sur 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"南方\" placeholder=\"...\"/></td></tr><tr><td><b>同源词</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"South\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>2. Sur（南）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>南方</td></tr><tr><td><b>记忆联想</b></td><td>与英语 <b>South</b> 同源。两者发音也相近，在西班牙语里读作 /suɾ/。联想南极（Polo Sur）。</td></tr><tr><td><b>提示</b></td><td>注意拼写只有三个字母，不要写成 <code>sour</code>（那是英语的酸）。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Sur",
+        "origin": "古日耳曼语",
+        "meaning": "南方，与英语 South 同源"
+      },
+      {
+        "part": "Polo Sur",
+        "origin": "地理名词",
+        "meaning": "南极，可作为记忆联想"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_direction_este",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 52,
+    "character": "",
+    "target_word": "Este",
+    "ipa": "/ˈes.te/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "方位词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "东方（太阳升起的地方，与指示代词 este 同形）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "方位 · Este",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Este 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"东方\" placeholder=\"...\"/></td></tr><tr><td><b>核心逻辑</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"太阳升起\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>3. Este（东）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>东方</td></tr><tr><td><b>记忆联想</b></td><td>与英语 <b>East</b> 同源。核心逻辑是“太阳升起的地方”。在拉丁语中，<code>oriens</code> 是日出的方向。而在西语中，<code>este</code> 还可以以指示代词“这个”。</td></tr><tr><td><b>提示</b></td><td>因为与指示代词 <code>este</code>（这个）拼写完全一样，APP 在解析句子时，必须依赖上下文和首字母大小写来判断是“东方”还是“这个”。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Este",
+        "origin": "拉丁语 oriens",
+        "meaning": "日出的方向，太阳升起的地方"
+      },
+      {
+        "part": "oriens",
+        "origin": "拉丁语分词",
+        "meaning": "东方，与英语 East 同源逻辑"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_direction_oeste",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 53,
+    "character": "",
+    "target_word": "Oeste",
+    "ipa": "/o.ˈes.te/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "方位词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "西方（太阳落下的地方，与英语 West 同源）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "方位 · Oeste",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Oeste 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"西方\" placeholder=\"...\"/></td></tr><tr><td><b>同源词</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"West\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>4. Oeste（西）</h3><table class=\"grammar-table\"><tbody><tr><td><b>释义</b></td><td>西方</td></tr><tr><td><b>记忆联想</b></td><td>与英语 <b>West</b> 同源。核心逻辑是“太阳落下的地方”。</td></tr><tr><td><b>提示</b></td><td>注意首字母是 <code>O</code>，不是 W（因为西语没有 W 这个原生字母）。在拉丁语系中，西边常被联想为“日落”或“傍晚”，词根与英语的 west 以及拉丁语的 <code>vesper</code>（傍晚）相关。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Oeste",
+        "origin": "古日耳曼语",
+        "meaning": "西方，与英语 West 同源"
+      },
+      {
+        "part": "vesper",
+        "origin": "拉丁语",
+        "meaning": "傍晚，西边常被联想为日落/傍晚"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_direction_noreste",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 54,
+    "character": "",
+    "target_word": "Noreste",
+    "ipa": "/no.ˈɾes.te/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "方位词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "东北（Norte 北 + Este 东，先北后东）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "方位 · Noreste",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Noreste 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"东北\" placeholder=\"...\"/></td></tr><tr><td><b>拆解</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"Norte+Este\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>5. Noreste（东北）</h3><p class=\"grammar-summary\">公式：Norte/Sur + Este/Oeste = 组合方向</p><table class=\"grammar-table\"><tbody><tr><td><b>拆解</b></td><td><b>Norte</b>（北）+ <b>Este</b>（东）</td></tr><tr><td><b>记忆</b></td><td>先北后东。记住这个顺序。</td></tr><tr><td><b>拼写提示</b></td><td>直接拼接，Norte 的 e 和 Este 的 E 连在一起。所以是 <code>Noreste</code>。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Nor-",
+        "origin": "Norte 缩略",
+        "meaning": "北（去掉尾部 -te）"
+      },
+      {
+        "part": "-este",
+        "origin": "Este",
+        "meaning": "东，直接拼接"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_direction_noroeste",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 55,
+    "character": "",
+    "target_word": "Noroeste",
+    "ipa": "/no.ɾo.ˈes.te/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "方位词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "西北（Norte 北 + Oeste 西，先北后西）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "方位 · Noroeste",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Noroeste 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"西北\" placeholder=\"...\"/></td></tr><tr><td><b>拆解</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"Norte+Oeste\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>6. Noroeste（西北）</h3><table class=\"grammar-table\"><tbody><tr><td><b>拆解</b></td><td><b>Norte</b>（北）+ <b>Oeste</b>（西）</td></tr><tr><td><b>记忆</b></td><td>先北后西。</td></tr><tr><td><b>拼写提示</b></td><td>注意拼写是 <code>Noroeste</code>，不要写成 <code>Norteoeste</code>。西语在组合时通常会简化 Norte 的尾部。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Nor-",
+        "origin": "Norte 缩略",
+        "meaning": "北（去掉尾部 -te）"
+      },
+      {
+        "part": "-oeste",
+        "origin": "Oeste",
+        "meaning": "西，简化拼接"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_direction_sureste",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 56,
+    "character": "",
+    "target_word": "Sureste",
+    "ipa": "/su.ˈɾes.te/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "方位词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "东南（Sur 南 + Este 东，先南后东）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "方位 · Sureste",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Sureste 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"东南\" placeholder=\"...\"/></td></tr><tr><td><b>拆解</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"Sur+Este\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>7. Sureste（东南）</h3><table class=\"grammar-table\"><tbody><tr><td><b>拆解</b></td><td><b>Sur</b>（南）+ <b>Este</b>（东）</td></tr><tr><td><b>记忆</b></td><td>先南后东。</td></tr><tr><td><b>拼写提示</b></td><td><code>Sureste</code>，连写。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Sur",
+        "origin": "Sur",
+        "meaning": "南，直接使用"
+      },
+      {
+        "part": "-este",
+        "origin": "Este",
+        "meaning": "东，连写拼接"
+      }
+    ]
+  },
+  {
+    "id": "GRAMMAR_direction_suroeste",
+    "episode": "",
+    "scene_id": "",
+    "line_index": 57,
+    "character": "",
+    "target_word": "Suroeste",
+    "ipa": "/su.ɾo.ˈes.te/",
+    "pos": "grammar",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "语法",
+      "方位词"
+    ],
+    "sentence_cloze": "",
+    "sentence_full": "",
+    "translation": "西南（Sur 南 + Oeste 西，先南后西）",
+    "sentence_translation": "",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "grammar_topic": "方位 · Suroeste",
+    "grammar_front_html": "<div class=\"grammar-quiz\"><p class=\"quiz-instruction\">请填写 Suroeste 的信息：</p><table class=\"grammar-quiz-table\"><tbody><tr><td><b>中文</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"西南\" placeholder=\"...\"/></td></tr><tr><td><b>拆解</b></td><td><input type=\"text\" class=\"grammar-input\" data-answer=\"Sur+Oeste\" placeholder=\"...\"/></td></tr></tbody></table><div class=\"quiz-check-hint\">填写完成后点击卡片检查答案</div></div>",
+    "grammar_content": "<div class=\"grammar-card\"><h3>8. Suroeste（西南）</h3><table class=\"grammar-table\"><tbody><tr><td><b>拆解</b></td><td><b>Sur</b>（南）+ <b>Oeste</b>（西）</td></tr><tr><td><b>记忆</b></td><td>先南后西。</td></tr><tr><td><b>拼写提示</b></td><td><code>Suroeste</code>。</td></tr></tbody></table></div>",
+    "etymology": [
+      {
+        "part": "Sur",
+        "origin": "Sur",
+        "meaning": "南，直接使用"
+      },
+      {
+        "part": "-oeste",
+        "origin": "Oeste",
+        "meaning": "西，连写拼接"
+      }
+    ]
+  }
+]

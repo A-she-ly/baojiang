@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import FlashcardView from './components/FlashcardView'
+import GrammarFlashcardView from './components/GrammarFlashcardView'
 import Home from './components/Home'
 import ShowSelector from './components/ShowSelector'
 import CreateCardModal from './components/CreateCardModal'
@@ -19,12 +20,17 @@ import friendsCards from './data/S01E01_cards.json'
 import friendsMeta from './data/S01E01_metadata.json'
 import friendsNounsCards from './data/Friends_S01E01_nouns_cards.json'
 import friendsNounsMeta from './data/Friends_S01E01_nouns_metadata.json'
+import lcdpS1E01Cards from './data/LCDP_S1E01_cards.json'
+import lcdpS1E01Meta from './data/LCDP_S1E01_metadata.json'
 import lcdpNounsCards from './data/LCDP_S3E01_nouns_cards.json'
 import lcdpNounsMeta from './data/LCDP_S3E01_nouns_metadata.json'
 import lcdpS3E05Cards from './data/LCDP_S3E05_cards.json'
 import lcdpS3E05Meta from './data/LCDP_S3E05_metadata.json'
 import lcdpS3E07Cards from './data/LCDP_S3E07_cards.json'
 import lcdpS3E07Meta from './data/LCDP_S3E07_metadata.json'
+import lcdpS4E02Cards from './data/LCDP_S4E02_cards.json'
+import lcdpS4E02Meta from './data/LCDP_S4E02_metadata.json'
+import grammarCards from './data/grammar_cards.json'
 
 const friendsCardsData = friendsCards as Flashcard[]
 const friendsMetaData = friendsMeta as EpisodeMetadata
@@ -47,22 +53,30 @@ function filterNameCards(cards: Flashcard[]): Flashcard[] {
 
 const friendsNounsCardsData = filterNameCards(friendsNounsCards as Flashcard[])
 const friendsNounsMetaData = friendsNounsMeta as EpisodeMetadata
+const lcdpS1E01CardsData = filterNameCards(lcdpS1E01Cards as Flashcard[])
+const lcdpS1E01MetaData = lcdpS1E01Meta as EpisodeMetadata
 const lcdpNounsCardsData = filterNameCards(lcdpNounsCards as Flashcard[])
 const lcdpNounsMetaData = lcdpNounsMeta as EpisodeMetadata
 const lcdpS3E05CardsData = filterNameCards(lcdpS3E05Cards as Flashcard[])
 const lcdpS3E05MetaData = lcdpS3E05Meta as EpisodeMetadata
 const lcdpS3E07CardsData = filterNameCards(lcdpS3E07Cards as Flashcard[])
 const lcdpS3E07MetaData = lcdpS3E07Meta as EpisodeMetadata
+const lcdpS4E02CardsData = filterNameCards(lcdpS4E02Cards as Flashcard[])
+const lcdpS4E02MetaData = lcdpS4E02Meta as EpisodeMetadata
+const grammarCardsData = grammarCards as Flashcard[]
 
 /** Map of "showId:episodeId" → { cards, metadata } */
 const EPISODE_DATA: Record<string, { cards: Flashcard[]; metadata: EpisodeMetadata }> = {
   'friends:S01E01-NOUNS': { cards: friendsNounsCardsData, metadata: friendsNounsMetaData },
+  'la-casa-de-papel:S1E01': { cards: lcdpS1E01CardsData, metadata: lcdpS1E01MetaData },
   'la-casa-de-papel:S3E01': { cards: lcdpNounsCardsData, metadata: lcdpNounsMetaData },
   'la-casa-de-papel:S3E05': { cards: lcdpS3E05CardsData, metadata: lcdpS3E05MetaData },
   'la-casa-de-papel:S3E07': { cards: lcdpS3E07CardsData, metadata: lcdpS3E07MetaData },
+  'la-casa-de-papel:S4E02': { cards: lcdpS4E02CardsData, metadata: lcdpS4E02MetaData },
 }
 
 const LS_SESSION_KEY = 'bjy_session_v1'
+const LS_FILTER_KEY = 'bjy_filter_v1'
 
 function loadSession(): { showId: string | null; episodeId: string | null } {
   try {
@@ -74,6 +88,25 @@ function loadSession(): { showId: string | null; episodeId: string | null } {
 
 function saveSession(showId: string | null, episodeId: string | null) {
   localStorage.setItem(LS_SESSION_KEY, JSON.stringify({ showId, episodeId }))
+}
+
+interface FilterState {
+  selectedFilter: string
+  selectedValue: string | null
+  selectedFilterEpisode: string | null
+  grammarMode: boolean
+}
+
+function loadFilter(): FilterState {
+  try {
+    const raw = localStorage.getItem(LS_FILTER_KEY)
+    if (raw) return JSON.parse(raw)
+  } catch { /* ignore */ }
+  return { selectedFilter: 'pos', selectedValue: null, selectedFilterEpisode: null, grammarMode: false }
+}
+
+function saveFilter(filter: FilterState) {
+  localStorage.setItem(LS_FILTER_KEY, JSON.stringify(filter))
 }
 
 export default function App() {
@@ -94,10 +127,17 @@ export default function App() {
   const [selectedShowId, setSelectedShowId] = useState<string | null>(savedSession.showId)
   const [selectedEpisodeId, setSelectedEpisodeId] = useState<string | null>(savedSession.episodeId)
 
-  // Filter state - lifted to App to persist across view changes
-  const [selectedFilter, setSelectedFilter] = useState<string>('pos')
-  const [selectedValue, setSelectedValue] = useState<string | null>(null)
-  const [selectedFilterEpisode, setSelectedFilterEpisode] = useState<string | null>(null)
+  // Filter state - lifted to App to persist across view changes AND page refreshes
+  const savedFilter = useMemo(() => loadFilter(), [])
+  const [selectedFilter, setSelectedFilter] = useState<string>(savedFilter.selectedFilter)
+  const [selectedValue, setSelectedValue] = useState<string | null>(savedFilter.selectedValue)
+  const [selectedFilterEpisode, setSelectedFilterEpisode] = useState<string | null>(savedFilter.selectedFilterEpisode)
+  const [grammarMode, setGrammarMode] = useState(savedFilter.grammarMode)
+
+  // Persist filter state to localStorage
+  useEffect(() => {
+    saveFilter({ selectedFilter, selectedValue, selectedFilterEpisode, grammarMode })
+  }, [selectedFilter, selectedValue, selectedFilterEpisode, grammarMode])
 
   useEffect(() => {
     hydrate()
@@ -400,7 +440,46 @@ export default function App() {
         </div>
 
         {current ? (
-          <FlashcardView
+          current.grammar_topic ? (
+            <GrammarFlashcardView
+              card={current}
+              canGoNext={queueIndex < queueCards.length - 1}
+              canGoPrev={queueIndex > 0}
+              progress={{ current: queueIndex + 1, total: queueCards.length }}
+              onCardComplete={handleCardComplete}
+              onSessionComplete={() => {
+                if (parentSession) {
+                  isRestoringParentRef.current = true
+                  setView({ name: 'study', queueIds: parentSession.queueIds })
+                  setQueueIndex(parentSession.queueIndex)
+                  setParentSession(null)
+                  setSessionCounter((c) => c + 1)
+                } else {
+                  setSessionCompleted(true)
+                }
+              }}
+              onRate={(r) => rateCard(current.id, r)}
+              onNext={() => setQueueIndex((i) => Math.min(queueCards.length - 1, i + 1))}
+              onPrev={() => setQueueIndex((i) => Math.max(0, i - 1))}
+              onDislike={(cardId) => {
+                const newQueueIds = view.queueIds.filter((id) => id !== cardId)
+                const currentQueueSet = new Set(newQueueIds)
+                const replacement = allCards.find((c) => !currentQueueSet.has(c.id) && !disliked.has(c.id) && !mastered.has(c.id))
+                if (replacement) newQueueIds.push(replacement.id)
+                setView({ name: 'study', queueIds: newQueueIds })
+                if (queueIndex >= newQueueIds.length) setQueueIndex(Math.max(0, newQueueIds.length - 1))
+              }}
+              onMastered={(cardId) => {
+                const newQueueIds = view.queueIds.filter((id) => id !== cardId)
+                const currentQueueSet = new Set(newQueueIds)
+                const replacement = allCards.find((c) => !currentQueueSet.has(c.id) && !disliked.has(c.id) && !mastered.has(c.id))
+                if (replacement) newQueueIds.push(replacement.id)
+                setView({ name: 'study', queueIds: newQueueIds })
+                if (queueIndex >= newQueueIds.length) setQueueIndex(Math.max(0, newQueueIds.length - 1))
+              }}
+            />
+          ) : (
+            <FlashcardView
             key={`${current.id}-${sessionCounter}`}
             card={current}
             canGoNext={queueIndex < queueCards.length - 1}
@@ -476,6 +555,7 @@ export default function App() {
               setCreateCardModal({ selectedText, currentCard: current })
             }}
           />
+          )
         ) : (
           <div className="text-center py-20 text-friends-coffee">
             <Bi i18nKey="session.empty" />
@@ -686,6 +766,9 @@ export default function App() {
       setSelectedValue={setSelectedValue}
       selectedEpisode={selectedFilterEpisode}
       setSelectedEpisode={setSelectedFilterEpisode}
+      grammarCards={grammarCardsData}
+      grammarMode={grammarMode}
+      setGrammarMode={setGrammarMode}
     />
   )
 }

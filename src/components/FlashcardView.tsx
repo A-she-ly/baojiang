@@ -105,26 +105,99 @@ interface SentenceWithLinksProps {
   wordMap: Map<string, string>
   onWordClick: (cardId: string) => void
   highlightWord?: string
+  phraseMap?: Map<string, string>  // 多词短语 → cardId 映射
 }
 
 /** Render a sentence with clickable word links */
-function SentenceWithLinks({ text, wordMap, onWordClick, highlightWord: hlWord }: SentenceWithLinksProps) {
-  const tokens = text.split(/(\S+)/g)
+function SentenceWithLinks({ text, wordMap, onWordClick, highlightWord: hlWord, phraseMap }: SentenceWithLinksProps) {
   const hlNorm = hlWord ? normalizeWord(hlWord) : null
 
-  return (
-    <>
-      {tokens.map((token, i) => {
-        if (!/\S/.test(token)) return <span key={i}>{token}</span>
+  // 收集所有短语匹配位置（字符索引）
+  interface PhraseMatch {
+    start: number
+    end: number
+    cardId: string
+    text: string
+  }
+  const matches: PhraseMatch[] = []
+  if (phraseMap && phraseMap.size > 0) {
+    const textLower = text.toLowerCase()
+    for (const [phrase, cardId] of phraseMap) {
+      const phraseLower = phrase.toLowerCase()
+      let startIdx = 0
+      while (true) {
+        const idx = textLower.indexOf(phraseLower, startIdx)
+        if (idx === -1) break
+        matches.push({
+          start: idx,
+          end: idx + phrase.length,
+          cardId,
+          text: text.substring(idx, idx + phrase.length)
+        })
+        startIdx = idx + phrase.length
+      }
+    }
+    // 按起始位置排序，长的优先
+    matches.sort((a, b) => a.start - b.start || b.end - a.end)
+  }
+
+  // 构建非短语区域的列表
+  interface TextSegment {
+    text: string
+    isPhrase: boolean
+    cardId?: string
+  }
+  const segments: TextSegment[] = []
+  let pos = 0
+  for (const match of matches) {
+    if (match.start >= pos) {
+      // 添加前面的非短语文本
+      if (match.start > pos) {
+        segments.push({ text: text.substring(pos, match.start), isPhrase: false })
+      }
+      // 添加短语
+      segments.push({ text: match.text, isPhrase: true, cardId: match.cardId })
+      pos = match.end
+    }
+  }
+  // 添加最后的非短语文本
+  if (pos < text.length) {
+    segments.push({ text: text.substring(pos), isPhrase: false })
+  }
+
+  // 渲染每个段落
+  const elements: JSX.Element[] = []
+  segments.forEach((seg, segIdx) => {
+    if (seg.isPhrase) {
+      // 短语作为整体链接
+      elements.push(
+        <span
+          key={`phrase-${segIdx}`}
+          onClick={(e) => { e.stopPropagation(); onWordClick(seg.cardId!) }}
+          className="cursor-pointer border-b border-dashed text-friends-accent border-friends-accent/50 hover:text-friends-perk hover:border-friends-perk transition-colors"
+          title="点击跳转到该短语闪卡"
+        >
+          {seg.text}
+        </span>
+      )
+    } else {
+      // 非短语文本，按单词处理
+      const tokens = seg.text.split(/(\S+)/g)
+      tokens.forEach((token, tokenIdx) => {
+        const key = `seg-${segIdx}-tok-${tokenIdx}`
+        if (!/\S/.test(token)) {
+          elements.push(<span key={key}>{token}</span>)
+          return
+        }
         const clean = token.replace(/[^\w\u00C0-\u024F]/g, '')
         const norm = normalizeWord(clean)
         const cardId = wordMap.get(norm)
         const isHl = hlNorm !== null && norm === hlNorm
 
         if (cardId) {
-          return (
+          elements.push(
             <span
-              key={i}
+              key={key}
               onClick={(e) => { e.stopPropagation(); onWordClick(cardId) }}
               className={`cursor-pointer border-b border-dashed transition-colors ${
                 isHl
@@ -136,11 +209,14 @@ function SentenceWithLinks({ text, wordMap, onWordClick, highlightWord: hlWord }
               {token}
             </span>
           )
+        } else {
+          elements.push(<span key={key}>{token}</span>)
         }
-        return <span key={i}>{token}</span>
-      })}
-    </>
-  )
+      })
+    }
+  })
+
+  return <>{elements}</>
 }
 
 export default function FlashcardView({
@@ -181,6 +257,20 @@ export default function FlashcardView({
   const isFav = favorites.has(card.id)
   const isDisliked = disliked.has(card.id)
   const isMastered = mastered.has(card.id)
+
+  // 构建短语映射：从 related_cards 中提取 target_word → cardId
+  const phraseMap = useMemo(() => {
+    const map = new Map<string, string>()
+    if (card.related_cards) {
+      for (const rel of card.related_cards) {
+        // 从 label 中提取短语（括号前的部分）
+        const match = rel.label.match(/^(.+?)（/)
+        const phrase = match ? match[1].trim() : rel.label
+        map.set(phrase, rel.cardId)
+      }
+    }
+    return map
+  }, [card.related_cards])
 
   // Mark card as seen when it appears
   useEffect(() => {
@@ -581,7 +671,7 @@ export default function FlashcardView({
                                   </button>
                                 </span>
                               )
-                              : <SentenceWithLinks key={i} text={p} wordMap={wordMap} onWordClick={onWordClick} highlightWord={card.target_word} />
+                              : <SentenceWithLinks key={i} text={p} wordMap={wordMap} onWordClick={onWordClick} highlightWord={card.target_word} phraseMap={phraseMap} />
                           )}
                         </>
                       )
@@ -861,11 +951,8 @@ export default function FlashcardView({
               {/* Context (transcript) or Example sentence */}
               {card.is_example_sentence ? (
                 <div className="bg-white/70 rounded-xl p-4 border border-friends-coffee/20">
-                  <div className="text-xs font-semibold mb-2 flex items-center gap-1">
+                  <div className="text-xs font-semibold mb-2">
                     <span className="text-friends-perk"><Bi i18nKey="card.exampleSentence" /></span>
-                    <span className="ml-auto px-2 py-0.5 rounded bg-friends-coffee/10 text-friends-coffee/70 text-[10px] font-medium">
-                      <Bi i18nKey="card.exampleNote" />
-                    </span>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className={`${backFontSize} text-friends-sofa font-medium leading-relaxed flex-1`} style={{ columnCount: 1 }}>
@@ -912,7 +999,7 @@ export default function FlashcardView({
                   )}
                   <div className="flex items-start gap-2">
                     <div className={`${backFontSize} text-friends-sofa font-medium leading-relaxed border-y border-friends-perk/30 py-2 flex-1`} style={{ columnCount: 1 }}>
-                      <SentenceWithLinks text={card.sentence_full} wordMap={wordMap} onWordClick={onWordClick} highlightWord={card.target_word} />
+                      <SentenceWithLinks text={card.sentence_full} wordMap={wordMap} onWordClick={onWordClick} highlightWord={card.target_word} phraseMap={phraseMap} />
                     </div>
                     <button
                       onClick={(e) => {
@@ -962,7 +1049,7 @@ export default function FlashcardView({
                       return (
                       <div key={idx} className="border-l-2 border-friends-perk/30 pl-3">
                         <div className="text-sm text-friends-sofa font-medium leading-relaxed" style={{ columnCount: 1 }}>
-                          <SentenceWithLinks text={sentenceText} wordMap={wordMap} onWordClick={onWordClick} highlightWord={card.target_word} />
+                          <SentenceWithLinks text={sentenceText} wordMap={wordMap} onWordClick={onWordClick} highlightWord={card.target_word} phraseMap={phraseMap} />
                         </div>
                         {ctx.chinese && (
                           <div className="text-xs text-friends-perk/80 mt-1">
@@ -979,11 +1066,13 @@ export default function FlashcardView({
               {/* Cultural note */}
               {card.cultural_note && (
                 <div className="bg-friends-cream rounded-xl p-4 border-l-4 border-friends-perk">
-                  <div className="text-xs uppercase tracking-wide text-friends-perk font-bold mb-1">
+                  <div className="text-xs uppercase tracking-wide text-friends-perk font-bold mb-2">
                     <Bi i18nKey="card.culturalNote" />
                   </div>
-                  <div className="text-sm text-friends-sofa/90 leading-relaxed">
-                    {card.cultural_note}
+                  <div className="text-sm text-friends-sofa/90 leading-relaxed space-y-1">
+                    {card.cultural_note.split('\n').map((line, i) => (
+                      <div key={i}>{line}</div>
+                    ))}
                   </div>
                 </div>
               )}

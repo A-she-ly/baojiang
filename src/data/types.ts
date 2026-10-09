@@ -83,6 +83,10 @@ export interface Flashcard {
   context_prev_cn?: string | null  // 前一句台词中文翻译
   context_next?: string | null  // 后一句台词（用于台词卡）
   context_next_cn?: string | null  // 后一句台词中文翻译
+  grammar_topic?: string  // 语法主题（语法卡片专用，如 "主格人称代词"）
+  grammar_front_html?: string  // 语法卡片正面 HTML（测验/填空）
+  grammar_content?: string  // 语法卡片背面 HTML（完整讲解）
+  related_cards?: { cardId: string; label: string }[]  // 关联闪卡链接
 }
 
 export interface EpisodeMetadata {

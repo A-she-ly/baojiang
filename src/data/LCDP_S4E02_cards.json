@@ -1,0 +1,5692 @@
+[
+  {
+    "id": "LCDP_S4E02_001",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_001",
+    "line_index": 1,
+    "character": "S4E02",
+    "target_word": "advertir",
+    "ipa": "/ad.beɾ.ˈtiɾ/",
+    "pos": "v. advertir",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Te lo ___ con Alberto, que era un cabronazo.",
+    "sentence_full": "Te lo advertí con Alberto, que era un cabronazo.",
+    "translation": "警告（动词原形）",
+    "sentence_translation": "阿尔贝托的事我警告过你，他是个混蛋。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "advert-",
+        "origin": "拉丁语词根",
+        "meaning": "词干（可能含前缀 a-）"
+      },
+      {
+        "part": "-ir",
+        "origin": "拉丁语 -īre",
+        "meaning": "第三变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_002",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_002",
+    "line_index": 2,
+    "character": "S4E02",
+    "target_word": "afrontar",
+    "ipa": "/a.fɾon.ˈtaɾ/",
+    "pos": "v. afrontar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Sabes qué hizo? Se calló. Porque no ___ es de manual.",
+    "sentence_full": "Sabes qué hizo? Se calló. Porque no afronta, es de manual.",
+    "translation": "面对（动词原形）",
+    "sentence_translation": "你知道他怎么做的？沉默了。因为他不面对问题，教科书式的。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "afront-",
+        "origin": "拉丁语词根",
+        "meaning": "词干（可能含前缀 a-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_003",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_003",
+    "line_index": 3,
+    "character": "S4E02",
+    "target_word": "agarrar",
+    "ipa": "/a.ga.ˈraɾ/",
+    "pos": "v. agarrar",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Porque se me ___ un nudo aquí que no...",
+    "sentence_full": "Porque se me agarra un nudo aquí que no...",
+    "translation": "抓住（动词原形）",
+    "sentence_translation": "因为这里一直有个结……",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "agarr-",
+        "origin": "拉丁语词根",
+        "meaning": "词干（可能含前缀 a-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_004",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_004",
+    "line_index": 4,
+    "character": "S4E02",
+    "target_word": "apostar",
+    "ipa": "/a.pos.ˈtaɾ/",
+    "pos": "v. apostar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No nos puedes traicionar así. ___?",
+    "sentence_full": "No nos puedes traicionar así. Apostamos?",
+    "translation": "打赌（动词原形）",
+    "sentence_translation": "你不能这样背叛我们。赌吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "apost-",
+        "origin": "拉丁语词根",
+        "meaning": "词干（可能含前缀 a-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_005",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_005",
+    "line_index": 5,
+    "character": "S4E02",
+    "target_word": "arrepentir",
+    "ipa": "/a.re.pen.ˈtiɾ/",
+    "pos": "v. arrepentir",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Cuanto menos entiendas lo que te dice, más ___",
+    "sentence_full": "Cuanto menos entiendas lo que te dice, más arrepentido.",
+    "translation": "后悔（动词原形）",
+    "sentence_translation": "越听不懂她在说什么，你就越该闭嘴。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "arrepent-",
+        "origin": "拉丁语词根",
+        "meaning": "词干（可能含前缀 a-）"
+      },
+      {
+        "part": "-ir",
+        "origin": "拉丁语 -īre",
+        "meaning": "第三变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_006",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_006",
+    "line_index": 6,
+    "character": "S4E02",
+    "target_word": "arrodillar",
+    "ipa": "/a.ro.di.ˈʝaɾ/",
+    "pos": "v. arrodillar",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "La ___on, desarmada, y le preguntaron por mí.",
+    "sentence_full": "La arrodillaron, desarmada, y le preguntaron por mí.",
+    "translation": "跪下（动词原形）",
+    "sentence_translation": "让她跪下，缴了械，问她我在哪里。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "arrodill-",
+        "origin": "拉丁语词根",
+        "meaning": "词干（可能含前缀 a-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_007",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_007",
+    "line_index": 7,
+    "character": "S4E02",
+    "target_word": "asegurar",
+    "ipa": "/a.se.gu.ˈɾaɾ/",
+    "pos": "v. asegurar",
+    "level": "B1",
+    "pronunciation_focus": "g_sound",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Pero te ___ que es mucho más divertido de lo que pone ahí.",
+    "sentence_full": "Pero te aseguro que es mucho más divertido de lo que pone ahí.",
+    "translation": "保证（动词原形）",
+    "sentence_translation": "但我向你保证，本人比报告上写的有趣多了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "asegur-",
+        "origin": "拉丁语词根",
+        "meaning": "词干（可能含前缀 a-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_008",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_008",
+    "line_index": 8,
+    "character": "S4E02",
+    "target_word": "atracar",
+    "ipa": "/a.tɾa.ˈkaɾ/",
+    "pos": "v. atracar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Estamos ___ el Banco de España.",
+    "sentence_full": "Estamos atracando el Banco de España.",
+    "translation": "抢劫（动词原形）",
+    "sentence_translation": "我们在抢西班牙银行。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "atrac-",
+        "origin": "拉丁语词根",
+        "meaning": "词干（可能含前缀 a-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_009",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_009",
+    "line_index": 9,
+    "character": "S4E02",
+    "target_word": "beber",
+    "ipa": "/be.ˈbeɾ/",
+    "pos": "v. beber",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Sergio, ___ otro poquito más. Llevo dos.",
+    "sentence_full": "Sergio, bebe otro poquito más. Llevo dos.",
+    "translation": "喝（动词原形）",
+    "sentence_translation": "塞尔吉奥，再喝一杯。我已经两杯了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "beb-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-er",
+        "origin": "拉丁语 -ēre",
+        "meaning": "第二变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_010",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_010",
+    "line_index": 10,
+    "character": "S4E02",
+    "target_word": "camuflar",
+    "ipa": "/ka.mu.ˈflaɾ/",
+    "pos": "v. camuflar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Yo estaba ___ en un árbol y había...",
+    "sentence_full": "Yo estaba camuflado en un árbol y había...",
+    "translation": "伪装（动词原形）",
+    "sentence_translation": "我藏在一棵树上，周围……",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "camufl-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_011",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_011",
+    "line_index": 11,
+    "character": "S4E02",
+    "target_word": "colaborar",
+    "ipa": "/ko.la.bo.ˈɾaɾ/",
+    "pos": "v. colaborar",
+    "level": "B2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Si ___ la Fiscalía te va a pedir 12 años, que serán diez.",
+    "sentence_full": "Si colaboras, la Fiscalía te va a pedir 12 años, que serán diez.",
+    "translation": "合作（动词原形）",
+    "sentence_translation": "如果你配合，检察官会要求判你12年，实际10年。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "colabor-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_012",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_012",
+    "line_index": 12,
+    "character": "S4E02",
+    "target_word": "cometer",
+    "ipa": "/ko.me.ˈteɾ/",
+    "pos": "v. cometer",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Estás ___ una locura, Helsinki.",
+    "sentence_full": "Estás cometiendo una locura, Helsinki.",
+    "translation": "犯(罪)（动词原形）",
+    "sentence_translation": "你在做一件疯狂的事，赫尔辛基。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "comet-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-er",
+        "origin": "拉丁语 -ēre",
+        "meaning": "第二变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_013",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_013",
+    "line_index": 13,
+    "character": "S4E02",
+    "target_word": "contestar",
+    "ipa": "/kon.tes.ˈtaɾ/",
+    "pos": "v. contestar",
+    "level": "B2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Venga, ___",
+    "sentence_full": "Venga, contesta.",
+    "translation": "回答（动词原形）",
+    "sentence_translation": "来，回答。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "contest-",
+        "origin": "拉丁语词根（con- 共同）",
+        "meaning": "词干（含前缀 con-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_014",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_014",
+    "line_index": 14,
+    "character": "S4E02",
+    "target_word": "controlar",
+    "ipa": "/kon.tɾo.ˈlaɾ/",
+    "pos": "v. controlar",
+    "level": "B2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Esta ___ No lo tenéis controlado.",
+    "sentence_full": "Esta controlado. No lo tenéis controlado.",
+    "translation": "控制（动词原形）",
+    "sentence_translation": "一切在掌控。你们没掌控。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "control-",
+        "origin": "拉丁语词根（con- 共同）",
+        "meaning": "词干（含前缀 con-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_015",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_015",
+    "line_index": 15,
+    "character": "S4E02",
+    "target_word": "corresponder",
+    "ipa": "/ko.res.pon.ˈdeɾ/",
+    "pos": "v. corresponder",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "La petición de años ___ al fiscal, no a ti.",
+    "sentence_full": "La petición de años corresponde al fiscal, no a ti.",
+    "translation": "对应（动词原形）",
+    "sentence_translation": "量刑是检察官的事，不是你。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "correspond-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-er",
+        "origin": "拉丁语 -ēre",
+        "meaning": "第二变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_016",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_016",
+    "line_index": 16,
+    "character": "S4E02",
+    "target_word": "cruzar",
+    "ipa": "/kɾu.ˈθaɾ/",
+    "pos": "v. cruzar",
+    "level": "A2",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "En moto y por pistas forestales, caminos de tierra y vías pecuarias, ___on La Mancha a salvo de los controles.",
+    "sentence_full": "En moto y por pistas forestales, caminos de tierra y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "translation": "穿越（动词原形）",
+    "sentence_translation": "骑摩托走林间小路、土路和牧道，躲过所有检查站穿越拉曼恰。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cruz-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_017",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_017",
+    "line_index": 17,
+    "character": "S4E02",
+    "target_word": "curar",
+    "ipa": "/ku.ˈɾaɾ/",
+    "pos": "v. curar",
+    "level": "A2",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No has escuchado al ___",
+    "sentence_full": "No has escuchado al cura?",
+    "translation": "治疗（动词原形）",
+    "sentence_translation": "你没听牧师说的吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cur-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_018",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_018",
+    "line_index": 18,
+    "character": "S4E02",
+    "target_word": "decidir",
+    "ipa": "/de.θi.ˈdiɾ/",
+    "pos": "v. decidir",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Tú ___ inspectora.",
+    "sentence_full": "Tú decides, inspectora.",
+    "translation": "决定（动词原形）",
+    "sentence_translation": "你自己选，督察。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "decid-",
+        "origin": "拉丁语词根（de- 向下/离开）",
+        "meaning": "词干（含前缀 de-）"
+      },
+      {
+        "part": "-ir",
+        "origin": "拉丁语 -īre",
+        "meaning": "第三变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_019",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_019",
+    "line_index": 19,
+    "character": "S4E02",
+    "target_word": "ejecutar",
+    "ipa": "/e.xe.ku.ˈtaɾ/",
+    "pos": "v. ejecutar",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Perteneciá a la Policía Nacional de Huelva, cerca de donde supuestamente habían ___ a Lisboa.",
+    "sentence_full": "Perteneciá a la Policía Nacional de Huelva, cerca de donde supuestamente habían ejecutado a Lisboa.",
+    "translation": "执行（动词原形）",
+    "sentence_translation": "它属于韦尔瓦国家警察，就在里斯本据称被处决的地方附近。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ejecut-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_020",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_020",
+    "line_index": 20,
+    "character": "S4E02",
+    "target_word": "explicar",
+    "ipa": "/eks.pli.ˈkaɾ/",
+    "pos": "v. explicar",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Déjame que te ___ cual es la naturaleza de vuestro amor.",
+    "sentence_full": "Déjame que te explique cual es la naturaleza de vuestro amor.",
+    "translation": "解释（动词原形）",
+    "sentence_translation": "让我来解释你们爱情的本质。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "explic-",
+        "origin": "拉丁语词根（ex- 向外）",
+        "meaning": "词干（含前缀 ex-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_021",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_021",
+    "line_index": 21,
+    "character": "S4E02",
+    "target_word": "explotar",
+    "ipa": "/eks.plo.ˈtaɾ/",
+    "pos": "v. explotar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Sabes? Tengo la sensación como de que ha ___ el globo. Qué globo?",
+    "sentence_full": "Sabes? Tengo la sensación como de que ha explotado el globo. Qué globo?",
+    "translation": "爆炸（动词原形）",
+    "sentence_translation": "你知道吗？我有种感觉，好像气球爆了。什么气球？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "explot-",
+        "origin": "拉丁语词根（ex- 向外）",
+        "meaning": "词干（含前缀 ex-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_022",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_022",
+    "line_index": 22,
+    "character": "S4E02",
+    "target_word": "faltar",
+    "ipa": "/fal.ˈtaɾ/",
+    "pos": "v. faltar",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Pero ni eso. Porque ___ un jinete.",
+    "sentence_full": "Pero ni eso. Porque faltaba un jinete.",
+    "translation": "缺少（动词原形）",
+    "sentence_translation": "但连那也不算。因为少了一个骑士。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "falt-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_023",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_023",
+    "line_index": 23,
+    "character": "S4E02",
+    "target_word": "instalar",
+    "ipa": "/in.sta.ˈlaɾ/",
+    "pos": "v. instalar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "No, échale alcohol sin miedo. Llevo años ___ en el dolor.",
+    "sentence_full": "No, échale alcohol sin miedo. Llevo años instalado en el dolor.",
+    "translation": "安装（动词原形）",
+    "sentence_translation": "不用，尽管倒酒精。我疼了好多年了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "instal-",
+        "origin": "拉丁语词根（in- 进入/否定）",
+        "meaning": "词干（含前缀 in-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_024",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_024",
+    "line_index": 24,
+    "character": "S4E02",
+    "target_word": "interrogar",
+    "ipa": "/in.te.ro.ˈgaɾ/",
+    "pos": "v. interrogar",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "La están ___",
+    "sentence_full": "La están interrogando.",
+    "translation": "审讯（动词原形）",
+    "sentence_translation": "他们在审问她。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "interrog-",
+        "origin": "拉丁语词根（in- 进入/否定）",
+        "meaning": "词干（含前缀 in-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_025",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_025",
+    "line_index": 25,
+    "character": "S4E02",
+    "target_word": "joder",
+    "ipa": "/xo.ˈdeɾ/",
+    "pos": "v. joder",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Si lo dejas en la calle con la puerta abierta y la llave puesta, es porque estás muy ___",
+    "sentence_full": "Si lo dejas en la calle con la puerta abierta y la llave puesta, es porque estás muy jodido.",
+    "translation": "烦扰/操（动词原形）",
+    "sentence_translation": "如果你把它扔在街上，门开着钥匙插着，那说明你脑子有大病。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "jod-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-er",
+        "origin": "拉丁语 -ēre",
+        "meaning": "第二变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_026",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_026",
+    "line_index": 26,
+    "character": "S4E02",
+    "target_word": "jurar",
+    "ipa": "/xu.ˈɾaɾ/",
+    "pos": "v. jurar",
+    "level": "A2",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Te ___ que lo siguiente que voy a hacer...es ejecutarte.",
+    "sentence_full": "Te juro que lo siguiente que voy a hacer...es ejecutarte.",
+    "translation": "发誓（动词原形）",
+    "sentence_translation": "我发誓接下来我要做的……就是处决你。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "jur-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_027",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_027",
+    "line_index": 27,
+    "character": "S4E02",
+    "target_word": "mandar",
+    "ipa": "/man.ˈdaɾ/",
+    "pos": "v. mandar",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Y a ustedes, espero que mi ___ no haya sido traumático.",
+    "sentence_full": "Y a ustedes, espero que mi mando no haya sido traumático.",
+    "translation": "命令（动词原形）",
+    "sentence_translation": "至于你们，希望我的领导没给你们留下创伤。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "mand-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_028",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_028",
+    "line_index": 28,
+    "character": "S4E02",
+    "target_word": "olvidar",
+    "ipa": "/ol.bi.ˈdaɾ/",
+    "pos": "v. olvidar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Se te habrá ___ pero a mí no!",
+    "sentence_full": "Se te habrá olvidado, pero a mí no!",
+    "translation": "忘记（动词原形）",
+    "sentence_translation": "你可能忘了，但我没忘！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "olvid-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_029",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_029",
+    "line_index": 29,
+    "character": "S4E02",
+    "target_word": "ordenar",
+    "ipa": "/oɾ.de.ˈnaɾ/",
+    "pos": "v. ordenar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Qué clase de ___ voy a dar ahí abajo?",
+    "sentence_full": "Qué clase de órdenes voy a dar ahí abajo?",
+    "translation": "命令（动词原形）",
+    "sentence_translation": "我在下面能下什么命令？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "orden-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_030",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_030",
+    "line_index": 30,
+    "character": "S4E02",
+    "target_word": "pertenecer",
+    "ipa": "/peɾ.te.ne.ˈθeɾ/",
+    "pos": "v. pertenecer",
+    "level": "B2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ a la Policía Nacional de Huelva, cerca de donde supuestamente habían ejecutado a Lisboa.",
+    "sentence_full": "Perteneciá a la Policía Nacional de Huelva, cerca de donde supuestamente habían ejecutado a Lisboa.",
+    "translation": "属于（动词原形）",
+    "sentence_translation": "它属于韦尔瓦国家警察，就在里斯本据称被处决的地方附近。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "pertenec-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-er",
+        "origin": "拉丁语 -ēre",
+        "meaning": "第二变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_031",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_031",
+    "line_index": 31,
+    "character": "S4E02",
+    "target_word": "plantar",
+    "ipa": "/plan.ˈtaɾ/",
+    "pos": "v. plantar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Si no les ___ cara, nos pisotean como en Auschwitz.",
+    "sentence_full": "Si no les plantamos cara, nos pisotean como en Auschwitz.",
+    "translation": "种植（动词原形）",
+    "sentence_translation": "如果不反抗，他们就会像奥斯维辛一样踩在我们头上。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "plant-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_032",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_032",
+    "line_index": 32,
+    "character": "S4E02",
+    "target_word": "proteger",
+    "ipa": "/pɾo.te.ˈxeɾ/",
+    "pos": "v. proteger",
+    "level": "B1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ el plan. Yo soy quien hace el plan!",
+    "sentence_full": "Protejo el plan. Yo soy quien hace el plan!",
+    "translation": "保护（动词原形）",
+    "sentence_translation": "我在保护计划。计划是我做的！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "proteg-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-er",
+        "origin": "拉丁语 -ēre",
+        "meaning": "第二变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_033",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_033",
+    "line_index": 33,
+    "character": "S4E02",
+    "target_word": "recoger",
+    "ipa": "/re.ko.ˈxeɾ/",
+    "pos": "v. recoger",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Como el viento que ___",
+    "sentence_full": "Como el viento que recoge",
+    "translation": "收集（动词原形）",
+    "sentence_translation": "就像收集的风",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "recog-",
+        "origin": "拉丁语词根（re- 重新）",
+        "meaning": "词干（含前缀 re-）"
+      },
+      {
+        "part": "-er",
+        "origin": "拉丁语 -ēre",
+        "meaning": "第二变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_034",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_034",
+    "line_index": 34,
+    "character": "S4E02",
+    "target_word": "reventar",
+    "ipa": "/re.ben.ˈtaɾ/",
+    "pos": "v. reventar",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Lo has ___",
+    "sentence_full": "Lo has reventado.",
+    "translation": "爆裂（动词原形）",
+    "sentence_translation": "你把事情搞砸了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "revent-",
+        "origin": "拉丁语词根（re- 重新）",
+        "meaning": "词干（含前缀 re-）"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_035",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_035",
+    "line_index": 35,
+    "character": "S4E02",
+    "target_word": "salvar",
+    "ipa": "/sal.ˈbaɾ/",
+    "pos": "v. salvar",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "En moto y por pistas forestales, caminos de tierra y vías pecuarias, cruzaron La Mancha a ___ de los controles.",
+    "sentence_full": "En moto y por pistas forestales, caminos de tierra y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "translation": "拯救（动词原形）",
+    "sentence_translation": "骑摩托走林间小路、土路和牧道，躲过所有检查站穿越拉曼恰。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "salv-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_036",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_036",
+    "line_index": 36,
+    "character": "S4E02",
+    "target_word": "significar",
+    "ipa": "/six.ni.fi.ˈkaɾ/",
+    "pos": "v. significar",
+    "level": "B2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Que Tokio sea un Maserati no ___ que tú seas un 600.",
+    "sentence_full": "Que Tokio sea un Maserati no significa que tú seas un 600.",
+    "translation": "意味着（动词原形）",
+    "sentence_translation": "东京是玛莎拉蒂不代表你就是辆小破车。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "signific-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_037",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_037",
+    "line_index": 37,
+    "character": "S4E02",
+    "target_word": "traicionar",
+    "ipa": "/tɾai.θio.ˈnaɾ/",
+    "pos": "v. traicionar",
+    "level": "B2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Ella no ___á.",
+    "sentence_full": "Ella no traicionará.",
+    "translation": "背叛（动词原形）",
+    "sentence_translation": "她不会背叛的。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "traicion-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_038",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_038",
+    "line_index": 38,
+    "character": "S4E02",
+    "target_word": "valorar",
+    "ipa": "/ba.lo.ˈɾaɾ/",
+    "pos": "v. valorar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ tu apreciación, pero es el único lugar donde puedo averiguar si mi mujer sigue viva. Aparta.",
+    "sentence_full": "Valoro tu apreciación, pero es el único lugar donde puedo averiguar si mi mujer sigue viva. Aparta.",
+    "translation": "评估（动词原形）",
+    "sentence_translation": "我感谢你的判断，但那是唯一能确认我妻子是否还活着的地方。让开。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "valor-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_039",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_039",
+    "line_index": 39,
+    "character": "S4E02",
+    "target_word": "vigilar",
+    "ipa": "/bi.xi.ˈlaɾ/",
+    "pos": "v. vigilar",
+    "level": "B1",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Está atado y ___ las 24 horas.",
+    "sentence_full": "Está atado y vigilado las 24 horas.",
+    "translation": "监视（动词原形）",
+    "sentence_translation": "他24小时被绑着被看着。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "vigil-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ar",
+        "origin": "拉丁语 -āre",
+        "meaning": "第一变位动词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_040",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_040",
+    "line_index": 40,
+    "character": "S4E02",
+    "target_word": "embarazada",
+    "ipa": "/em.ba.ɾa.ˈθa.da/",
+    "pos": "adj. embarazada",
+    "level": "B2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Yo ___. Quién lo iba a decir, eh?",
+    "sentence_full": "Yo embarazada. Quién lo iba a decir, eh?",
+    "translation": "怀孕的（形容词）",
+    "sentence_translation": "我怀孕了。谁能想到呢，啊？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "embarazad-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性形容词后缀",
+        "meaning": "形容词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_041",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_041",
+    "line_index": 41,
+    "character": "S4E02",
+    "target_word": "enfadado",
+    "ipa": "/en.fa.ˈda.do/",
+    "pos": "adj. enfadado",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Porque ni siquiera sabes por qué se ha ___.",
+    "sentence_full": "Porque ni siquiera sabes por qué se ha enfadado.",
+    "translation": "生气的（形容词）",
+    "sentence_translation": "因为你连她为什么生气都不知道。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "enfadad-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性形容词后缀",
+        "meaning": "形容词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_042",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_042",
+    "line_index": 42,
+    "character": "S4E02",
+    "target_word": "extrano",
+    "ipa": "/eks.ˈtɾa.no/",
+    "pos": "adj. extrano",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Es que es una boda muy ___, Andrés.",
+    "sentence_full": "Es que es una boda muy extraña, Andrés.",
+    "translation": "奇怪的（形容词）",
+    "sentence_translation": "这婚礼太奇怪了，安德烈斯。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "extran-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性形容词后缀",
+        "meaning": "形容词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_043",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_043",
+    "line_index": 43,
+    "character": "S4E02",
+    "target_word": "incapaz",
+    "ipa": "/in.ka.ˈpaθ/",
+    "pos": "adj. incapaz",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Sin Palermo, somos ___ de sacar el oro.",
+    "sentence_full": "Sin Palermo, somos incapaces de sacar el oro.",
+    "translation": "无能力的（形容词）",
+    "sentence_translation": "没有帕勒尔莫，我们没法把金子弄出去。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "incap-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-az",
+        "origin": "拉丁语 -āx",
+        "meaning": "倾向/性质形容词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_044",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_044",
+    "line_index": 44,
+    "character": "S4E02",
+    "target_word": "jodido",
+    "ipa": "/xo.ˈdi.do/",
+    "pos": "adj. jodido",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Y cuanto más ___ estás, más felices parecen los días del pasado.",
+    "sentence_full": "Y cuanto más jodida estás, más felices parecen los días del pasado.",
+    "translation": "该死的（形容词）",
+    "sentence_translation": "你越落魄，过去的日子就越显得幸福。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "jodid-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性形容词后缀",
+        "meaning": "形容词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_045",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_045",
+    "line_index": 45,
+    "character": "S4E02",
+    "target_word": "joven",
+    "ipa": "/ˈxo.ben/",
+    "pos": "adj. joven",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Hermano! Lo siento por ella, es ___ y estáenamorada, pero tú estás enfermo.",
+    "sentence_full": "Hermano! Lo siento por ella, es joven y estáenamorada, pero tú estás enfermo.",
+    "translation": "年轻的（形容词）",
+    "sentence_translation": "兄弟！我替她难过，她年轻又痴情，但你有病。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "jov-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-en",
+        "origin": "形容词后缀",
+        "meaning": "形容词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_046",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_046",
+    "line_index": 46,
+    "character": "S4E02",
+    "target_word": "justo",
+    "ipa": "/ˈxus.to/",
+    "pos": "adj. justo",
+    "level": "A2",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "pero para ella es un comienzo, y no es ___.",
+    "sentence_full": "pero para ella es un comienzo, y no es justo.",
+    "translation": "正当的（形容词）",
+    "sentence_translation": "但对她来说是开始，这不公平。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "just-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性形容词后缀",
+        "meaning": "形容词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_047",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_047",
+    "line_index": 47,
+    "character": "S4E02",
+    "target_word": "traumático",
+    "ipa": "/tɾau.ma.ˈti.ko/",
+    "pos": "adj. traumático",
+    "level": "B2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Y a ustedes, espero que mi mando no haya sido ___",
+    "sentence_full": "Y a ustedes, espero que mi mando no haya sido traumático.",
+    "translation": "创伤的（形容词）",
+    "sentence_translation": "至于你们，希望我的领导没给你们留下创伤。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "traumatic-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性形容词后缀",
+        "meaning": "形容词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_048",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_048",
+    "line_index": 48,
+    "character": "S4E02",
+    "target_word": "único",
+    "ipa": "/u.ˈni.ko/",
+    "pos": "adj. único",
+    "level": "A2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Lo ___ parecido al plan era la entrada del Profesor en Madrid.",
+    "sentence_full": "Lo único parecido al plan era la entrada del Profesor en Madrid.",
+    "translation": "唯一的（形容词）",
+    "sentence_translation": "唯一跟计划沾边的，就是教授进入马德里。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "unic-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性形容词后缀",
+        "meaning": "形容词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_049",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_049",
+    "line_index": 49,
+    "character": "S4E02",
+    "target_word": "globo",
+    "ipa": "/ˈglo.bo/",
+    "pos": "n.m. globo",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Sabes? Tengo la sensación como de que ha explotado el ___. Qué globo?",
+    "sentence_full": "Sabes? Tengo la sensación como de que ha explotado el globo. Qué globo?",
+    "translation": "气球（名词）",
+    "sentence_translation": "你知道吗？我有种感觉，好像气球爆了。什么气球？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "glob-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_050",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_050",
+    "line_index": 50,
+    "character": "S4E02",
+    "target_word": "gol",
+    "ipa": "/ˈgol/",
+    "pos": "n.f. gol",
+    "level": "A1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Eso es ___! Penalti!",
+    "sentence_full": "Eso es gol! Penalti!",
+    "translation": "进球（名词）",
+    "sentence_translation": "进了！点球！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "go-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-l",
+        "origin": "拉丁语 -lis",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_051",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_051",
+    "line_index": 51,
+    "character": "S4E02",
+    "target_word": "huevos",
+    "ipa": "/ˈue.bos/",
+    "pos": "n.f. huevos",
+    "level": "A2",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Me está tocando los ___. Lo has visto.",
+    "sentence_full": "Me está tocando los huevos. Lo has visto.",
+    "translation": "鸡蛋（名词）",
+    "sentence_translation": "他在耍我。你看到了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "huev-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_052",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_052",
+    "line_index": 52,
+    "character": "S4E02",
+    "target_word": "maserati",
+    "ipa": "/ma.se.ˈɾa.ti/",
+    "pos": "n.f. maserati",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Tokio es un puto ___, todo el mundo quiere uno.",
+    "sentence_full": "Tokio es un puto Maserati, todo el mundo quiere uno.",
+    "translation": "玛莎拉蒂（名词）",
+    "sentence_translation": "东京就是一辆玛莎拉蒂，人人都想要。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "maserat-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-i",
+        "origin": "外来词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_053",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_053",
+    "line_index": 53,
+    "character": "S4E02",
+    "target_word": "sierra",
+    "ipa": "/ˈsie.ra/",
+    "pos": "n.f. sierra",
+    "level": "A2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Gol de ___ por la escuadra.",
+    "sentence_full": "Gol de Sierra por la escuadra.",
+    "translation": "山脉/锯子（名词）",
+    "sentence_translation": "席耶拉一记死角进球。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "sierr-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_054",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_054",
+    "line_index": 54,
+    "character": "S4E02",
+    "target_word": "aire",
+    "ipa": "/ˈai.ɾe/",
+    "pos": "n.f. aire",
+    "level": "A1",
+    "pronunciation_focus": "diphthong_au",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Yluego, cuando intuyas por dónde viene el ___, y cuando ella se haya relajado,",
+    "sentence_full": "Yluego, cuando intuyas por dónde viene el aire, y cuando ella se haya relajado,",
+    "translation": "空气（名词）",
+    "sentence_translation": "然后，当你感觉到风向变了，当她冷静下来了，",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "air-",
+        "origin": "拉丁语 aer / aërem",
+        "meaning": "空气（借自希腊语 ἀήρ）"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_055",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_055",
+    "line_index": 55,
+    "character": "S4E02",
+    "target_word": "alberto",
+    "ipa": "/al.ˈbeɾ.to/",
+    "pos": "n.m. alberto",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Porque ___ te daba palizas.",
+    "sentence_full": "Porque Alberto te daba palizas.",
+    "translation": "阿尔贝托(人名)（名词）",
+    "sentence_translation": "因为阿尔贝托打过你。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "albert-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_056",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_056",
+    "line_index": 56,
+    "character": "S4E02",
+    "target_word": "atestados",
+    "ipa": "/a.tes.ˈta.dos/",
+    "pos": "n.f. atestados",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "He estado comprobando los ___ y puede ser un error mío, pero no he encontrado la detención de Murillo.",
+    "sentence_full": "He estado comprobando los atestados y puede ser un error mío, pero no he encontrado la detención de Murillo.",
+    "translation": "报告/证明（名词）",
+    "sentence_translation": "我一直在查笔录，可能是我搞错了，但我没找到穆里略的逮捕记录。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "atestad-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_057",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_057",
+    "line_index": 57,
+    "character": "S4E02",
+    "target_word": "bando",
+    "ipa": "/ˈban.do/",
+    "pos": "n.m. bando",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Ya no estoy en tu ___.",
+    "sentence_full": "Ya no estoy en tu bando.",
+    "translation": "阵营（名词）",
+    "sentence_translation": "我不再是你这边的人了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "band-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_058",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_058",
+    "line_index": 58,
+    "character": "S4E02",
+    "target_word": "batiscafo",
+    "ipa": "/ba.tis.ˈka.fo/",
+    "pos": "n.m. batiscafo",
+    "level": "B2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Batiscafo fuera, ___ dentro. Inmersión, emersión.",
+    "sentence_full": "Batiscafo fuera, batiscafo dentro. Inmersión, emersión.",
+    "translation": "潜水艇（名词）",
+    "sentence_translation": "潜水艇出去，潜水艇进来。下潜，上浮。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "batiscaf-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_059",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_059",
+    "line_index": 59,
+    "character": "S4E02",
+    "target_word": "cama",
+    "ipa": "/ˈka.ma/",
+    "pos": "n.f. cama",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Cuatro esquinitas tiene mi ___.",
+    "sentence_full": "Cuatro esquinitas tiene mi cama.",
+    "translation": "床（名词）",
+    "sentence_translation": "我的床有四个角。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cam-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_060",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_060",
+    "line_index": 60,
+    "character": "S4E02",
+    "target_word": "carajo",
+    "ipa": "/ka.ˈɾa.xo/",
+    "pos": "n.m. carajo",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Qué ___?",
+    "sentence_full": "Qué carajo?",
+    "translation": "该死(感叹词)（名词）",
+    "sentence_translation": "搞什么鬼？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "caraj-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_061",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_061",
+    "line_index": 61,
+    "character": "S4E02",
+    "target_word": "careta",
+    "ipa": "/ka.ˈɾe.ta/",
+    "pos": "n.f. careta",
+    "level": "A2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Con mono rojo y ___ de Dalí.",
+    "sentence_full": "Con mono rojo y careta de Dalí.",
+    "translation": "面具（名词）",
+    "sentence_translation": "穿红色连体衣戴达利面具。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "caret-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_062",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_062",
+    "line_index": 62,
+    "character": "S4E02",
+    "target_word": "clon",
+    "ipa": "/klon/",
+    "pos": "n.f. clon",
+    "level": "A1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Clon, ___, le has-hecho en los huevos.",
+    "sentence_full": "Clon, clon, le has-hecho en los huevos.",
+    "translation": "克隆人（名词）",
+    "sentence_translation": "咚，咚，你踢到他蛋了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cl-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ón",
+        "origin": "增大后缀",
+        "meaning": "增大/强调"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_063",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_063",
+    "line_index": 63,
+    "character": "S4E02",
+    "target_word": "dilema",
+    "ipa": "/di.ˈle.ma/",
+    "pos": "n.f. dilema",
+    "level": "A2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "No. Lo que estoy diciendo es que la traición no depende de cuánto amas a alguien, depende de la magnitud del ___ que te pongan delante.",
+    "sentence_full": "No. Lo que estoy diciendo es que la traición no depende de cuánto amas a alguien, depende de la magnitud del dilema que te pongan delante.",
+    "translation": "困境/两难（名词）",
+    "sentence_translation": "我要说的是，背叛不取决于你多爱一个人，而取决于摆在你面前的困境有多大。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "dilem-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_064",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_064",
+    "line_index": 64,
+    "character": "S4E02",
+    "target_word": "fiscal",
+    "ipa": "/fis.ˈkal/",
+    "pos": "n.f. fiscal",
+    "level": "A2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "La petición de años corresponde al ___, no a ti.",
+    "sentence_full": "La petición de años corresponde al fiscal, no a ti.",
+    "translation": "检察官（名词）",
+    "sentence_translation": "量刑是检察官的事，不是你。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "fisc-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-al",
+        "origin": "拉丁语 -ālis",
+        "meaning": "与...相关的"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_065",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_065",
+    "line_index": 65,
+    "character": "S4E02",
+    "target_word": "golpe",
+    "ipa": "/ˈgol.pe/",
+    "pos": "n.f. golpe",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Me hiciste un ___ de estado, hija de puta!",
+    "sentence_full": "Me hiciste un golpe de estado, hija de puta!",
+    "translation": "打击/政变（名词）",
+    "sentence_translation": "你搞了场政变，婊子！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "golp-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_066",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_066",
+    "line_index": 66,
+    "character": "S4E02",
+    "target_word": "hidra",
+    "ipa": "/ˈi.dɾa/",
+    "pos": "n.f. hidra",
+    "level": "A2",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "La ves venir de frente como una ___? Pues tú, callado.",
+    "sentence_full": "La ves venir de frente como una hidra? Pues tú, callado.",
+    "translation": "九头蛇（名词）",
+    "sentence_translation": "你看她像九头蛇一样冲过来？你就闭嘴。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "hidr-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_067",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_067",
+    "line_index": 67,
+    "character": "S4E02",
+    "target_word": "improvisación",
+    "ipa": "/im.pɾo.bi.ˈsa.θion/",
+    "pos": "n.f. improvisación",
+    "level": "B2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Esto no es el plan, es una ___",
+    "sentence_full": "Esto no es el plan, es una improvisación.",
+    "translation": "即兴发挥（名词）",
+    "sentence_translation": "这不是计划，这是即兴发挥。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "improvisa-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-cion",
+        "origin": "拉丁语 -tiōnem / -siōnem",
+        "meaning": "动作/状态名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_068",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_068",
+    "line_index": 68,
+    "character": "S4E02",
+    "target_word": "informes",
+    "ipa": "/in.ˈfoɾ.mes/",
+    "pos": "n.f. informes",
+    "level": "B1",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Con lo que hay en esos ___,",
+    "sentence_full": "Con lo que hay en esos informes,",
+    "translation": "报告（名词）",
+    "sentence_translation": "有了这些报告里的内容，",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "inform",
+        "origin": "词根",
+        "meaning": "完整词形"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_069",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_069",
+    "line_index": 69,
+    "character": "S4E02",
+    "target_word": "lba",
+    "ipa": "/lba/",
+    "pos": "n.f. lba",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "___ a defender y se me pegó.",
+    "sentence_full": "lba a defender y se me pegó.",
+    "translation": "LBA(缩写)（名词）",
+    "sentence_translation": "伊巴去防守，我就学会了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "lb-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_070",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_070",
+    "line_index": 70,
+    "character": "S4E02",
+    "target_word": "meses",
+    "ipa": "/ˈme.ses/",
+    "pos": "n.f. meses",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Se vacía a toda velocidad. En dos ___ está seco.",
+    "sentence_full": "Se vacía a toda velocidad. En dos meses está seco.",
+    "translation": "月（名词）",
+    "sentence_translation": "很快就流干了。两个月就见底了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "mes",
+        "origin": "词根",
+        "meaning": "完整词形"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_071",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_071",
+    "line_index": 71,
+    "character": "S4E02",
+    "target_word": "moto",
+    "ipa": "/ˈmo.to/",
+    "pos": "n.m. moto",
+    "level": "A1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "En ___ y por pistas forestales, caminos de tierra y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "sentence_full": "En moto y por pistas forestales, caminos de tierra y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "translation": "摩托车（名词）",
+    "sentence_translation": "骑摩托走林间小路、土路和牧道，躲过所有检查站穿越拉曼恰。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "mot-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_072",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_072",
+    "line_index": 72,
+    "character": "S4E02",
+    "target_word": "naturaleza",
+    "ipa": "/na.tu.ɾa.ˈle.θa/",
+    "pos": "n.f. naturaleza",
+    "level": "B2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Ni en siete reencarnaciones entenderías la ___ de nuestro amor.",
+    "sentence_full": "Ni en siete reencarnaciones entenderías la naturaleza de nuestro amor.",
+    "translation": "自然（名词）",
+    "sentence_translation": "就算轮回七次你也理解不了我们爱情的本质。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "naturalez-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_073",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_073",
+    "line_index": 73,
+    "character": "S4E02",
+    "target_word": "penalti",
+    "ipa": "/pe.ˈnal.ti/",
+    "pos": "n.f. penalti",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Eso es gol! ___!",
+    "sentence_full": "Eso es gol! Penalti!",
+    "translation": "点球（名词）",
+    "sentence_translation": "进了！点球！",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "penalt-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-i",
+        "origin": "外来词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_074",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_074",
+    "line_index": 74,
+    "character": "S4E02",
+    "target_word": "perfil",
+    "ipa": "/peɾ.ˈfil/",
+    "pos": "n.f. perfil",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Luego está tu ___.",
+    "sentence_full": "Luego está tu perfil.",
+    "translation": "侧面/档案（名词）",
+    "sentence_translation": "还有你的侧写。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "perfi-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-l",
+        "origin": "拉丁语 -lis",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_075",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_075",
+    "line_index": 75,
+    "character": "S4E02",
+    "target_word": "policías",
+    "ipa": "/po.ˈli.θias/",
+    "pos": "n.f. policías",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Había militares y ___ por todas partes.",
+    "sentence_full": "Había militares y policías por todas partes.",
+    "translation": "警察（名词）",
+    "sentence_translation": "到处都是军人和警察。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "polici-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_076",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_076",
+    "line_index": 76,
+    "character": "S4E02",
+    "target_word": "telediarios",
+    "ipa": "/te.le.ˈdia.ɾios/",
+    "pos": "n.f. telediarios",
+    "level": "B2",
+    "pronunciation_focus": "diphthong_ie",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Cómo va a ir a la carpa si su cara estápor todos los ___?",
+    "sentence_full": "Cómo va a ir a la carpa si su cara estápor todos los telediarios?",
+    "translation": "新闻联播（名词）",
+    "sentence_translation": "她的脸在所有新闻里播着，怎么去营地？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "telediari-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_077",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_077",
+    "line_index": 77,
+    "character": "S4E02",
+    "target_word": "tensión",
+    "ipa": "/ˈten.sion/",
+    "pos": "n.f. tensión",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Porque es mucha ___",
+    "sentence_full": "Porque es mucha tensión.",
+    "translation": "紧张（名词）",
+    "sentence_translation": "因为压力太大了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ten-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-sion",
+        "origin": "拉丁语 -tiōnem / -siōnem",
+        "meaning": "动作/状态名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_078",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_078",
+    "line_index": 78,
+    "character": "S4E02",
+    "target_word": "traición",
+    "ipa": "/ˈtɾai.θion/",
+    "pos": "n.f. traición",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "La ___ es inherente al amor.",
+    "sentence_full": "La traición es inherente al amor.",
+    "translation": "背叛（名词）",
+    "sentence_translation": "背叛是爱情固有的。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "trai-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-cion",
+        "origin": "拉丁语 -tiōnem / -siōnem",
+        "meaning": "动作/状态名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_079",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_079",
+    "line_index": 79,
+    "character": "S4E02",
+    "target_word": "tregua",
+    "ipa": "/ˈtɾe.gua/",
+    "pos": "n.f. tregua",
+    "level": "A2",
+    "pronunciation_focus": "g_sound",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "YAlicia Sierra. Llevábamos horas de ___.",
+    "sentence_full": "YAlicia Sierra. Llevábamos horas de tregua.",
+    "translation": "停战（名词）",
+    "sentence_translation": "还有阿利西亚·席耶拉。我们停火了好几个小时。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tregu-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_080",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_080",
+    "line_index": 80,
+    "character": "S4E02",
+    "target_word": "vis",
+    "ipa": "/bis/",
+    "pos": "n.f. vis",
+    "level": "A1",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "esperando a que os concedan un ___ a vis al año, y eso con suerte.",
+    "sentence_full": "esperando a que os concedan un vis a vis al año, y eso con suerte.",
+    "translation": "签证/Visa卡（名词）",
+    "sentence_translation": "等着每年见一次面，还得运气好。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "v-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-i",
+        "origin": "外来词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_081",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_081",
+    "line_index": 81,
+    "character": "S4E02",
+    "target_word": "alcohol",
+    "ipa": "/al.ko.ˈol/",
+    "pos": "n.f. alcohol",
+    "level": "B1",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "No, échale ___ sin miedo. Llevo años instalado en el dolor.",
+    "sentence_full": "No, échale alcohol sin miedo. Llevo años instalado en el dolor.",
+    "translation": "酒精（名词）",
+    "sentence_translation": "不用，尽管倒酒精。我疼了好多年了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "alcoho-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-l",
+        "origin": "拉丁语 -lis",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_082",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_082",
+    "line_index": 82,
+    "character": "S4E02",
+    "target_word": "amanda",
+    "ipa": "/a.ˈman.da/",
+    "pos": "n.f. amanda",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Y escucha, ___...Has sufrido algún ataque de ansiedad por todo esto del atraco?",
+    "sentence_full": "Y escucha, Amanda...Has sufrido algún ataque de ansiedad por todo esto del atraco?",
+    "translation": "阿曼达(人名)（名词）",
+    "sentence_translation": "还有，阿曼达……这次抢劫让你焦虑过吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "amand-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_083",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_083",
+    "line_index": 83,
+    "character": "S4E02",
+    "target_word": "anécdota",
+    "ipa": "/a.nek.ˈdo.ta/",
+    "pos": "n.f. anécdota",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Podrán contar esta ___ a sus nietos, parientes, seres queridos. En fin...",
+    "sentence_full": "Podrán contar esta anécdota a sus nietos, parientes, seres queridos. En fin...",
+    "translation": "轶事（名词）",
+    "sentence_translation": "你们可以把这段经历讲给孙子、亲戚和爱人听。好了……",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "anecdot-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_084",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_084",
+    "line_index": 84,
+    "character": "S4E02",
+    "target_word": "ansiedad",
+    "ipa": "/an.sie.ˈdad/",
+    "pos": "n.f. ansiedad",
+    "level": "B1",
+    "pronunciation_focus": "diphthong_ie",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Y escucha, Amanda...Has sufrido algún ataque de ___ por todo esto del atraco?",
+    "sentence_full": "Y escucha, Amanda...Has sufrido algún ataque de ansiedad por todo esto del atraco?",
+    "translation": "焦虑（名词）",
+    "sentence_translation": "还有，阿曼达……这次抢劫让你焦虑过吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ansie-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-dad",
+        "origin": "拉丁语 -tātem",
+        "meaning": "抽象名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_085",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_085",
+    "line_index": 85,
+    "character": "S4E02",
+    "target_word": "ansiolíticos",
+    "ipa": "/an.sio.li.ˈti.kos/",
+    "pos": "n.f. ansiolíticos",
+    "level": "B2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Mucha tensión, pero no te preocupes. Te voy a conseguir ___",
+    "sentence_full": "Mucha tensión, pero no te preocupes. Te voy a conseguir ansiolíticos.",
+    "translation": "抗焦虑药（名词）",
+    "sentence_translation": "压力很大，但别担心。我给你开抗焦虑药。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ansiolitic-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_086",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_086",
+    "line_index": 86,
+    "character": "S4E02",
+    "target_word": "apertura",
+    "ipa": "/a.peɾ.ˈtu.ɾa/",
+    "pos": "n.f. apertura",
+    "level": "B1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Voy a activar la ___ manual, y te estoy haciendo un favor.",
+    "sentence_full": "Voy a activar la apertura manual, y te estoy haciendo un favor.",
+    "translation": "开幕/开口（名词）",
+    "sentence_translation": "我要启动手动开门，算是帮你个忙。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "apertur-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_087",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_087",
+    "line_index": 87,
+    "character": "S4E02",
+    "target_word": "árbol",
+    "ipa": "/aɾ.ˈbol/",
+    "pos": "n.f. árbol",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Yo estaba camuflado en un ___ y había...",
+    "sentence_full": "Yo estaba camuflado en un árbol y había...",
+    "translation": "树（名词）",
+    "sentence_translation": "我藏在一棵树上，周围……",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "arbo-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-l",
+        "origin": "拉丁语 -lis",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_088",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_088",
+    "line_index": 88,
+    "character": "S4E02",
+    "target_word": "autómatas",
+    "ipa": "/au.ˈto.ma.tas/",
+    "pos": "n.m. autómatas",
+    "level": "B2",
+    "pronunciation_focus": "diphthong_au",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Mientras; como ___",
+    "sentence_full": "Mientras; como autómatas,",
+    "translation": "机器人（名词）",
+    "sentence_translation": "与此同时，我们像机器一样，",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "automat-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_089",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_089",
+    "line_index": 89,
+    "character": "S4E02",
+    "target_word": "bala",
+    "ipa": "/ˈba.la/",
+    "pos": "n.f. bala",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Ahora extraiga la ___. Hágalo.",
+    "sentence_full": "Ahora extraiga la bala. Hágalo.",
+    "translation": "子弹（名词）",
+    "sentence_translation": "现在取出子弹。快取。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "bal-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_090",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_090",
+    "line_index": 90,
+    "character": "S4E02",
+    "target_word": "batalla",
+    "ipa": "/ba.ˈta.ʝa/",
+    "pos": "n.f. batalla",
+    "level": "B1",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "El caballero y su escudero avanzaban hacia una ___ de locos en esta guerra imposible, mientras todo estaba a punto de saltar por los aires.",
+    "sentence_full": "El caballero y su escudero avanzaban hacia una batalla de locos en esta guerra imposible, mientras todo estaba a punto de saltar por los aires.",
+    "translation": "战斗（名词）",
+    "sentence_translation": "骑士和侍从正奔赴一场疯子的战役，而一切即将天翻地覆。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "batall-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_092",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_092",
+    "line_index": 92,
+    "character": "S4E02",
+    "target_word": "caballeros",
+    "ipa": "/ka.ba.ˈʝe.ɾos/",
+    "pos": "n.m. caballeros",
+    "level": "B2",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Bien, damas y ___.",
+    "sentence_full": "Bien, damas y caballeros.",
+    "translation": "骑士/绅士（名词）",
+    "sentence_translation": "好了，女士们先生们。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "caball-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ero/-era",
+        "origin": "拉丁语 -arius",
+        "meaning": "职业/工具/地点后缀"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_093",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_093",
+    "line_index": 93,
+    "character": "S4E02",
+    "target_word": "cabrones",
+    "ipa": "/ka.ˈbɾo.nes/",
+    "pos": "n.f. cabrones",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Que eres la cuidadora que se engancha a estos ___.",
+    "sentence_full": "Que eres la cuidadora que se engancha a estos cabrones.",
+    "translation": "混蛋（名词）",
+    "sentence_translation": "你是那种对这种人产生依赖的照顾者。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cabr-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ón",
+        "origin": "增大后缀",
+        "meaning": "增大/强调"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_094",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_094",
+    "line_index": 94,
+    "character": "S4E02",
+    "target_word": "caminos",
+    "ipa": "/ka.ˈmi.nos/",
+    "pos": "n.f. caminos",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "En moto y por pistas forestales, ___ de tierra y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "sentence_full": "En moto y por pistas forestales, caminos de tierra y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "translation": "道路（名词）",
+    "sentence_translation": "骑摩托走林间小路、土路和牧道，躲过所有检查站穿越拉曼恰。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "camin-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_095",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_095",
+    "line_index": 95,
+    "character": "S4E02",
+    "target_word": "capitán",
+    "ipa": "/ka.ˈpi.tan/",
+    "pos": "n.f. capitán",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Fue un buen ___",
+    "sentence_full": "Fue un buen capitán.",
+    "translation": "队长/上尉（名词）",
+    "sentence_translation": "他是个好队长。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "capit-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-an",
+        "origin": "重音名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_096",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_096",
+    "line_index": 96,
+    "character": "S4E02",
+    "target_word": "casos",
+    "ipa": "/ˈka.sos/",
+    "pos": "n.f. casos",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Es lo normal en estos ___.",
+    "sentence_full": "Es lo normal en estos casos.",
+    "translation": "案件（名词）",
+    "sentence_translation": "这种情况很正常。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cas-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_097",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_097",
+    "line_index": 97,
+    "character": "S4E02",
+    "target_word": "causa",
+    "ipa": "/ˈkau.sa/",
+    "pos": "n.f. causa",
+    "level": "A2",
+    "pronunciation_focus": "diphthong_au",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Si lo ha hecho uno o en grupo, el trauma que ___ es diferente.",
+    "sentence_full": "Si lo ha hecho uno o en grupo, el trauma que causa es diferente.",
+    "translation": "原因/事业（名词）",
+    "sentence_translation": "不管是一个人做的还是被一群人做的，造成的创伤是不一样的。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "caus-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_098",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_098",
+    "line_index": 98,
+    "character": "S4E02",
+    "target_word": "cocina",
+    "ipa": "/ko.ˈθi.na/",
+    "pos": "n.f. cocina",
+    "level": "A2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Pero había 20 policías esperándome en la ___.",
+    "sentence_full": "Pero había 20 policías esperándome en la cocina.",
+    "translation": "厨房（名词）",
+    "sentence_translation": "但厨房里有20个警察在等我。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "cocin-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_099",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_099",
+    "line_index": 99,
+    "character": "S4E02",
+    "target_word": "colegas",
+    "ipa": "/ko.ˈle.gas/",
+    "pos": "n.f. colegas",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Es una forma de hablar entre ___.",
+    "sentence_full": "Es una forma de hablar entre colegas.",
+    "translation": "同事（名词）",
+    "sentence_translation": "这是同事之间的说法。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "coleg-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_100",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_100",
+    "line_index": 100,
+    "character": "S4E02",
+    "target_word": "córner",
+    "ipa": "/koɾ.ˈneɾ/",
+    "pos": "n.f. córner",
+    "level": "A2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Nunca imaginé que los segundos previos a un ___ fueran tan divertidos.",
+    "sentence_full": "Nunca imaginé que los segundos previos a un córner fueran tan divertidos.",
+    "translation": "角球（名词）",
+    "sentence_translation": "我从没想过角球前那几秒能这么搞笑。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "corn-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-er",
+        "origin": "外来词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_101",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_101",
+    "line_index": 101,
+    "character": "S4E02",
+    "target_word": "derechos",
+    "ipa": "/de.ˈɾe.tʃos/",
+    "pos": "n.f. derechos",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "No quiero que por un defecto de forma...Vamos, que... es una cuestión de ___ humanos.",
+    "sentence_full": "No quiero que por un defecto de forma...Vamos, que... es una cuestión de derechos humanos.",
+    "translation": "权利（名词）",
+    "sentence_translation": "我不想因为程序上的瑕疵……总之……这是人权问题。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "derech-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_102",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_102",
+    "line_index": 102,
+    "character": "S4E02",
+    "target_word": "dolor",
+    "ipa": "/do.ˈloɾ/",
+    "pos": "n.f. dolor",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "No, échale alcohol sin miedo. Llevo años instalado en el ___.",
+    "sentence_full": "No, échale alcohol sin miedo. Llevo años instalado en el dolor.",
+    "translation": "痛苦（名词）",
+    "sentence_translation": "不用，尽管倒酒精。我疼了好多年了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "dol-",
+        "origin": "拉丁语 dolor",
+        "meaning": "痛苦（来自 dolēre 疼痛）"
+      },
+      {
+        "part": "-or",
+        "origin": "抽象名词后缀",
+        "meaning": "表示情感/状态"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_103",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_103",
+    "line_index": 103,
+    "character": "S4E02",
+    "target_word": "duda",
+    "ipa": "/ˈdu.da/",
+    "pos": "n.f. duda",
+    "level": "A1",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Pakistán resolvió esa ___.",
+    "sentence_full": "Pakistán resolvió esa duda.",
+    "translation": "怀疑（名词）",
+    "sentence_translation": "巴基斯坦解答了这个疑问。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "dud-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_104",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_104",
+    "line_index": 104,
+    "character": "S4E02",
+    "target_word": "emersión",
+    "ipa": "/e.ˈmeɾ.sion/",
+    "pos": "n.f. emersión",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Batiscafo fuera, batiscafo dentro. Inmersión, ___",
+    "sentence_full": "Batiscafo fuera, batiscafo dentro. Inmersión, emersión.",
+    "translation": "上浮/浮现（名词）",
+    "sentence_translation": "潜水艇出去，潜水艇进来。下潜，上浮。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "emer-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-sion",
+        "origin": "拉丁语 -tiōnem / -siōnem",
+        "meaning": "动作/状态名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_105",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_105",
+    "line_index": 105,
+    "character": "S4E02",
+    "target_word": "entrada",
+    "ipa": "/en.ˈtɾa.da/",
+    "pos": "n.f. entrada",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Lo único parecido al plan era la ___ del Profesor en Madrid.",
+    "sentence_full": "Lo único parecido al plan era la entrada del Profesor en Madrid.",
+    "translation": "入口/门票（名词）",
+    "sentence_translation": "唯一跟计划沾边的，就是教授进入马德里。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "entrad-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_106",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_106",
+    "line_index": 106,
+    "character": "S4E02",
+    "target_word": "escuadra",
+    "ipa": "/es.ˈkua.dɾa/",
+    "pos": "n.f. escuadra",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Gol de Sierra por la ___.",
+    "sentence_full": "Gol de Sierra por la escuadra.",
+    "translation": "小队/三角尺（名词）",
+    "sentence_translation": "席耶拉一记死角进球。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "escuadr-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_107",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_107",
+    "line_index": 107,
+    "character": "S4E02",
+    "target_word": "escudero",
+    "ipa": "/es.ku.ˈde.ɾo/",
+    "pos": "n.m. escudero",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "El caballero y su ___ avanzaban hacia una batalla de locos en esta guerra imposible, mientras todo estaba a punto de saltar por los aires.",
+    "sentence_full": "El caballero y su escudero avanzaban hacia una batalla de locos en esta guerra imposible, mientras todo estaba a punto de saltar por los aires.",
+    "translation": "侍从（名词）",
+    "sentence_translation": "骑士和侍从正奔赴一场疯子的战役，而一切即将天翻地覆。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "escud-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ero/-era",
+        "origin": "拉丁语 -arius",
+        "meaning": "职业/工具/地点后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_108",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_108",
+    "line_index": 108,
+    "character": "S4E02",
+    "target_word": "especie",
+    "ipa": "/es.ˈpe.θie/",
+    "pos": "n.f. especie",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Te pensás que soy una ___ de ingeniero con gafas?",
+    "sentence_full": "Te pensás que soy una especie de ingeniero con gafas?",
+    "translation": "物种（名词）",
+    "sentence_translation": "你以为我是个戴眼镜的工程师？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "especi-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_109",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_109",
+    "line_index": 109,
+    "character": "S4E02",
+    "target_word": "espíritu",
+    "ipa": "/es.pi.ˈɾi.tu/",
+    "pos": "n.f. espíritu",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Mantened el ___ firme, elevado.",
+    "sentence_full": "Mantened el espíritu firme, elevado.",
+    "translation": "精神/灵魂（名词）",
+    "sentence_translation": "保持精神坚定、高昂。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "espirit-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-u",
+        "origin": "拉丁语 -us",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_110",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_110",
+    "line_index": 110,
+    "character": "S4E02",
+    "target_word": "estrés",
+    "ipa": "/ˈes.tɾes/",
+    "pos": "n.f. estrés",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "No queremos bajo ningún concepto que tengas un shock de ___ postraumático. Es muy difícil de erradicar.",
+    "sentence_full": "No queremos bajo ningún concepto que tengas un shock de estrés postraumático. Es muy difícil de erradicar.",
+    "translation": "压力（名词）",
+    "sentence_translation": "我们绝不允许你出现创伤后应激障碍。这种病很难根治。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "estr",
+        "origin": "词根",
+        "meaning": "完整词形"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_111",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_111",
+    "line_index": 111,
+    "character": "S4E02",
+    "target_word": "exterior",
+    "ipa": "/eks.te.ˈɾioɾ/",
+    "pos": "n.f. exterior",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Llegó al ___ del banco buscando un hilo del que tirar.",
+    "sentence_full": "Llegó al exterior del banco buscando un hilo del que tirar.",
+    "translation": "外交（名词）",
+    "sentence_translation": "他来到银行外面寻找线索。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "exteri-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-or",
+        "origin": "拉丁语 -or",
+        "meaning": "抽象名词/施事者后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_112",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_112",
+    "line_index": 112,
+    "character": "S4E02",
+    "target_word": "fútbol",
+    "ipa": "/fut.ˈbol/",
+    "pos": "n.f. fútbol",
+    "level": "A2",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "como el del ___ en el monasterio.",
+    "sentence_full": "como el del fútbol en el monasterio.",
+    "translation": "足球（名词）",
+    "sentence_translation": "比如在修道院踢足球的那天。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "futbo-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-l",
+        "origin": "拉丁语 -lis",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_113",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_113",
+    "line_index": 113,
+    "character": "S4E02",
+    "target_word": "gafas",
+    "ipa": "/ˈga.fas/",
+    "pos": "n.f. gafas",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Te pensás que soy una especie de ingeniero con ___?",
+    "sentence_full": "Te pensás que soy una especie de ingeniero con gafas?",
+    "translation": "眼镜（名词）",
+    "sentence_translation": "你以为我是个戴眼镜的工程师？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "gaf-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_114",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_114",
+    "line_index": 114,
+    "character": "S4E02",
+    "target_word": "garaje",
+    "ipa": "/ga.ˈɾa.xe/",
+    "pos": "n.f. garaje",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Le han abierto el ___ 40 maromos sudados.",
+    "sentence_full": "Le han abierto el garaje 40 maromos sudados.",
+    "translation": "车库（名词）",
+    "sentence_translation": "四十个大汗淋漓的猛男打开了他的后庭。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "gar-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-aje",
+        "origin": "法语 -age / 拉丁语 -aticum",
+        "meaning": "集合/动作名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_115",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_115",
+    "line_index": 115,
+    "character": "S4E02",
+    "target_word": "granja",
+    "ipa": "/ˈgɾan.xa/",
+    "pos": "n.f. granja",
+    "level": "A2",
+    "pronunciation_focus": "vowel_a",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Ella estaba en una ___. Allí la encontraron.",
+    "sentence_full": "Ella estaba en una granja. Allí la encontraron.",
+    "translation": "农场（名词）",
+    "sentence_translation": "她在一个农场里。他们在那里找到了她。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "granj-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_116",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_116",
+    "line_index": 116,
+    "character": "S4E02",
+    "target_word": "grupo",
+    "ipa": "/ˈgɾu.po/",
+    "pos": "n.m. grupo",
+    "level": "A2",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Si lo ha hecho uno o en ___, el trauma que causa es diferente.",
+    "sentence_full": "Si lo ha hecho uno o en grupo, el trauma que causa es diferente.",
+    "translation": "组/群（名词）",
+    "sentence_translation": "不管是一个人做的还是被一群人做的，造成的创伤是不一样的。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "grup-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_117",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_117",
+    "line_index": 117,
+    "character": "S4E02",
+    "target_word": "hijas",
+    "ipa": "/ˈi.xas/",
+    "pos": "n.f. hijas",
+    "level": "A2",
+    "pronunciation_focus": "silent_h",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Por favor, mi mujer y mis ___ están en la cama.",
+    "sentence_full": "Por favor, mi mujer y mis hijas están en la cama.",
+    "translation": "女儿（名词）",
+    "sentence_translation": "拜托，我妻子和女儿们在床上。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "hij-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_118",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_118",
+    "line_index": 118,
+    "character": "S4E02",
+    "target_word": "ideas",
+    "ipa": "/i.ˈde.as/",
+    "pos": "n.f. ideas",
+    "level": "A2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Son ___ para la libertad.",
+    "sentence_full": "Son ideas para la libertad.",
+    "translation": "想法（名词）",
+    "sentence_translation": "自由的想法。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ide-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_119",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_119",
+    "line_index": 119,
+    "character": "S4E02",
+    "target_word": "informe",
+    "ipa": "/in.ˈfoɾ.me/",
+    "pos": "n.f. informe",
+    "level": "B1",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Un ___ hecho sin entrevistas al sujeto por un perito de carril.",
+    "sentence_full": "Un informe hecho sin entrevistas al sujeto por un perito de carril.",
+    "translation": "报告（名词）",
+    "sentence_translation": "一份没有面谈当事人、由外行专家写的报告。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "inform-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_120",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_120",
+    "line_index": 120,
+    "character": "S4E02",
+    "target_word": "ingeniero",
+    "ipa": "/iŋ.xe.ˈnie.ɾo/",
+    "pos": "n.m. ingeniero",
+    "level": "B2",
+    "pronunciation_focus": "diphthong_ie",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Te pensás que soy una especie de ___ con gafas?",
+    "sentence_full": "Te pensás que soy una especie de ingeniero con gafas?",
+    "translation": "工程师（名词）",
+    "sentence_translation": "你以为我是个戴眼镜的工程师？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "ingeni-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ero/-era",
+        "origin": "拉丁语 -arius",
+        "meaning": "职业/工具/地点后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_121",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_121",
+    "line_index": 121,
+    "character": "S4E02",
+    "target_word": "Inmersión",
+    "ipa": "/in.ˈmeɾ.sion/",
+    "pos": "n.f. Inmersión",
+    "level": "B2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Batiscafo fuera, batiscafo dentro. ___, emersión.",
+    "sentence_full": "Batiscafo fuera, batiscafo dentro. Inmersión, emersión.",
+    "translation": "沉浸/下潜（名词）",
+    "sentence_translation": "潜水艇出去，潜水艇进来。下潜，上浮。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "inmer-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-sion",
+        "origin": "拉丁语 -tiōnem / -siōnem",
+        "meaning": "动作/状态名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_122",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_122",
+    "line_index": 122,
+    "character": "S4E02",
+    "target_word": "jinete",
+    "ipa": "/xi.ˈne.te/",
+    "pos": "n.f. jinete",
+    "level": "A2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Pero ni eso. Porque faltaba un ___.",
+    "sentence_full": "Pero ni eso. Porque faltaba un jinete.",
+    "translation": "骑手（名词）",
+    "sentence_translation": "但连那也不算。因为少了一个骑士。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "jinet-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_123",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_123",
+    "line_index": 123,
+    "character": "S4E02",
+    "target_word": "libertad",
+    "ipa": "/li.beɾ.ˈtad/",
+    "pos": "n.f. libertad",
+    "level": "B1",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Son ideas para la ___.",
+    "sentence_full": "Son ideas para la libertad.",
+    "translation": "自由（名词）",
+    "sentence_translation": "自由的想法。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "liber-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-tad",
+        "origin": "拉丁语 -tātem",
+        "meaning": "抽象名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_124",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_124",
+    "line_index": 124,
+    "character": "S4E02",
+    "target_word": "llave",
+    "ipa": "/ˈʝa.be/",
+    "pos": "n.f. llave",
+    "level": "A2",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Si lo dejas en la calle con la puerta abierta y la ___ puesta, es porque estás muy jodido.",
+    "sentence_full": "Si lo dejas en la calle con la puerta abierta y la llave puesta, es porque estás muy jodido.",
+    "translation": "钥匙（名词）",
+    "sentence_translation": "如果你把它扔在街上，门开着钥匙插着，那说明你脑子有大病。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "llav-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_125",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_125",
+    "line_index": 125,
+    "character": "S4E02",
+    "target_word": "Matías",
+    "ipa": "/ˈma.tias/",
+    "pos": "n.f. Matías",
+    "level": "A2",
+    "pronunciation_focus": "diphthong_ie",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Hasta te diría: \"Te quiero mucho, ___\".",
+    "sentence_full": "Hasta te diría: \"Te quiero mucho, Matías\".",
+    "translation": "马蒂亚斯(人名)（名词）",
+    "sentence_translation": "我甚至会说：\"我很爱你，马蒂亚斯\"。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "mati-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_126",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_126",
+    "line_index": 126,
+    "character": "S4E02",
+    "target_word": "milagro",
+    "ipa": "/mi.ˈla.gɾo/",
+    "pos": "n.m. milagro",
+    "level": "B1",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Mientras esperaba un ___ y oía el pitido de las constantes de Nairobi,",
+    "sentence_full": "Mientras esperaba un milagro y oía el pitido de las constantes de Nairobi,",
+    "translation": "奇迹（名词）",
+    "sentence_translation": "当我等待着奇迹，听着内罗毕生命体征的滴滴声，",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "milagr-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_127",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_127",
+    "line_index": 127,
+    "character": "S4E02",
+    "target_word": "modo",
+    "ipa": "/ˈmo.do/",
+    "pos": "n.m. modo",
+    "level": "A1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "En cierto ___, la voy a traicionar.",
+    "sentence_full": "En cierto modo, la voy a traicionar.",
+    "translation": "方式（名词）",
+    "sentence_translation": "某种程度上，我会背叛她。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "mod-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_128",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_128",
+    "line_index": 128,
+    "character": "S4E02",
+    "target_word": "nietos",
+    "ipa": "/ˈnie.tos/",
+    "pos": "n.f. nietos",
+    "level": "A2",
+    "pronunciation_focus": "diphthong_ie",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Podrán contar esta anécdota a sus ___, parientes, seres queridos. En fin...",
+    "sentence_full": "Podrán contar esta anécdota a sus nietos, parientes, seres queridos. En fin...",
+    "translation": "孙子（名词）",
+    "sentence_translation": "你们可以把这段经历讲给孙子、亲戚和爱人听。好了……",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "niet-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_129",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_129",
+    "line_index": 129,
+    "character": "S4E02",
+    "target_word": "nostalgia",
+    "ipa": "/nos.ˈtal.xia/",
+    "pos": "n.f. nostalgia",
+    "level": "B2",
+    "pronunciation_focus": "diphthong_ie",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Eso es la ___.",
+    "sentence_full": "Eso es la nostalgia.",
+    "translation": "怀旧/思念（名词）",
+    "sentence_translation": "这就是怀旧。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "nostalgi-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_130",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_130",
+    "line_index": 130,
+    "character": "S4E02",
+    "target_word": "nudo",
+    "ipa": "/ˈnu.do/",
+    "pos": "n.m. nudo",
+    "level": "A1",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Porque se me agarra un ___ aquí que no...",
+    "sentence_full": "Porque se me agarra un nudo aquí que no...",
+    "translation": "结（名词）",
+    "sentence_translation": "因为这里一直有个结……",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "nud-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_131",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_131",
+    "line_index": 131,
+    "character": "S4E02",
+    "target_word": "ojos",
+    "ipa": "/ˈo.xos/",
+    "pos": "n.f. ojos",
+    "level": "A1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Es como si me hubiera caído la venda de los ___.",
+    "sentence_full": "Es como si me hubiera caído la venda de los ojos.",
+    "translation": "眼睛（名词）",
+    "sentence_translation": "就像蒙在我眼前的布掉了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "oj-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_132",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_132",
+    "line_index": 132,
+    "character": "S4E02",
+    "target_word": "olla",
+    "ipa": "/ˈo.ʝa/",
+    "pos": "n.f. olla",
+    "level": "A1",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Si esto es una ___ a presión.",
+    "sentence_full": "Si esto es una olla a presión.",
+    "translation": "锅（名词）",
+    "sentence_translation": "这就像个高压锅。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "oll-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_133",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_133",
+    "line_index": 133,
+    "character": "S4E02",
+    "target_word": "operaciones",
+    "ipa": "/o.pe.ɾa.ˈθio.nes/",
+    "pos": "n.f. operaciones",
+    "level": "B2",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "lba a volar por los aires el patio de ___.",
+    "sentence_full": "lba a volar por los aires el patio de operaciones.",
+    "translation": "行动（名词）",
+    "sentence_translation": "整个行动指挥部差点被炸上天。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "opera-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-cion",
+        "origin": "拉丁语 -tiōnem / -siōnem",
+        "meaning": "动作/状态名词后缀"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_134",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_134",
+    "line_index": 134,
+    "character": "S4E02",
+    "target_word": "parientes",
+    "ipa": "/pa.ˈɾien.tes/",
+    "pos": "n.f. parientes",
+    "level": "B2",
+    "pronunciation_focus": "diphthong_ie",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Podrán contar esta anécdota a sus nietos, ___, seres queridos. En fin...",
+    "sentence_full": "Podrán contar esta anécdota a sus nietos, parientes, seres queridos. En fin...",
+    "translation": "亲戚（名词）",
+    "sentence_translation": "你们可以把这段经历讲给孙子、亲戚和爱人听。好了……",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "parient",
+        "origin": "词根",
+        "meaning": "完整词形"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_135",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_135",
+    "line_index": 135,
+    "character": "S4E02",
+    "target_word": "pena",
+    "ipa": "/ˈpe.na/",
+    "pos": "n.f. pena",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "No sin ___, les comunico mi adiós. Me voy. me marcho.",
+    "sentence_full": "No sin pena, les comunico mi adiós. Me voy. me marcho.",
+    "translation": "遗憾（名词）",
+    "sentence_translation": "虽然不舍，但我宣布我要离开了。我走了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "pen-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_136",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_136",
+    "line_index": 136,
+    "character": "S4E02",
+    "target_word": "petición",
+    "ipa": "/pe.ˈti.θion/",
+    "pos": "n.f. petición",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "La ___ de años corresponde al fiscal, no a ti.",
+    "sentence_full": "La petición de años corresponde al fiscal, no a ti.",
+    "translation": "请求（名词）",
+    "sentence_translation": "量刑是检察官的事，不是你。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "peti-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-cion",
+        "origin": "拉丁语 -tiōnem / -siōnem",
+        "meaning": "动作/状态名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_137",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_137",
+    "line_index": 137,
+    "character": "S4E02",
+    "target_word": "pinza",
+    "ipa": "/ˈpin.θa/",
+    "pos": "n.f. pinza",
+    "level": "A2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Sigue. Se te ha ido la puta ___?",
+    "sentence_full": "Sigue. Se te ha ido la puta pinza?",
+    "translation": "夹子/钳子（名词）",
+    "sentence_translation": "继续。你疯了吗？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "pinz-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_138",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_138",
+    "line_index": 138,
+    "character": "S4E02",
+    "target_word": "pistas",
+    "ipa": "/ˈpis.tas/",
+    "pos": "n.f. pistas",
+    "level": "A2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "En moto y por ___ forestales, caminos de tierra y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "sentence_full": "En moto y por pistas forestales, caminos de tierra y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "translation": "跑道/线索（名词）",
+    "sentence_translation": "骑摩托走林间小路、土路和牧道，躲过所有检查站穿越拉曼恰。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "p-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ista",
+        "origin": "希腊语 -ιστής",
+        "meaning": "从事...的人"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_139",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_139",
+    "line_index": 139,
+    "character": "S4E02",
+    "target_word": "pitido",
+    "ipa": "/pi.ˈti.do/",
+    "pos": "n.m. pitido",
+    "level": "A2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Mientras esperaba un milagro y oía el ___ de las constantes de Nairobi,",
+    "sentence_full": "Mientras esperaba un milagro y oía el pitido de las constantes de Nairobi,",
+    "translation": "哨声/蜂鸣声（名词）",
+    "sentence_translation": "当我等待着奇迹，听着内罗毕生命体征的滴滴声，",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "pitid-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_140",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_140",
+    "line_index": 140,
+    "character": "S4E02",
+    "target_word": "princesa",
+    "ipa": "/pɾin.ˈθe.sa/",
+    "pos": "n.f. princesa",
+    "level": "B1",
+    "pronunciation_focus": "theta",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Llegó la ___ tarada a despedir a su príncipe en la terminal de tren.",
+    "sentence_full": "Llegó la princesa tarada a despedir a su príncipe en la terminal de tren.",
+    "translation": "公主（名词）",
+    "sentence_translation": "傻公主跑到火车站来送她的王子了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "princes-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_141",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_141",
+    "line_index": 141,
+    "character": "S4E02",
+    "target_word": "proyecto",
+    "ipa": "/pɾo.ˈʝek.to/",
+    "pos": "n.m. proyecto",
+    "level": "B1",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Tú vas a ser mi ___ personal.",
+    "sentence_full": "Tú vas a ser mi proyecto personal.",
+    "translation": "项目（名词）",
+    "sentence_translation": "你将是我的个人项目。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "proyect-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_142",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_142",
+    "line_index": 142,
+    "character": "S4E02",
+    "target_word": "pulmón",
+    "ipa": "/ˈpul.mon/",
+    "pos": "n.f. pulmón",
+    "level": "A2",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "le extirpábamos un trozo de ___ a Nairobi.",
+    "sentence_full": "le extirpábamos un trozo de pulmón a Nairobi.",
+    "translation": "肺（名词）",
+    "sentence_translation": "给内罗毕切除一块肺。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "pulm-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ón",
+        "origin": "增大后缀",
+        "meaning": "增大/强调"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_143",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_143",
+    "line_index": 143,
+    "character": "S4E02",
+    "target_word": "queridos",
+    "ipa": "/ˈkɾi.dos/",
+    "pos": "n.f. queridos",
+    "level": "B1",
+    "pronunciation_focus": "k_sound",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Podrán contar esta anécdota a sus nietos, parientes, seres ___. En fin...",
+    "sentence_full": "Podrán contar esta anécdota a sus nietos, parientes, seres queridos. En fin...",
+    "translation": "亲人们（名词）",
+    "sentence_translation": "你们可以把这段经历讲给孙子、亲戚和爱人听。好了……",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "querid-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_144",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_144",
+    "line_index": 144,
+    "character": "S4E02",
+    "target_word": "razón",
+    "ipa": "/ˈra.θon/",
+    "pos": "n.f. razón",
+    "level": "A2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "El amor te ha nublado la ___",
+    "sentence_full": "El amor te ha nublado la razón?",
+    "translation": "理由（名词）",
+    "sentence_translation": "爱情蒙蔽了你的理智？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "raz-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-ón",
+        "origin": "增大后缀",
+        "meaning": "增大/强调"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_145",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_145",
+    "line_index": 145,
+    "character": "S4E02",
+    "target_word": "respuestas",
+    "ipa": "/res.ˈpues.tas/",
+    "pos": "n.f. respuestas",
+    "level": "B2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Debes entender que solo allí puedo encontrar ___, en el Banco de España",
+    "sentence_full": "Debes entender que solo allí puedo encontrar respuestas, en el Banco de España",
+    "translation": "回答（名词）",
+    "sentence_translation": "你要明白，只有在那里我才能找到答案，在西班牙银行。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "respuest-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_146",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_146",
+    "line_index": 146,
+    "character": "S4E02",
+    "target_word": "restos",
+    "ipa": "/ˈres.tos/",
+    "pos": "n.f. restos",
+    "level": "A2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Por qué tenía ___ de barro?",
+    "sentence_full": "Por qué tenía restos de barro?",
+    "translation": "剩余（名词）",
+    "sentence_translation": "为什么上面有泥巴？",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "rest-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_147",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_147",
+    "line_index": 147,
+    "character": "S4E02",
+    "target_word": "riesgo",
+    "ipa": "/ˈries.go/",
+    "pos": "n.m. riesgo",
+    "level": "A2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "No, no es buena idea. Hay mucho ___.",
+    "sentence_full": "No, no es buena idea. Hay mucho riesgo.",
+    "translation": "风险（名词）",
+    "sentence_translation": "不，不是好主意。风险太大。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "riesg-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_148",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_148",
+    "line_index": 148,
+    "character": "S4E02",
+    "target_word": "seres",
+    "ipa": "/ˈse.ɾes/",
+    "pos": "n.f. seres",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Podrán contar esta anécdota a sus nietos, parientes, ___ queridos. En fin...",
+    "sentence_full": "Podrán contar esta anécdota a sus nietos, parientes, seres queridos. En fin...",
+    "translation": "生物/存在（名词）",
+    "sentence_translation": "你们可以把这段经历讲给孙子、亲戚和爱人听。好了……",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "s-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-er",
+        "origin": "外来词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_149",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_149",
+    "line_index": 149,
+    "character": "S4E02",
+    "target_word": "shock",
+    "ipa": "/ˈsoθk/",
+    "pos": "n.f. shock",
+    "level": "A2",
+    "pronunciation_focus": "k_sound",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "No queremos bajo ningún concepto que tengas un ___ de estrés postraumático. Es muy difícil de erradicar.",
+    "sentence_full": "No queremos bajo ningún concepto que tengas un shock de estrés postraumático. Es muy difícil de erradicar.",
+    "translation": "休克/震惊（名词）",
+    "sentence_translation": "我们绝不允许你出现创伤后应激障碍。这种病很难根治。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "shock",
+        "origin": "英语 shock（借词）",
+        "meaning": "冲击，震动"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_150",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_150",
+    "line_index": 150,
+    "character": "S4E02",
+    "target_word": "silla",
+    "ipa": "/ˈsi.ʝa/",
+    "pos": "n.f. silla",
+    "level": "A2",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Hasta entonces, esa hija de puta va a estar ahí, en una ___, sin dormir y haciendo pis en un cubo.",
+    "sentence_full": "Hasta entonces, esa hija de puta va a estar ahí, en una silla, sin dormir y haciendo pis en un cubo.",
+    "translation": "椅子（名词）",
+    "sentence_translation": "在那之前，那个婊子会一直坐在那里，不睡觉，在一个桶里小便。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "sill-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_151",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_151",
+    "line_index": 151,
+    "character": "S4E02",
+    "target_word": "suerte",
+    "ipa": "/ˈsueɾ.te/",
+    "pos": "n.f. suerte",
+    "level": "A2",
+    "pronunciation_focus": "diphthong_ue",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "esperando a que os concedan un vis a vis al año, y eso con ___.",
+    "sentence_full": "esperando a que os concedan un vis a vis al año, y eso con suerte.",
+    "translation": "运气（名词）",
+    "sentence_translation": "等着每年见一次面，还得运气好。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "suert-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-e",
+        "origin": "名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_152",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_152",
+    "line_index": 152,
+    "character": "S4E02",
+    "target_word": "tema",
+    "ipa": "/ˈte.ma/",
+    "pos": "n.f. tema",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Que te han desnivelado con el ___ de las torturas.",
+    "sentence_full": "Que te han desnivelado con el tema de las torturas.",
+    "translation": "话题/主题（名词）",
+    "sentence_translation": "是那些酷刑让你心理失衡了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tem-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_153",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_153",
+    "line_index": 153,
+    "character": "S4E02",
+    "target_word": "terminal",
+    "ipa": "/teɾ.mi.ˈnal/",
+    "pos": "n.f. terminal",
+    "level": "B1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Llegó la princesa tarada a despedir a su príncipe en la ___ de tren.",
+    "sentence_full": "Llegó la princesa tarada a despedir a su príncipe en la terminal de tren.",
+    "translation": "航站楼/终端（名词）",
+    "sentence_translation": "傻公主跑到火车站来送她的王子了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "termin-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-al",
+        "origin": "拉丁语 -ālis",
+        "meaning": "与...相关的"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_154",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_154",
+    "line_index": 154,
+    "character": "S4E02",
+    "target_word": "tierra",
+    "ipa": "/ˈtie.ra/",
+    "pos": "n.f. tierra",
+    "level": "A2",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "En moto y por pistas forestales, caminos de ___ y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "sentence_full": "En moto y por pistas forestales, caminos de tierra y vías pecuarias, cruzaron La Mancha a salvo de los controles.",
+    "translation": "土地（名词）",
+    "sentence_translation": "骑摩托走林间小路、土路和牧道，躲过所有检查站穿越拉曼恰。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tierr-",
+        "origin": "拉丁语 terra",
+        "meaning": "土地"
+      },
+      {
+        "part": "-a",
+        "origin": "阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_155",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_155",
+    "line_index": 155,
+    "character": "S4E02",
+    "target_word": "treguas",
+    "ipa": "/ˈtɾe.guas/",
+    "pos": "n.f. treguas",
+    "level": "B1",
+    "pronunciation_focus": "g_sound",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "A veces las ___ son lo más importante de la guerra.",
+    "sentence_full": "A veces las treguas son lo más importante de la guerra.",
+    "translation": "停战（名词）",
+    "sentence_translation": "有时候停火比战争本身更重要。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tregu-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      },
+      {
+        "part": "-s/-es",
+        "origin": "复数标记",
+        "meaning": "西班牙语复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_156",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_156",
+    "line_index": 156,
+    "character": "S4E02",
+    "target_word": "tren",
+    "ipa": "/tɾen/",
+    "pos": "n.f. tren",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Llegó la princesa tarada a despedir a su príncipe en la terminal de ___.",
+    "sentence_full": "Llegó la princesa tarada a despedir a su príncipe en la terminal de tren.",
+    "translation": "火车（名词）",
+    "sentence_translation": "傻公主跑到火车站来送她的王子了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tr-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-en",
+        "origin": "重音名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_157",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_157",
+    "line_index": 157,
+    "character": "S4E02",
+    "target_word": "trozo",
+    "ipa": "/ˈtɾo.θo/",
+    "pos": "n.m. trozo",
+    "level": "A2",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "le extirpábamos un ___ de pulmón a Nairobi.",
+    "sentence_full": "le extirpábamos un trozo de pulmón a Nairobi.",
+    "translation": "碎片/一块（名词）",
+    "sentence_translation": "给内罗毕切除一块肺。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "troz-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-o",
+        "origin": "西班牙语阳性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_158",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_158",
+    "line_index": 158,
+    "character": "S4E02",
+    "target_word": "tumba",
+    "ipa": "/ˈtum.ba/",
+    "pos": "n.f. tumba",
+    "level": "A2",
+    "pronunciation_focus": "vowel_u",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Y tu madre.. habrá muerto hace tanto que no podrás ni visitar su ___.",
+    "sentence_full": "Y tu madre.. habrá muerto hace tanto que no podrás ni visitar su tumba.",
+    "translation": "坟墓（名词）",
+    "sentence_translation": "你妈妈早就去世了，你连她的坟都去不了。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "tumb-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_159",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_159",
+    "line_index": 159,
+    "character": "S4E02",
+    "target_word": "virilidad",
+    "ipa": "/bi.ɾi.li.ˈdad/",
+    "pos": "n.f. virilidad",
+    "level": "B2",
+    "pronunciation_focus": "vowel_i",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "A lo mejor te han tocado la ___.",
+    "sentence_full": "A lo mejor te han tocado la virilidad.",
+    "translation": "男子气概（名词）",
+    "sentence_translation": "也许是伤了你的男子气概。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "virili-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-dad",
+        "origin": "拉丁语 -tātem",
+        "meaning": "抽象名词后缀"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S4E02_160",
+    "episode": "S4E02",
+    "scene_id": "line_s4e02_160",
+    "line_index": 160,
+    "character": "S4E02",
+    "target_word": "zona",
+    "ipa": "/ˈθo.na/",
+    "pos": "n.f. zona",
+    "level": "A1",
+    "pronunciation_focus": "vowel_o",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "De la ___ oscura, donde no entran atestados ni garantías procesales.",
+    "sentence_full": "De la zona oscura, donde no entran atestados ni garantías procesales.",
+    "translation": "区域（名词）",
+    "sentence_translation": "从那个照不进笔录和程序保障的黑暗角落。",
+    "cultural_note": "",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "etymology": [
+      {
+        "part": "zon-",
+        "origin": "词根",
+        "meaning": "词干"
+      },
+      {
+        "part": "-a",
+        "origin": "西班牙语阴性名词后缀",
+        "meaning": "名词标记"
+      }
+    ]
+  }
+]

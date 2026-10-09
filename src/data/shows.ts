@@ -62,6 +62,12 @@ export const SHOWS: ShowDefinition[] = [
     accentTo: 'to-rose-800',
     episodes: [
       {
+        episodeId: 'S1E01',
+        title: 'S1E01 — 第一季第一集',
+        description: '第一季第一集台词中提取的闪卡。',
+        hasCards: true,
+      },
+      {
         episodeId: 'S3E01',
         title: 'S3E01 — 名词和动词分类',
         description: '第三季第一集台词中提取的名词和动词闪卡，每张卡背面展示台词上下文和词源学拆分。',
@@ -77,6 +83,12 @@ export const SHOWS: ShowDefinition[] = [
         episodeId: 'S3E07',
         title: 'S3E07 — 词性分类闪卡',
         description: '第三季第七集台词中提取的闪卡，按词性分类（名词、动词、副词）。',
+        hasCards: true,
+      },
+      {
+        episodeId: 'S4E02',
+        title: 'S4E02 — 词性分类闪卡',
+        description: '第四季第二集台词中提取的闪卡，按词性分类（名词、动词、形容词）。',
         hasCards: true,
       },
     ],

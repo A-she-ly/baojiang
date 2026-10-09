@@ -691,4 +691,10 @@ ETYMOLOGY_DICT = {
             {"part": "-e", "origin": "名词后缀", "meaning": "名词标记"},
         ]
     },
+    "shock": {
+        "translation": "休克，震惊",
+        "breakdown": [
+            {"part": "shock", "origin": "英语 shock（借词）", "meaning": "冲击，震动"},
+        ]
+    },
 }

@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect } from 'react'
+import { useMemo, useState, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from './LanguageSwitcher'
 import BilingualText, { Bi } from './BilingualText'
@@ -22,6 +22,9 @@ interface Props {
   setSelectedValue: (value: string | null) => void
   selectedEpisode: string | null
   setSelectedEpisode: (episode: string | null) => void
+  grammarCards: Flashcard[]
+  grammarMode: boolean
+  setGrammarMode: (mode: boolean) => void
 }
 
 /** Helper: get the main (target language) text from a bilingual key */
@@ -31,7 +34,7 @@ function useBi(i18nKey: string, values?: Record<string, string | number>): strin
   return typeof raw === 'string' ? raw : (raw.main ?? i18nKey)
 }
 
-export default function Home({ cards, metadata, show, episode, showEpisodes, onStart, selectedFilter, setSelectedFilter, selectedValue, setSelectedValue, selectedEpisode, setSelectedEpisode }: Props) {
+export default function Home({ cards, metadata, show, episode, showEpisodes, onStart, selectedFilter, setSelectedFilter, selectedValue, setSelectedValue, selectedEpisode, setSelectedEpisode, grammarCards, grammarMode, setGrammarMode }: Props) {
   const { t } = useTranslation()
   const srs = useStore((s) => s.srs)
   const favorites = useStore((s) => s.favorites)
@@ -39,12 +42,64 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
   const mastered = useStore((s) => s.mastered)
   const seen = useStore((s) => s.seen)
   const toggleMastered = useStore((s) => s.toggleMastered)
-  const [previewPage, setPreviewPage] = useState(0)
-  const [previewMode, setPreviewMode] = useState<'session' | 'all' | 'blindSpots'>('session')
+  const previewPage = useStore((s) => s.previewPage)
+  const setPreviewPage = useStore((s) => s.setPreviewPage)
+  const sessionBatch = useStore((s) => s.sessionBatch)
+  const setSessionBatch = useStore((s) => s.setSessionBatch)
+  const previewMode = useStore((s) => s.previewMode)
+  const setPreviewMode = useStore((s) => s.setPreviewMode)
   const [playingId, setPlayingId] = useState<string | null>(null)
   const [ttsError, setTtsError] = useState<string | null>(null)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [searchOpen, setSearchOpen] = useState(false)
   const PREVIEW_PER_PAGE = 8
   const BLIND_SPOT_PER_PAGE = 16
+
+  // Search: substring match with relevance scoring
+  const searchResults = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase()
+    if (!q) return []
+
+    type ScoredCard = { card: Flashcard; score: number }
+    const results: ScoredCard[] = []
+
+    for (const c of cards) {
+      const word = c.target_word.toLowerCase()
+      const trans = (c.translation || '').toLowerCase()
+      const sentence = (c.sentence_full || '').toLowerCase()
+      const sentTrans = (c.sentence_translation || '').toLowerCase()
+
+      let score = 0
+
+      // 1. Exact match on target_word (highest priority)
+      if (word === q) { score = 1000 }
+      // 2. Target word starts with query
+      else if (word.startsWith(q)) { score = 800 }
+      // 3. Target word contains query
+      else if (word.includes(q)) { score = 600 }
+      // 4. Translation contains query
+      else if (trans.includes(q)) { score = 400 }
+      // 5. Sentence contains query as whole word
+      else if (sentence.includes(q)) { score = 200 }
+      // 6. Sentence translation contains query
+      else if (sentTrans.includes(q)) { score = 100 }
+      // 7. Fuzzy: query chars appear in order in target_word, with >= 60% density
+      else {
+        let qi = 0
+        for (let i = 0; i < word.length && qi < q.length; i++) {
+          if (word[i] === q[qi]) qi++
+        }
+        if (qi === q.length && q.length >= 3 && qi / word.length >= 0.6) {
+          score = 50 + Math.round((qi / word.length) * 50)
+        }
+      }
+
+      if (score > 0) results.push({ card: c, score })
+    }
+
+    results.sort((a, b) => b.score - a.score)
+    return results.slice(0, 30).map((r) => r.card)
+  }, [searchQuery, cards])
 
   // TTS play function
   function handlePlay(text: string, playKey: string) {
@@ -53,17 +108,31 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
       setPlayingId(null)
       return
     }
-    // Detect language from card ID: LCDP_ = Spanish, others = English (GenAm)
+    // Detect language from card ID: LCDP_/GRAMMAR_ = Spanish, others = English (GenAm)
     const cardId = playKey.startsWith('sent-') ? playKey.slice(5) : playKey
-    const lang = cardId.startsWith('LCDP_') ? 'es' : 'en'
+    const lang = cardId.startsWith('LCDP_') || cardId.startsWith('GRAMMAR_') ? 'es' : 'en'
     playTTSUtil(text, lang, () => setPlayingId(playKey), () => setPlayingId(null), (msg) => {
       setTtsError(msg)
       setTimeout(() => setTtsError(null), 5000)
     })
   }
 
-  // Reset preview page when filter or mode changes
-  useEffect(() => { setPreviewPage(0) }, [selectedFilter, selectedValue, selectedEpisode, previewMode])
+  // Reset preview page ONLY when filter/mode actually changes (not on remount)
+  const prevFilterRef = useRef({ selectedFilter, selectedValue, selectedEpisode, previewMode })
+  useEffect(() => {
+    const prev = prevFilterRef.current
+    const curr = { selectedFilter, selectedValue, selectedEpisode, previewMode }
+    if (
+      prev.selectedFilter !== curr.selectedFilter ||
+      prev.selectedValue !== curr.selectedValue ||
+      prev.selectedEpisode !== curr.selectedEpisode ||
+      prev.previewMode !== curr.previewMode
+    ) {
+      setPreviewPage(0)
+      setSessionBatch(0)
+    }
+    prevFilterRef.current = curr
+  }, [selectedFilter, selectedValue, selectedEpisode, previewMode])
 
   // POS labels: use main text for filter logic, Bi component for display
   const POS_MAIN: Record<string, string> = {
@@ -144,6 +213,11 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
   }, [scopedCards])
 
   const filteredCards = useMemo(() => {
+    // Grammar mode: show grammar cards
+    if (grammarMode) {
+      return grammarCards.filter((c) => !disliked.has(c.id) && !mastered.has(c.id))
+    }
+
     // Filter out disliked and mastered cards
     let availableCards = cards.filter((c) => !disliked.has(c.id) && !mastered.has(c.id))
 
@@ -174,8 +248,10 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
       if (selectedFilter === 'tags') return c.tags.includes(selectedValue)
       return true
     })
-    return result
-  }, [cards, selectedFilter, selectedValue, selectedEpisode, disliked, mastered])
+
+    // Sort by dialogue order (line_index from Excel row number)
+    return result.sort((a, b) => (a.line_index ?? 0) - (b.line_index ?? 0))
+  }, [cards, grammarCards, grammarMode, selectedFilter, selectedValue, selectedEpisode, disliked, mastered])
 
   const recommendedCards = useMemo(() => {
     const now = Date.now()
@@ -240,13 +316,18 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
   // Preview cards based on mode
   const previewCards = useMemo(() => {
     if (previewMode === 'session') {
-      return recommendedCards.slice(0, 7)
+      // Pull from blind spots first, then fill with remaining filtered cards
+      const blindSpots = blindSpotCards
+      const remaining = filteredCards.filter((c) => !blindSpots.some((b) => b.id === c.id))
+      const ordered = [...blindSpots, ...remaining]
+      const start = sessionBatch * 7
+      return ordered.slice(start, start + 7)
     }
     if (previewMode === 'blindSpots') {
       return blindSpotCards
     }
     return filteredCards
-  }, [previewMode, recommendedCards, filteredCards, blindSpotCards])
+  }, [previewMode, filteredCards, blindSpotCards, sessionBatch])
 
   // Dynamic page size based on mode
   const currentPageSize = previewMode === 'blindSpots' ? BLIND_SPOT_PER_PAGE : PREVIEW_PER_PAGE
@@ -293,8 +374,48 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
       {/* Header */}
       <header className="relative overflow-hidden">
         <div className="relative px-6 pt-10 pb-14 max-w-4xl mx-auto">
-          {/* Top bar: language */}
+          {/* Top bar: search + language */}
           <div className="absolute top-4 right-4 flex items-center gap-2">
+            {/* Search */}
+            <div className="relative">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => { setSearchQuery(e.target.value); setSearchOpen(true) }}
+                onFocus={() => setSearchOpen(true)}
+                onBlur={() => setTimeout(() => setSearchOpen(false), 200)}
+                placeholder="🔍 查词..."
+                className="w-40 px-3 py-1.5 text-sm rounded-lg border border-primary-200 bg-white/90 backdrop-blur text-primary-900 placeholder-primary-400 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-all"
+              />
+              {searchOpen && searchResults.length > 0 && (
+                <div className="absolute right-0 top-full mt-1 w-72 max-h-80 overflow-y-auto bg-white rounded-xl shadow-xl border border-border-light z-50">
+                  {searchResults.map((c) => (
+                    <div
+                      key={c.id}
+                      className="px-3 py-2 hover:bg-accent-50 cursor-pointer border-b border-border-light last:border-0"
+                      onMouseDown={(e) => {
+                        e.preventDefault()
+                        onStart([c.id])
+                        setSearchOpen(false)
+                        setSearchQuery('')
+                      }}
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="font-semibold text-primary-900 text-sm">{c.target_word}</span>
+                        <span className="text-xs text-primary-400">{c.pos}</span>
+                      </div>
+                      {c.translation && <div className="text-xs text-accent-600 mt-0.5">{c.translation}</div>}
+                      {c.sentence_full && <div className="text-xs text-primary-500 mt-0.5 line-clamp-1">{c.sentence_full}</div>}
+                    </div>
+                  ))}
+                </div>
+              )}
+              {searchOpen && searchQuery && searchResults.length === 0 && (
+                <div className="absolute right-0 top-full mt-1 w-72 bg-white rounded-xl shadow-xl border border-border-light z-50 px-3 py-4 text-center text-sm text-primary-400">
+                  没有找到匹配的词 / Sin resultados
+                </div>
+              )}
+            </div>
             <LanguageSwitcher />
           </div>
 
@@ -333,14 +454,37 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
 
               {/* Episode buttons row */}
               <div className="flex flex-wrap gap-2 mb-4">
+                  {/* Grammar button */}
+                  <button
+                    onClick={() => {
+                      setGrammarMode(!grammarMode)
+                      if (grammarMode) {
+                        setSelectedEpisode(null)
+                      } else {
+                        setSelectedFilter('pos')
+                        setSelectedValue(null)
+                      }
+                    }}
+                    className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                      grammarMode
+                        ? 'bg-accent-600 text-white shadow-subtle'
+                        : 'bg-surface-secondary text-primary-700 hover:bg-primary-100 border border-border-light'
+                    }`}
+                  >
+                    📚 语法
+                    <span className="ml-1.5 text-xs opacity-75">{grammarCards.length}</span>
+                  </button>
                   {filters.episodes.map((epId) => {
                     const count = episodeCounts[epId] || 0
                     return (
                       <button
                         key={epId}
-                        onClick={() => setSelectedEpisode(selectedEpisode === epId ? null : epId)}
+                        onClick={() => {
+                          setGrammarMode(false)
+                          setSelectedEpisode(selectedEpisode === epId ? null : epId)
+                        }}
                         className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                          selectedEpisode === epId
+                          selectedEpisode === epId && !grammarMode
                             ? 'bg-primary-900 text-white shadow-subtle'
                             : 'bg-surface-secondary text-primary-700 hover:bg-primary-100 border border-border-light'
                         }`}
@@ -375,7 +519,10 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
               {selectedFilter !== 'all' && (
                 <div className="mt-4 pt-4 border-t border-border-light">
                   <div className="flex flex-wrap gap-2">
-                    {pickChips().map((chip) => {
+                    {pickChips().filter((chip) => {
+                      const cnt = selectedFilter === 'pos' ? (posCounts[chip.value] || 0) : 1
+                      return cnt > 0
+                    }).map((chip) => {
                       // Get count for this chip
                       const chipCount = selectedFilter === 'pos' 
                         ? (posCounts[chip.value] || 0)
@@ -573,18 +720,6 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
                     <div className="text-xs text-amber-600 mt-1"><Bi i18nKey="home.reviewBumpy" /></div>
                   </button>
                 )}
-                {blindSpotCards.length > 0 && (
-                  <button
-                    onClick={() => { setPreviewMode('blindSpots'); setPreviewPage(0); }}
-                    className="w-full text-left bg-orange-50 border border-orange-200 rounded-xl p-4 hover:shadow-subtle transition-all cursor-pointer"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="text-base font-semibold text-orange-800">🔍 <Bi i18nKey="home.blindSpotPreview" /></span>
-                      <span className="text-sm text-orange-700">{blindSpotCards.length} <Bi i18nKey="home.cards" /></span>
-                    </div>
-                    <div className="text-xs text-orange-600 mt-1"><Bi i18nKey="home.blindSpotPreviewDesc" /></div>
-                  </button>
-                )}
                 {favCards.length > 0 && (
                   <button
                     onClick={() => onStart(favCards.map((c) => c.id))}
@@ -632,8 +767,69 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
             </span>
           </h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {previewCards.slice(previewPage * currentPageSize, (previewPage + 1) * currentPageSize).map((c) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {previewCards.slice(previewPage * currentPageSize, (previewPage + 1) * currentPageSize).map((c) => {
+            // Grammar card: show compact preview
+            if (c.grammar_topic) {
+              return (
+                <div
+                  key={c.id}
+                  className="group bg-white rounded-xl border border-border-light hover:border-accent-300 shadow-subtle hover:shadow-card transition-all p-3 cursor-pointer"
+                  onClick={() => onStart([c.id, ...previewCards.filter((x) => x.id !== c.id).map((x) => x.id)])}
+                >
+                  <div className="flex items-start justify-between mb-2">
+                    <div className="flex items-center gap-2">
+                      <div className="text-base font-semibold text-primary-900 group-hover:text-accent-600 transition">
+                        {c.target_word}
+                      </div>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          handlePlay(c.target_word, c.id)
+                        }}
+                        className={`p-0.5 rounded-full transition-all ${
+                          playingId === c.id
+                            ? 'bg-accent-100 text-accent-600'
+                            : 'text-primary-400 hover:text-accent-600 hover:bg-accent-50'
+                        }`}
+                        title="Pronunciar palabra / 朗读单词"
+                      >
+                        🔊
+                      </button>
+                      {c.ipa && (
+                        <span className="text-[10px] text-primary-400 font-mono">{c.ipa}</span>
+                      )}
+                    </div>
+                    <span className="text-[10px] px-1.5 py-0.5 rounded-full font-semibold bg-accent-50 text-accent-700">
+                      {c.pos ? c.pos.split(' ')[0] : c.level}
+                    </span>
+                  </div>
+                  <div className="text-[11px] text-accent-600 font-medium mb-2 line-clamp-2">{c.translation}</div>
+                  {c.grammar_content && (
+                    <div
+                      className="grammar-preview text-xs text-primary-600 leading-relaxed"
+                      dangerouslySetInnerHTML={{ __html: c.grammar_content }}
+                    />
+                  )}
+                  <div className="mt-2 pt-2 border-t border-border-light flex items-center justify-between text-[10px] text-primary-500">
+                    <span>📚 语法卡片</span>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        toggleMastered(c.id)
+                      }}
+                      className="px-2 py-0.5 rounded-lg bg-accent-50 border border-accent-200 text-accent-700 hover:bg-accent-100 transition-all text-[10px] font-medium"
+                      title="Marcar como dominada / 标记为已掌握"
+                    >
+                      {mastered.has(c.id) ? '️ Deshacer' : '✅ Ya lo sé'}
+                    </button>
+                  </div>
+                </div>
+              )
+            }
+
+            // Regular card
+            return (
             <div
               key={c.id}
               className="group bg-white rounded-xl border border-border-light hover:border-accent-300 shadow-subtle hover:shadow-card transition-all p-4 cursor-pointer"
@@ -660,13 +856,13 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
                   </button>
                 </div>
                 <span className={`text-xs px-2 py-0.5 rounded-full font-semibold ${
-                  c.level === 'A1' ? 'bg-accent-50 text-accent-700' :
-                  c.level === 'A2' ? 'bg-accent-100 text-accent-800' :
-                  c.level === 'B1' ? 'bg-yellow-50 text-yellow-700' :
-                  c.level === 'B2' ? 'bg-orange-50 text-orange-700' :
-                  c.level === 'C1' ? 'bg-red-50 text-red-700' : 'bg-rose-50 text-rose-700'
+                  c.pos?.startsWith('n.') ? 'bg-blue-50 text-blue-700' :
+                  c.pos?.startsWith('v.') ? 'bg-green-50 text-green-700' :
+                  c.pos?.startsWith('adj') ? 'bg-purple-50 text-purple-700' :
+                  c.pos?.startsWith('adv') ? 'bg-amber-50 text-amber-700' :
+                  'bg-accent-50 text-accent-700'
                 }`}>
-                  {c.level}
+                  {c.pos ? c.pos.split(' ')[0] : c.level}
                 </span>
               </div>
               <div className="text-xs text-primary-500 mb-1">
@@ -746,14 +942,42 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
                 </button>
               </div>
             </div>
-          ))}
+            )
+          })}
+          {/* 换一批 button: show in session mode when there are more batches */}
+          {previewMode === 'session' && (() => {
+            const blindSpots = blindSpotCards
+            const remaining = filteredCards.filter((c) => !blindSpots.some((b) => b.id === c.id))
+            const totalOrdered = [...blindSpots, ...remaining]
+            const totalBatches = Math.ceil(totalOrdered.length / 7)
+            const isLastBatch = sessionBatch >= totalBatches - 1
+            if (totalBatches <= 1) return null
+            return (
+              <div
+                onClick={() => setSessionBatch(isLastBatch ? 0 : sessionBatch + 1)}
+                className="group bg-white rounded-xl border-2 border-dashed border-accent-300 hover:border-accent-500 shadow-subtle hover:shadow-card transition-all p-4 cursor-pointer flex items-center justify-center min-h-[200px]"
+              >
+                <div className="text-center">
+                  <div className="text-3xl mb-2">🔄</div>
+                  <div className="text-sm font-semibold text-accent-600 group-hover:text-accent-700">
+                    Cambiar / 换一批
+                  </div>
+                  <div className="text-xs text-primary-400 mt-1">
+                    {isLastBatch
+                      ? `Volver al inicio / 回到开头 (${totalOrdered.length} 张)`
+                      : `Siguiente lote / 下一批 (${sessionBatch + 1}/${totalBatches})`}
+                  </div>
+                </div>
+              </div>
+            )
+          })()}
         </div>
 
         {/* Pagination */}
         {previewCards.length > currentPageSize && (
           <div className="mt-6 flex items-center justify-center gap-3">
             <button
-              onClick={() => setPreviewPage((p) => Math.max(0, p - 1))}
+              onClick={() => setPreviewPage(Math.max(0, previewPage - 1))}
               disabled={previewPage === 0}
               className="px-4 py-2 rounded-lg text-sm font-medium border border-border-light bg-white text-primary-700 hover:bg-primary-50 transition-all disabled:opacity-30 disabled:pointer-events-none"
             >
@@ -763,7 +987,7 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
               {previewPage + 1} / {Math.ceil(previewCards.length / currentPageSize)}
             </span>
             <button
-              onClick={() => setPreviewPage((p) => Math.min(Math.ceil(previewCards.length / currentPageSize) - 1, p + 1))}
+              onClick={() => setPreviewPage(Math.min(Math.ceil(previewCards.length / currentPageSize) - 1, previewPage + 1))}
               disabled={previewPage >= Math.ceil(previewCards.length / currentPageSize) - 1}
               className="px-4 py-2 rounded-lg text-sm font-medium border border-border-light bg-white text-primary-700 hover:bg-primary-50 transition-all disabled:opacity-30 disabled:pointer-events-none"
             >
@@ -772,17 +996,6 @@ export default function Home({ cards, metadata, show, episode, showEpisodes, onS
           </div>
         )}
 
-        {/* Return button when in blind spot preview mode */}
-        {previewMode === 'blindSpots' && (
-          <div className="mt-6 flex justify-center">
-            <button
-              onClick={() => { setPreviewMode('session'); setPreviewPage(0); }}
-              className="px-5 py-2.5 rounded-xl text-sm font-medium border border-border-light bg-white text-primary-700 hover:bg-primary-50 transition-all"
-            >
-              ← Volver a la vista previa 返回常规预览
-            </button>
-          </div>
-        )}
       </section>
 
       <footer className="py-8 text-center text-xs text-primary-400">

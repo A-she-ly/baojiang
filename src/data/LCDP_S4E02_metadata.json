@@ -1,0 +1,21 @@
+{
+  "episode": "S4E02",
+  "title": "S4E02 — 词性分类闪卡",
+  "title_cn": "S4E02 — 词性分类闪卡",
+  "description": "第四季第二集台词中提取的闪卡，按词性分类（名词112、动词39、形容词9、副词0）。",
+  "show": "la-casa-de-papel",
+  "language": "es",
+  "total_cards": 160,
+  "pos_distribution": {
+    "verbs": 39,
+    "nouns": 112,
+    "adjectives": 9,
+    "adverbs": 0
+  },
+  "scenes_count": 1,
+  "dialogue_lines_count": 160,
+  "characters": [
+    "S4E02"
+  ],
+  "scenes_summary": []
+}

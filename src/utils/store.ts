@@ -12,6 +12,7 @@ const LS_KEYS = {
   mnemonics: 'bjy_mnemonics_v1',
   settings: 'bjy_settings_v1',
   view: 'bjy_view_v1',
+  preview: 'bjy_preview_v1',
 }
 
 type View =
@@ -29,6 +30,9 @@ interface Store {
   seen: Set<string>
   mnemonics: Record<string, string[]>
   view: View
+  previewPage: number
+  sessionBatch: number
+  previewMode: 'session' | 'all' | 'blindSpots'
   load: (cards: Flashcard[]) => void
   hydrate: () => void
   setView: (v: View) => void
@@ -40,6 +44,9 @@ interface Store {
   addUserCard: (card: Flashcard) => void
   addMnemonic: (cardId: string, text: string) => void
   removeMnemonic: (cardId: string, index: number) => void
+  setPreviewPage: (page: number) => void
+  setSessionBatch: (batch: number) => void
+  setPreviewMode: (mode: 'session' | 'all' | 'blindSpots') => void
 }
 
 function loadLS<T>(key: string, fallback: T): T {
@@ -62,6 +69,9 @@ export const useStore = create<Store>((set, get) => ({
   seen: new Set(),
   mnemonics: {},
   view: { name: 'home' },
+  previewPage: 0,
+  sessionBatch: 0,
+  previewMode: 'session' as const,
 
   load(cards) {
     set({ cards })
@@ -76,7 +86,8 @@ export const useStore = create<Store>((set, get) => ({
     const userCardsArr = loadLS<Flashcard[]>(LS_KEYS.userCards, [])
     const mnemonics = loadLS<Record<string, string[]>>(LS_KEYS.mnemonics, {})
     const savedView = loadLS<View>(LS_KEYS.view, { name: 'home' as const })
-    set({ srs, favorites: new Set(favArr), disliked: new Set(dislikedArr), mastered: new Set(masteredArr), seen: new Set(seenArr), userCards: userCardsArr, mnemonics, view: savedView })
+    const savedPreview = loadLS<{ previewPage: number; sessionBatch: number; previewMode: string }>(LS_KEYS.preview, { previewPage: 0, sessionBatch: 0, previewMode: 'session' })
+    set({ srs, favorites: new Set(favArr), disliked: new Set(dislikedArr), mastered: new Set(masteredArr), seen: new Set(seenArr), userCards: userCardsArr, mnemonics, view: savedView, previewPage: savedPreview.previewPage, sessionBatch: savedPreview.sessionBatch, previewMode: savedPreview.previewMode as 'session' | 'all' | 'blindSpots' })
   },
 
   setView(view) {
@@ -147,5 +158,23 @@ export const useStore = create<Store>((set, get) => ({
     }
     localStorage.setItem(LS_KEYS.mnemonics, JSON.stringify(mnemonics))
     set({ mnemonics })
+  },
+
+  setPreviewPage(page) {
+    const preview = { previewPage: page, sessionBatch: get().sessionBatch, previewMode: get().previewMode }
+    localStorage.setItem(LS_KEYS.preview, JSON.stringify(preview))
+    set({ previewPage: page })
+  },
+
+  setSessionBatch(batch) {
+    const preview = { previewPage: get().previewPage, sessionBatch: batch, previewMode: get().previewMode }
+    localStorage.setItem(LS_KEYS.preview, JSON.stringify(preview))
+    set({ sessionBatch: batch })
+  },
+
+  setPreviewMode(mode) {
+    const preview = { previewPage: get().previewPage, sessionBatch: get().sessionBatch, previewMode: mode }
+    localStorage.setItem(LS_KEYS.preview, JSON.stringify(preview))
+    set({ previewMode: mode })
   },
 }))

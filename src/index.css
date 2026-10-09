@@ -75,3 +75,244 @@ body {
 .cloze-input::placeholder {
   color: rgba(38, 38, 38, 0.3);
 }
+
+/* Grammar card content styles */
+.grammar-content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 1rem 0 0.75rem;
+}
+
+.grammar-content p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.grammar-content .grammar-intro {
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.grammar-content .grammar-summary {
+  background: #f0f9ff;
+  border-left: 3px solid #0ea5e9;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.grammar-content .grammar-desc {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.grammar-content .grammar-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  font-size: 0.875rem;
+}
+
+.grammar-content .grammar-table th {
+  background: #f3f4f6;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.grammar-content .grammar-table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #f3f4f6;
+  color: #4b5563;
+}
+
+.grammar-content .grammar-table tr:hover td {
+  background: #f9fafb;
+}
+
+.grammar-content .grammar-tip {
+  background: #fef3c7;
+  border: 1px solid #fcd34d;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+}
+
+.grammar-content .grammar-tip ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.grammar-content .grammar-tip li {
+  margin: 0.375rem 0;
+  line-height: 1.5;
+}
+
+.grammar-content code {
+  background: #f3f4f6;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  font-size: 0.85em;
+  color: #dc2626;
+}
+
+/* Grammar preview (compact, for grid view) */
+.grammar-preview {
+  max-height: 120px;
+  overflow: hidden;
+  position: relative;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.grammar-preview::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(transparent, white);
+  pointer-events: none;
+}
+
+.grammar-preview h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0.5rem 0 0.375rem;
+}
+
+.grammar-preview h4 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0.375rem 0 0.25rem;
+}
+
+.grammar-preview p {
+  margin: 0.25rem 0;
+  line-height: 1.4;
+}
+
+.grammar-preview .grammar-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.375rem 0;
+  font-size: 0.7rem;
+}
+
+.grammar-preview .grammar-table th {
+  background: #f3f4f6;
+  padding: 0.25rem 0.5rem;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.grammar-preview .grammar-table td {
+  padding: 0.25rem 0.5rem;
+  border-bottom: 1px solid #f3f4f6;
+  color: #4b5563;
+}
+
+.grammar-preview .grammar-tip {
+  background: #fef3c7;
+  border: 1px solid #fcd34d;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  margin: 0.375rem 0;
+}
+
+.grammar-preview .grammar-tip ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1rem;
+}
+
+.grammar-preview .grammar-tip li {
+  margin: 0.25rem 0;
+  line-height: 1.4;
+}
+
+.grammar-preview code {
+  background: #f3f4f6;
+  padding: 0.0625rem 0.25rem;
+  border-radius: 0.125rem;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  font-size: 0.7em;
+  color: #dc2626;
+}
+
+/* Grammar quiz styles */
+.grammar-quiz-content .quiz-instruction {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+}
+
+.grammar-quiz-content .grammar-quiz-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.grammar-quiz-content .grammar-quiz-table th {
+  background: #f3f4f6;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.grammar-quiz-content .grammar-quiz-table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #f3f4f6;
+  color: #4b5563;
+}
+
+.grammar-quiz-content .grammar-quiz-table tr:hover td {
+  background: #f9fafb;
+}
+
+.grammar-input {
+  display: inline-block;
+  width: 5rem;
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  text-align: center;
+  background: white;
+  transition: border-color 0.2s;
+}
+
+.grammar-input:focus {
+  outline: none;
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.2);
+}
+
+.grammar-input-correct {
+  border-color: #10b981 !important;
+  background: #ecfdf5 !important;
+}
+
+.grammar-input-wrong {
+  border-color: #ef4444 !important;
+  background: #fef2f2 !important;
+}
+
+.grammar-quiz-content .quiz-check-hint {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-top: 0.75rem;
+}
