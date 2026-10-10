@@ -51,8 +51,14 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_003", "label": "a mí me cuesta（我觉得做某事很难）" },
-      { "cardId": "LCDP_S1E01_004", "label": "hasta respirar（甚至连呼吸都）" }
+      {
+        "cardId": "LCDP_S1E01_003",
+        "label": "a mí me cuesta（我觉得做某事很难）"
+      },
+      {
+        "cardId": "LCDP_S1E01_004",
+        "label": "hasta respirar（甚至连呼吸都）"
+      }
     ]
   },
   {
@@ -78,8 +84,14 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_002", "label": "Cuando estás cerca（当你靠近时）" },
-      { "cardId": "LCDP_S1E01_004", "label": "hasta respirar（甚至连呼吸都）" }
+      {
+        "cardId": "LCDP_S1E01_002",
+        "label": "Cuando estás cerca（当你靠近时）"
+      },
+      {
+        "cardId": "LCDP_S1E01_004",
+        "label": "hasta respirar（甚至连呼吸都）"
+      }
     ]
   },
   {
@@ -105,8 +117,14 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_002", "label": "Cuando estás cerca（当你靠近时）" },
-      { "cardId": "LCDP_S1E01_003", "label": "a mí me cuesta（我觉得做某事很难）" }
+      {
+        "cardId": "LCDP_S1E01_002",
+        "label": "Cuando estás cerca（当你靠近时）"
+      },
+      {
+        "cardId": "LCDP_S1E01_003",
+        "label": "a mí me cuesta（我觉得做某事很难）"
+      }
     ]
   },
   {
@@ -120,7 +138,9 @@
     "pos": "v. respirar",
     "level": "A2",
     "pronunciation_focus": "tapped_r",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "___, porque dentro de nueve meses sí que se te va a cortar la respiración.",
     "sentence_full": "Pues respira, porque dentro de nueve meses sí que se te va a cortar la respiración.",
     "translation": "那，你呼吸吧",
@@ -130,11 +150,26 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_006", "label": "porque（因为）" },
-      { "cardId": "LCDP_S1E01_007", "label": "dentro de nueve meses（在九个月之后）" },
-      { "cardId": "LCDP_S1E01_008", "label": "sí que（真的、确实）" },
-      { "cardId": "LCDP_S1E01_009", "label": "se te va a cortar（会中断）" },
-      { "cardId": "LCDP_S1E01_010", "label": "la respiración（呼吸）" }
+      {
+        "cardId": "LCDP_S1E01_006",
+        "label": "porque（因为）"
+      },
+      {
+        "cardId": "LCDP_S1E01_007",
+        "label": "dentro de nueve meses（在九个月之后）"
+      },
+      {
+        "cardId": "LCDP_S1E01_008",
+        "label": "sí que（真的、确实）"
+      },
+      {
+        "cardId": "LCDP_S1E01_009",
+        "label": "se te va a cortar（会中断）"
+      },
+      {
+        "cardId": "LCDP_S1E01_010",
+        "label": "la respiración（呼吸）"
+      }
     ]
   },
   {
@@ -148,7 +183,9 @@
     "pos": "conj. porque",
     "level": "A1",
     "pronunciation_focus": "rolled_r",
-    "tags": ["连词"],
+    "tags": [
+      "连词"
+    ],
     "sentence_cloze": "Pues respira, ___ dentro de nueve meses sí que se te va a cortar la respiración.",
     "sentence_full": "Pues respira, porque dentro de nueve meses sí que se te va a cortar la respiración.",
     "translation": "因为",
@@ -158,11 +195,26 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_005", "label": "Pues respira（那，你呼吸吧）" },
-      { "cardId": "LCDP_S1E01_007", "label": "dentro de nueve meses（在九个月之后）" },
-      { "cardId": "LCDP_S1E01_008", "label": "sí que（真的、确实）" },
-      { "cardId": "LCDP_S1E01_009", "label": "se te va a cortar（会中断）" },
-      { "cardId": "LCDP_S1E01_010", "label": "la respiración（呼吸）" }
+      {
+        "cardId": "LCDP_S1E01_005",
+        "label": "Pues respira（那，你呼吸吧）"
+      },
+      {
+        "cardId": "LCDP_S1E01_007",
+        "label": "dentro de nueve meses（在九个月之后）"
+      },
+      {
+        "cardId": "LCDP_S1E01_008",
+        "label": "sí que（真的、确实）"
+      },
+      {
+        "cardId": "LCDP_S1E01_009",
+        "label": "se te va a cortar（会中断）"
+      },
+      {
+        "cardId": "LCDP_S1E01_010",
+        "label": "la respiración（呼吸）"
+      }
     ]
   },
   {
@@ -176,7 +228,9 @@
     "pos": "prep. dentro de",
     "level": "A2",
     "pronunciation_focus": "diphthong",
-    "tags": ["介词短语"],
+    "tags": [
+      "介词短语"
+    ],
     "sentence_cloze": "Pues respira, porque ___ sí que se te va a cortar la respiración.",
     "sentence_full": "Pues respira, porque dentro de nueve meses sí que se te va a cortar la respiración.",
     "translation": "在九个月之后",
@@ -186,11 +240,26 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_005", "label": "Pues respira（那，你呼吸吧）" },
-      { "cardId": "LCDP_S1E01_006", "label": "porque（因为）" },
-      { "cardId": "LCDP_S1E01_008", "label": "sí que（真的、确实）" },
-      { "cardId": "LCDP_S1E01_009", "label": "se te va a cortar（会中断）" },
-      { "cardId": "LCDP_S1E01_010", "label": "la respiración（呼吸）" }
+      {
+        "cardId": "LCDP_S1E01_005",
+        "label": "Pues respira（那，你呼吸吧）"
+      },
+      {
+        "cardId": "LCDP_S1E01_006",
+        "label": "porque（因为）"
+      },
+      {
+        "cardId": "LCDP_S1E01_008",
+        "label": "sí que（真的、确实）"
+      },
+      {
+        "cardId": "LCDP_S1E01_009",
+        "label": "se te va a cortar（会中断）"
+      },
+      {
+        "cardId": "LCDP_S1E01_010",
+        "label": "la respiración（呼吸）"
+      }
     ]
   },
   {
@@ -204,7 +273,9 @@
     "pos": "adv. sí que",
     "level": "B1",
     "pronunciation_focus": "vowel_i",
-    "tags": ["副词"],
+    "tags": [
+      "副词"
+    ],
     "sentence_cloze": "Pues respira, porque dentro de nueve meses ___ se te va a cortar la respiración.",
     "sentence_full": "Pues respira, porque dentro de nueve meses sí que se te va a cortar la respiración.",
     "translation": "真的、确实（强调结构）",
@@ -214,11 +285,26 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_005", "label": "Pues respira（那，你呼吸吧）" },
-      { "cardId": "LCDP_S1E01_006", "label": "porque（因为）" },
-      { "cardId": "LCDP_S1E01_007", "label": "dentro de nueve meses（在九个月之后）" },
-      { "cardId": "LCDP_S1E01_009", "label": "se te va a cortar（会中断）" },
-      { "cardId": "LCDP_S1E01_010", "label": "la respiración（呼吸）" }
+      {
+        "cardId": "LCDP_S1E01_005",
+        "label": "Pues respira（那，你呼吸吧）"
+      },
+      {
+        "cardId": "LCDP_S1E01_006",
+        "label": "porque（因为）"
+      },
+      {
+        "cardId": "LCDP_S1E01_007",
+        "label": "dentro de nueve meses（在九个月之后）"
+      },
+      {
+        "cardId": "LCDP_S1E01_009",
+        "label": "se te va a cortar（会中断）"
+      },
+      {
+        "cardId": "LCDP_S1E01_010",
+        "label": "la respiración（呼吸）"
+      }
     ]
   },
   {
@@ -232,7 +318,9 @@
     "pos": "v. cortar",
     "level": "B1",
     "pronunciation_focus": "rolled_r",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "Pues respira, porque dentro de nueve meses sí que ___ la respiración.",
     "sentence_full": "Pues respira, porque dentro de nueve meses sí que se te va a cortar la respiración.",
     "translation": "对你来说会中断",
@@ -242,11 +330,26 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_005", "label": "Pues respira（那，你呼吸吧）" },
-      { "cardId": "LCDP_S1E01_006", "label": "porque（因为）" },
-      { "cardId": "LCDP_S1E01_007", "label": "dentro de nueve meses（在九个月之后）" },
-      { "cardId": "LCDP_S1E01_008", "label": "sí que（真的、确实）" },
-      { "cardId": "LCDP_S1E01_010", "label": "la respiración（呼吸）" }
+      {
+        "cardId": "LCDP_S1E01_005",
+        "label": "Pues respira（那，你呼吸吧）"
+      },
+      {
+        "cardId": "LCDP_S1E01_006",
+        "label": "porque（因为）"
+      },
+      {
+        "cardId": "LCDP_S1E01_007",
+        "label": "dentro de nueve meses（在九个月之后）"
+      },
+      {
+        "cardId": "LCDP_S1E01_008",
+        "label": "sí que（真的、确实）"
+      },
+      {
+        "cardId": "LCDP_S1E01_010",
+        "label": "la respiración（呼吸）"
+      }
     ]
   },
   {
@@ -260,7 +363,9 @@
     "pos": "n. respiración",
     "level": "A2",
     "pronunciation_focus": "tapped_r",
-    "tags": ["名词"],
+    "tags": [
+      "名词"
+    ],
     "sentence_cloze": "Pues respira, porque dentro de nueve meses sí que se te va a cortar ___.",
     "sentence_full": "Pues respira, porque dentro de nueve meses sí que se te va a cortar la respiración.",
     "translation": "呼吸（主语）",
@@ -270,11 +375,26 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_005", "label": "Pues respira（那，你呼吸吧）" },
-      { "cardId": "LCDP_S1E01_006", "label": "porque（因为）" },
-      { "cardId": "LCDP_S1E01_007", "label": "dentro de nueve meses（在九个月之后）" },
-      { "cardId": "LCDP_S1E01_008", "label": "sí que（真的、确实）" },
-      { "cardId": "LCDP_S1E01_009", "label": "se te va a cortar（会中断）" }
+      {
+        "cardId": "LCDP_S1E01_005",
+        "label": "Pues respira（那，你呼吸吧）"
+      },
+      {
+        "cardId": "LCDP_S1E01_006",
+        "label": "porque（因为）"
+      },
+      {
+        "cardId": "LCDP_S1E01_007",
+        "label": "dentro de nueve meses（在九个月之后）"
+      },
+      {
+        "cardId": "LCDP_S1E01_008",
+        "label": "sí que（真的、确实）"
+      },
+      {
+        "cardId": "LCDP_S1E01_009",
+        "label": "se te va a cortar（会中断）"
+      }
     ]
   },
   {
@@ -288,7 +408,9 @@
     "pos": "v. decir",
     "level": "A1",
     "pronunciation_focus": "vowel_e",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿No me ___ nada?",
     "sentence_full": "¿No me vas a decir nada?",
     "translation": "你将要说什么",
@@ -309,7 +431,9 @@
     "pos": "v. decir",
     "level": "A1",
     "pronunciation_focus": "vowel_e",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿___ que estoy embarazada y te quedas tan tranquilo?",
     "sentence_full": "¿Te digo que estoy embarazada y te quedas tan tranquilo?",
     "translation": "我跟你说",
@@ -319,9 +443,18 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_013", "label": "que estoy embarazada（我怀孕了）" },
-      { "cardId": "LCDP_S1E01_014", "label": "te quedas（你保持）" },
-      { "cardId": "LCDP_S1E01_015", "label": "tan tranquilo（这么淡定）" }
+      {
+        "cardId": "LCDP_S1E01_013",
+        "label": "que estoy embarazada（我怀孕了）"
+      },
+      {
+        "cardId": "LCDP_S1E01_014",
+        "label": "te quedas（你保持）"
+      },
+      {
+        "cardId": "LCDP_S1E01_015",
+        "label": "tan tranquilo（这么淡定）"
+      }
     ]
   },
   {
@@ -335,7 +468,9 @@
     "pos": "v. estar",
     "level": "A2",
     "pronunciation_focus": "vowel_a",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Te digo ___ y te quedas tan tranquilo?",
     "sentence_full": "¿Te digo que estoy embarazada y te quedas tan tranquilo?",
     "translation": "我怀孕了",
@@ -345,9 +480,18 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_012", "label": "Te digo（我跟你说）" },
-      { "cardId": "LCDP_S1E01_014", "label": "te quedas（你保持）" },
-      { "cardId": "LCDP_S1E01_015", "label": "tan tranquilo（这么淡定）" }
+      {
+        "cardId": "LCDP_S1E01_012",
+        "label": "Te digo（我跟你说）"
+      },
+      {
+        "cardId": "LCDP_S1E01_014",
+        "label": "te quedas（你保持）"
+      },
+      {
+        "cardId": "LCDP_S1E01_015",
+        "label": "tan tranquilo（这么淡定）"
+      }
     ]
   },
   {
@@ -361,7 +505,9 @@
     "pos": "v. quedarse",
     "level": "A2",
     "pronunciation_focus": "vowel_e",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Te digo que estoy embarazada y ___ tan tranquilo?",
     "sentence_full": "¿Te digo que estoy embarazada y te quedas tan tranquilo?",
     "translation": "你保持 / 你变得 / 你就……",
@@ -371,9 +517,18 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_012", "label": "Te digo（我跟你说）" },
-      { "cardId": "LCDP_S1E01_013", "label": "que estoy embarazada（我怀孕了）" },
-      { "cardId": "LCDP_S1E01_015", "label": "tan tranquilo（这么淡定）" }
+      {
+        "cardId": "LCDP_S1E01_012",
+        "label": "Te digo（我跟你说）"
+      },
+      {
+        "cardId": "LCDP_S1E01_013",
+        "label": "que estoy embarazada（我怀孕了）"
+      },
+      {
+        "cardId": "LCDP_S1E01_015",
+        "label": "tan tranquilo（这么淡定）"
+      }
     ]
   },
   {
@@ -387,7 +542,9 @@
     "pos": "adj. tranquilo",
     "level": "A2",
     "pronunciation_focus": "tapped_r",
-    "tags": ["形容词"],
+    "tags": [
+      "形容词"
+    ],
     "sentence_cloze": "¿Te digo que estoy embarazada y te quedas ___?",
     "sentence_full": "¿Te digo que estoy embarazada y te quedas tan tranquilo?",
     "translation": "这么淡定",
@@ -397,9 +554,18 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_012", "label": "Te digo（我跟你说）" },
-      { "cardId": "LCDP_S1E01_013", "label": "que estoy embarazada（我怀孕了）" },
-      { "cardId": "LCDP_S1E01_014", "label": "te quedas（你保持）" }
+      {
+        "cardId": "LCDP_S1E01_012",
+        "label": "Te digo（我跟你说）"
+      },
+      {
+        "cardId": "LCDP_S1E01_013",
+        "label": "que estoy embarazada（我怀孕了）"
+      },
+      {
+        "cardId": "LCDP_S1E01_014",
+        "label": "te quedas（你保持）"
+      }
     ]
   },
   {
@@ -413,7 +579,9 @@
     "pos": "v. hacer",
     "level": "A1",
     "pronunciation_focus": "gl_gu",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "___, llamo a mi mujer, le digo que recoja a los niños y nos vamos todos a celebrarlo? Por amor de Dios.",
     "sentence_full": "¿Qué hago, llamo a mi mujer, le digo que recoja a los niños y nos vamos todos a celebrarlo? Por amor de Dios.",
     "translation": "我做什么？我该怎么办？",
@@ -423,10 +591,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_017", "label": "llamo a mi mujer（我打电话给我老婆）" },
-      { "cardId": "LCDP_S1E01_018", "label": "le digo que recoja a los niños（我叫她去接孩子们）" },
-      { "cardId": "LCDP_S1E01_019", "label": "y nos vamos todos a celebrarlo（然后我们大家一起去庆祝）" },
-      { "cardId": "LCDP_S1E01_020", "label": "Por amor de Dios（看在上帝的份上）" }
+      {
+        "cardId": "LCDP_S1E01_017",
+        "label": "llamo a mi mujer（我打电话给我老婆）"
+      },
+      {
+        "cardId": "LCDP_S1E01_018",
+        "label": "le digo que recoja a los niños（我叫她去接孩子们）"
+      },
+      {
+        "cardId": "LCDP_S1E01_019",
+        "label": "y nos vamos todos a celebrarlo（然后我们大家一起去庆祝）"
+      },
+      {
+        "cardId": "LCDP_S1E01_020",
+        "label": "Por amor de Dios（看在上帝的份上）"
+      }
     ]
   },
   {
@@ -440,7 +620,9 @@
     "pos": "v. llamar",
     "level": "A1",
     "pronunciation_focus": "ll_y",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Qué hago, ___, le digo que recoja a los niños y nos vamos todos a celebrarlo? Por amor de Dios.",
     "sentence_full": "¿Qué hago, llamo a mi mujer, le digo que recoja a los niños y nos vamos todos a celebrarlo? Por amor de Dios.",
     "translation": "我打电话给我老婆",
@@ -450,10 +632,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_016", "label": "¿Qué hago（我该怎么办）" },
-      { "cardId": "LCDP_S1E01_018", "label": "le digo que recoja a los niños（我叫她去接孩子们）" },
-      { "cardId": "LCDP_S1E01_019", "label": "y nos vamos todos a celebrarlo（然后我们大家一起去庆祝）" },
-      { "cardId": "LCDP_S1E01_020", "label": "Por amor de Dios（看在上帝的份上）" }
+      {
+        "cardId": "LCDP_S1E01_016",
+        "label": "¿Qué hago（我该怎么办）"
+      },
+      {
+        "cardId": "LCDP_S1E01_018",
+        "label": "le digo que recoja a los niños（我叫她去接孩子们）"
+      },
+      {
+        "cardId": "LCDP_S1E01_019",
+        "label": "y nos vamos todos a celebrarlo（然后我们大家一起去庆祝）"
+      },
+      {
+        "cardId": "LCDP_S1E01_020",
+        "label": "Por amor de Dios（看在上帝的份上）"
+      }
     ]
   },
   {
@@ -467,7 +661,9 @@
     "pos": "v. decir",
     "level": "B1",
     "pronunciation_focus": "ny_sound",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Qué hago, llamo a mi mujer, ___ y nos vamos todos a celebrarlo? Por amor de Dios.",
     "sentence_full": "¿Qué hago, llamo a mi mujer, le digo que recoja a los niños y nos vamos todos a celebrarlo? Por amor de Dios.",
     "translation": "我叫她去接孩子们",
@@ -477,10 +673,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_016", "label": "¿Qué hago（我该怎么办）" },
-      { "cardId": "LCDP_S1E01_017", "label": "llamo a mi mujer（我打电话给我老婆）" },
-      { "cardId": "LCDP_S1E01_019", "label": "y nos vamos todos a celebrarlo（然后我们大家一起去庆祝）" },
-      { "cardId": "LCDP_S1E01_020", "label": "Por amor de Dios（看在上帝的份上）" }
+      {
+        "cardId": "LCDP_S1E01_016",
+        "label": "¿Qué hago（我该怎么办）"
+      },
+      {
+        "cardId": "LCDP_S1E01_017",
+        "label": "llamo a mi mujer（我打电话给我老婆）"
+      },
+      {
+        "cardId": "LCDP_S1E01_019",
+        "label": "y nos vamos todos a celebrarlo（然后我们大家一起去庆祝）"
+      },
+      {
+        "cardId": "LCDP_S1E01_020",
+        "label": "Por amor de Dios（看在上帝的份上）"
+      }
     ]
   },
   {
@@ -494,7 +702,9 @@
     "pos": "v. irse",
     "level": "A2",
     "pronunciation_focus": "vowel_a",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Qué hago, llamo a mi mujer, le digo que recoja a los niños ___? Por amor de Dios.",
     "sentence_full": "¿Qué hago, llamo a mi mujer, le digo que recoja a los niños y nos vamos todos a celebrarlo? Por amor de Dios.",
     "translation": "然后我们大家一起去庆祝",
@@ -504,10 +714,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_016", "label": "¿Qué hago（我该怎么办）" },
-      { "cardId": "LCDP_S1E01_017", "label": "llamo a mi mujer（我打电话给我老婆）" },
-      { "cardId": "LCDP_S1E01_018", "label": "le digo que recoja a los niños（我叫她去接孩子们）" },
-      { "cardId": "LCDP_S1E01_020", "label": "Por amor de Dios（看在上帝的份上）" }
+      {
+        "cardId": "LCDP_S1E01_016",
+        "label": "¿Qué hago（我该怎么办）"
+      },
+      {
+        "cardId": "LCDP_S1E01_017",
+        "label": "llamo a mi mujer（我打电话给我老婆）"
+      },
+      {
+        "cardId": "LCDP_S1E01_018",
+        "label": "le digo que recoja a los niños（我叫她去接孩子们）"
+      },
+      {
+        "cardId": "LCDP_S1E01_020",
+        "label": "Por amor de Dios（看在上帝的份上）"
+      }
     ]
   },
   {
@@ -521,7 +743,9 @@
     "pos": "expr. por amor de Dios",
     "level": "B1",
     "pronunciation_focus": "rolled_r",
-    "tags": ["感叹语"],
+    "tags": [
+      "感叹语"
+    ],
     "sentence_cloze": "¿Qué hago, llamo a mi mujer, le digo que recoja a los niños y nos vamos todos a celebrarlo? ___.",
     "sentence_full": "¿Qué hago, llamo a mi mujer, le digo que recoja a los niños y nos vamos todos a celebrarlo? Por amor de Dios.",
     "translation": "看在上帝的份上 / 拜托",
@@ -531,10 +755,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_016", "label": "¿Qué hago（我该怎么办）" },
-      { "cardId": "LCDP_S1E01_017", "label": "llamo a mi mujer（我打电话给我老婆）" },
-      { "cardId": "LCDP_S1E01_018", "label": "le digo que recoja a los niños（我叫她去接孩子们）" },
-      { "cardId": "LCDP_S1E01_019", "label": "y nos vamos todos a celebrarlo（然后我们大家一起去庆祝）" }
+      {
+        "cardId": "LCDP_S1E01_016",
+        "label": "¿Qué hago（我该怎么办）"
+      },
+      {
+        "cardId": "LCDP_S1E01_017",
+        "label": "llamo a mi mujer（我打电话给我老婆）"
+      },
+      {
+        "cardId": "LCDP_S1E01_018",
+        "label": "le digo que recoja a los niños（我叫她去接孩子们）"
+      },
+      {
+        "cardId": "LCDP_S1E01_019",
+        "label": "y nos vamos todos a celebrarlo（然后我们大家一起去庆祝）"
+      }
     ]
   },
   {
@@ -548,7 +784,9 @@
     "pos": "v. ser",
     "level": "A2",
     "pronunciation_focus": "rolled_r",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "___ el que decía que estabais mal, que no la aguantas, que tenéis problemas?",
     "sentence_full": "¿Eras tú ayer el que decía que estabais mal, que no la aguantas, que tenéis problemas?",
     "translation": "昨天是你吗？",
@@ -558,10 +796,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_022", "label": "el que decía（那个说……的人）" },
-      { "cardId": "LCDP_S1E01_023", "label": "que estabais mal（你们情况不好）" },
-      { "cardId": "LCDP_S1E01_024", "label": "que no la aguantas（你受不了她）" },
-      { "cardId": "LCDP_S1E01_025", "label": "que tenéis problemas（你们有问题）" }
+      {
+        "cardId": "LCDP_S1E01_022",
+        "label": "el que decía（那个说……的人）"
+      },
+      {
+        "cardId": "LCDP_S1E01_023",
+        "label": "que estabais mal（你们情况不好）"
+      },
+      {
+        "cardId": "LCDP_S1E01_024",
+        "label": "que no la aguantas（你受不了她）"
+      },
+      {
+        "cardId": "LCDP_S1E01_025",
+        "label": "que tenéis problemas（你们有问题）"
+      }
     ]
   },
   {
@@ -575,7 +825,9 @@
     "pos": "v. decir",
     "level": "B1",
     "pronunciation_focus": "c_z_distinction",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Eras tú ayer ___ que estabais mal, que no la aguantas, que tenéis problemas?",
     "sentence_full": "¿Eras tú ayer el que decía que estabais mal, que no la aguantas, que tenéis problemas?",
     "translation": "那个说……的人",
@@ -585,10 +837,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_021", "label": "¿Eras tú ayer（昨天是你吗）" },
-      { "cardId": "LCDP_S1E01_023", "label": "que estabais mal（你们情况不好）" },
-      { "cardId": "LCDP_S1E01_024", "label": "que no la aguantas（你受不了她）" },
-      { "cardId": "LCDP_S1E01_025", "label": "que tenéis problemas（你们有问题）" }
+      {
+        "cardId": "LCDP_S1E01_021",
+        "label": "¿Eras tú ayer（昨天是你吗）"
+      },
+      {
+        "cardId": "LCDP_S1E01_023",
+        "label": "que estabais mal（你们情况不好）"
+      },
+      {
+        "cardId": "LCDP_S1E01_024",
+        "label": "que no la aguantas（你受不了她）"
+      },
+      {
+        "cardId": "LCDP_S1E01_025",
+        "label": "que tenéis problemas（你们有问题）"
+      }
     ]
   },
   {
@@ -602,7 +866,9 @@
     "pos": "v. estar",
     "level": "A2",
     "pronunciation_focus": "vowel_a",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Eras tú ayer el que decía ___ que no la aguantas, que tenéis problemas?",
     "sentence_full": "¿Eras tú ayer el que decía que estabais mal, que no la aguantas, que tenéis problemas?",
     "translation": "你们情况不好",
@@ -612,10 +878,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_021", "label": "¿Eras tú ayer（昨天是你吗）" },
-      { "cardId": "LCDP_S1E01_022", "label": "el que decía（那个说……的人）" },
-      { "cardId": "LCDP_S1E01_024", "label": "que no la aguantas（你受不了她）" },
-      { "cardId": "LCDP_S1E01_025", "label": "que tenéis problemas（你们有问题）" }
+      {
+        "cardId": "LCDP_S1E01_021",
+        "label": "¿Eras tú ayer（昨天是你吗）"
+      },
+      {
+        "cardId": "LCDP_S1E01_022",
+        "label": "el que decía（那个说……的人）"
+      },
+      {
+        "cardId": "LCDP_S1E01_024",
+        "label": "que no la aguantas（你受不了她）"
+      },
+      {
+        "cardId": "LCDP_S1E01_025",
+        "label": "que tenéis problemas（你们有问题）"
+      }
     ]
   },
   {
@@ -629,7 +907,9 @@
     "pos": "v. aguantar",
     "level": "B1",
     "pronunciation_focus": "gl_gu",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Eras tú ayer el que decía que estabais mal, ___ que tenéis problemas?",
     "sentence_full": "¿Eras tú ayer el que decía que estabais mal, que no la aguantas, que tenéis problemas?",
     "translation": "你受不了她",
@@ -639,10 +919,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_021", "label": "¿Eras tú ayer（昨天是你吗）" },
-      { "cardId": "LCDP_S1E01_022", "label": "el que decía（那个说……的人）" },
-      { "cardId": "LCDP_S1E01_023", "label": "que estabais mal（你们情况不好）" },
-      { "cardId": "LCDP_S1E01_025", "label": "que tenéis problemas（你们有问题）" }
+      {
+        "cardId": "LCDP_S1E01_021",
+        "label": "¿Eras tú ayer（昨天是你吗）"
+      },
+      {
+        "cardId": "LCDP_S1E01_022",
+        "label": "el que decía（那个说……的人）"
+      },
+      {
+        "cardId": "LCDP_S1E01_023",
+        "label": "que estabais mal（你们情况不好）"
+      },
+      {
+        "cardId": "LCDP_S1E01_025",
+        "label": "que tenéis problemas（你们有问题）"
+      }
     ]
   },
   {
@@ -656,7 +948,9 @@
     "pos": "v. tener",
     "level": "A2",
     "pronunciation_focus": "rolled_r",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Eras tú ayer el que decía que estabais mal, que no la aguantas, ___?",
     "sentence_full": "¿Eras tú ayer el que decía que estabais mal, que no la aguantas, que tenéis problemas?",
     "translation": "你们有问题",
@@ -666,10 +960,22 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_021", "label": "¿Eras tú ayer（昨天是你吗）" },
-      { "cardId": "LCDP_S1E01_022", "label": "el que decía（那个说……的人）" },
-      { "cardId": "LCDP_S1E01_023", "label": "que estabais mal（你们情况不好）" },
-      { "cardId": "LCDP_S1E01_024", "label": "que no la aguantas（你受不了她）" }
+      {
+        "cardId": "LCDP_S1E01_021",
+        "label": "¿Eras tú ayer（昨天是你吗）"
+      },
+      {
+        "cardId": "LCDP_S1E01_022",
+        "label": "el que decía（那个说……的人）"
+      },
+      {
+        "cardId": "LCDP_S1E01_023",
+        "label": "que estabais mal（你们情况不好）"
+      },
+      {
+        "cardId": "LCDP_S1E01_024",
+        "label": "que no la aguantas（你受不了她）"
+      }
     ]
   },
   {
@@ -683,7 +989,9 @@
     "pos": "n.",
     "level": "A1",
     "pronunciation_focus": "consonant_cluster",
-    "tags": ["名词"],
+    "tags": [
+      "名词"
+    ],
     "sentence_cloze": "___ como cualquier pareja, Monica.",
     "sentence_full": "Problemas como cualquier pareja, Monica.",
     "translation": "问题嘛…… / 就是些问题……",
@@ -693,7 +1001,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_027", "label": "como cualquier pareja（像任何一对情侣一样）" }
+      {
+        "cardId": "LCDP_S1E01_027",
+        "label": "como cualquier pareja（像任何一对情侣一样）"
+      }
     ]
   },
   {
@@ -707,7 +1018,9 @@
     "pos": "prep. + adj. + n.",
     "level": "A2",
     "pronunciation_focus": "vowel_e",
-    "tags": ["介词短语"],
+    "tags": [
+      "介词短语"
+    ],
     "sentence_cloze": "Problemas ___, Monica.",
     "sentence_full": "Problemas como cualquier pareja, Monica.",
     "translation": "像任何一对情侣一样",
@@ -717,7 +1030,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_027", "label": "como cualquier pareja（像任何一对情侣一样）" }
+      {
+        "cardId": "LCDP_S1E01_027",
+        "label": "como cualquier pareja（像任何一对情侣一样）"
+      }
     ]
   },
   {
@@ -731,7 +1047,9 @@
     "pos": "prep. + adj. + n.",
     "level": "A2",
     "pronunciation_focus": "vowel_e",
-    "tags": ["介词短语"],
+    "tags": [
+      "介词短语"
+    ],
     "sentence_cloze": "___ que tiene tres hijos, no que me fuera a separar.",
     "sentence_full": "Como cualquier matrimonio que tiene tres hijos, no que me fuera a separar.",
     "translation": "像任何一对夫妻一样",
@@ -741,8 +1059,14 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_029", "label": "que tiene tres hijos（有三个孩子的）" },
-      { "cardId": "LCDP_S1E01_030", "label": "no que me fuera a separar（不是我要离婚）" }
+      {
+        "cardId": "LCDP_S1E01_029",
+        "label": "que tiene tres hijos（有三个孩子的）"
+      },
+      {
+        "cardId": "LCDP_S1E01_030",
+        "label": "no que me fuera a separar（不是我要离婚）"
+      }
     ]
   },
   {
@@ -756,7 +1080,9 @@
     "pos": "conj. + v. + n.",
     "level": "A1",
     "pronunciation_focus": "diphthong",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "Como cualquier matrimonio ___, no que me fuera a separar.",
     "sentence_full": "Como cualquier matrimonio que tiene tres hijos, no que me fuera a separar.",
     "translation": "有三个孩子的",
@@ -766,8 +1092,14 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_028", "label": "Como cualquier matrimonio（像任何一对夫妻一样）" },
-      { "cardId": "LCDP_S1E01_030", "label": "no que me fuera a separar（不是我要离婚）" }
+      {
+        "cardId": "LCDP_S1E01_028",
+        "label": "Como cualquier matrimonio（像任何一对夫妻一样）"
+      },
+      {
+        "cardId": "LCDP_S1E01_030",
+        "label": "no que me fuera a separar（不是我要离婚）"
+      }
     ]
   },
   {
@@ -781,7 +1113,9 @@
     "pos": "adv. + v.",
     "level": "B1",
     "pronunciation_focus": "diphthong",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "Como cualquier matrimonio que tiene tres hijos, ___.",
     "sentence_full": "Como cualquier matrimonio que tiene tres hijos, no que me fuera a separar.",
     "translation": "不是我要离婚",
@@ -791,8 +1125,14 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_028", "label": "Como cualquier matrimonio（像任何一对夫妻一样）" },
-      { "cardId": "LCDP_S1E01_029", "label": "que tiene tres hijos（有三个孩子的）" }
+      {
+        "cardId": "LCDP_S1E01_028",
+        "label": "Como cualquier matrimonio（像任何一对夫妻一样）"
+      },
+      {
+        "cardId": "LCDP_S1E01_029",
+        "label": "que tiene tres hijos（有三个孩子的）"
+      }
     ]
   },
   {
@@ -806,7 +1146,9 @@
     "pos": "v. tener",
     "level": "A2",
     "pronunciation_focus": "consonant_cluster",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "Mónica, ___, los tres por fecundación in vitro.",
     "sentence_full": "Mónica, he tenido tres hijos, los tres por fecundación in vitro.",
     "translation": "我生了三个孩子",
@@ -816,7 +1158,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_032", "label": "por fecundación in vitro（通过体外受精）" }
+      {
+        "cardId": "LCDP_S1E01_032",
+        "label": "por fecundación in vitro（通过体外受精）"
+      }
     ]
   },
   {
@@ -830,7 +1175,9 @@
     "pos": "prep. + n.",
     "level": "B1",
     "pronunciation_focus": "consonant_cluster",
-    "tags": ["介词短语"],
+    "tags": [
+      "介词短语"
+    ],
     "sentence_cloze": "Mónica, he tenido tres hijos, los tres ___.",
     "sentence_full": "Mónica, he tenido tres hijos, los tres por fecundación in vitro.",
     "translation": "通过体外受精",
@@ -840,7 +1187,1292 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_031", "label": "he tenido tres hijos（我生了三个孩子）" }
+      {
+        "cardId": "LCDP_S1E01_031",
+        "label": "he tenido tres hijos（我生了三个孩子）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_033",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_011",
+    "line_index": 11,
+    "character": "S1E01",
+    "target_word": "Llevo más de 20 años",
+    "ipa": "/ˈʎe.βo mas de ˈβein.te ˈa.ɲos/",
+    "pos": "v. llevar",
+    "level": "B1",
+    "pronunciation_focus": "ll_y",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ manteniendo relaciones estériles con mi mujer, y ahora vienes a contarme esto.",
+    "sentence_full": "Llevo más de 20 años manteniendo relaciones estériles con mi mujer, y ahora vienes a contarme esto.",
+    "translation": "我已经……超过 20 年了",
+    "sentence_translation": "我已经和妻子维持着无生育结果的性关系超过 20 年了，现在你却来告诉我这个。",
+    "cultural_note": "Llevo = llevar 的现在时，第一人称单数（yo）\nmás de = 超过、多于\n20 años = 20 年\n\n结构：\n\n    llevar + 时间 + gerundio = 已经……多久了\n\n完整结构是：\n\n    Llevo más de 20 años + manteniendo...\n    = 我已经维持……超过 20 年了\n\n这里 llevar 不表示\"带走\"，而是表示\"持续、已经有（多长时间）\"。\n\n例子：\n\n    Llevo dos años estudiando español.\n    我已经学西班牙语两年了。\n\n    Llevo tres meses viviendo aquí.\n    我已经在这里住三个月了。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_034",
+        "label": "manteniendo relaciones estériles con mi mujer（和妻子维持着无生育结果的性关系）"
+      },
+      {
+        "cardId": "LCDP_S1E01_035",
+        "label": "vienes a contarme esto（你来告诉我这个）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_034",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_011",
+    "line_index": 11,
+    "character": "S1E01",
+    "target_word": "manteniendo relaciones estériles con mi mujer",
+    "ipa": "/man.te.njen.do re.la.ˈθjo.nes es.ˈte.ɾi.les kon mi mu.ˈxeɾ/",
+    "pos": "v. mantener",
+    "level": "B1",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Llevo más de 20 años ___ , y ahora vienes a contarme esto.",
+    "sentence_full": "Llevo más de 20 años manteniendo relaciones estériles con mi mujer, y ahora vienes a contarme esto.",
+    "translation": "和妻子维持着无生育结果的性关系",
+    "sentence_translation": "我已经和妻子维持着无生育结果的性关系超过 20 年了，现在你却来告诉我这个。",
+    "cultural_note": "manteniendo /man.te.ˈnjen.do/ = mantener 的副动词（gerundio）\nmantener = 维持、保持\nrelaciones /re.la.ˈθjo.nes/ = 关系；这里指性关系\nestériles /es.ˈte.ɾi.les/ = 不育的、无生育结果的\ncon mi mujer /kon mi mu.ˈxeɾ/ = 和我妻子\n\n结构：\n\n    mantener relaciones + 形容词\n    = 维持某种关系\n\n这里：\n\n    manteniendo relaciones estériles con mi mujer\n    = 和我妻子维持着无生育结果的性关系\n\n注意：\n\n    relaciones sexuales = 性关系\n\n这里省略了 sexuales，但语境里指的是性关系。\nestériles = 无生育结果的、不育的",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_033",
+        "label": "Llevo más de 20 años（我已经……超过 20 年了）"
+      },
+      {
+        "cardId": "LCDP_S1E01_035",
+        "label": "vienes a contarme esto（你来告诉我这个）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_035",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_011",
+    "line_index": 11,
+    "character": "S1E01",
+    "target_word": "vienes a contarme esto",
+    "ipa": "/ˈbje.nes a kon.ˈtaɾ.me ˈes.to/",
+    "pos": "v. venir",
+    "level": "B1",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Llevo más de 20 años manteniendo relaciones estériles con mi mujer, y ahora ___.",
+    "sentence_full": "Llevo más de 20 años manteniendo relaciones estériles con mi mujer, y ahora vienes a contarme esto.",
+    "translation": "你来告诉我这个",
+    "sentence_translation": "我已经和妻子维持着无生育结果的性关系超过 20 年了，现在你却来告诉我这个。",
+    "cultural_note": "vienes /bje.nes/ = venir 的现在时，第二人称单数（tú）\na = 介词\ncontarme = contar + me\n  contar /kon.ˈtaɾ/ = 讲述\n  me = 对我 / 跟我\nesto = 这个\n\n结构：\n\n    venir a + inf. = 来做某事\n\n所以：\n\n    vienes a contarme esto\n    = 你来告诉我这个",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_033",
+        "label": "Llevo más de 20 años（我已经……超过 20 年了）"
+      },
+      {
+        "cardId": "LCDP_S1E01_034",
+        "label": "manteniendo relaciones estériles con mi mujer（和妻子维持着无生育结果的性关系）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_036",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_012",
+    "line_index": 12,
+    "character": "S1E01",
+    "target_word": "estás insinuando",
+    "ipa": "/es.ˈtas in.si.nu.ˈan.do/",
+    "pos": "v. estar + insinuar",
+    "level": "B1",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¿Qué ___?",
+    "sentence_full": "¿Qué estás insinuando?",
+    "translation": "你正在暗示",
+    "sentence_translation": "你正在暗示什么？",
+    "cultural_note": "estás /es.ˈtas/ = estar 的现在时，第二人称单数（tú）\ninsinuando /in.si.nu.ˈan.do/ = insinuar 的副动词（gerundio）\ninsinuar = 暗示、暗指\n\n结构：\n\n    estar + gerundio = 正在做某事\n\n所以：\n\n    estás insinuando = 你正在暗示",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S1E01_037",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_013",
+    "line_index": 13,
+    "character": "S1E01",
+    "target_word": "Yo no he venido aquí",
+    "ipa": "/o no e be.ˈni.do a.ˈki/",
+    "pos": "v. venir",
+    "level": "B1",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ a por una pensión, ¿sabes? Ni a por un divorcio, y mucho menos a por una prueba de paternidad.",
+    "sentence_full": "Yo no he venido aquí a por una pensión, ¿sabes? Ni a por un divorcio, y mucho menos a por una prueba de paternidad.",
+    "translation": "我不是来这里",
+    "sentence_translation": "我不是来这里要赡养费的，你知道吗？也不是来离婚的，更不是为了做亲子鉴定。",
+    "cultural_note": "Yo /ʝo/ = 我（强调主语）\nno /no/ = 不（否定）\nhe venido /e be.ˈni.do/ = venir 的现在完成时，第一人称单数\n  he = 助动词 haber\n  venido = venir 的过去分词\n  = 我来了 / 我已经来了\naquí /a.ˈki/ = 这里\n\n结构：\n\n    no he venido aquí = 我不是来这里\n\n英文提示：\n\n    I haven't come here...\n    或 I didn't come here...",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_038",
+        "label": "a por una pensión, ¿sabes?（来要赡养费，你知道吗）"
+      },
+      {
+        "cardId": "LCDP_S1E01_039",
+        "label": "Ni a por un divorcio（也不是来离婚的）"
+      },
+      {
+        "cardId": "LCDP_S1E01_040",
+        "label": "y mucho menos（更不用说）"
+      },
+      {
+        "cardId": "LCDP_S1E01_041",
+        "label": "a por una prueba de paternidad（来要做亲子鉴定）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_038",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_013",
+    "line_index": 13,
+    "character": "S1E01",
+    "target_word": "a por una pensión, ¿sabes?",
+    "ipa": "/a poɾ u.na pen.sjon ˈsa.βes/",
+    "pos": "prep. a por",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "Yo no he venido aquí ___, Ni a por un divorcio, y mucho menos a por una prueba de paternidad.",
+    "sentence_full": "Yo no he venido aquí a por una pensión, ¿sabes? Ni a por un divorcio, y mucho menos a por una prueba de paternidad.",
+    "translation": "来要赡养费，你知道吗",
+    "sentence_translation": "我不是来这里要赡养费的，你知道吗？也不是来离婚的，更不是为了做亲子鉴定。",
+    "cultural_note": "a por /a poɾ/ = 去拿 / 去要\n  在西班牙西班牙语里，ir a por algo = 去拿某物、去要某物\n  英文接近：to go get / to come for\npensión /pen.ˈsjon/ = 赡养费 / 抚恤金 / 养老金\n  这里语境下是\"赡养费\"\n¿sabes? /ˈsa.βes/ = 你知道吗？\n  插入语，用来确认对方在听\n  英文：you know?\n\n结构：\n\n    a por una pensión = 来要赡养费\n    ¿sabes? = 你知道吗？\n\n英文提示：\n\n    ...for alimony, you know?\n\n注意：\n\n    a por 是西班牙本土用法。\n    拉美一般说 por 或 a buscar。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_037",
+        "label": "Yo no he venido aquí（我不是来这里）"
+      },
+      {
+        "cardId": "LCDP_S1E01_039",
+        "label": "Ni a por un divorcio（也不是来离婚的）"
+      },
+      {
+        "cardId": "LCDP_S1E01_040",
+        "label": "y mucho menos（更不用说）"
+      },
+      {
+        "cardId": "LCDP_S1E01_041",
+        "label": "a por una prueba de paternidad（来要做亲子鉴定）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_039",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_013",
+    "line_index": 13,
+    "character": "S1E01",
+    "target_word": "Ni a por un divorcio",
+    "ipa": "/ni a poɾ un di.βoɾ.θjo/",
+    "pos": "conj. ni",
+    "level": "B1",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "连词"
+    ],
+    "sentence_cloze": "Yo no he venido aquí a por una pensión, ¿sabes? ___, y mucho menos a por una prueba de paternidad.",
+    "sentence_full": "Yo no he venido aquí a por una pensión, ¿sabes? Ni a por un divorcio, y mucho menos a por una prueba de paternidad.",
+    "translation": "也不是来离婚的",
+    "sentence_translation": "我不是来这里要赡养费的，你知道吗？也不是来离婚的，更不是为了做亲子鉴定。",
+    "cultural_note": "Ni /ni/ = 也不\n  与前面的 no 呼应：no... ni... = 不……也不……\n  英文：nor / neither\na por /a poɾ/ = 来要 / 来寻求\nun divorcio /un di.ˈβo.θjo/ = 离婚\n\n结构：\n\n    Ni a por un divorcio = 也不是来离婚的\n\n英文提示：\n\n    Nor for a divorce,",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_037",
+        "label": "Yo no he venido aquí（我不是来这里）"
+      },
+      {
+        "cardId": "LCDP_S1E01_038",
+        "label": "a por una pensión, ¿sabes?（来要赡养费，你知道吗）"
+      },
+      {
+        "cardId": "LCDP_S1E01_040",
+        "label": "y mucho menos（更不用说）"
+      },
+      {
+        "cardId": "LCDP_S1E01_041",
+        "label": "a por una prueba de paternidad（来要做亲子鉴定）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_040",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_013",
+    "line_index": 13,
+    "character": "S1E01",
+    "target_word": "y mucho menos",
+    "ipa": "/i ˈmu.tʃo ˈme.nos/",
+    "pos": "adv. mucho menos",
+    "level": "B1",
+    "pronunciation_focus": "ch_sound",
+    "tags": [
+      "副词"
+    ],
+    "sentence_cloze": "Yo no he venido aquí a por una pensión, ¿sabes? Ni a por un divorcio, ___, a por una prueba de paternidad.",
+    "sentence_full": "Yo no he venido aquí a por una pensión, ¿sabes? Ni a por un divorcio, y mucho menos a por una prueba de paternidad.",
+    "translation": "更不用说 / 更不是",
+    "sentence_translation": "我不是来这里要赡养费的，你知道吗？也不是来离婚的，更不是为了做亲子鉴定。",
+    "cultural_note": "y /i/ = 而且 / 而\n  英文：and\nmucho menos /ˈmu.tʃo ˈme.nos/ = 更不用说 / 更不是\n  英文：much less / let alone\n\n结构：\n\n    y mucho menos = 更不是\n\n英文提示：\n\n    and much less",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_037",
+        "label": "Yo no he venido aquí（我不是来这里）"
+      },
+      {
+        "cardId": "LCDP_S1E01_038",
+        "label": "a por una pensión, ¿sabes?（来要赡养费，你知道吗）"
+      },
+      {
+        "cardId": "LCDP_S1E01_039",
+        "label": "Ni a por un divorcio（也不是来离婚的）"
+      },
+      {
+        "cardId": "LCDP_S1E01_041",
+        "label": "a por una prueba de paternidad（来要做亲子鉴定）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_041",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_013",
+    "line_index": 13,
+    "character": "S1E01",
+    "target_word": "a por una prueba de paternidad",
+    "ipa": "/a poɾ ˈu.na ˈpwe.βa de pa.te.ni.ˈðað/",
+    "pos": "prep. a por",
+    "level": "B1",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "Yo no he venido aquí a por una pensión, ¿sabes? Ni a por un divorcio, y mucho menos ___.",
+    "sentence_full": "Yo no he venido aquí a por una pensión, ¿sabes? Ni a por un divorcio, y mucho menos a por una prueba de paternidad.",
+    "translation": "来要做亲子鉴定",
+    "sentence_translation": "我不是来这里要赡养费的，你知道吗？也不是来离婚的，更不是为了做亲子鉴定。",
+    "cultural_note": "a por /a poɾ/ = 来要 / 来寻求\nuna prueba /u.na ˈpɾwe.βa/ = 一项测试 / 鉴定\nde paternidad /de pa.teɾ.ni.ˈðað/ = 亲子关系的\n  paternidad = 父亲身份、亲子关系\nprueba de paternidad = 亲子鉴定\n\n结构：\n\n    a por una prueba de paternidad = 来要做亲子鉴定",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_037",
+        "label": "Yo no he venido aquí（我不是来这里）"
+      },
+      {
+        "cardId": "LCDP_S1E01_038",
+        "label": "a por una pensión, ¿sabes?（来要赡养费，你知道吗）"
+      },
+      {
+        "cardId": "LCDP_S1E01_039",
+        "label": "Ni a por un divorcio（也不是来离婚的）"
+      },
+      {
+        "cardId": "LCDP_S1E01_040",
+        "label": "y mucho menos（更不用说）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_042",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_014",
+    "line_index": 14,
+    "character": "S1E01",
+    "target_word": "Creía que",
+    "ipa": "/kɾe.ˈi.a ke/",
+    "pos": "v. creer",
+    "level": "B1",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ tú me querías. Y me parece una idea bonita.",
+    "sentence_full": "Creía que tú me querías. Y me parece una idea bonita.",
+    "translation": "我以为",
+    "sentence_translation": "我以为你爱我。而且我觉得这是个好主意。",
+    "cultural_note": "Creía /kɾe.ˈi.a/ = creer 的过去未完成时，第一人称单数（yo）\n  creer = 认为、相信\n  英文：I thought / I believed\nque /ke/ = 引导宾语从句\n  英文：that\n\n结构：\n\n    Creía que... = 我以为……\n\n英文提示：\n\n    I thought that...",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_043",
+        "label": "tú me querías（你爱我）"
+      },
+      {
+        "cardId": "LCDP_S1E01_044",
+        "label": "Y me parece（而且我觉得）"
+      },
+      {
+        "cardId": "LCDP_S1E01_045",
+        "label": "una idea bonita（一个好主意）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_043",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_014",
+    "line_index": 14,
+    "character": "S1E01",
+    "target_word": "tú me querías",
+    "ipa": "/tu me ke.ˈɾi.as/",
+    "pos": "v. querer",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Creía que ___. Y me parece una idea bonita.",
+    "sentence_full": "Creía que tú me querías. Y me parece una idea bonita.",
+    "translation": "你爱我",
+    "sentence_translation": "我以为你爱我。而且我觉得这是个好主意。",
+    "cultural_note": "tú /tu/ = 你\nme /me/ = 我（与格/直接宾语代词）\n  这里 querer 的用法是 querer a alguien，但 me 在这里是直接宾语代词。\n  英文：me\nquerías /ke.ˈɾi.as/ = querer 的过去未完成时，第二人称单数（tú）\n  querer = 爱、想要\n  英文：you loved\n\n结构：\n\n    tú me querías = 你爱我\n\n英文提示：\n\n    you loved me",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_042",
+        "label": "Creía que（我以为）"
+      },
+      {
+        "cardId": "LCDP_S1E01_044",
+        "label": "Y me parece（而且我觉得）"
+      },
+      {
+        "cardId": "LCDP_S1E01_045",
+        "label": "una idea bonita（一个好主意）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_044",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_014",
+    "line_index": 14,
+    "character": "S1E01",
+    "target_word": "Y me parece",
+    "ipa": "/i me pa.ˈɾe.se/",
+    "pos": "v. parecer",
+    "level": "B1",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Creía que tú me querías. ___ una idea bonita.",
+    "sentence_full": "Creía que tú me querías. Y me parece una idea bonita.",
+    "translation": "而且我觉得",
+    "sentence_translation": "我以为你爱我。而且我觉得这是个好主意。",
+    "cultural_note": "Y /i/ = 而且 / 而\n  英文：and\nme /me/ = 对我来说（与格代词）\n  英文：to me\nparece /pa.ˈɾe.se/ = parecer 的现在时，第三人称单数\n  parecer = 看起来、显得\n  英文：it seems / it appears\n\n结构：\n\n    me parece + 形容词/名词 = 我觉得…… / 在我看来……\n    英文：it seems to me... / I find it...\n\n例子：\n\n    Me parece bien. = 我觉得好。\n    Me parece una buena idea. = 我觉得这是个好主意。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_042",
+        "label": "Creía que（我以为）"
+      },
+      {
+        "cardId": "LCDP_S1E01_043",
+        "label": "tú me querías（你爱我）"
+      },
+      {
+        "cardId": "LCDP_S1E01_045",
+        "label": "una idea bonita（一个好主意）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_045",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_014",
+    "line_index": 14,
+    "character": "S1E01",
+    "target_word": "una idea bonita",
+    "ipa": "/ˈu.na i.ˈðe.a bo.ˈni.ta/",
+    "pos": "n. + adj.",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "名词"
+    ],
+    "sentence_cloze": "Creía que tú me querías. Y me parece ___.",
+    "sentence_full": "Creía que tú me querías. Y me parece una idea bonita.",
+    "translation": "一个好主意",
+    "sentence_translation": "我以为你爱我。而且我觉得这是个好主意。",
+    "cultural_note": "una /ˈu.na/ = 一个（阴性不定冠词）\nidea /i.ˈðe.a/ = 想法、主意\n  英文：an idea\nbonita /bo.ˈni.ta/ = 美好的、漂亮的\n  英文：beautiful / nice\n\n结构：\n\n    una idea bonita = 一个好主意\n\n注意：\n\n    形容词 bonita 放在名词后面，这是西班牙语的常见语序。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_042",
+        "label": "Creía que（我以为）"
+      },
+      {
+        "cardId": "LCDP_S1E01_043",
+        "label": "tú me querías（你爱我）"
+      },
+      {
+        "cardId": "LCDP_S1E01_044",
+        "label": "Y me parece（而且我觉得）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_046",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_015",
+    "line_index": 15,
+    "character": "S1E01",
+    "target_word": "Difícil de",
+    "ipa": "/di.ˈfi.θil de/",
+    "pos": "adj. difícil",
+    "level": "B1",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "___ encajar en nuestras vidas, pero... Pero una idea maravillosa.",
+    "sentence_full": "Difícil de encajar en nuestras vidas, pero... Pero una idea maravillosa.",
+    "translation": "难以……",
+    "sentence_translation": "难以融入我们的生活，但是……但是一个美妙的主意。",
+    "cultural_note": "Difícil /di.fi.θil/ = 困难的\n  英文：difficult\nde /de/ = 介词，连接形容词和动词原形\n  英文：to\n\n结构：\n\n    difícil de + inf. = 难以……\n    英文：difficult to...\n\n例子：\n\n    Difícil de entender. = 难以理解。\n    Difícil de creer. = 难以置信。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_047",
+        "label": "encajar en nuestras vidas（融入我们的生活）"
+      },
+      {
+        "cardId": "LCDP_S1E01_048",
+        "label": "pero... Pero una idea maravillosa（但是……但是一个美妙的主意）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_047",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_015",
+    "line_index": 15,
+    "character": "S1E01",
+    "target_word": "encajar en nuestras vidas",
+    "ipa": "/en.ka.ˈxaɾ en ˈnwes.tɾas ˈbi.das/",
+    "pos": "v. encajar",
+    "level": "B1",
+    "pronunciation_focus": "j_sound",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Difícil de ___, pero... Pero una idea maravillosa.",
+    "sentence_full": "Difícil de encajar en nuestras vidas, pero... Pero una idea maravillosa.",
+    "translation": "融入我们的生活",
+    "sentence_translation": "难以融入我们的生活，但是……但是一个美妙的主意。",
+    "cultural_note": "encajar /en.ka.ˈxaɾ/ = 融入、适合、嵌入\n  英文：to fit / to fit in\nen /en/ = 在……里\n  英文：in / into\nnuestras /ˈnwes.tɾas/ = 我们的（阴性复数）\n  英文：our\nvidas /ˈbi.das/ = 生活（复数）\n  英文：lives\n\n结构：\n\n    encajar en nuestras vidas = 融入我们的生活",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_046",
+        "label": "Difícil de（难以……）"
+      },
+      {
+        "cardId": "LCDP_S1E01_048",
+        "label": "pero... Pero una idea maravillosa（但是……但是一个美妙的主意）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_048",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_015",
+    "line_index": 15,
+    "character": "S1E01",
+    "target_word": "pero... Pero una idea maravillosa",
+    "ipa": "/ˈpe.o ˈpe.ɾo u.na i.ˈðe.a ma.ɾa.ˈβi.ʎo.sa/",
+    "pos": "conj. + n. + adj.",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "连词"
+    ],
+    "sentence_cloze": "Difícil de encajar en nuestras vidas, ___.",
+    "sentence_full": "Difícil de encajar en nuestras vidas, pero... Pero una idea maravillosa.",
+    "translation": "但是……但是一个美妙的主意",
+    "sentence_translation": "难以融入我们的生活，但是……但是一个美妙的主意。",
+    "cultural_note": "pero /ˈpe.ɾo/ = 但是\n  英文：but\nuna /ˈu.na/ = 一个（阴性不定冠词）\nidea /i.ˈðe.a/ = 想法、主意\n  英文：an idea\nmaravillosa /ma.ɾa.ˈβi.ʎo.sa/ = 美妙的、极好的\n  英文：wonderful / marvelous\n\n结构：\n\n    Pero una idea maravillosa = 但是一个美妙的主意\n\n注意：\n\n    这里用了两个 pero，第一个是犹豫（pero...），第二个是转折（Pero una idea...）。\n    形容词 maravillosa 放在名词后面，这是西班牙语的常见语序。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_046",
+        "label": "Difícil de（难以……）"
+      },
+      {
+        "cardId": "LCDP_S1E01_047",
+        "label": "encajar en nuestras vidas（融入我们的生活）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_049",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_016",
+    "line_index": 16,
+    "character": "S1E01",
+    "target_word": "¿Qué,",
+    "ipa": "/ke/",
+    "pos": "pron. qué",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "代词"
+    ],
+    "sentence_cloze": "___ quieres saber qué voy a hacer con tu niño?",
+    "sentence_full": "¿Qué, quieres saber qué voy a hacer con tu niño?",
+    "translation": "什么，",
+    "sentence_translation": "什么，你想知道我要对你的孩子做什么？",
+    "cultural_note": "Qué /ke/ = 什么（疑问词，带重音）\n  英文：what\n\n注意：\n\n    这里的 ¿Qué, 是一个独立的疑问词，后面用逗号隔开。\n    它不是引导从句的 que（无重音），而是带重音的 qué（什么）。\n\n区别：\n\n    qué（带重音）= 什么（疑问词）\n    que（无重音）= 引导从句的连词",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_050",
+        "label": "quieres saber（你想知道）"
+      },
+      {
+        "cardId": "LCDP_S1E01_052",
+        "label": "qué voy a hacer（我要做什么）"
+      },
+      {
+        "cardId": "LCDP_S1E01_051",
+        "label": "con tu niño（对你的孩子）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_050",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_016",
+    "line_index": 16,
+    "character": "S1E01",
+    "target_word": "quieres saber",
+    "ipa": "/ˈkje.ɾes sa.ˈβeɾ/",
+    "pos": "v. querer + saber",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¿Qué, ___ qué voy a hacer con tu niño?",
+    "sentence_full": "¿Qué, quieres saber qué voy a hacer con tu niño?",
+    "translation": "你想知道",
+    "sentence_translation": "什么，你想知道我要对你的孩子做什么？",
+    "cultural_note": "quieres /ˈkje.ɾes/ = querer 的现在时，第二人称单数（tú）\n  querer = 想要\n  英文：you want\nsaber /sa.ˈβeɾ/ = 知道\n  英文：to know\n\n结构：\n\n    querer saber = 想知道\n    英文：to want to know\n\n所以：\n\n    quieres saber = 你想知道\n    英文：you want to know",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_049",
+        "label": "¿Qué,（什么，）"
+      },
+      {
+        "cardId": "LCDP_S1E01_052",
+        "label": "qué voy a hacer（我要做什么）"
+      },
+      {
+        "cardId": "LCDP_S1E01_051",
+        "label": "con tu niño（对你的孩子）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_052",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_016",
+    "line_index": 16,
+    "character": "S1E01",
+    "target_word": "qué voy a hacer",
+    "ipa": "/ke boi a a.ˈθeɾ/",
+    "pos": "v. ir + hacer",
+    "level": "B1",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¿Qué, quieres saber ___ con tu niño?",
+    "sentence_full": "¿Qué, quieres saber qué voy a hacer con tu niño?",
+    "translation": "我要做什么",
+    "sentence_translation": "什么，你想知道我要对你的孩子做什么？",
+    "cultural_note": "qué /ke/ = 什么（疑问词，带重音）\n  英文：what\nvoy /boi/ = ir 的现在时，第一人称单数（yo）\n  英文：I am going\na /a/ = 介词，构成 ir a + inf.\n  英文：to\nhacer /a.ˈθeɾ/ = 做\n  英文：to do\n\n结构：\n\n    ir a + inf. = 将要……\n    英文：to be going to + inf.\n\n所以：\n\n    qué voy a hacer = 我要做什么\n    英文：what I am going to do",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_049",
+        "label": "¿Qué,（什么，）"
+      },
+      {
+        "cardId": "LCDP_S1E01_050",
+        "label": "quieres saber（你想知道）"
+      },
+      {
+        "cardId": "LCDP_S1E01_051",
+        "label": "con tu niño（对你的孩子）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_051",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_016",
+    "line_index": 16,
+    "character": "S1E01",
+    "target_word": "con tu niño",
+    "ipa": "/kon tu ˈni.ɲo/",
+    "pos": "prep. + n.",
+    "level": "A1",
+    "pronunciation_focus": "ny_sound",
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "¿Qué, quieres saber qué voy a hacer ___?",
+    "sentence_full": "¿Qué, quieres saber qué voy a hacer con tu niño?",
+    "translation": "对你的孩子",
+    "sentence_translation": "什么，你想知道我要对你的孩子做什么？",
+    "cultural_note": "con /kon/ = 和、对、跟\n  英文：with\ntu /tu/ = 你的\n  英文：your\nniño /ˈni.ɲo/ = 孩子、男孩\n  英文：child / boy\n\n结构：\n\n    con tu niño = 对你的孩子\n    英文：with your child",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_049",
+        "label": "¿Qué,（什么，）"
+      },
+      {
+        "cardId": "LCDP_S1E01_050",
+        "label": "quieres saber（你想知道）"
+      },
+      {
+        "cardId": "LCDP_S1E01_052",
+        "label": "qué voy a hacer（我要做什么）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_053",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_017",
+    "line_index": 17,
+    "character": "S1E01",
+    "target_word": "Eso es",
+    "ipa": "/ˈe.so es/",
+    "pos": "pron. + v. ser",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": [
+      "代词"
+    ],
+    "sentence_cloze": "___ lo que quieres, ¿no?",
+    "sentence_full": "Eso es lo que quieres, ¿no?",
+    "translation": "那就是",
+    "sentence_translation": "那就是你想要的，对吧？",
+    "cultural_note": "Eso /ˈe.so/ = 这个、那件事\n  中性指示代词，指代前面提到的事情或想法。\n  英文：that / it\nes /es/ = ser 的现在时，第三人称单数\n  英文：is\n\n结构：\n\n    Eso es = 那就是\n\n英文提示：\n\n    That is...",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_054",
+        "label": "lo que quieres, ¿no?（你想要的，对吧）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_054",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_017",
+    "line_index": 17,
+    "character": "S1E01",
+    "target_word": "lo que quieres, ¿no?",
+    "ipa": "/lo ke ˈkje.ɾes no/",
+    "pos": "pron. lo que + v. querer",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": [
+      "代词"
+    ],
+    "sentence_cloze": "Eso es ___,",
+    "sentence_full": "Eso es lo que quieres, ¿no?",
+    "translation": "你想要的，对吧",
+    "sentence_translation": "那就是你想要的，对吧？",
+    "cultural_note": "lo que /lo ke/ = ……的东西 / ……的事情\n  英文：what / the thing that\nquieres /kje.ɾes/ = querer 的现在时，第二人称单数（tú）\n  querer = 想要\n  英文：you want\n¿no? /no/ = 对吧？/ 不是吗？\n  附加疑问句，用来确认对方的想法。\n  英文：right? / isn't it?\n\n结构：\n\n    lo que + 从句 = ……的东西 / ……的事情\n    英文：what... / the thing that...\n\n所以：\n\n    lo que quieres = 你想要的\n    英文：what you want",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_053",
+        "label": "Eso es（那就是）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_055",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_018",
+    "line_index": 18,
+    "character": "S1E01",
+    "target_word": "Escúchame",
+    "ipa": "/es.ˈku.tʃa.me/",
+    "pos": "v. escuchar",
+    "level": "A2",
+    "pronunciation_focus": "ch_sound",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___, no te precipites.",
+    "sentence_full": "Escúchame, no te precipites.",
+    "translation": "听我说",
+    "sentence_translation": "听我说，你别冲动。",
+    "cultural_note": "Escúchame /es.ˈku.tʃa.me/ = escuchar + me 的肯定命令式\n  escuchar = 听\n  me = 我\n  合起来：听我说 / 听我\n\n这是 tú（你）的肯定命令式。\n\n英文：Listen to me,\n\n结构：\n\n    escuchar + me = 听我\n    英文：listen to me",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_056",
+        "label": "no te precipites（你别冲动）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_056",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_018",
+    "line_index": 18,
+    "character": "S1E01",
+    "target_word": "no te precipites",
+    "ipa": "/no te pɾe.θi.ˈpi.tes/",
+    "pos": "v. precipitarse",
+    "level": "B1",
+    "pronunciation_focus": "c_z_distinction",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Escúchame, ___.",
+    "sentence_full": "Escúchame, no te precipites.",
+    "translation": "你别冲动",
+    "sentence_translation": "听我说，你别冲动。",
+    "cultural_note": "no /no/ = 不要\n  英文：don't\nte /te/ = 你自己（反身代词）\n  英文：yourself\nprecipites /pɾe.θi.ˈpi.tes/ = precipitarse 的否定命令式，第二人称单数（tú）\n  precipitarse = 冲动、急躁、仓促行事\n  英文：to rush / to act rashly\n\n结构：\n\n    no + te + 虚拟式 = 否定命令\n    英文：don't + 动词\n\n所以：\n\n    no te precipites = 你别冲动 / 你别急\n    英文：don't rush / don't act rashly",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_055",
+        "label": "Escúchame（听我说）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_057",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_019",
+    "line_index": 19,
+    "character": "S1E01",
+    "target_word": "quieto",
+    "ipa": "/ˈkje.to/",
+    "pos": "adj. quieto",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "___",
+    "sentence_full": "Quieto.",
+    "translation": "别动 / 安静",
+    "sentence_translation": "别动。",
+    "cultural_note": "quieto /ˈkje.to/ = 形容词\n  意思是：静止的、不动的；安静的、平静的\n\n这里单独成句，是命令/呼喊用法。\n\n性数变化：\n\n    对男性说：quieto\n    对女性说：quieta\n    对多人说：quietos / quietas\n\n英文：still / quiet\n\n例子：\n\n    ¡Quieto! = 别动！\n    Quédate quieto. = 你待着别动。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S1E01_058",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_020",
+    "line_index": 20,
+    "character": "S1E01",
+    "target_word": "No te muevas",
+    "ipa": "/no te ˈmwe.βas/",
+    "pos": "v. moverse",
+    "level": "B1",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¡Quieto! ¡___ o te reviento!",
+    "sentence_full": "¡Quieto! ¡No te muevas o te reviento!",
+    "translation": "你别动",
+    "sentence_translation": "别动！你别动，不然我弄死你！",
+    "cultural_note": "No /no/ = 不要\n  英文：don't\nte /te/ = 你自己（反身代词）\n  英文：yourself\nmuevas /ˈmwe.βas/ = mover 的否定命令式，第二人称单数（tú）\n  原形：moverse = 动、移动\n  英文：move\n\n结构：\n\n    no + te + 虚拟式 = 否定命令\n    英文：don't + 动词\n\n所以：\n\n    No te muevas = 你别动\n    英文：Don't move.",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_057",
+        "label": "Quieto（别动）"
+      },
+      {
+        "cardId": "LCDP_S1E01_059",
+        "label": "o te reviento（不然我弄死你）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_059",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_020",
+    "line_index": 20,
+    "character": "S1E01",
+    "target_word": "o te reviento",
+    "ipa": "/o te re.ˈβjen.to/",
+    "pos": "v. reventar",
+    "level": "B1",
+    "pronunciation_focus": "diphthong",
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¡Quieto! ¡No te muevas ___!",
+    "sentence_full": "¡Quieto! ¡No te muevas o te reviento!",
+    "translation": "不然我弄死你",
+    "sentence_translation": "别动！你别动，不然我弄死你！",
+    "cultural_note": "o /o/ = 或者、不然\n  这里表示“否则、不然”\n  英文：or / otherwise\nte /te/ = 你（直接宾语代词）\n  英文：you\nreviento /re.ˈβjen.to/ = reventar 的现在时，第一人称单数（yo）\n  reventar = 使爆裂、弄死、搞垮\n  这里是很暴力的口语威胁：“我弄死你 / 我崩了你”\n  英文：I'll bust you / I'll kill you / I'll blow you away\n\n结构：\n\n    o te reviento = 不然我弄死你\n\n注意：\n\n    这是很暴力的威胁用语，日常交流中请勿使用。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_057",
+        "label": "Quieto（别动）"
+      },
+      {
+        "cardId": "LCDP_S1E01_058",
+        "label": "No te muevas（你别动）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_061",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_021",
+    "line_index": 21,
+    "character": "S1E01",
+    "target_word": "algo",
+    "ipa": "/ˈal.ɣo/",
+    "pos": "pron. algo",
+    "level": "A1",
+    "pronunciation_focus": "gl_gu",
+    "tags": [
+      "代词"
+    ],
+    "sentence_cloze": "¡Haz ___!",
+    "sentence_full": "¡Haz algo!",
+    "translation": "某事 / 某物",
+    "sentence_translation": "做点什么！",
+    "cultural_note": "algo /ˈal.ɣo/ = 某事、某物、点什么\n  英文：something\n\n合起来：\n\n    ¡Haz algo! = 做点什么！\n    英文：Do something!",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": []
+  },
+  {
+    "id": "LCDP_S1E01_062",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_022",
+    "line_index": 22,
+    "character": "S1E01",
+    "target_word": "esta escalera maravillosa",
+    "ipa": "/ˈes.ta es.ka.le.ɾa ma.ɾa.βi.ʎo.sa/",
+    "pos": "det. + n.f. + adj.",
+    "level": "A2",
+    "pronunciation_focus": "rolled_r",
+    "tags": ["名词"],
+    "sentence_cloze": "Y ___, de mármol y granito...",
+    "sentence_full": "Y esta escalera maravillosa, de mármol y granito...",
+    "translation": "这美妙的楼梯",
+    "sentence_translation": "还有这美妙的楼梯，大理石和花岗岩做的……",
+    "cultural_note": "esta /ˈes.ta/ = 这（阴性指示形容词）\n  英文：this\nescalera /es.ka.ˈle.ɾa/ = 楼梯\n  阴性名词\n  英文：stairs / staircase\nmaravillosa /ma.ɾa.βi.ʎo.sa/ = maravilloso 的阴性形式\n  意思是：美妙的、极好的\n  英文：marvelous / wonderful\n\n注意：\n\n    escalera 是阴性名词，所以用 esta（而非 este）和 maravillosa（而非 maravilloso）。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_063", "label": "de mármol y granito（大理石和花岗岩）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_063",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_022",
+    "line_index": 22,
+    "character": "S1E01",
+    "target_word": "de mármol y granito",
+    "ipa": "/de ˈmaɾ.mol i ɣɾa.ni.to/",
+    "pos": "prep. + n.m. + conj. + n.m.",
+    "level": "B1",
+    "pronunciation_focus": "gl_gu",
+    "tags": ["名词"],
+    "sentence_cloze": "Y esta escalera maravillosa, ___...",
+    "sentence_full": "Y esta escalera maravillosa, de mármol y granito...",
+    "translation": "大理石和花岗岩做的",
+    "sentence_translation": "还有这美妙的楼梯，大理石和花岗岩做的……",
+    "cultural_note": "de /de/ = 由……做成 / 的\n  英文：of / made of\nmármol /ˈma.mol/ = 大理石\n  英文：marble\ny /i/ = 和\n  英文：and\ngranito /ɣa.ˈni.to/ = 花岗岩\n  英文：granite\n\n合起来：\n\n    de mármol y granito = 由大理石和花岗岩做成\n    英文：made of marble and granite",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_062", "label": "esta escalera maravillosa（这美妙的楼梯）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_064",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_023",
+    "line_index": 23,
+    "character": "S1E01",
+    "target_word": "tenemos",
+    "ipa": "/te.ˈne.mos/",
+    "pos": "v. tener",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": ["动词"],
+    "sentence_cloze": "Profesor, ___ un problema.",
+    "sentence_full": "Profesor, tenemos un problema.",
+    "translation": "我们有个问题",
+    "sentence_translation": "教授，我们有个问题。",
+    "cultural_note": "tenemos /te.ˈne.mos/ = tener 的现在时，第一人称复数（nosotros）\n  tener = 有\n  英文：we have\nproblema /pɾo.ˈβle.ma/ = 问题\n  阳性名词（以 -a 结尾但为阳性）\n  英文：problem\n\n注意：\n\n    problema 是以 -a 结尾的阳性名词，类似 mapa、día、poeta。\n\n合起来：\n\n    tenemos un problema = 我们有个问题\n    英文：we have a problem",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true
+  },
+  {
+    "id": "LCDP_S1E01_065",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_024",
+    "line_index": 24,
+    "character": "S1E01",
+    "target_word": "No veo",
+    "ipa": "/no ˈbe.o/",
+    "pos": "adv. + v. ver",
+    "level": "A1",
+    "pronunciation_focus": "vowel_e",
+    "tags": ["动词"],
+    "sentence_cloze": "___ al corderito.",
+    "sentence_full": "No veo al corderito.",
+    "translation": "我没看见",
+    "sentence_translation": "我没看见小羔羊。",
+    "cultural_note": "No /no/ = 不、没\n  英文：not / don't\nveo /be.o/ = ver 的现在时，第一人称单数（yo）\n  ver = 看见\n  英文：I see\n\n结构：\n\n    no + 动词 = 不…… / 没……\n    英文：don't / doesn't / not\n\n所以：\n\n    No veo = 我没看见 / 我看不到\n    英文：I don't see / I can't see",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_066", "label": "al corderito（小羔羊）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_066",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_024",
+    "line_index": 24,
+    "character": "S1E01",
+    "target_word": "al corderito",
+    "ipa": "/al koɾ.de.ˈɾi.to/",
+    "pos": "prep. a + el + n.m.",
+    "level": "A2",
+    "pronunciation_focus": "rolled_r",
+    "tags": ["名词"],
+    "sentence_cloze": "No veo ___.",
+    "sentence_full": "No veo al corderito.",
+    "translation": "小羔羊",
+    "sentence_translation": "我没看见小羔羊。",
+    "cultural_note": "al /al/ = a + el 的缩合形式\n  a = 直接宾语标记\n  el = 定冠词，阳性单数\n  合起来：al\n  英文：to the / the（西班牙语里，指人/动物作直接宾语时常用 a）\ncorderito /koɾ.de.ˈɾi.to/ = 小羊、小羔羊\n  cordero = 羊羔\n  corderito = 小羊（指小词，表示小、可爱）\n  英文：little lamb\n\n注意：\n\n    -ito 是指小词后缀，表示小或可爱。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_065", "label": "No veo（我没看见）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_067",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_025",
+    "line_index": 25,
+    "character": "S1E01",
+    "target_word": "¿Adónde",
+    "ipa": "/a.ˈdon.de/",
+    "pos": "adv. interrogativo",
+    "level": "A2",
+    "pronunciation_focus": "diphthong",
+    "tags": ["副词"],
+    "sentence_cloze": "___ se ha metido?",
+    "sentence_full": "¿Adónde se ha metido?",
+    "translation": "到哪里、往哪儿（表示方向）",
+    "sentence_translation": "它躲到哪里去了？",
+    "cultural_note": "Adónde = 到哪里、往哪儿\n  由 a + dónde 缩合而成\n  英文：where to / where\n\n注意区别：\n\n    ¿Dónde? = 在哪里（静态）\n    ¿Adónde? = 到哪里、往哪儿（方向）\n\n例子：\n\n    ¿Dónde estás? = 你在哪里？\n    ¿Adónde vas? = 你去哪里？",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_068", "label": "se ha metido（它躲进去了）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_068",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_025",
+    "line_index": 25,
+    "character": "S1E01",
+    "target_word": "se ha metido",
+    "ipa": "/se a me.ˈti.do/",
+    "pos": "v. meterse (pret. perfecto comp.)",
+    "level": "B1",
+    "pronunciation_focus": "silent_h",
+    "tags": ["动词"],
+    "sentence_cloze": "¿Adónde ___?",
+    "sentence_full": "¿Adónde se ha metido?",
+    "translation": "它躲进去了 / 它钻进去了",
+    "sentence_translation": "它躲到哪里去了？",
+    "cultural_note": "se = 反身代词（与 meterse 搭配）\n  英文：himself / itself\nha = haber 的现在时，第三人称单数（助动词）\n  英文：has\nmetido = meter 的过去分词\n  原形：meter = 放进、塞进\n  代词式：meterse = 钻进去、躲进去、进入\n  英文：to go into / to get into\n\n结构：\n\n    haber + 过去分词 = 现在完成时\n    英文：have / has + 过去分词\n\n所以：\n\n    se ha metido = 它躲进去了 / 它钻进去了\n    英文：it has gone / it has gotten into",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_067", "label": "¿Adónde（到哪里）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_069",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_026",
+    "line_index": 26,
+    "character": "S1E01",
+    "target_word": "muy guapa",
+    "ipa": "/muj ˈgwa.pa/",
+    "pos": "adv. + adj.f.",
+    "level": "A1",
+    "pronunciation_focus": "diphthong",
+    "tags": ["形容词"],
+    "sentence_cloze": "Estás ___.",
+    "sentence_full": "Estás muy guapa.",
+    "translation": "很漂亮（阴性形式）",
+    "sentence_translation": "你看起来很漂亮。",
+    "cultural_note": "guapa = 漂亮的（阴性形式）\n  英文：pretty / beautiful\n\n注意：\n\n    用 estar 而不是 ser，因为这里指\"现在的状态、看起来\"。\n    Estar + 形容词 = 暂时的状态或外观\n\n对男性说：\n\n    Estás muy guapo. = 你看起来很帅。\n    guapo /ˈɡwa.po/ = 漂亮的（阳性形式）",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": []
+  },
+  {
+    "id": "LCDP_S1E01_070",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_027",
+    "line_index": 27,
+    "character": "S1E01",
+    "target_word": "Dame",
+    "ipa": "/ˈda.me/",
+    "pos": "v. dar (imperativo + pron.)",
+    "level": "A1",
+    "pronunciation_focus": "vowel_a",
+    "tags": ["动词"],
+    "sentence_cloze": "___ el móvil!",
+    "sentence_full": "¡Dame el móvil!",
+    "translation": "给我（dar 的肯定命令式 + me）",
+    "sentence_translation": "把手机给我！",
+    "cultural_note": "Dame = dar 的肯定命令式 + me\n  dar = 给\n  me = 我（间接宾语代词）\n  英文：Give me\n\n结构：\n\n    动词命令式 + 代词 = 祈使句\n    英文：imperative + pronoun\n\n注意：\n\n    代词附着在命令式动词后面，写成一个词。\n    英文：The pronoun is attached to the imperative verb.",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_071", "label": "el móvil（手机）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_071",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_027",
+    "line_index": 27,
+    "character": "S1E01",
+    "target_word": "el móvil",
+    "ipa": "/el ˈmo.βil/",
+    "pos": "art. + n.m.",
+    "level": "A1",
+    "pronunciation_focus": "soft_b",
+    "tags": ["名词"],
+    "sentence_cloze": "Dame ___!",
+    "sentence_full": "¡Dame el móvil!",
+    "translation": "手机（西班牙常用）",
+    "sentence_translation": "把手机给我！",
+    "cultural_note": "el /el/ = 定冠词，阳性单数\n  英文：the\nmóvil /ˈmo.βil/ = 手机（西班牙常用）\n  英文：phone\n\n注意：\n\n    在西班牙用 móvil，在拉丁美洲常用 celular。\n    英文：móvil (Spain) vs. celular (Latin America)",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_070", "label": "Dame（给我）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_072",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_028",
+    "line_index": 28,
+    "character": "S1E01",
+    "target_word": "Que",
+    "ipa": "/ke/",
+    "pos": "conj. (que enfático)",
+    "level": "A2",
+    "pronunciation_focus": "vowel_e",
+    "tags": ["连词"],
+    "sentence_cloze": "¡___ me des el móvil, joder! ¡___ me des el móvil!",
+    "sentence_full": "¡Que me des el móvil, joder! ¡Que me des el móvil!",
+    "translation": "引出命令、强调",
+    "sentence_translation": "把手机给我，该死！把手机给我！",
+    "cultural_note": "Que = 引出命令、强调\n  英文：I'm telling you / that\n\n用法：\n\n    在口语中，que 放在句首用来加强语气，引出命令或要求。\n    英文：In spoken Spanish, 'que' at the beginning of a sentence adds emphasis to a command or request.\n\n例子：\n\n    ¡Que vengas aquí! = 你给我过来！\n    ¡Que calles! = 你给我闭嘴！",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_073", "label": "des（你给）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_073",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_028",
+    "line_index": 28,
+    "character": "S1E01",
+    "target_word": "des",
+    "ipa": "/des/",
+    "pos": "v. dar (subjuntivo presente, tú)",
+    "level": "A2",
+    "pronunciation_focus": "consonant_cluster",
+    "tags": ["动词"],
+    "sentence_cloze": "¡Que me ___ el móvil, joder! ¡Que me ___ el móvil!",
+    "sentence_full": "¡Que me des el móvil, joder! ¡Que me des el móvil!",
+    "translation": "dar 的虚拟式现在时，第二人称单数（tú）",
+    "sentence_translation": "把手机给我，该死！把手机给我！",
+    "cultural_note": "des = dar 的虚拟式现在时，第二人称单数（tú）\n  英文：you give\n\n结构：\n\n    Que + 虚拟式 = 加强语气的命令\n    英文：Que + subjunctive = emphatic command\n\n注意：\n\n    这里不用命令式（da），而用虚拟式（des），\n    因为 que 引导的强调句要求用虚拟式。\n    英文：I'm telling you to give me the phone, damn it! Give me the phone!",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_072", "label": "Que（引出命令）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_074",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_029",
+    "line_index": 29,
+    "character": "S1E01",
+    "target_word": "Con esta foto",
+    "ipa": "/kon ˈes.ta ˈfo.to/",
+    "pos": "prep. + adj. + n.f.",
+    "level": "A1",
+    "pronunciation_focus": "consonant_n",
+    "tags": ["介词短语"],
+    "sentence_cloze": "___ lo vas a petar en Internet.",
+    "sentence_full": "Con esta foto lo vas a petar en Internet.",
+    "translation": "用这张照片",
+    "sentence_translation": "用这张照片你会在网上火起来的。",
+    "cultural_note": "Con /kon/ = 用、凭借\n  英文：with\nesta /ˈes.ta/ = 这个（阴性单数指示形容词）\n  英文：this\nfoto /ˈfo.to/ = 照片\n  英文：photo\n\n注意：\n\n    foto 是 fotografía 的缩写，阴性名词。\n    英文：foto is short for fotografía, a feminine noun.",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_075", "label": "lo vas a petar（你会火起来的）" }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_075",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_029",
+    "line_index": 29,
+    "character": "S1E01",
+    "target_word": "lo vas a petar",
+    "ipa": "/lo bas a pe.ˈtaɾ/",
+    "pos": "pron. + v. ir + a + inf.",
+    "level": "B1",
+    "pronunciation_focus": "rolled_r",
+    "tags": ["动词短语"],
+    "sentence_cloze": "Con esta foto ___ en Internet.",
+    "sentence_full": "Con esta foto lo vas a petar en Internet.",
+    "translation": "你会火起来的（西班牙口语）",
+    "sentence_translation": "用这张照片你会在网上火起来的。",
+    "cultural_note": "lo = 它（中性直接宾语代词）\n  英文：it\nvas = ir 的现在时，第二人称单数（tú）\n  英文：you are going\na = 介词，构成 ir a + inf.\n  英文：to\npetar = 西班牙口语：火爆、成功、爆炸\n  英文：to blow up / to be a hit\n\n结构：\n\n    ir a + 动词原形 = 将要……\n    英文：going to + verb\n\n所以：\n\n    lo vas a petar = 你会火起来的\n    英文：you're going to blow up / be a hit",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": true,
+    "related_cards": [
+      { "cardId": "LCDP_S1E01_074", "label": "Con esta foto（用这张照片）" }
     ]
   }
 ]

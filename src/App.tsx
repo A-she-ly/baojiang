@@ -554,6 +554,12 @@ export default function App() {
             onCreateCard={(selectedText) => {
               setCreateCardModal({ selectedText, currentCard: current })
             }}
+            onSearchStart={(cardIds) => {
+              setView({ name: 'study', queueIds: cardIds })
+              setQueueIndex(0)
+              setSessionCounter((c) => c + 1)
+            }}
+            allCards={allCards}
           />
           )
         ) : (

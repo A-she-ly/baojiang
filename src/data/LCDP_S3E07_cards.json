@@ -7061,29 +7061,6 @@
     "is_example_sentence": true
   },
   {
-    "id": "LCDP_S3E07_308",
-    "episode": "S3E07",
-    "scene_id": "line_s3e07_308",
-    "line_index": 308,
-    "character": "S3E07",
-    "target_word": "quieto",
-    "ipa": "/ˈke.to/",
-    "pos": "adj. quieto",
-    "level": "B2",
-    "pronunciation_focus": "vowel_a",
-    "tags": [
-      "形容词"
-    ],
-    "sentence_cloze": "___s.",
-    "sentence_full": "Quietos.",
-    "translation": "静止的",
-    "sentence_translation": "不许动。",
-    "cultural_note": "",
-    "screenshot": "",
-    "frequency_rank": null,
-    "is_example_sentence": true
-  },
-  {
     "id": "LCDP_S3E07_309",
     "episode": "S3E07",
     "scene_id": "line_s3e07_309",

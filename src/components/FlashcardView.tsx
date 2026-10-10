@@ -41,7 +41,9 @@ interface Props {
   onMastered: (cardId: string) => void
   onWordClick: (cardId: string) => void
   onCreateCard?: (selectedText: string) => void
+  onSearchStart: (cardIds: string[]) => void
   wordMap: Map<string, string>
+  allCards: Flashcard[]
   progress: { current: number; total: number }
 }
 
@@ -233,13 +235,38 @@ export default function FlashcardView({
   progress,
   onWordClick,
   onCreateCard,
+  onSearchStart,
   wordMap,
+  allCards,
 }: Props) {
   const { t } = useTranslation()
   const [flipped, setFlipped] = useState(false)
   const [hintLevel, setHintLevel] = useState<'none' | 'light' | 'full'>('none')
   const [isPlaying, setIsPlaying] = useState(false)
   const [ttsError, setTtsError] = useState<string | null>(null)
+
+  // Search state
+  const [searchQuery, setSearchQuery] = useState('')
+  const [searchOpen, setSearchOpen] = useState(false)
+
+  const searchResults = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase()
+    if (!q) return []
+    type ScoredCard = { card: Flashcard; score: number }
+    const results: ScoredCard[] = []
+    for (const c of allCards) {
+      let score = 0
+      const tw = c.target_word.toLowerCase()
+      if (tw === q) score = 100
+      else if (tw.startsWith(q)) score = 80
+      else if (tw.includes(q)) score = 60
+      if (c.translation?.toLowerCase().includes(q)) score = Math.max(score, 40)
+      if (c.sentence_full?.toLowerCase().includes(q)) score = Math.max(score, 20)
+      if (score > 0) results.push({ card: c, score })
+    }
+    results.sort((a, b) => b.score - a.score)
+    return results.slice(0, 30).map((r) => r.card)
+  }, [searchQuery, allCards])
 
   // Text selection state for creating new cards
   const [selectionPopup, setSelectionPopup] = useState<{ text: string; x: number; y: number } | null>(null)
@@ -542,6 +569,46 @@ export default function FlashcardView({
           >
             {pronLabel}
           </span>
+          {/* Search box */}
+          <div className="relative">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => { setSearchQuery(e.target.value); setSearchOpen(true) }}
+              onFocus={() => setSearchOpen(true)}
+              onBlur={() => setTimeout(() => setSearchOpen(false), 200)}
+              placeholder="🔍 查词..."
+              className="w-36 px-2.5 py-1 text-xs rounded-lg border border-friends-coffee/30 bg-white/90 text-friends-sofa placeholder-friends-coffee/50 focus:outline-none focus:ring-2 focus:ring-friends-perk/40 focus:border-transparent transition-all"
+            />
+            {searchOpen && searchResults.length > 0 && (
+              <div className="absolute right-0 top-full mt-1 w-72 max-h-80 overflow-y-auto bg-white rounded-xl shadow-xl border border-friends-coffee/20 z-50">
+                {searchResults.map((c) => (
+                  <div
+                    key={c.id}
+                    className="px-3 py-2 hover:bg-friends-accent/10 cursor-pointer border-b border-friends-coffee/10 last:border-0"
+                    onMouseDown={(e) => {
+                      e.preventDefault()
+                      onSearchStart([c.id])
+                      setSearchOpen(false)
+                      setSearchQuery('')
+                    }}
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="font-semibold text-friends-sofa text-sm">{c.target_word}</span>
+                      <span className="text-xs text-friends-coffee/60">{c.pos}</span>
+                    </div>
+                    {c.translation && <div className="text-xs text-friends-perk mt-0.5">{c.translation}</div>}
+                    {c.sentence_full && <div className="text-xs text-friends-coffee/60 mt-0.5 truncate">{c.sentence_full}</div>}
+                  </div>
+                ))}
+              </div>
+            )}
+            {searchOpen && searchQuery && searchResults.length === 0 && (
+              <div className="absolute right-0 top-full mt-1 w-72 bg-white rounded-xl shadow-xl border border-friends-coffee/20 z-50 px-3 py-4 text-center text-sm text-friends-coffee/60">
+                没有找到匹配的词 / Sin resultados
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
@@ -1070,9 +1137,39 @@ export default function FlashcardView({
                     <Bi i18nKey="card.culturalNote" />
                   </div>
                   <div className="text-sm text-friends-sofa/90 leading-relaxed space-y-1">
-                    {card.cultural_note.split('\n').map((line, i) => (
-                      <div key={i}>{line}</div>
-                    ))}
+                    {card.cultural_note.split('\n').map((line, i) => {
+                      // Detect lines with IPA pattern: "word /ipa/ = description"
+                      const ipaMatch = line.match(/^(.+?)\s+(\/[^/]+\/)\s*=\s*(.+)$/)
+                      if (ipaMatch) {
+                        const word = ipaMatch[1].trim()
+                        const ipa = ipaMatch[2]
+                        const rest = ipaMatch[3]
+                        return (
+                          <div key={i} className="flex items-start gap-1.5">
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                handlePlay(word)
+                              }}
+                              className={`flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center transition text-xs mt-0.5 ${
+                                isPlaying
+                                  ? 'bg-friends-perk text-white animate-pulse'
+                                  : 'bg-friends-perk/15 text-friends-perk hover:bg-friends-perk/30'
+                              }`}
+                              title={`播放: ${word}`}
+                            >
+                              🔊
+                            </button>
+                            <span>
+                              <span className="font-semibold text-friends-coffee">{word}</span>
+                              <span className="text-[10px] text-primary-400 font-mono ml-1">{ipa}</span>
+                              {' = '}{rest}
+                            </span>
+                          </div>
+                        )
+                      }
+                      return <div key={i}>{line}</div>
+                    })}
                   </div>
                 </div>
               )}
