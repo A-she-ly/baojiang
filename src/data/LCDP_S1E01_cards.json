@@ -2155,7 +2155,9 @@
     "pos": "det. + n.f. + adj.",
     "level": "A2",
     "pronunciation_focus": "rolled_r",
-    "tags": ["名词"],
+    "tags": [
+      "名词"
+    ],
     "sentence_cloze": "Y ___, de mármol y granito...",
     "sentence_full": "Y esta escalera maravillosa, de mármol y granito...",
     "translation": "这美妙的楼梯",
@@ -2165,7 +2167,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_063", "label": "de mármol y granito（大理石和花岗岩）" }
+      {
+        "cardId": "LCDP_S1E01_063",
+        "label": "de mármol y granito（大理石和花岗岩）"
+      }
     ]
   },
   {
@@ -2179,7 +2184,9 @@
     "pos": "prep. + n.m. + conj. + n.m.",
     "level": "B1",
     "pronunciation_focus": "gl_gu",
-    "tags": ["名词"],
+    "tags": [
+      "名词"
+    ],
     "sentence_cloze": "Y esta escalera maravillosa, ___...",
     "sentence_full": "Y esta escalera maravillosa, de mármol y granito...",
     "translation": "大理石和花岗岩做的",
@@ -2189,7 +2196,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_062", "label": "esta escalera maravillosa（这美妙的楼梯）" }
+      {
+        "cardId": "LCDP_S1E01_062",
+        "label": "esta escalera maravillosa（这美妙的楼梯）"
+      }
     ]
   },
   {
@@ -2203,7 +2213,9 @@
     "pos": "v. tener",
     "level": "A1",
     "pronunciation_focus": "vowel_e",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "Profesor, ___ un problema.",
     "sentence_full": "Profesor, tenemos un problema.",
     "translation": "我们有个问题",
@@ -2224,7 +2236,9 @@
     "pos": "adv. + v. ver",
     "level": "A1",
     "pronunciation_focus": "vowel_e",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "___ al corderito.",
     "sentence_full": "No veo al corderito.",
     "translation": "我没看见",
@@ -2234,7 +2248,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_066", "label": "al corderito（小羔羊）" }
+      {
+        "cardId": "LCDP_S1E01_066",
+        "label": "al corderito（小羔羊）"
+      }
     ]
   },
   {
@@ -2248,7 +2265,9 @@
     "pos": "prep. a + el + n.m.",
     "level": "A2",
     "pronunciation_focus": "rolled_r",
-    "tags": ["名词"],
+    "tags": [
+      "名词"
+    ],
     "sentence_cloze": "No veo ___.",
     "sentence_full": "No veo al corderito.",
     "translation": "小羔羊",
@@ -2258,7 +2277,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_065", "label": "No veo（我没看见）" }
+      {
+        "cardId": "LCDP_S1E01_065",
+        "label": "No veo（我没看见）"
+      }
     ]
   },
   {
@@ -2272,7 +2294,9 @@
     "pos": "adv. interrogativo",
     "level": "A2",
     "pronunciation_focus": "diphthong",
-    "tags": ["副词"],
+    "tags": [
+      "副词"
+    ],
     "sentence_cloze": "___ se ha metido?",
     "sentence_full": "¿Adónde se ha metido?",
     "translation": "到哪里、往哪儿（表示方向）",
@@ -2282,7 +2306,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_068", "label": "se ha metido（它躲进去了）" }
+      {
+        "cardId": "LCDP_S1E01_068",
+        "label": "se ha metido（它躲进去了）"
+      }
     ]
   },
   {
@@ -2296,7 +2323,9 @@
     "pos": "v. meterse (pret. perfecto comp.)",
     "level": "B1",
     "pronunciation_focus": "silent_h",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¿Adónde ___?",
     "sentence_full": "¿Adónde se ha metido?",
     "translation": "它躲进去了 / 它钻进去了",
@@ -2306,7 +2335,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_067", "label": "¿Adónde（到哪里）" }
+      {
+        "cardId": "LCDP_S1E01_067",
+        "label": "¿Adónde（到哪里）"
+      }
     ]
   },
   {
@@ -2320,7 +2352,9 @@
     "pos": "adv. + adj.f.",
     "level": "A1",
     "pronunciation_focus": "diphthong",
-    "tags": ["形容词"],
+    "tags": [
+      "形容词"
+    ],
     "sentence_cloze": "Estás ___.",
     "sentence_full": "Estás muy guapa.",
     "translation": "很漂亮（阴性形式）",
@@ -2342,7 +2376,9 @@
     "pos": "v. dar (imperativo + pron.)",
     "level": "A1",
     "pronunciation_focus": "vowel_a",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "___ el móvil!",
     "sentence_full": "¡Dame el móvil!",
     "translation": "给我（dar 的肯定命令式 + me）",
@@ -2352,7 +2388,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_071", "label": "el móvil（手机）" }
+      {
+        "cardId": "LCDP_S1E01_071",
+        "label": "el móvil（手机）"
+      }
     ]
   },
   {
@@ -2366,7 +2405,9 @@
     "pos": "art. + n.m.",
     "level": "A1",
     "pronunciation_focus": "soft_b",
-    "tags": ["名词"],
+    "tags": [
+      "名词"
+    ],
     "sentence_cloze": "Dame ___!",
     "sentence_full": "¡Dame el móvil!",
     "translation": "手机（西班牙常用）",
@@ -2376,7 +2417,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_070", "label": "Dame（给我）" }
+      {
+        "cardId": "LCDP_S1E01_070",
+        "label": "Dame（给我）"
+      }
     ]
   },
   {
@@ -2390,7 +2434,9 @@
     "pos": "conj. (que enfático)",
     "level": "A2",
     "pronunciation_focus": "vowel_e",
-    "tags": ["连词"],
+    "tags": [
+      "连词"
+    ],
     "sentence_cloze": "¡___ me des el móvil, joder! ¡___ me des el móvil!",
     "sentence_full": "¡Que me des el móvil, joder! ¡Que me des el móvil!",
     "translation": "引出命令、强调",
@@ -2400,7 +2446,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_073", "label": "des（你给）" }
+      {
+        "cardId": "LCDP_S1E01_073",
+        "label": "des（你给）"
+      }
     ]
   },
   {
@@ -2414,7 +2463,9 @@
     "pos": "v. dar (subjuntivo presente, tú)",
     "level": "A2",
     "pronunciation_focus": "consonant_cluster",
-    "tags": ["动词"],
+    "tags": [
+      "动词"
+    ],
     "sentence_cloze": "¡Que me ___ el móvil, joder! ¡Que me ___ el móvil!",
     "sentence_full": "¡Que me des el móvil, joder! ¡Que me des el móvil!",
     "translation": "dar 的虚拟式现在时，第二人称单数（tú）",
@@ -2424,7 +2475,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_072", "label": "Que（引出命令）" }
+      {
+        "cardId": "LCDP_S1E01_072",
+        "label": "Que（引出命令）"
+      }
     ]
   },
   {
@@ -2438,7 +2492,9 @@
     "pos": "prep. + adj. + n.f.",
     "level": "A1",
     "pronunciation_focus": "consonant_n",
-    "tags": ["介词短语"],
+    "tags": [
+      "介词短语"
+    ],
     "sentence_cloze": "___ lo vas a petar en Internet.",
     "sentence_full": "Con esta foto lo vas a petar en Internet.",
     "translation": "用这张照片",
@@ -2448,7 +2504,10 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_075", "label": "lo vas a petar（你会火起来的）" }
+      {
+        "cardId": "LCDP_S1E01_075",
+        "label": "lo vas a petar（你会火起来的）"
+      }
     ]
   },
   {
@@ -2462,7 +2521,9 @@
     "pos": "pron. + v. ir + a + inf.",
     "level": "B1",
     "pronunciation_focus": "rolled_r",
-    "tags": ["动词短语"],
+    "tags": [
+      "动词短语"
+    ],
     "sentence_cloze": "Con esta foto ___ en Internet.",
     "sentence_full": "Con esta foto lo vas a petar en Internet.",
     "translation": "你会火起来的（西班牙口语）",
@@ -2472,7 +2533,1163 @@
     "frequency_rank": null,
     "is_example_sentence": true,
     "related_cards": [
-      { "cardId": "LCDP_S1E01_074", "label": "Con esta foto（用这张照片）" }
+      {
+        "cardId": "LCDP_S1E01_074",
+        "label": "Con esta foto（用这张照片）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_076",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_076",
+    "line_index": 76,
+    "character": "S1E01",
+    "target_word": "disparo",
+    "ipa": "/dis.ˈpa.ɾo/",
+    "pos": "v. disparar",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "¡Quieto ___!",
+    "sentence_full": "¡Quieto o disparo!",
+    "translation": "disparar 的陈述式现在时第一人称单数（yo），我开枪",
+    "sentence_translation": "别动，不然我开枪！",
+    "cultural_note": "disparo = disparar 的陈述式现在时第一人称单数（yo）\ndisparar = to shoot, 开枪、射击\n\no = or, 或者、不然\n用于威胁句中，表示\"不然的话就……\"\n\n¡Quieto! = Freeze! 别动！\nquieto = 安静的、不动的\n\n整句：¡Quieto o disparo! = Freeze, or I'll shoot!\n英文：Freeze, or I'll shoot!",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": []
+  },
+  {
+    "id": "LCDP_S1E01_077",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_077",
+    "line_index": 77,
+    "character": "S1E01",
+    "target_word": "Me llamo",
+    "ipa": "/me ˈʝa.mo/",
+    "pos": "pron.refl. + v. llamar",
+    "level": "A1",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词短语"
+    ],
+    "sentence_cloze": "___ Tokio.",
+    "sentence_full": "Me llamo Tokio.",
+    "translation": "我叫……（自我介绍用语）",
+    "sentence_translation": "我叫Tokio。",
+    "cultural_note": "Me llamo = 我叫……（字面意思：我称呼自己）\n\nMe = 反身代词，第一人称单数（yo）\n  英文：myself\n\nllamo = llamar 的陈述式现在时第一人称单数（yo）\n  英文：I call\n\nllamarse = 叫做……（反身动词，用于自我介绍）\n  英文：to be called / to call oneself\n\n结构：\n  Me llamo + 名字 = 我叫……\n  英文：My name is... / I call myself...\n\n其他形式：\n  Te llamas = 你叫\n  Se llama = 他/她叫\n  Nos llamamos = 我们叫\n  Os llamáis = 你们叫\n  Se llaman = 他们叫\n\n英文：My name is Tokio.",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": []
+  },
+  {
+    "id": "LCDP_S1E01_078",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_078",
+    "line_index": 78,
+    "character": "S1E01",
+    "target_word": "comenzó esta historia",
+    "ipa": "/ko.men.ˈso ˈes.ta is.ˈto.ɾja/",
+    "pos": "v. comenzar + adj. + n.f.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词短语"
+    ],
+    "sentence_cloze": "Pero cuando ___, no me llamaba así.",
+    "sentence_full": "Pero cuando comenzó esta historia, no me llamaba así.",
+    "translation": "这个故事开始了",
+    "sentence_translation": "但当这个故事开始时，我不叫这个名字。",
+    "cultural_note": "comenzó = comenzar 的陈述式简单过去时，第三人称单数（él/ella/usted）\n  英文：started / began\n\ncomenzar /ko.men.ˈθaɾ/ = 开始\n  英文：to begin / to start\n\nesta = 这个（阴性单数指示形容词）\n  英文：this\n\nhistoria /is.ˈtoɾ.ja/ = 故事、历史\n  英文：story / history\n\n整句：cuando comenzó esta historia\n  英文：when this story began\n\n整句翻译：But when this story began, my name wasn't like that.",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_079",
+        "label": "me llamaba así（我不叫这个名字）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_079",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_078",
+    "line_index": 78,
+    "character": "S1E01",
+    "target_word": "me llamaba así",
+    "ipa": "/me ʝa.ˈma.βa a.ˈsi/",
+    "pos": "pron.refl. + v. llamarse + adv.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词短语"
+    ],
+    "sentence_cloze": "Pero cuando comenzó esta historia, no ___.",
+    "sentence_full": "Pero cuando comenzó esta historia, no me llamaba así.",
+    "translation": "我不叫这个名字（过去未完成时）",
+    "sentence_translation": "但当这个故事开始时，我不叫这个名字。",
+    "cultural_note": "me llamaba = llamarse 的陈述式过去未完成时，第一人称单数（yo）\n  英文：I was called / my name was\n\nllamarse = 叫做……（反身动词，用于自我介绍）\n  英文：to be called / to call oneself\n\nasí = 这样、如此\n  英文：like that / this way\n\n注意时态区别：\n  Me llamo = 我叫（现在时）\n  Me llamaba = 我过去叫（过去未完成时）\n\n整句：no me llamaba así\n  英文：my name wasn't like that / I wasn't called like that\n\n整句翻译：But when this story began, my name wasn't like that.",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_078",
+        "label": "comenzó esta historia（这个故事开始了）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_080",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_080",
+    "line_index": 80,
+    "character": "S1E01",
+    "target_word": "Esta era yo. Y este, el amor de mi vida.",
+    "ipa": "/ˈes.ta ˈe.ɾa ˈʝo. i ˈes.te, el a.ˈmoɾ de mi ˈbi.da/",
+    "pos": "pron.dem. + v. ser + pron.pers. + conj. + pron.dem. + art. + n.m. + prep. + pron.poss. + n.f.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "句子"
+    ],
+    "sentence_cloze": "___",
+    "sentence_full": "Esta era yo. Y este, el amor de mi vida.",
+    "translation": "这就是当时的我。而这位，是我一生的挚爱。",
+    "sentence_translation": "这就是当时的我。而这位，是我一生的挚爱。",
+    "cultural_note": "Esta = 这个（阴性单数指示代词，指“这个女人”）\n  英文：This\n\nera = ser 的陈述式过去未完成时，第一人称/第三人称单数（yo/él/ella/usted）\n  英文：was\n\nyo = 我\n  英文：I\n\nY = 而、和\n  英文：and\n\neste = 这个（阳性单数指示代词，指“这个男人”）\n  英文：this one\n\nel amor = 爱、爱人\n  英文：the love\n\nde mi vida = 我生命中的\n  英文：of my life\n\n整句：Esta era yo. Y este, el amor de mi vida.\n  英文：This was me. And this one, the love of my life.\n\n整句翻译：这就是当时的我。而这位，是我一生的挚爱。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": []
+  },
+  {
+    "id": "LCDP_S1E01_081",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_081",
+    "line_index": 81,
+    "character": "S1E01",
+    "target_word": "La última vez que lo vi",
+    "ipa": "/la ˈul.ti.ma ˈbeθ ke lo ˈbi/",
+    "pos": "art. + adj. + n.f. + conj. + pron. + v. ver",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "从句"
+    ],
+    "sentence_cloze": "___, lo dejé en un charco de sangre con los ojos abiertos.",
+    "sentence_full": "La última vez que lo vi, lo dejé en un charco de sangre con los ojos abiertos.",
+    "translation": "我最后一次见到他时",
+    "sentence_translation": "我最后一次见到他时，我把他丢在一滩血里，眼睛睁着。",
+    "cultural_note": "la última vez que + 从句 = 最后一次……的时候\n  英文：the last time that...\n\núltima = 最后的（último 的阴性形式）\n  英文：last\n\nvez = 次\n  英文：time\n\nque = 引导定语从句\n  英文：that\n\nlo = 他（阳性直接宾语代词）\n  英文：him\n\nvi = ver 的陈述式简单过去时，第一人称单数（yo）\n  英文：I saw\n\n整句：La última vez que lo vi\n  英文：The last time I saw him\n\n整句翻译：我最后一次见到他时",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_082",
+        "label": "lo dejé（我把他留下）"
+      },
+      {
+        "cardId": "LCDP_S1E01_083",
+        "label": "en un charco de sangre（在一滩血里）"
+      },
+      {
+        "cardId": "LCDP_S1E01_084",
+        "label": "con los ojos abiertos（眼睛睁着）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_082",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_081",
+    "line_index": 81,
+    "character": "S1E01",
+    "target_word": "lo dejé",
+    "ipa": "/lo de.ˈxe/",
+    "pos": "pron. + v. dejar",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词短语"
+    ],
+    "sentence_cloze": "La última vez que lo vi, ___, en un charco de sangre con los ojos abiertos.",
+    "sentence_full": "La última vez que lo vi, lo dejé en un charco de sangre con los ojos abiertos.",
+    "translation": "我把他留在/我丢下他",
+    "sentence_translation": "我最后一次见到他时，我把他丢在一滩血里，眼睛睁着。",
+    "cultural_note": "lo = 他（直接宾语代词）\n  英文：him\n\ndejé = dejar 的陈述式简单过去时，第一人称单数（yo）\n  英文：I left\n\ndejar = 留下、放下、丢下\n  英文：to leave / to let\n\n结构：dejar + 直接宾语 = 把……留下\n  英文：to leave someone/something\n\n整句：lo dejé\n  英文：I left him\n\n整句翻译：我把他留下了",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_081",
+        "label": "La última vez que lo vi（我最后一次见到他时）"
+      },
+      {
+        "cardId": "LCDP_S1E01_083",
+        "label": "en un charco de sangre（在一滩血里）"
+      },
+      {
+        "cardId": "LCDP_S1E01_084",
+        "label": "con los ojos abiertos（眼睛睁着）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_083",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_081",
+    "line_index": 81,
+    "character": "S1E01",
+    "target_word": "en un charco de sangre",
+    "ipa": "/en un ˈtʃaɾ.ko de ˈsaŋ.ɡɾe/",
+    "pos": "prep. + art. + n.m. + prep. + n.f.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "La última vez que lo vi, lo dejé ___, con los ojos abiertos.",
+    "sentence_full": "La última vez que lo vi, lo dejé en un charco de sangre con los ojos abiertos.",
+    "translation": "在一滩血里",
+    "sentence_translation": "我最后一次见到他时，我把他丢在一滩血里，眼睛睁着。",
+    "cultural_note": "en = 在……里\n  英文：in\n\nun charco = 一滩、一坑\n  英文：a pool / a puddle\n\ncharco = 水坑、一滩\n  英文：puddle / pool\n\nde sangre = 血的\n  英文：of blood\n\nsangre = 血\n  英文：blood\n\n结构：en + 名词短语 = 在……里\n  英文：in + noun phrase\n\n整句：en un charco de sangre\n  英文：in a pool of blood\n\n整句翻译：在一滩血里",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_081",
+        "label": "La última vez que lo vi（我最后一次见到他时）"
+      },
+      {
+        "cardId": "LCDP_S1E01_082",
+        "label": "lo dejé（我把他留下）"
+      },
+      {
+        "cardId": "LCDP_S1E01_084",
+        "label": "con los ojos abiertos（眼睛睁着）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_084",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_081",
+    "line_index": 81,
+    "character": "S1E01",
+    "target_word": "con los ojos abiertos",
+    "ipa": "/kon los ˈo.xos a.ˈβjeɾ.tos/",
+    "pos": "prep. + art. + n.m.pl. + adj.pl.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "La última vez que lo vi, lo dejé en un charco de sangre ___.",
+    "sentence_full": "La última vez que lo vi, lo dejé en un charco de sangre con los ojos abiertos.",
+    "translation": "眼睛睁着",
+    "sentence_translation": "我最后一次见到他时，我把他丢在一滩血里，眼睛睁着。",
+    "cultural_note": "con = 带着、伴随\n  英文：with\n\nlos ojos = 眼睛\n  英文：the eyes\n\nabiertos = 睁开的（abrir 的过去分词，阳性复数）\n  英文：open\n\n结构：con + 名词 + 形容词 = 带着……的状态\n  英文：with + noun + adjective\n\n整句：con los ojos abiertos\n  英文：with his eyes open\n\n整句翻译：眼睛睁着",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_081",
+        "label": "La última vez que lo vi（我最后一次见到他时）"
+      },
+      {
+        "cardId": "LCDP_S1E01_082",
+        "label": "lo dejé（我把他留下）"
+      },
+      {
+        "cardId": "LCDP_S1E01_083",
+        "label": "en un charco de sangre（在一滩血里）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_085",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_085",
+    "line_index": 85,
+    "character": "S1E01",
+    "target_word": "Hicimos",
+    "ipa": "/i.θi.mos/",
+    "pos": "v. hacer",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ 15 atracos limpios.",
+    "sentence_full": "Hicimos 15 atracos limpios.",
+    "translation": "我们干了/我们做了",
+    "sentence_translation": "我们干了 15 票干净的抢劫。",
+    "cultural_note": "Hicimos = hacer 的陈述式简单过去时（pretérito indefinido），第一人称复数（nosotros）\n  英文：We did / We made\n\n原形：hacer = 做、干\n  英文：to do / to make\n\n用法提示：\n  表示过去某个具体时间完成的动作。\n  这里搭配 atracos，意思是“我们干了（几票抢劫）”。\n\n例句：Hicimos lo que pudimos.\n  英文：We did what we could.\n  翻译：我们做了我们能做的。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_086",
+        "label": "15 atracos limpios（15 票干净的抢劫）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_086",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_085",
+    "line_index": 85,
+    "character": "S1E01",
+    "target_word": "15 atracos limpios",
+    "ipa": "/ˈkin.θe a.ˈtɾa.kos ˈlim.pjos/",
+    "pos": "num. + n.m.pl. + adj.pl.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "名词短语"
+    ],
+    "sentence_cloze": "Hicimos ___.",
+    "sentence_full": "Hicimos 15 atracos limpios.",
+    "translation": "15 票干净的抢劫/15 次利落的抢劫",
+    "sentence_translation": "我们干了 15 票干净的抢劫。",
+    "cultural_note": "15 (quince) = 十五\n  英文：fifteen\n\natracos = 抢劫（atraco 的复数）\n  原形：atraco = 抢劫、劫案\n  英文：robbery / heist\n\nlimpios = 干净的、利落的（limpio 的阳性复数）\n  英文：clean\n\n用法提示：\n  atracos limpios = 干净利落的抢劫，意思是没出乱子、没留痕迹。\n  limpio 在这里不是“干净”的字面意思，而是“顺利、没麻烦”。\n\n例句：Fue un atraco limpio.\n  英文：It was a clean heist.\n  翻译：那是一次干净的抢劫。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_085",
+        "label": "Hicimos（我们干了）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_087",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_087",
+    "line_index": 87,
+    "character": "S1E01",
+    "target_word": "mezclar amor y trabajo",
+    "ipa": "/meθ.ˈklaɾ a.ˈmoɾ i tɾa.ˈβa.xo/",
+    "pos": "v. mezclar + n.m. + conj. + n.m.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词短语"
+    ],
+    "sentence_cloze": "Pero ___, nunca funciona.",
+    "sentence_full": "Pero mezclar amor y trabajo nunca funciona.",
+    "translation": "把爱情和工作混在一起",
+    "sentence_translation": "但是把爱情和工作混在一起从来都行不通。",
+    "cultural_note": "mezclar /meθ.klaɾ/ = 混合、混在一起\n  英文：to mix\n  动词原形，这里作主语。\n\namor = 爱情\n  英文：love\n\ny = 和\n  英文：and\n\ntrabajo = 工作\n  英文：work\n\n结构：mezclar A y B = 把 A 和 B 混在一起\n  英文：to mix A and B\n\n所以：mezclar amor y trabajo = 把爱情和工作混在一起\n  英文：mixing love and work",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_088",
+        "label": "nunca funciona（从来都行不通）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_088",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_087",
+    "line_index": 87,
+    "character": "S1E01",
+    "target_word": "nunca funciona",
+    "ipa": "/ˈnuŋ.ka fun.ˈθjo.na/",
+    "pos": "adv. + v. funcionar",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "副词短语"
+    ],
+    "sentence_cloze": "Pero mezclar amor y trabajo ___.",
+    "sentence_full": "Pero mezclar amor y trabajo nunca funciona.",
+    "translation": "从来都行不通",
+    "sentence_translation": "但是把爱情和工作混在一起从来都行不通。",
+    "cultural_note": "nunca = 从不、从来不\n  英文：never\n\nfunciona = funcionar 的陈述式现在时，第三人称单数（él/ella/usted）\n  英文：works / functions\n\nfuncionar = 运作、行得通、起作用\n  英文：to work / to function\n\n结构：nunca + 动词 = 从来不……\n  英文：never + verb\n\n所以：nunca funciona = 从来都行不通\n  英文：never works",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_087",
+        "label": "mezclar amor y trabajo（把爱情和工作混在一起）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_089",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_089",
+    "line_index": 89,
+    "character": "S1E01",
+    "target_word": "cuando el seguridad disparó",
+    "ipa": "/ˈkwan.do el se.ɣu.ɾi.ðað dis.ˈpa.ɾo/",
+    "pos": "conj. + art. + n.m. + v. disparar",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "从句"
+    ],
+    "sentence_cloze": "Así que, ___, tuve que cambiar de profesión.",
+    "sentence_full": "Así que, cuando el seguridad disparó, tuve que cambiar de profesión.",
+    "translation": "当那个保安开枪的时候",
+    "sentence_translation": "所以，当那个保安开枪的时候，我不得不改行。",
+    "cultural_note": "cuando = 当……的时候\n  英文：when\n\nel seguridad = 那个保安\n  这里 seguridad 指“保安人员”。\n  英文：the security guard\n\ndisparó = disparar 的陈述式简单过去时，第三人称单数（él/ella/usted）\n  英文：shot / fired\n\ndisparar = 开枪、射击\n  英文：to shoot / to fire\n\n结构：cuando + 从句 = 当……的时候\n  英文：when + clause\n\n用法提示：\n  disparó 是简单过去时，表示一次完成的动作。\n  这里指“保安开了枪”这个具体事件。\n\n例句：Cuando llegué, ya se habían ido.\n  英文：When I arrived, they had already left.\n  翻译：当我到的时候，他们已经走了。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_090",
+        "label": "tuve que cambiar de profesión（我不得不改行）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_090",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_089",
+    "line_index": 89,
+    "character": "S1E01",
+    "target_word": "tuve que cambiar de profesión",
+    "ipa": "/tu.βe ke kam.ˈbjaɾ de pɾo.fe.ˈsjon/",
+    "pos": "v. tener + que + v. cambiar + prep. + n.f.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词短语"
+    ],
+    "sentence_cloze": "Así que, cuando el seguridad disparó, ___.",
+    "sentence_full": "Así que, cuando el seguridad disparó, tuve que cambiar de profesión.",
+    "translation": "我不得不改行",
+    "sentence_translation": "所以，当那个保安开枪的时候，我不得不改行。",
+    "cultural_note": "tuve = tener 的陈述式简单过去时，第一人称单数（yo）\n  英文：I had\n\nque = 引导动词短语\n  英文：to\n\ncambiar = 改变、换\n  英文：to change\n\nde = 介词\n  英文：of\n\nprofesión = 职业、行业\n  英文：profession / job\n\n结构：tener que + inf. = 不得不做某事\n  英文：to have to + inf.\n\n所以：tuve que cambiar de profesión\n  = 我不得不改行\n  英文：I had to change professions\n\n用法提示：\n  tener que + inf. 表示“必须、不得不”。\n  tuve 是过去时，表示当时被迫这么做。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_089",
+        "label": "cuando el seguridad disparó（当那个保安开枪的时候）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_091",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_091",
+    "line_index": 91,
+    "character": "S1E01",
+    "target_word": "De ladrona a asesina",
+    "ipa": "/de la.ˈðɾo.na a a.ˈse.si.na/",
+    "pos": "prep. + n.f. + prep. + n.f.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "___. Y así fue como empecé a huir.",
+    "sentence_full": "De ladrona a asesina. Y así fue como empecé a huir.",
+    "translation": "从小偷到杀人犯",
+    "sentence_translation": "从小偷到杀人犯。就这样我开始了逃亡。",
+    "cultural_note": "De = 从\n  英文：from\n\nladrona = 女小偷\n  ladrón = 小偷（男性）\n  ladrona = 女小偷\n  英文：thief\n\na = 到\n  英文：to\n\nasesina = 女杀人犯\n  asesino = 杀人犯（男性）\n  asesina = 女杀人犯\n  英文：murderer / killer\n\n结构：de A a B = 从 A 到 B\n  英文：from A to B\n\n用法提示：\n  表示身份、状态的转变。\n  这里指从“小偷”变成“杀人犯”。\n\n例句：De amigo a enemigo.\n  英文：From friend to enemy.\n  翻译：从朋友到敌人。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_092",
+        "label": "Y así fue como（就这样）"
+      },
+      {
+        "cardId": "LCDP_S1E01_093",
+        "label": "empecé a huir（我开始了逃亡）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_092",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_091",
+    "line_index": 91,
+    "character": "S1E01",
+    "target_word": "Y así fue como",
+    "ipa": "/i a.ˈsi ˈfwe ˈko.mo/",
+    "pos": "conj. + adv. + v. ser + adv.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "连接短语"
+    ],
+    "sentence_cloze": "De ladrona a asesina. ___ empecé a huir.",
+    "sentence_full": "De ladrona a asesina. Y así fue como empecé a huir.",
+    "translation": "就这样",
+    "sentence_translation": "从小偷到杀人犯。就这样我开始了逃亡。",
+    "cultural_note": "Y = 而、然后\n  英文：and\n\nasí = 这样、如此\n  英文：like this / this way\n\nfue = ser 的陈述式简单过去时，第三人称单数（él/ella/usted）\n  英文：was\n\ncomo = 如何、怎样\n  英文：how\n\n结构：así fue como... = 就这样……\n  英文：that's how... / that was how...\n\n用法提示：\n  引出事情发生的方式。\n  常用于叙述故事时。\n\n例句：Así fue como conocí a tu padre.\n  英文：That's how I met your father.\n  翻译：就这样我认识了你父亲。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_091",
+        "label": "De ladrona a asesina（从小偷到杀人犯）"
+      },
+      {
+        "cardId": "LCDP_S1E01_093",
+        "label": "empecé a huir（我开始了逃亡）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_093",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_091",
+    "line_index": 91,
+    "character": "S1E01",
+    "target_word": "empecé a huir",
+    "ipa": "/em.pe.ˈθe a ˈwiɾ/",
+    "pos": "v. empezar + prep. + v. huir",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词短语"
+    ],
+    "sentence_cloze": "De ladrona a asesina. Y así fue como ___.",
+    "sentence_full": "De ladrona a asesina. Y así fue como empecé a huir.",
+    "translation": "我开始了逃亡",
+    "sentence_translation": "从小偷到杀人犯。就这样我开始了逃亡。",
+    "cultural_note": "empecé = empezar 的陈述式简单过去时，第一人称单数（yo）\n  英文：I started\n\nempezar = 开始\n  英文：to start\n\na = 介词\n  英文：to\n\nhuir = 逃跑、逃亡\n  英文：to flee / to run away\n\n结构：empezar a + inf. = 开始做某事\n  英文：to start + gerund\n\n所以：empecé a huir = 我开始了逃亡\n  英文：I started to flee\n\n用法提示：\n  empezar a + inf. 是常用结构。\n  huir 表示逃离某地或某人。\n\n例句：Empecé a estudiar español.\n  英文：I started to study Spanish.\n  翻译：我开始学西班牙语了。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_091",
+        "label": "De ladrona a asesina（从小偷到杀人犯）"
+      },
+      {
+        "cardId": "LCDP_S1E01_092",
+        "label": "Y así fue como（就这样）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_094",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_094",
+    "line_index": 94,
+    "character": "S1E01",
+    "target_word": "De alguna manera",
+    "ipa": "/de al.ˈɣu.na ma.ˈne.ɾa/",
+    "pos": "prep. + adj. + n.f.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "___, yo también estaba muerta. O casi muerta.",
+    "sentence_full": "De alguna manera, yo también estaba muerta. O casi muerta.",
+    "translation": "某种程度上/以某种方式",
+    "sentence_translation": "某种程度上，我也已经死了。或者说，几乎死了。",
+    "cultural_note": "De = 以、用\n  英文：in / by\n\nalguna = 某个（alguno 的阴性形式）\n  英文：some\n\nmanera = 方式、方法\n  英文：way / manner\n\n结构：de alguna manera = 以某种方式/某种程度上\n  英文：in some way / somehow\n\n用法提示：\n  常用来缓和语气，表示“某种程度上”。\n  也可以表示“不知怎么地”。\n\n例句：De alguna manera, lo logró.\n  英文：Somehow, he managed it.\n  翻译：某种程度上，他做到了。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_095",
+        "label": "yo también estaba muerta（我也已经死了）"
+      },
+      {
+        "cardId": "LCDP_S1E01_096",
+        "label": "O casi muerta（或者说，几乎死了）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_095",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_094",
+    "line_index": 94,
+    "character": "S1E01",
+    "target_word": "yo también estaba muerta",
+    "ipa": "/o tam.ˈbjen es.ˈta.βa ˈmweɾ.ta/",
+    "pos": "pron. + adv. + v. estar + adj.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "句子"
+    ],
+    "sentence_cloze": "De alguna manera, ___. O casi muerta.",
+    "sentence_full": "De alguna manera, yo también estaba muerta. O casi muerta.",
+    "translation": "我也已经死了",
+    "sentence_translation": "某种程度上，我也已经死了。或者说，几乎死了。",
+    "cultural_note": "yo = 我（强调主语）\n  英文：I\n\ntambién = 也\n  英文：also / too\n\nestaba = estar 的陈述式过去未完成时，第一人称/第三人称单数（yo/él/ella/usted）\n  英文：was\n\nmuerta = 死的（muerto 的阴性形式）\n  英文：dead\n\n结构：estar + 形容词 = 处于某种状态\n  英文：to be + adjective\n\n所以：yo también estaba muerta\n  = 我也已经死了\n  英文：I was also dead\n\n用法提示：\n  用 estar 而不是 ser，因为这里指状态。\n  muerta 是阴性，因为说话者是女性（Tokio）。\n  如果是男性，应说 muerto。\n\n例句：Yo también estaba cansada.\n  英文：I was also tired.\n  翻译：我也累了。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_094",
+        "label": "De alguna manera（某种程度上）"
+      },
+      {
+        "cardId": "LCDP_S1E01_096",
+        "label": "O casi muerta（或者说，几乎死了）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_096",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_094",
+    "line_index": 94,
+    "character": "S1E01",
+    "target_word": "O casi muerta",
+    "ipa": "/o ˈka.si ˈmweɾ.ta/",
+    "pos": "conj. + adv. + adj.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "连接短语"
+    ],
+    "sentence_cloze": "De alguna manera, yo también estaba muerta. ___.",
+    "sentence_full": "De alguna manera, yo también estaba muerta. O casi muerta.",
+    "translation": "或者说，几乎死了",
+    "sentence_translation": "某种程度上，我也已经死了。或者说，几乎死了。",
+    "cultural_note": "O = 或者\n  英文：or\n\ncasi = 几乎、差点\n  英文：almost / nearly\n\nmuerta = 死的（阴性）\n  英文：dead\n\n结构：casi + 形容词 = 几乎……\n  英文：almost + adjective\n\n所以：O casi muerta\n  = 或者说，几乎死了\n  英文：Or almost dead\n\n用法提示：\n  用来修正前面的话，使表达更准确。\n  casi muerta = 几乎死了、半死不活。\n\n例句：Estaba casi muerta de miedo.\n  英文：I was almost dead with fear.\n  翻译：我几乎吓死了。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_094",
+        "label": "De alguna manera（某种程度上）"
+      },
+      {
+        "cardId": "LCDP_S1E01_095",
+        "label": "yo también estaba muerta（我也已经死了）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_097",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_097",
+    "line_index": 97,
+    "character": "S1E01",
+    "target_word": "Llevaba",
+    "ipa": "/e.ˈβa.βa/",
+    "pos": "v. llevar",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "___ 11 días escondida.",
+    "sentence_full": "Llevaba 11 días escondida.",
+    "translation": "我已经持续……多久了",
+    "sentence_translation": "我已经躲了 11 天。",
+    "cultural_note": "Llevaba = llevar 的陈述式过去未完成时，第一人称/第三人称单数（yo/él/ella/usted）\n  原形：llevar\n  这里表示“已经持续……多久了”\n  英文：I had been / I was\n\n结构：llevar + 时间 + 形容词/副动词 = 已经持续……多久了\n  英文：to have been + time + state\n\n所以：Llevaba 11 días escondida\n  = 我已经躲了 11 天\n  英文：I had been hiding for 11 days",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_098",
+        "label": "11 días（11 天）"
+      },
+      {
+        "cardId": "LCDP_S1E01_099",
+        "label": "escondida（躲着的）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_098",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_097",
+    "line_index": 97,
+    "character": "S1E01",
+    "target_word": "11 días",
+    "ipa": "/ˈon.θe ˈdi.as/",
+    "pos": "num. + n.m.pl.",
+    "level": "A1",
+    "pronunciation_focus": null,
+    "tags": [
+      "时间短语"
+    ],
+    "sentence_cloze": "Llevaba ___ escondida.",
+    "sentence_full": "Llevaba 11 días escondida.",
+    "translation": "11 天",
+    "sentence_translation": "我已经躲了 11 天。",
+    "cultural_note": "11 (once) = 十一\n  英文：eleven\n\ndías = 天（día 的复数）\n  英文：days\n\n合起来：11 días = 11 天\n  英文：11 days",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_097",
+        "label": "Llevaba（我已经持续）"
+      },
+      {
+        "cardId": "LCDP_S1E01_099",
+        "label": "escondida（躲着的）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_099",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_097",
+    "line_index": 97,
+    "character": "S1E01",
+    "target_word": "escondida",
+    "ipa": "/es.kon.ˈdi.da/",
+    "pos": "v. esconder (participio)",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "形容词"
+    ],
+    "sentence_cloze": "Llevaba 11 días ___.",
+    "sentence_full": "Llevaba 11 días escondida.",
+    "translation": "躲着的、藏起来的（女性）",
+    "sentence_translation": "我已经躲了 11 天。",
+    "cultural_note": "escondida = esconder 的过去分词，阴性单数\n  原形：esconder = 藏、隐藏\n  escondida = 躲着的、藏起来的（女性）\n  英文：hidden / hiding\n\n结构：estar + 过去分词 = 处于某种状态\n  这里省略了 estaba，直接搭配 llevaba。\n\n所以：Llevaba 11 días escondida\n  = 我已经躲了 11 天\n  英文：I had been hiding for 11 days",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_097",
+        "label": "Llevaba（我已经持续）"
+      },
+      {
+        "cardId": "LCDP_S1E01_098",
+        "label": "11 días（11 天）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_100",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_100",
+    "line_index": 100,
+    "character": "S1E01",
+    "target_word": "empapelaba",
+    "ipa": "/em.pa.pe.ˈla.βa/",
+    "pos": "v. empapelar",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词"
+    ],
+    "sentence_cloze": "Y mi foto ___ las comisarías de toda España.",
+    "sentence_full": "Y mi foto empapelaba las comisarías de toda España.",
+    "translation": "贴满了",
+    "sentence_translation": "我的照片贴满了西班牙各地的警察局。",
+    "cultural_note": "empapelaba = empapelar 的陈述式过去未完成时，第三人称单数（él/ella/usted）\n  原形：empapelar\n  本义：用纸糊、贴纸\n  引申义：贴满通缉令/贴满照片\n  英文：was papering / was plastering\n\n结构：empapelar + 地点 = 把……贴满\n  英文：to plaster + place\n\n所以：mi foto empapelaba las comisarías\n  = 我的照片贴满了警察局\n  英文：my photo was plastered on the police stations",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_101",
+        "label": "las comisarías（警察局）"
+      },
+      {
+        "cardId": "LCDP_S1E01_102",
+        "label": "de toda España（整个西班牙的）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_101",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_100",
+    "line_index": 100,
+    "character": "S1E01",
+    "target_word": "las comisarías",
+    "ipa": "/las ko.mi.ˈsa.ɾjas/",
+    "pos": "art. + n.f.pl.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "名词短语"
+    ],
+    "sentence_cloze": "Y mi foto empapelaba ___ de toda España.",
+    "sentence_full": "Y mi foto empapelaba las comisarías de toda España.",
+    "translation": "警察局",
+    "sentence_translation": "我的照片贴满了西班牙各地的警察局。",
+    "cultural_note": "las = 定冠词，阴性复数\n  英文：the\n\ncomisarías = 警察局（复数）\n  单数：comisaría\n  英文：police stations\n\n合起来：las comisarías = 那些警察局/各地的警察局\n  英文：the police stations",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_100",
+        "label": "empapelaba（贴满了）"
+      },
+      {
+        "cardId": "LCDP_S1E01_102",
+        "label": "de toda España（整个西班牙的）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_102",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_100",
+    "line_index": 100,
+    "character": "S1E01",
+    "target_word": "de toda España",
+    "ipa": "/de ˈto.da es.ˈpa.ɲa/",
+    "pos": "prep. + adj. + n.f.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "Y mi foto empapelaba las comisarías ___.",
+    "sentence_full": "Y mi foto empapelaba las comisarías de toda España.",
+    "translation": "整个西班牙的",
+    "sentence_translation": "我的照片贴满了西班牙各地的警察局。",
+    "cultural_note": "de = 的、来自\n  英文：of / from\n\ntoda = 整个的\n  英文：all / whole\n\nEspaña = 西班牙\n  英文：Spain\n\n合起来：de toda España = 整个西班牙的\n  英文：of all Spain / throughout Spain",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_100",
+        "label": "empapelaba（贴满了）"
+      },
+      {
+        "cardId": "LCDP_S1E01_101",
+        "label": "las comisarías（警察局）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_103",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_103",
+    "line_index": 103,
+    "character": "S1E01",
+    "target_word": "Me caerían 30 años",
+    "ipa": "/me ka.e.ˈɾi.an ˈtɾein.ta ˈa.ɲos/",
+    "pos": "pron. + v. caer + num. + n.m.pl.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词短语"
+    ],
+    "sentence_cloze": "___ . Y, la verdad, no soy de llegar a viejecita en la celda de un penal.",
+    "sentence_full": "Me caerían 30 años. Y, la verdad, no soy de llegar a viejecita en la celda de un penal.",
+    "translation": "我可能会被判 30 年",
+    "sentence_translation": "我可能会被判 30 年。而且，说实话，我不是那种会在监狱牢房里变成老太太的人。",
+    "cultural_note": "Me = 我（间接宾语代词）\n  英文：to me\n\ncaerían = caer 的条件式，第三人称复数（ellos/ellas/ustedes）\n  英文：would get / would receive\n\n30 (treinta) = 三十\n  英文：thirty\n\naños = 年\n  英文：years\n\n结构：caer + 时间 + a alguien = 某人被判……年\n  英文：to get + time + sentence\n\n所以：Me caerían 30 años\n  = 我可能会被判 30 年\n  英文：I would get 30 years\n\n用法提示：\n  caer 在这里是口语用法，指“被判刑”。\n  caerían 是条件式，表示“可能会”。\n\n例句：Le cayeron 10 años.\n  英文：He got 10 years.\n  翻译：他被判了 10 年。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_104",
+        "label": "Y, la verdad（而且，说实话）"
+      },
+      {
+        "cardId": "LCDP_S1E01_105",
+        "label": "no soy de llegar a viejecita（我不是那种会变成老太太的人）"
+      },
+      {
+        "cardId": "LCDP_S1E01_106",
+        "label": "en la celda de un penal（在监狱的牢房里）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_104",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_103",
+    "line_index": 103,
+    "character": "S1E01",
+    "target_word": "Y, la verdad",
+    "ipa": "/i la beɾ.ˈðað/",
+    "pos": "conj. + art. + n.f.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "连接短语"
+    ],
+    "sentence_cloze": "Me caerían 30 años. ___, no soy de llegar a viejecita en la celda de un penal.",
+    "sentence_full": "Me caerían 30 años. Y, la verdad, no soy de llegar a viejecita en la celda de un penal.",
+    "translation": "而且，说实话",
+    "sentence_translation": "我可能会被判 30 年。而且，说实话，我不是那种会在监狱牢房里变成老太太的人。",
+    "cultural_note": "Y = 而且\n  英文：and\n\nla verdad = 说实话、事实上\n  英文：the truth / to be honest\n\n结构：la verdad = 说实话（插入语）\n  英文：to be honest / honestly\n\n用法提示：\n  用来表达真实想法。\n  常放在句中或句首。\n\n例句：La verdad, no lo sé.\n  英文：To be honest, I don't know.\n  翻译：说实话，我不知道。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_103",
+        "label": "Me caerían 30 años（我可能会被判 30 年）"
+      },
+      {
+        "cardId": "LCDP_S1E01_105",
+        "label": "no soy de llegar a viejecita（我不是那种会变成老太太的人）"
+      },
+      {
+        "cardId": "LCDP_S1E01_106",
+        "label": "en la celda de un penal（在监狱的牢房里）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_105",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_103",
+    "line_index": 103,
+    "character": "S1E01",
+    "target_word": "no soy de llegar a viejecita",
+    "ipa": "/no soi de e.ˈɣaɾ a bje.ˈxe.si.ta/",
+    "pos": "adv. + v. ser + prep. + v. llegar + prep. + n.f.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "句子"
+    ],
+    "sentence_cloze": "Me caerían 30 años. Y, la verdad, ___ en la celda de un penal.",
+    "sentence_full": "Me caerían 30 años. Y, la verdad, no soy de llegar a viejecita en la celda de un penal.",
+    "translation": "我不是那种会变成老太太的人",
+    "sentence_translation": "我可能会被判 30 年。而且，说实话，我不是那种会在监狱牢房里变成老太太的人。",
+    "cultural_note": "no = 不\n  英文：not\n\nsoy = ser 的陈述式现在时，第一人称单数（yo）\n  英文：I am\n\nde = 介词\n  英文：of\n\nllegar = 到达、变成\n  英文：to arrive / to get to\n\na = 到\n  英文：to\n\nviejecita = 小老太太（vieja 的指小词）\n  英文：little old lady\n\n结构：ser de + inf. = 是那种会……的人\n  英文：to be the type to + inf.\n\n所以：no soy de llegar a viejecita\n  = 我不是那种会变成老太太的人\n  英文：I'm not the type to get to be a little old lady\n\n用法提示：\n  ser de + inf. 表示“是那种会……的人”。\n  viejecita 是指小词，带有“小老太太”的感觉。\n\n例句：No soy de quedarme /ke.ðaɾ.me/ = 待在家里\n  英文：to stay at home\n\n例句：No soy de quedarme en casa..\n  英文：I'm not the type to stay at home.\n  翻译：我不是那种会待在家里的人。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_103",
+        "label": "Me caerían 30 años（我可能会被判 30 年）"
+      },
+      {
+        "cardId": "LCDP_S1E01_104",
+        "label": "Y, la verdad（而且，说实话）"
+      },
+      {
+        "cardId": "LCDP_S1E01_106",
+        "label": "en la celda de un penal（在监狱的牢房里）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_106",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_103",
+    "line_index": 103,
+    "character": "S1E01",
+    "target_word": "en la celda de un penal",
+    "ipa": "/en la ˈθel.da de un pe.ˈnal/",
+    "pos": "prep. + art. + n.f. + prep. + art. + n.m.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "Me caerían 30 años. Y, la verdad, no soy de llegar a viejecita ___.",
+    "sentence_full": "Me caerían 30 años. Y, la verdad, no soy de llegar a viejecita en la celda de un penal.",
+    "translation": "在监狱的牢房里",
+    "sentence_translation": "我可能会被判 30 年。而且，说实话，我不是那种会在监狱牢房里变成老太太的人。",
+    "cultural_note": "en = 在\n  英文：in\n\nla celda = 牢房、单人牢房\n  英文：cell\n\nde = 的\n  英文：of\n\nun = 一个（阳性单数不定冠词）\n  英文：a\n\npenal = 监狱\n  英文：prison / penitentiary\n\n合起来：en la celda de un penal = 在监狱的牢房里\n  英文：in a prison cell",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_103",
+        "label": "Me caerían 30 años（我可能会被判 30 年）"
+      },
+      {
+        "cardId": "LCDP_S1E01_104",
+        "label": "Y, la verdad（而且，说实话）"
+      },
+      {
+        "cardId": "LCDP_S1E01_105",
+        "label": "no soy de llegar a viejecita（我不是那种会变成老太太的人）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_107",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_107",
+    "line_index": 107,
+    "character": "S1E01",
+    "target_word": "Soy más bien de huir",
+    "ipa": "/soi mas ˈbjen de ˈwi/",
+    "pos": "v. ser + adv. + prep. + v. huir",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "句子"
+    ],
+    "sentence_cloze": "___ . En cuerpo y alma.",
+    "sentence_full": "Soy más bien de huir. En cuerpo y alma.",
+    "translation": "我其实是那种会逃跑的人",
+    "sentence_translation": "我其实是那种会逃跑的人。整个身心都在逃。",
+    "cultural_note": "Soy = ser 的陈述式现在时，第一人称单数（yo）\n  英文：I am\n\nmás bien = 更确切地说、其实、比较偏向\n  英文：rather / more like\n\nde = 属于……类型\n  英文：of / the type to\n\nhuir = 逃跑、逃走\n  英文：to flee / to run away\n\n结构：ser de + inf. = 是那种会……的人\n  英文：to be the type to + inf.\n\n所以：Soy más bien de huir\n  = 我其实是那种会逃跑的人\n  英文：I'm more the type to flee\n\n用法提示：\n  más bien 表示“更准确、其实、比较偏向”。\n  ser de + inf. 表示“属于……类型的人”。\n\n例句：Soy más bien de quedarme /ke.ˈðaɾ.me/ = 待在家里\n  英文：I'm more the type to stay at home.\n  翻译：我其实是那种喜欢待在家里的人。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_108",
+        "label": "En cuerpo y alma（整个身心）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_108",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_107",
+    "line_index": 107,
+    "character": "S1E01",
+    "target_word": "En cuerpo y alma",
+    "ipa": "/en ˈkweɾ.po i ˈal.ma/",
+    "pos": "prep. + n.m. + conj. + n.f.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "介词短语"
+    ],
+    "sentence_cloze": "Soy más bien de huir. ___.",
+    "sentence_full": "Soy más bien de huir. En cuerpo y alma.",
+    "translation": "整个身心都在逃",
+    "sentence_translation": "我其实是那种会逃跑的人。整个身心都在逃。",
+    "cultural_note": "En = 在……中、以……方式\n  英文：in / with\n\ncuerpo = 身体\n  英文：body\n\ny = 和\n  英文：and\n\nalma = 灵魂\n  英文：soul\n\n结构：en cuerpo y alma = 身心全部投入地/全心全意地\n  英文：body and soul / wholeheartedly\n\n用法提示：\n  这是一个固定短语，表示“全身心投入”。\n  常用来修饰动作，表示程度深。\n\n例句：Te quiero /ke.ˈje.ɾo/ = 我爱你\n  英文：I love you\n  en cuerpo y alma = 全心全意地\n  翻译：我全心全意地爱你。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_107",
+        "label": "Soy más bien de huir（我其实是那种会逃跑的人）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_109",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_109",
+    "line_index": 109,
+    "character": "S1E01",
+    "target_word": "puedo llevar",
+    "ipa": "/ˈpwe.ðo e.ˈβa/",
+    "pos": "v. poder + v. llevar",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "动词短语"
+    ],
+    "sentence_cloze": "Y si no ___, al menos que escape mi alma.",
+    "sentence_full": "Y si no puedo llevar mi cuerpo, al menos que escape mi alma.",
+    "translation": "我能带走",
+    "sentence_translation": "如果我不能带走我的身体，至少让我的灵魂逃走。",
+    "cultural_note": "puedo = poder 的陈述式现在时，第一人称单数（yo）\n  英文：I can\n\nllevar = 带走、携带\n  英文：to carry / to take\n\nmi cuerpo = 我的身体\n  英文：my body\n\n整句：si no puedo llevar mi cuerpo\n  = 如果我不能带走我的身体\n  英文：if I can't carry my body",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_110",
+        "label": "al menos（至少）"
+      },
+      {
+        "cardId": "LCDP_S1E01_111",
+        "label": "que escape mi alma（让我的灵魂逃走）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_110",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_109",
+    "line_index": 109,
+    "character": "S1E01",
+    "target_word": "al menos",
+    "ipa": "/al ˈme.nos/",
+    "pos": "prep. + art. + adv.",
+    "level": "A2",
+    "pronunciation_focus": null,
+    "tags": [
+      "副词短语"
+    ],
+    "sentence_cloze": "Y si no puedo llevar mi cuerpo, ___, que escape mi alma.",
+    "sentence_full": "Y si no puedo llevar mi cuerpo, al menos que escape mi alma.",
+    "translation": "至少",
+    "sentence_translation": "如果我不能带走我的身体，至少让我的灵魂逃走。",
+    "cultural_note": "al = a + el 的缩合形式\n  英文：to the\n\nmenos = 少、较少\n  英文：less\n\nal menos = 至少\n  英文：at least\n\n用法提示：\n  用来表示最低限度、退而求其次。\n  常放在句首或句中。\n\n例句：Al menos lo intenté.\n  英文：At least I tried.\n  翻译：至少我试过了。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_109",
+        "label": "puedo llevar（我能带走）"
+      },
+      {
+        "cardId": "LCDP_S1E01_111",
+        "label": "que escape mi alma（让我的灵魂逃走）"
+      }
+    ]
+  },
+  {
+    "id": "LCDP_S1E01_111",
+    "episode": "S1E01",
+    "scene_id": "line_s1e01_109",
+    "line_index": 109,
+    "character": "S1E01",
+    "target_word": "que escape mi alma",
+    "ipa": "/ke es.ˈka.pe mi ˈal.ma/",
+    "pos": "conj. + v. escapar + pron.poss. + n.f.",
+    "level": "B1",
+    "pronunciation_focus": null,
+    "tags": [
+      "从句"
+    ],
+    "sentence_cloze": "Y si no puedo llevar mi cuerpo, al menos ___.",
+    "sentence_full": "Y si no puedo llevar mi cuerpo, al menos que escape mi alma.",
+    "translation": "让我的灵魂逃走",
+    "sentence_translation": "如果我不能带走我的身体，至少让我的灵魂逃走。",
+    "cultural_note": "que = 引导愿望/命令从句\n  英文：that / let\n\nescape = escapar 的虚拟式现在时，第三人称单数（él/ella/usted）\n  英文：escape\n\nescapar = 逃跑、逃走\n  英文：to escape / to flee\n\nmi alma = 我的灵魂\n  英文：my soul\n\n整句：que escape mi alma\n  = 让我的灵魂逃走\n  英文：let my soul escape\n\n用法提示：\n  que + 虚拟式 = 表达愿望、命令\n  这里表达“至少让……”的愿望。",
+    "screenshot": "",
+    "frequency_rank": null,
+    "is_example_sentence": false,
+    "related_cards": [
+      {
+        "cardId": "LCDP_S1E01_109",
+        "label": "puedo llevar（我能带走）"
+      },
+      {
+        "cardId": "LCDP_S1E01_110",
+        "label": "al menos（至少）"
+      }
     ]
   }
 ]
